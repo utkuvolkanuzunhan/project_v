@@ -1,4 +1,4 @@
-# NotebookLM planı — müfredat ve kitapları sınıflandırma (İ.165, 8 Ekim 2026)
+# NotebookLM planı — müfredat ve kitapları sınıflandırma (İ.432, 8 Ekim 2026)
 
 Amaç: kitabı BİR KEZ iyi sınıflandırmak (bölüm → kavram → görsel türü); sonra hem görsel hattı
 hem uygulamanın kart üretimi bu hazır ağaçtan beslensin. AI kitabı her seferinde baştan okumaz → az token.

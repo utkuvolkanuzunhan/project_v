@@ -1,48 +1,43 @@
-# A hattı planı — kodla çizilen / etkileşimli görseller (8 Ekim 2026)
+# A hattı planı — REVİZE (8 Ekim 2026): uygulamanın simülasyon ve şema depoları kullanılacak
 
-Kaynak karar: kullanıcı, "yapay zekâ yalnız parametre ya da ufak kod değişimi yapsın, çok limit harcamayalım; ucuza yüksek kalitede simülasyonlar".
-Kural: `Planlama/KURALLAR.md` R.41 (uygulama deposu, özel). İş: `IS_LISTESI.md` İ.167.
+## Ne değişti (keşif)
+İlk plan, A (kodla çizilen) görseller için "9 yeni aile + kavram başına JSON paketi" öneriyordu. Uygulama deposunda (`origin/master`) bunun büyük kısmı **zaten kurulu ve planlı**:
+- **İ.270 + R.77**, `Planlama/tasarim/SIMULASYON_DEPOSU.md`: 43 simülasyon türü kataloğu, **dokuz dersin her konusu için konu eşlemesi** (Physics I, Circuit 1, Digital, Device, OOP/C, Linear Algebra dahil), kip çubuğu (Kurcala/Görev/Tahmin/Seri/Oku), aile **konu adından AI'sız seçilir**, kart arkasında "Simülasyonla dene" (varsayılan örnek, AI'sız).
+- Durum: T1 (geçici cevap, AC fazör, mantık devresi, kuvvetlendirici) VAR; fiziksel türlerin bir kısmı (kristal, enerji, çarpışma, dönme, yay-sarkaç) VAR; **T2-T9 planlı**.
+- **Şema** (statik çizim): İ.223/İ.270, 11 aile (`sema_tarifi` v3: serbest cisim, devre, bant, grafik/geometri, akış, zamanlama, döngü, karşılaştırma tablosu, zaman çizelgesi, kavram ağacı, Venn); yapay zekâ yalnız tarifi (JSON) yazar.
+Sonuç: **A için ayrı paket/JSON üretmiyoruz, yeni aile icat etmiyoruz** (kural R.103: "yeni tür icat edilmez, önce SIMULASYON_DEPOSU"). Kullanıcının "yapay zekâ yalnız parametre değiştirsin, ucuza yüksek kaliteli simülasyon" isteği bu mimarinin kendisidir.
 
-## Mimari (karar)
-A görselleri **indirilen resim değil**, uygulamanın içinde bir **şablondan (aile)** çizilen şeydir. Pakette kavram başına yalnız küçük bir JSON ayarı durur (~1-2 KB).
-- Uygulamada bugün 4 aile var; her biri için `assets/schemas/simulation/<aile>.schema.json`, doğrulayıcı (`simulation_config_validator_impl.dart`), otomatik çözücü (`auto_solver_service_impl.dart`), çizici (`lib/data/simulation/*_simulation_painter.dart`) ve "Alternatif üret" (yapay zekâsız sayı ölçekleme) mevcut.
-- `SimulationConfig(aile, alanlar{aile-özel JSON}, toleransYuzdesi, gorevAciklamasi)` — yeni aileler de aynı zarfı kullanır.
-- Kavram başına JSON'u yazan: uygulamanın ucuz yapay zekâsı (DeepSeek) ya da öğrenci Gemini hesabı; şemaya göre üretir, doğrulayıcı yakalar. Claude yalnız şablonu, şemayı, doğrulayıcıyı ve testi yazar.
-- Paket yeri (öneri): `paketler/<ders>/<ünite>/<kavram>/sim.json`; manifestte kavramın `"sim": "sim.json"` alanı. Fotoğraf (B) ve ayar (A) aynı kavram klasöründe.
+## Bu hattın (project_v) A için rolü
+1. **Kapsam ölçümü ve tur sırası:** 1166 kavramlık müfredat ağacı (`calisma_klasoru/mufredat/`), simülasyon/şema türlerine eşlenip hangi T turunun kaç kavramı kapattığı sayılır (uygulamada İ.433).
+2. **Fotoğraflar (B)**: simülasyonla anlatılamayan somut sahne/metafor için paket olarak (İ.431), uygulama dışı.
+3. Gerekirse eşlemedeki **EKSİK konular** `SIMULASYON_DEPOSU.md` §3'e eklenmek üzere uygulama deposuna iletilir.
 
-## Aileler ve kapsam (1042 A kavramı, kaba anahtar sözcük tahmini; `araclar/aile_siniflandir.py`)
-| Aile | Kavram | Durum | Sıra |
+## Kaba eşleme (`araclar/aile_siniflandir.py`, anahtar sözcük tahmini; 1042 A kavramı)
+| Bizim kaba aile | Kavram | Katalog türü (SIMULASYON_DEPOSU) | Durum |
 |---|---|---|---|
-| fonksiyon_egrisi | 96 | mevcut → **formül destekli genişletilecek** | 1 |
-| matris_donusum | 76 | yeni | 2 |
-| bellek_blok (kutu-ok, adım adım) | 99 | yeni | 3 |
-| durum_graf (FSM, UML, ağaç) | 38 | yeni (bellek_blok ile ortak çizici) | 3 |
-| bant_profil (yarıiletken) | 89 | yeni (fonksiyon_egrisi varyantı olabilir) | 4 |
-| mantik_devresi | 45 | yeni | 5 |
-| zaman_diyagrami | 45 | yeni | 5 |
-| vektor_cizim (2B/3B) | 78 | yeni (vektor_alani ile ilişkili) | 6 |
-| devre | 94 | mevcut | — |
-| parcacik_kuvvet | 92 | mevcut | — |
-| adim_adim_tablo (Gauss vb.) | 22 | yeni | 7 |
-| kristal_3b | 12 | yeni | 7 |
-| sınıflanamayan | 256 | çoğu fizik (SCD, eylemsizlik momenti) → mevcut ailelere uyar | rafine |
-Mevcut 4 aile ≈ %30-40, yeni ailelerle ≈ %80-85 (B fotoğraflarla birlikte tüm kavramların ~%65-70'i görselli → R.41'in %50 hedefi).
+| fonksiyon_egrisi | 96 | E4 | VAR |
+| devre | 94 | E3, S1 geçici cevap, S2 AC fazör, S4 kuvvetlendirici | VAR |
+| parcacik_kuvvet | 92 | E1, S16-S19 | VAR |
+| mantik_devresi | 45 | S3 (+ S11 Karnaugh, S12 sayı tabanı) | VAR / T3 |
+| kristal_3b | 12 | S8 | VAR |
+| zaman_diyagrami | 45 | S9 flip-flop | T2 |
+| bant_profil | 89 | S5 transistör, S6 PN eklem, S7 enerji bandı | T2 |
+| bellek_blok | 99 | S34 kod izleme (T2); S13 veri yolu, S14 boru hattı, S15 basit bilgisayar (T4) | T2 / T4 |
+| matris_donusum | 76 | S32 | T3 |
+| adim_adim_tablo | 22 | S31 lineer sistem | T3 |
+| durum_graf | 38 | S10 durum makinesi (T3), S35 nesne modeli (T4) | T3 / T4 |
+| vektor_cizim | 78 | S33 vektör geometri (+ E2) | T4 |
+| sınıflanamayan | 256 | çoğu fizik (SCD, eylemsizlik); mevcut ailelere uyar | rafine |
+Kaba okuma: VAR türler ≈ %33; T2-T4 sonrası ≈ %75-80. Kesin değil; kesin ölçüm uygulamada İ.433.
 
-## Maliyet tahmini (Claude limiti)
-Yeni aile başına ~20-40 bin token (çizici + şema + doğrulayıcı + test + örnek kart); 9 yeni aile ≈ 200-350 bin token, birkaç oturum.
-Kavram başına JSON üretimi ucuz modelde (≈ 1042 × ~400 token); Claude'un limitinden değil.
+## Yapılacak (uygulama deposu, kullanıcı onayıyla; kurallar R.4-R.6)
+- İ.270 **T2** (S34 kod izleme · S5 transistör · S6 PN eklem · S7 enerji bandı · S9 flip-flop) → ardından T3 (matris dönüşümü, lineer sistem, durum makinesi, Karnaugh, sayı tabanı) → T4.
+- İ.433 kapsam ölçümü.
+- Not: uygulama deposundaki kayıt dalı `gorsel-paketi-kayit` (İ.431-İ.435, R.103); master'a R.100-R.102'yi taşıyan dallar (`ajan/mantik-m3`) girdikten sonra birleşir.
 
-## İş akışı (uygulama deposu, kurallar R.5/R.6/R.40)
-Her aile = bir iş (İ.167 altında): şema → çizici (R.40 animasyon şablonu) → doğrulayıcı → hedefli test → `flutter analyze` → Özellik deneme sayfasına satır → emir bitince master.
-Kapsam yüzdesi ölçülmeden "bitti" denmez (R.41).
-
-## İlerleme (güncelle)
-- [ ] 1. fonksiyon_egrisi: formül (ifade) desteği
-- [ ] 2. matris_donusum
-- [ ] 3. bellek_blok + durum_graf
-- [ ] 4. bant_profil
-- [ ] 5. mantik_devresi, zaman_diyagrami
-- [ ] 6. vektor_cizim
-- [ ] 7. adim_adim_tablo, kristal_3b
-- [ ] kavram başına JSON üretimi + `paketler/` içine yerleştirme + manifest `sim` alanı
-- [ ] uygulamada paket indirme sayfası (İ.164) ve kapsam ölçümü
+## İlerleme
+- [x] Keşif: uygulamadaki simülasyon/şema depoları ve eşleme (8 Ekim)
+- [x] Kayıt: İ.431-İ.435, R.103 (uygulama deposu, dal `gorsel-paketi-kayit`)
+- [ ] Kullanıcı kararı: hangi T turuyla başlanacak (İ.270)
+- [ ] Müfredat ağacının simülasyon eşlemesi (kapsam yüzdesi)
+- [ ] İ.433 ölçüm
