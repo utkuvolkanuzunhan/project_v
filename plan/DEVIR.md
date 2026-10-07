@@ -34,6 +34,11 @@ Başka bilgisayarda yeniden kurmak için indirilecekler (hepsi açık lisans): C
 - **A hattı (1042 kavram) — REVİZE:** ayrı paket yok. Uygulamada simülasyon (İ.270, R.77, `Planlama/tasarim/SIMULASYON_DEPOSU.md`: 43 tür, T1 var, T2-T9 planlı) ve şema (11 aile) depoları zaten var; yapay zekâ yalnız parametre/tarif doldurur. Bu hattın A'daki işi: kapsam ölçümü ve tur sırası (`plan/A_HATTI_PLANI.md`). Bekleyen karar: İ.270'in hangi T turuyla başlanacağı.
 - **NotebookLM (İ.165):** kullanıcı kitapları/ders planlarını NotebookLM'e yükleyip sabit istemle kavram listesi çıkaracak (`plan/NOTEBOOKLM_PLANI.md`); `agac_karsilastir.py` eksik/fazlayı bulur.
 
+## Bekleyen kararlar (kullanıcı 7 Ekim 20:37: "duralım, 23.01'de soruları tekrar sor")
+1. Uygulama deposunda İ.270 simülasyon planından hangi tur: **T2** (kod izleme, transistör, PN eklem, enerji bandı, flip-flop; planın sırası, önerilen) / T3 (lineer sistem, matris dönüşümü, durum makinesi, Karnaugh, sayı tabanı) / önce kapsam ölçümü İ.433 / hiçbiri.
+2. Oturum hesabı: Max (emrin tamamı) mı, başka hesap (1-3 iş) mı (uygulama R.4).
+3. Üretim parti 2'de duraklamış ("Devam et"), ~200 aday inceleme bekliyor; R.103 dalı `gorsel-paketi-kayit` master'a R.100-R.102 girince birleşir.
+
 ## Tuzaklar (tekrar yaşama)
 - ComfyUI'ın gömülü Python'u betik klasörünü `sys.path`'e eklemez → her betik başında `sys.path.insert(0, …)` var; yeni betikte de ekle.
 - Windows PowerShell 5.1: `Remove-Item *` ve `Start-Sleep` zincirleri engellenebilir; dosya silmek için `[IO.File]::Delete`; Türkçe çıktı için UTF-8 dosya yaz.
