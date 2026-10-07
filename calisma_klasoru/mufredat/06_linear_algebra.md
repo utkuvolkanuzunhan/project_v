@@ -1,0 +1,209 @@
+# Linear Algebra (LAG2052023) — Anton & Rorres: Elementary Linear Algebra, Leon: Linear Algebra with Applications
+
+## 1. Doğrusal denklem sistemleri
+- A | Doğrusal denklem | düzlemde doğru
+- A | 2×2 sistem (tek çözüm) | iki doğrunun kesişimi
+- A | 2×2 sistem (çözümsüz) | paralel doğrular
+- A | 2×2 sistem (sonsuz çözüm) | üst üste doğrular
+- A | 3×3 sistem (üç düzlem) | tek nokta kesişimi
+- A | 3 düzlem: çözümsüz durumlar | paralel veya üçgen prizma
+- A | 3 düzlem: sonsuz çözüm | doğru boyunca kesişim
+- A | Genişletilmiş matris | katsayılar ve sağ taraf
+- A | Temel satır işlemleri | yer değiştirme, ölçekleme, ekleme
+- A | Satır eşelon biçimi | basamak yapısı, pivotlar
+- A | İndirgenmiş satır eşelon biçimi | birim pivotlar
+- A | Gauss yok etmesi | adım adım matris
+- A | Gauss–Jordan yöntemi | geri yerleştirme yok
+- A | Geri yerleştirme | alttan yukarı çözüm
+- A | Serbest ve bağımlı değişkenler | parametrik çözüm
+- A | Homojen sistem | trivial ve trivial olmayan çözüm
+- A | Çözüm kümesi geometrisi | nokta, doğru, düzlem
+- A | Doğrusal sistemin matris biçimi | Ax = b
+- A | Pivot sayısı ve çözüm sayısı | karar ağacı
+- A | Doğrusal denklem uygulaması: devre | devre akımları
+- A | Doğrusal denklem uygulaması: trafik | trafik akışı, dengeleme
+- B | Terazi ve ağırlıklar | denklem dengesi
+
+## 2. Matrisler ve matris işlemleri
+- A | Matris tanımı ve boyutu | m×n tablo
+- A | Matris türleri | kare, köşegen, birim, sıfır, üçgen
+- A | Matris toplamı | eleman elemana
+- A | Skalerle çarpım | her elemanı ölçekleme
+- A | Matris çarpımı (eleman hesabı) | satır × sütun
+- A | Matris çarpımı: boyut kuralı | (m×n)(n×p)
+- A | Matris çarpımı: sütun ve satır görünümü | doğrusal kombinasyon
+- A | Çarpmanın değişme özelliği yok | AB ≠ BA
+- A | Matris çarpımı: dağılma ve birleşme | özellik listesi
+- A | Matrisin devriği (transpoze) | satır ↔ sütun
+- A | Simetrik ve ters simetrik matrisler | köşegen yansıması
+- A | Matrisin izi (trace) | köşegen toplamı
+- A | Matrisin kuvveti | A², A³
+- A | Blok matrisler | bölümlendirme
+- A | Ters matris (tanım) | AA⁻¹ = I
+- A | 2×2 ters matris formülü | adj/det
+- A | Ters matris bulma [A|I] → [I|A⁻¹] | Gauss–Jordan
+- A | Ters matrisin özellikleri | (AB)⁻¹ = B⁻¹A⁻¹
+- A | Tersinir olmayan matris | tekil, pivotsuz sütun
+- A | Elementer matrisler | satır işlemi = matris çarpımı
+- A | Denklem sistemi ve ters matris | x = A⁻¹b
+- A | LU ayrışımı | alt ve üst üçgen matrisler
+- A | Matris ve doğrusal sistem eşdeğerliği | denk koşullar listesi
+- A | Markov zincirleri | durum geçiş matrisi diyagramı
+- A | Ağ/graf ve komşuluk matrisi | düğümler ve matris
+- B | Tablo / elektronik tablo | matris metaforu
+
+## 3. Determinantlar
+- A | 2×2 determinant | alan ve işaret
+- A | 3×3 determinant (Sarrus) | çapraz çarpımlar
+- A | Determinantın geometrik anlamı (2B) | paralelkenar alanı
+- A | Determinantın geometrik anlamı (3B) | paralelyüzlü hacim
+- A | Kofaktör açılımı | minör ve işaret deseni
+- A | İşaret deseni (checkerboard) | + − + − ...
+- A | Satır indirgeme ile determinant | üçgenleştirme
+- A | Satır işlemlerinin determinanta etkisi | yer değiştirme, ölçekleme, ekleme
+- A | Üçgen matrisin determinantı | köşegen çarpımı
+- A | Determinantın özellikleri | det(AB) = det A · det B
+- A | det(A) = 0 ve tersinirlik | kolon bağımlılığı
+- A | Determinant ve ters matris | adjoint yöntemi
+- A | Cramer kuralı | Δ ve Δᵢ
+- A | Cramer kuralı geometrik yorum | alan oranları
+- A | Determinant ve doğrusal bağımsızlık | hacmin sıfır olması
+- A | Permütasyonlar ve determinant | permütasyon işaretleri
+- B | Zemin döşemesi alanı | paralelkenar alanı metaforu
+
+## 4. 2 ve 3 boyutlu uzayda vektörler
+- A | Vektör: büyüklük ve yön | yönlü doğru parçası
+- A | Vektör eşitliği | paralel ötelenmiş oklar
+- A | Vektör toplama (üçgen kuralı) | uç uca
+- A | Vektör toplama (paralelkenar kuralı) | ortak başlangıç
+- A | Vektörün skalerle çarpımı | uzama, kısalma, ters yön
+- A | Vektör çıkarma | iki uç arası ok
+- A | Bileşen gösterimi | x, y, z bileşenleri
+- A | Vektörün normu | uzunluk, Pisagor
+- A | Birim vektör | normalize etme
+- A | Konum vektörü | orijinden noktaya
+- A | İki nokta arasındaki vektör | PQ = Q − P
+- A | Nokta çarpım (iç çarpım) | u·v = |u||v|cosθ
+- A | Vektörler arası açı | θ hesaplama
+- A | Dik vektörler | u·v = 0
+- A | İzdüşüm (projeksiyon) | proj_u v
+- A | Vektörün bileşenlere ayrılması | paralel ve dik bileşen
+- A | Cauchy–Schwarz | |u·v| ≤ |u||v|
+- A | Üçgen eşitsizliği | kenar uzunlukları
+- A | Çapraz çarpım (3B) | u×v dik vektör
+- A | Çapraz çarpım: sağ el kuralı | yön gösterimi
+- A | Çapraz çarpım: paralelkenar alanı | |u×v|
+- A | Üçlü skaler çarpım | paralelyüzlü hacmi
+- A | 2B'de doğru denklemi (vektörel) | nokta ve yön vektörü
+- A | 2B'de doğru denklemi (normal) | normal vektör
+- A | 3B'de doğru denklemi (parametrik) | P₀ + t·d
+- A | 3B'de düzlem denklemi | normal vektör ve nokta
+- A | Nokta–düzlem uzaklığı | izdüşüm ile uzaklık
+- A | Nokta–doğru uzaklığı | dik ayağı
+- A | İki düzlemin arakesiti | doğru
+- A | Doğrular arası konum | kesişen, paralel, çarpık
+- A | İki düzlem arası açı | normaller arası açı
+- A | Analitik geometri: küre ve silindir | yüzey denklemleri
+- B | Pusula ve harita | yön vektörü metaforu
+- B | Rüzgârda uçan uçak | bileşke hız vektörü
+
+## 5. Öklid vektör uzayı ve n boyutlu uzay
+- A | Rⁿ uzayı | R², R³ ve genelleme
+- A | Rⁿ'de toplama ve skaler çarpım | tanım
+- A | Rⁿ'de nokta çarpım | genelleme
+- A | Rⁿ'de norm ve uzaklık | n boyutlu formüller
+- A | Doğrusal dönüşüm olarak matris | Rⁿ → Rᵐ
+- A | Doğrusal birleşim (lineer kombinasyon) | iki vektörle üretilen düzlem
+- A | Doğrusal bağımsızlık | iki ve üç vektör örneği
+- A | Doğrusal bağımlılık | aynı doğru üstünde vektörler
+- A | Vektör uzayı aksiyomları | liste
+- A | Alt uzay | orijinden geçen doğru/düzlem
+- A | Alt uzay olmayan örnek | orijini içermeyen düzlem
+- A | Yayılma (span) | iki vektörün gerdiği düzlem
+- A | Baz | R²'de farklı baz çiftleri
+- A | Boyut | baz sayısı
+- A | Koordinatlar ve baz değişimi | aynı vektör iki bazda
+- A | Geçiş matrisi | bazlar arası dönüşüm
+- A | Satır uzayı, sütun uzayı | uzay görseli
+- A | Sıfır uzayı (null space) | Ax = 0 çözüm kümesi
+- A | Rank (kerte) | boyut sayısı
+- A | Rank–nullity teoremi | rank + nullity = n
+- A | Dört temel altuzay | satır, sütun, null, sol null uzay
+- A | Dik tümleyen | W⊥
+- A | Fonksiyon uzayları | polinom uzayı P₂
+- B | Kapı ve oda: yön ve boyut | boyut metaforu
+
+## 6. İç çarpım uzayları
+- A | İç çarpım aksiyomları | simetri, doğrusallık, pozitiflik
+- A | Genel iç çarpım örnekleri | ağırlıklı iç çarpım
+- A | İç çarpım ile norm ve açı | genelleştirilmiş
+- A | Ortogonal (dik) kümeler | birbirine dik vektör çifti
+- A | Ortonormal küme | birim ve dik
+- A | Ortonormal bazın avantajı | kolay koordinat bulma
+- A | Gram–Schmidt süreci | adım adım dikleştirme
+- A | QR ayrışımı | Q ve R matrisleri
+- A | Ortogonal izdüşüm | alt uzaya projeksiyon
+- A | En iyi yaklaşım teoremi | en kısa uzaklık
+- A | En küçük kareler | veriye doğru uydurma
+- A | Normal denklemler | AᵀAx = Aᵀb
+- A | Doğru uydurma örneği | noktalar ve en uygun doğru
+- A | Ortogonal matris | sütunlar ortonormal, uzunluğu korur
+- A | Fourier serisi (iç çarpım uzayı) | sinüs bazları
+- A | Metrik (uzaklık) uzayı | farklı uzaklık tanımları
+- B | Gölge ve ışık | izdüşüm metaforu
+
+## 7. Özdeğerler ve özvektörler
+- A | Özdeğer-özvektör tanımı | Ax = λx, vektör sadece uzar
+- A | Özvektör geometrisi (2B) | yön değiştirmeyen vektörler
+- A | Karakteristik denklem | det(A − λI) = 0
+- A | Karakteristik polinom | derece ve kökler
+- A | Özdeğer bulma adımları | 2×2 örnek
+- A | Özvektör bulma | (A − λI)x = 0
+- A | Özuzay | özvektör düzlemi/doğrusu
+- A | Cebirsel ve geometrik katlılık | karşılaştırma
+- A | Özdeğerlerin özellikleri | iz = Σλ, det = Πλ
+- A | Köşegenleştirme | A = PDP⁻¹
+- A | Köşegenleştirilebilirlik koşulu | yeterli bağımsız özvektör
+- A | Köşegenleştirmenin matris kuvvetine uygulaması | Aⁿ = PDⁿP⁻¹
+- A | Simetrik matrisler | gerçek özdeğerler, dik özvektörler
+- A | Ortogonal köşegenleştirme | A = QDQᵀ
+- A | Spektral teorem | özdeğer ayrışımı
+- A | Karmaşık özdeğerler | dönme dönüşümü
+- A | Özdeğerler ve kararlılık | diferansiyel denklem sistemi
+- A | Markov zincirleri sınır durum | baskın özvektör
+- A | Elipsin eksenleri (ikinci dereceden form) | özvektör yönleri
+- A | Kuadratik formlar | pozitif tanımlı yüzey
+- A | Güç yöntemi | yinelemeli yaklaşım
+- A | Cayley–Hamilton teoremi | polinom
+- A | Özdeğer uygulaması: titreşim modları | kütle-yay
+- A | Özdeğer uygulaması: PCA | veri bulutunda ana eksenler
+- B | Dönen disk / eksen | dönüş ekseni metaforu
+
+## 8. Doğrusal dönüşümler
+- A | Dönüşüm tanımı | girdi uzayı → çıktı uzayı
+- A | Doğrusallık koşulu | toplama ve ölçekleme korunur
+- A | Standart matris | dönüşümün matris gösterimi
+- A | Birim kare üzerinde dönüşüm | R² ızgara değişimi
+- A | Yansıma (x ekseni, y ekseni, y=x) | ızgara ve şekil
+- A | Dönme matrisi | θ açısıyla dönüş
+- A | Ölçekleme | genişleme/daralma
+- A | Kayma (shear) | yatay, düşey
+- A | Dik izdüşüm dönüşümü | düzleme ya da doğruya
+- A | R³'te temel dönüşümler | x, y, z eksenleri etrafında dönme
+- A | Bileşke dönüşüm | iki dönüşümün çarpımı
+- A | Bileşke sırası | AB ≠ BA geometrik fark
+- A | Çekirdek (kernel) | sıfıra giden vektörler
+- A | Görüntü (image) | dönüşüm sonrası küme
+- A | Birebir (injective) ve örten (surjective) | kümeler arası eşleşme
+- A | Çekirdek–görüntü boyut teoremi | nullity + rank = n
+- A | Ters dönüşüm | geri alma
+- A | Ters dönüşümün matrisi | A⁻¹ ile ters çevirme
+- A | Determinant ve alan ölçeklemesi | birim karenin görüntüsü
+- A | Baz değişimi ve benzerlik | P⁻¹AP
+- A | Benzer matrisler | aynı dönüşüm farklı bazda
+- A | Homojen koordinatlar | öteleme ve dönmenin birleşimi
+- A | Bilgisayar grafiğinde dönüşümler | şekil dönüşümleri
+- A | Robot kolu dönüşümleri | eklem açıları
+- A | Görüntü işleme dönüşümü | ızgara bozulması
+- B | Aynadaki yansıma | yansıma metaforu
+- B | Gölge oyunu | izdüşüm metaforu

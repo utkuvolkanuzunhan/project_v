@@ -1,0 +1,46 @@
+{
+ "physics1/k0080": {
+  "cipler": [
+   "uzuv",
+   "durum"
+  ],
+  "metin": [
+   "ok gerilmiyor, iki el çıkıyor, ok adamın içinden geçiyor"
+  ],
+  "ingilizce": [
+   "the bow is clearly drawn with the bowstring pulled back to the face",
+   "the arrow lies straight beside the bow and never passes through the body"
+  ]
+ },
+ "physics1/k0113": {
+  "cipler": [
+   "kucuk"
+  ],
+  "metin": [
+   "hava yastığı direksiyondan çıkmıyor ve çok küçük"
+  ],
+  "ingilizce": [
+   "the airbag is large, round and fully inflated, coming out of the center of the steering wheel"
+  ]
+ },
+ "physics1/k0135": {
+  "cipler": [
+   "sekil"
+  ],
+  "metin": [
+   "tahterevalli düz değil V şeklinde duruyor"
+  ],
+  "ingilizce": [
+   "one single straight horizontal plank, not bent and not V-shaped"
+  ]
+ },
+ "circuits1/k0010": {
+  "cipler": [],
+  "metin": [
+   "su borusu denilen şey laborutavardaki değil."
+  ],
+  "ingilizce": [
+   "ordinary everyday water supply plumbing as found in a house or a street, not laboratory equipment, no glassware, no gauges, no measuring instruments"
+  ]
+ }
+}

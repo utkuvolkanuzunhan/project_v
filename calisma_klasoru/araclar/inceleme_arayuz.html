@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Görsel İnceleme</title>
+<style>
+  :root { --bg:#14161a; --kart:#1d2026; --kenar:#2b3038; --yazi:#e8eaee; --soluk:#9aa3b0; --yesil:#2e9e5b; --kirmizi:#d04848; --sari:#d9a73a; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--yazi); font:15px/1.45 system-ui, "Segoe UI", sans-serif; }
+  header { position:sticky; top:0; z-index:5; background:#101216; border-bottom:1px solid var(--kenar); padding:10px 16px; display:flex; gap:12px; flex-wrap:wrap; align-items:center; }
+  header h1 { font-size:16px; margin:0 12px 0 0; }
+  select, button { background:var(--kart); color:var(--yazi); border:1px solid var(--kenar); border-radius:8px; padding:7px 12px; font:inherit; cursor:pointer; }
+  button:hover { border-color:#4a5260; }
+  label { color:var(--soluk); display:flex; gap:6px; align-items:center; }
+  #ozet { margin-left:auto; color:var(--soluk); }
+  main { padding:16px; max-width:1500px; margin:0 auto; }
+  .grup { background:var(--kart); border:1px solid var(--kenar); border-radius:12px; padding:14px; margin-bottom:18px; }
+  .grup h2 { font-size:16px; margin:0; }
+  .alt { color:var(--soluk); font-size:13px; margin:2px 0 4px; }
+  .ilerleme { height:6px; background:#2b3038; border-radius:4px; overflow:hidden; margin:8px 0 12px; }
+  .ilerleme > div { height:100%; background:var(--yesil); }
+  .izgara { display:grid; grid-template-columns:repeat(auto-fill,minmax(260px,1fr)); gap:12px; }
+  .aday { background:#14161a; border:2px solid transparent; border-radius:10px; overflow:hidden; }
+  .aday.kusursuz { border-color:var(--yesil); }
+  .aday.hata { border-color:var(--kirmizi); opacity:.6; }
+  .aday img { width:100%; display:block; aspect-ratio:1/1; object-fit:cover; cursor:zoom-in; background:#000; }
+  .bayraklar { padding:6px 8px 0; display:flex; gap:5px; flex-wrap:wrap; min-height:24px; }
+  .rozet { font-size:11.5px; padding:2px 7px; border-radius:20px; background:#3a3320; color:var(--sari); }
+  .rozet.kirmizi { background:#3a2020; color:#ff8a8a; }
+  .dugmeler { display:flex; gap:6px; padding:8px; }
+  .dugmeler button { flex:1; font-weight:600; }
+  .k { border-color:var(--yesil); } .k:hover { background:#1f3a2a; }
+  .h { border-color:var(--kirmizi); } .h:hover { background:#3a2020; }
+  .i { border-color:#6b7380; flex:0 0 auto; padding:7px 9px; } .i:hover { background:#2a2d33; }
+  .daha { float:right; font-size:12.5px; padding:4px 10px; }
+  .hatapanel { background:#14161a; border:1px solid var(--kenar); border-radius:10px; padding:10px; margin:8px 0; }
+  .hatapanel[hidden] { display:none; }
+  .cipler { display:flex; flex-wrap:wrap; gap:6px; margin:8px 0; }
+  .cip { display:flex; gap:6px; align-items:center; background:#1d2026; border:1px solid var(--kenar); border-radius:20px; padding:4px 10px; font-size:13px; cursor:pointer; color:var(--yazi); }
+  .hatapanel textarea { width:100%; background:#0e1013; color:var(--yazi); border:1px solid var(--kenar); border-radius:8px; padding:8px; font:inherit; margin:6px 0; }
+  .nedenler { display:none; padding:0 8px 8px; gap:5px; flex-wrap:wrap; }
+  .aday.neden-sor .nedenler { display:flex; }
+  .nedenler button { font-size:12px; padding:4px 8px; }
+  .not { padding:0 8px 8px; font-size:12px; color:var(--soluk); }
+  #bos { text-align:center; color:var(--soluk); margin:80px 0; }
+  #buyuk { position:fixed; inset:0; background:rgba(0,0,0,.92); display:none; z-index:10; align-items:center; justify-content:center; flex-direction:column; gap:10px; }
+  #buyuk.ac { display:flex; }
+  #buyuk img { max-width:92vw; max-height:84vh; border-radius:6px; }
+  #buyukBilgi { color:var(--soluk); }
+  .kisayol { color:var(--soluk); font-size:12.5px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Görsel İnceleme</h1>
+  <label>Ders
+    <select id="ders"><option value="">Hepsi</option><option>physics1</option><option>circuits1</option><option>digital</option><option>materials</option><option>oop</option><option>linalg</option></select>
+  </label>
+  <label>Göster
+    <select id="durum"><option value="bekleyen">Bekleyenler</option><option value="kusursuz">Kusursuz dediklerim</option><option value="hata">Hatalı dediklerim</option><option value="hepsi">Hepsi</option></select>
+  </label>
+  <label><input type="checkbox" id="elenen"> Otomatik elenenleri de göster</label>
+  <button id="yenile">Yenile</button>
+  <span class="kisayol">Büyük görselde: K = kusursuz · H = hatalı · I = istemiyorum (siler) · ← → gezin · Esc kapat</span>
+  <span id="uretimDurumu" style="color:var(--soluk)"></span><button id="devam" hidden>▶ Devam et (sonraki 250)</button>
+  <span id="ozet"></span>
+</header>
+<main id="ana"></main>
+<div id="buyuk"><img id="buyukImg" alt=""><div id="buyukBilgi"></div></div>
+
+<script>
+let veri = { gruplar: [], nedenler: [] };
+let buyukListe = [], buyukIdx = 0;
+
+function sunucuYok(neden) {
+  document.getElementById('ana').innerHTML =
+    '<div id="bos"><b>Sayfa sunucuya bağlanamadı.</b><br><br>' +
+    'Bu sayfa dosya olarak açılırsa çalışmaz; adresten açılmalı:<br>' +
+    '<a style="color:#7fb4ff" href="http://127.0.0.1:8765">http://127.0.0.1:8765</a><br><br>' +
+    'Açılmıyorsa <b>Baslat_Inceleme.bat</b> dosyasına çift tıkla (volkiapp-gorsel-uretim klasöründe), ' +
+    'siyah pencere açık kaldığı sürece çalışır.<br><br><small>' + neden + '</small></div>';
+  document.getElementById('ozet').textContent = '';
+}
+
+async function yukle() {
+  // Dosya olarak açıldıysa doğru adrese yönlendir
+  if (location.protocol === 'file:') { location.replace('http://127.0.0.1:8765'); return; }
+  const q = new URLSearchParams({
+    ders: document.getElementById('ders').value,
+    durum: document.getElementById('durum').value,
+    elenen: document.getElementById('elenen').checked ? '1' : '0'
+  });
+  try {
+    const r = await fetch('/api/liste?' + q);
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    veri = await r.json();
+  } catch (e) { return sunucuYok(String(e)); }
+  ciz();
+}
+
+function ciz() {
+  const ana = document.getElementById('ana');
+  ana.innerHTML = '';
+  let toplam = 0;
+  buyukListe = [];
+  for (const g of veri.gruplar) {
+    toplam += g.adaylar.length;
+    const kutu = document.createElement('section');
+    kutu.className = 'grup';
+    const yuzde = Math.min(100, Math.round(100 * g.onayli / g.hedef));
+    kutu.innerHTML = `<h2>${g.ad}<button class="daha yeter" title="Bu konuda yeter: şimdiye kadar kusursuz dediklerin kalır, karar vermediğin tüm adaylar silinir, üretim bu konuya durur (sormaz)" style="margin-left:6px">Bu kadar yeterli</button><button class="daha" title="Bu konu için onaylı hedefini 5 artır; yeni aday üretilir">+5 daha iste</button><button class="daha foto" title="Hedefi değiştirmeden bu konu için hemen 5 yeni aday fotoğraf üret" style="margin-right:6px">+5 foto daha üret</button><button class="daha hatab" title="Bu konudaki fotoğrafların genel hatasını bildir; sonraki üretimlerde düzeltilir" style="margin-right:6px">Genel hata bildir${(g.notlar.length || g.cipler.length) ? ' ✓' : ''}</button></h2><div class="alt">${g.ders} · ${g.unite} · ${g.gosterim}</div>
+      <div class="alt"><b>${g.onayli} / ${g.hedef}</b> kusursuz onaylı</div>
+      <div class="ilerleme"><div style="width:${yuzde}%"></div></div><div class="izgara"></div>`;
+    const panel = document.createElement('div');
+    panel.className = 'hatapanel'; panel.hidden = true;
+    panel.innerHTML = `<div class="alt">Bu konudaki fotoğrafların GENEL hatası ne? Birden fazla seçebilirsin; sonraki üretimlerde otomatik düzeltilir.</div>
+      <div class="cipler">${Object.entries(veri.cipler || {}).map(([id, ad]) =>
+        `<label class="cip"><input type="checkbox" value="${id}" ${g.cipler.includes(id) ? 'checked' : ''}> ${ad}</label>`).join('')}</div>
+      <textarea rows="2" placeholder="İstersen kendi cümlenle yaz (ör. ok gerilmiyor, iki el çıkıyor)"></textarea>
+      ${g.notlar.length ? `<div class="not">kayıtlı notlar: ${g.notlar.join(' · ')}</div>` : ''}
+      <label class="cip"><input type="checkbox" class="sil"> Bu konuda karar vermediğim adayları sil</label>
+      <div style="margin-top:8px"><button class="kaydet">Kaydet</button> <button class="iptal">Vazgeç</button></div>`;
+    kutu.querySelector('.ilerleme').insertAdjacentElement('afterend', panel);
+    kutu.querySelector('.hatab').onclick = () => { panel.hidden = !panel.hidden; };
+    panel.querySelector('.iptal').onclick = () => { panel.hidden = true; };
+    panel.querySelector('.kaydet').onclick = async () => {
+      const cipler = [...panel.querySelectorAll('.cipler input:checked')].map(i => i.value);
+      await fetch('/api/not', { method: 'POST', headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ ders: g.ders, kavram: g.kavram, cipler, metin: panel.querySelector('textarea').value,
+                               sil: panel.querySelector('.sil').checked }) });
+      const kaydir = window.scrollY; await yukle(); window.scrollTo(0, kaydir);
+    };
+    kutu.querySelector('.yeter').onclick = async () => {
+      await fetch('/api/yeterli', { method: 'POST', headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ ders: g.ders, kavram: g.kavram }) });
+      const kaydir = window.scrollY; await yukle(); window.scrollTo(0, kaydir);
+    };
+    kutu.querySelector('.foto').onclick = async e => {
+      await fetch('/api/uret', { method: 'POST', headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ ders: g.ders, kavram: g.kavram, adet: 5 }) });
+      e.target.textContent = 'İstendi (+5, birazdan gelir)'; e.target.disabled = true;
+    };
+    kutu.querySelector('.daha:not(.yeter):not(.foto):not(.hatab)').onclick = async e => {
+      await fetch('/api/hedef', { method: 'POST', headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ ders: g.ders, kavram: g.kavram, ek: 5 }) });
+      e.target.textContent = 'Eklendi (hedef +5)'; e.target.disabled = true;
+      setTimeout(yukle, 600);
+    };
+    const izgara = kutu.querySelector('.izgara');
+    for (const a of g.adaylar) {
+      buyukListe.push(a);
+      izgara.appendChild(adayKarti(a));
+    }
+    ana.appendChild(kutu);
+  }
+  if (!veri.gruplar.length) ana.innerHTML = '<div id="bos">Bu görünümde incelenecek görsel yok.</div>';
+  document.getElementById('ozet').textContent = `${veri.gruplar.length} kavram · ${toplam} görsel`;
+}
+
+function adayKarti(a) {
+  const d = document.createElement('div');
+  d.className = 'aday ' + (a.karar === 'bekliyor' ? '' : a.karar);
+  d.dataset.id = a.id;
+  const rozet = [
+    ...a.oto_red.map(x => `<span class="rozet kirmizi">oto-red: ${x}</span>`),
+    ...a.bayrak.map(x => `<span class="rozet">${x}</span>`)
+  ].join('');
+  const yazi = a.yazilar.length ? `<div class="not">okunan: ${a.yazilar.map(t => '“' + t + '”').join(' ')}</div>` : '';
+  const neden = a.karar === 'hata' && a.neden ? `<div class="not">neden: ${a.neden}</div>` : '';
+  d.innerHTML = `<img loading="lazy" src="/img/${a.id}?b=520" alt="">
+    <div class="bayraklar">${rozet}</div>${yazi}${neden}
+    <div class="dugmeler">
+      <button class="k">✔ Kusursuz</button><button class="h">✘ Hatalı</button>
+      <button class="i" title="İstemiyorum: dosya hemen silinir, soru sorulmaz">🗑 İstemiyorum</button>
+    </div>
+    <div class="nedenler">${veri.nedenler.map(n => `<button data-n="${n}">${n}</button>`).join('')}</div>`;
+  d.querySelector('img').onclick = () => ac(a.id);
+  d.querySelector('.k').onclick = () => karar(a.id, 'kusursuz', '');
+  d.querySelector('.h').onclick = () => d.classList.add('neden-sor');
+  d.querySelector('.i').onclick = () => karar(a.id, 'istemiyorum', '');
+  d.querySelectorAll('.nedenler button').forEach(b => b.onclick = () => karar(a.id, 'hata', b.dataset.n));
+  return d;
+}
+
+async function karar(id, k, neden) {
+  await fetch('/api/karar', { method: 'POST', headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ aday_id: id, karar: k, neden: neden }) });
+  // bekleyenler görünümündeyse kararı verilen kartı kaldır; ilerleme çubuğu için yeniden çek
+  const kaydir = window.scrollY;
+  await yukle();
+  window.scrollTo(0, kaydir);
+}
+
+function ac(id) {
+  buyukIdx = buyukListe.findIndex(x => x.id === id);
+  goster();
+  document.getElementById('buyuk').classList.add('ac');
+}
+function goster() {
+  const a = buyukListe[buyukIdx];
+  if (!a) return kapat();
+  document.getElementById('buyukImg').src = '/img/' + a.id;
+  document.getElementById('buyukBilgi').textContent = `${a.id}  ·  ${buyukIdx + 1}/${buyukListe.length}  ·  ${a.varyant || ''}`;
+}
+function kapat() { document.getElementById('buyuk').classList.remove('ac'); }
+
+document.addEventListener('keydown', async e => {
+  if (!document.getElementById('buyuk').classList.contains('ac')) return;
+  if (e.key === 'Escape') kapat();
+  else if (e.key === 'ArrowRight') { buyukIdx = Math.min(buyukIdx + 1, buyukListe.length - 1); goster(); }
+  else if (e.key === 'ArrowLeft') { buyukIdx = Math.max(buyukIdx - 1, 0); goster(); }
+  else if (['k', 'h', 'i'].includes(e.key.toLowerCase())) {
+    const a = buyukListe[buyukIdx]; if (!a) return;
+    const k = { k: 'kusursuz', h: 'hata', i: 'istemiyorum' }[e.key.toLowerCase()];
+    await fetch('/api/karar', { method: 'POST', headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ aday_id: a.id, karar: k, neden: k === 'hata' ? 'diğer' : '' }) });
+    const sira = buyukIdx;
+    await yukle();
+    buyukIdx = Math.min(sira, buyukListe.length - 1);
+    if (buyukListe.length) goster(); else kapat();
+  }
+});
+document.getElementById('buyuk').onclick = e => { if (e.target.id === 'buyuk') kapat(); };
+async function uretimDurumu() {
+  try {
+    const d = await (await fetch('/api/durum')).json();
+    const s = document.getElementById('uretimDurumu'), b = document.getElementById('devam');
+    if (d.duraklatildi) { s.textContent = `⏸ Üretim duraklatıldı (parti ${d.toplam_parti} bitti, ${d.sayac} fotoğraf)`; s.style.color = '#d9a73a'; b.hidden = false; }
+    else { s.textContent = `⏵ Üretim sürüyor (bu parti ${d.sayac}/${d.parti})`; s.style.color = ''; b.hidden = true; }
+  } catch (e) { /* sunucu yoksa sessiz */ }
+}
+document.getElementById('devam').onclick = async () => {
+  await fetch('/api/devam', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: '{}' });
+  uretimDurumu();
+};
+uretimDurumu(); setInterval(uretimDurumu, 10000);
+['ders', 'durum', 'elenen'].forEach(i => document.getElementById(i).onchange = yukle);
+document.getElementById('yenile').onclick = yukle;
+yukle();
+</script>
+</body>
+</html>

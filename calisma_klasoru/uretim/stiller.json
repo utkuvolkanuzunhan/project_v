@@ -1,0 +1,30 @@
+{
+  "physics1": {
+    "stil": "Calm realistic photograph, natural light, sharp focus, clean uncluttered composition",
+    "ek": "no text, no letters, no numbers, no signs, no logos, no watermark, no markings on objects"
+  },
+  "materials": {
+    "stil": "Calm realistic macro photograph, soft studio light, sharp focus, clean uncluttered composition",
+    "ek": "no text, no letters, no numbers, no logos, no watermark, no markings on objects"
+  },
+  "circuits1": {
+    "stil": "Technical macro photograph, shallow depth of field, clean electronics lab, crisp detail",
+    "ek": "no text, no letters, no numbers, no printed markings, no logos, no watermark"
+  },
+  "digital": {
+    "stil": "Technical macro photograph, shallow depth of field, clean electronics lab, crisp detail",
+    "ek": "no text, no letters, no numbers, no printed markings, no logos, no watermark"
+  },
+  "oop": {
+    "stil": "Flat minimal vector illustration, rich saturated colors, strong contrast, clean simple shapes, white background",
+    "ek": "no text, no letters, no numbers, no watermark",
+    "varyantlar": ["centered composition", "wide composition with simple background shapes", "close-up of the main subject",
+                   "warm color palette", "cool color palette", "bold outlines", "isometric viewpoint", "side view"]
+  },
+  "linalg": {
+    "stil": "Abstract minimal geometric vector illustration, bold clean lines, strong contrast, soft gradient background",
+    "ek": "no text, no letters, no numbers, no watermark",
+    "varyantlar": ["centered composition", "wide composition", "close-up of the main subject",
+                   "warm color palette", "cool color palette", "isometric viewpoint", "side view", "top-down view"]
+  }
+}
