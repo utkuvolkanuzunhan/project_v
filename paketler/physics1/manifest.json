@@ -2,10 +2,10 @@
  "ders": "physics1",
  "ad": "Physics I",
  "dersKodu": "505001052010",
- "surum": 8,
+ "surum": 9,
  "kavramSayisi": 252,
  "beklenenGorsel": 330,
- "mevcutGorsel": 79,
+ "mevcutGorsel": 89,
  "uniteler": [
   {
    "no": 1,
@@ -2410,6 +2410,14 @@
        "genislik": 1024,
        "yukseklik": 1024,
        "aday": "physics1-k0185-007"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "5cb33d74c21a95362dcc11c98553fe24ffe5d61caa077ababdc4aa07635e2caa",
+       "boyut": 109208,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0185-009"
       }
      ]
     }
@@ -2535,7 +2543,32 @@
      "gosterim": "dalga boyu görseli",
      "yol": "u13-dalgalar-i-mekanik-dalgalar/k0198-su-yuzeyinde-dalgalar",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "6215e9a8e75c2e78badd21d23fbd0e2cdf464d4e78c3c1a741fe681b4c70c882",
+       "boyut": 36516,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0198-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "db70599144da461056579e362fd12fd36b4778fcbc04b2a8516ca9ff3b775037",
+       "boyut": 29092,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0198-002"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "f560d34bbb030ece617e9ae1ef270d69cd98975c719d503bd29e88e9dded6e6d",
+       "boyut": 23196,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0198-011"
+      }
+     ]
     },
     {
      "id": "k0199",
@@ -2544,7 +2577,32 @@
      "gosterim": "duran dalga sahnesi",
      "yol": "u13-dalgalar-i-mekanik-dalgalar/k0199-gitar-teli-titresimi",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "0dcf435067edcb3b0095640e3c4447268f0fcc6e40699553d86317ba427e6826",
+       "boyut": 42538,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0199-005"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "3f762d6f2418c5bfd027e1112440df03d5d042b0351719fd95e3ecf712d2012e",
+       "boyut": 32362,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0199-009"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "70fee99d91cde185cb1a6610754175c7071568105b39a35fb504b3b2f13402a8",
+       "boyut": 25314,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0199-012"
+      }
+     ]
     }
    ]
   },
@@ -2659,7 +2717,32 @@
      "gosterim": "Doppler etkisi",
      "yol": "u14-dalgalar-ii-ses/k0211-ambulans-sireni-gecerken",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "5c2db8a5796c0e1cd64d6f11f9d2c88c578b7b8d4881a32a0c905f250d3f91e6",
+       "boyut": 108046,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0211-003"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "fd26ca8872a2209dc2b97a2a5a4aeaa4ed2fb2687b6a5c639aaf7826bad2a03e",
+       "boyut": 80904,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0211-009"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "f6f373f245345fafbdd2c097be8d5c5002b44f08d466322decba5a31659e27cb",
+       "boyut": 61048,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0211-006"
+      }
+     ]
     },
     {
      "id": "k0212",
