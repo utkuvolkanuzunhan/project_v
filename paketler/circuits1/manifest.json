@@ -2,10 +2,10 @@
  "ders": "circuits1",
  "ad": "Circuit Analysis 1",
  "dersKodu": "505002352024",
- "surum": 3,
+ "surum": 4,
  "kavramSayisi": 173,
  "beklenenGorsel": 217,
- "mevcutGorsel": 30,
+ "mevcutGorsel": 40,
  "uniteler": [
   {
    "no": 1,
@@ -1249,7 +1249,32 @@
      "gosterim": "kondansatör şarj/deşarj",
      "yol": "u06-induktans-kapasitans-karsilikli-induktan/k0106-kamera-flasi",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "3077e04354dc21b9064022de7f5c1919ece76528b65d4296f039094154c86ede",
+       "boyut": 56620,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "circuits1-k0106-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "585e0658a4d3aa8a755341e1223599bbb72c47e4fa7118e10d01b323ec9aa9fa",
+       "boyut": 39600,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "circuits1-k0106-010"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "c1eddd65de46c2ff26b4507a049bd6d96e668e546764006b31aa11e77554b5b7",
+       "boyut": 65822,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "circuits1-k0106-005"
+      }
+     ]
     },
     {
      "id": "k0107",
@@ -1258,7 +1283,32 @@
      "gosterim": "gerçek görünüm",
      "yol": "u06-induktans-kapasitans-karsilikli-induktan/k0107-bakir-sargili-transformator",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "130c492b5c06c3c0a56bab52ff332b09b8247e443ab8b853cd646a0e8a44bff5",
+       "boyut": 66214,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "circuits1-k0107-002"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "213c337996dfb506c12f2c2c9a2aa3234fe75db83279bdc06a3d83b6c48bc425",
+       "boyut": 58262,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "circuits1-k0107-010"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "f5943bf91b9b520fef5a71e4f3680117e2a4635c6f53b151a682c8e8ee86fd31",
+       "boyut": 43836,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "circuits1-k0107-014"
+      }
+     ]
     }
    ]
   },
@@ -1418,7 +1468,32 @@
      "gosterim": "RC boşalma",
      "yol": "u07-birinci-mertebeden-rl-ve-rc-devreleri/k0124-lambanin-yavasca-sonmesi",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "fd3bb62a5221e96729d1414cf6cf34afd5f7410e289e387434975c3b637f9a98",
+       "boyut": 90426,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "circuits1-k0124-003"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "fd6a3a2a3176c9e788533367c65b80c2e89d18d4509ab56b1c581d5533f3889c",
+       "boyut": 43240,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "circuits1-k0124-012"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "9b63f320c28e085cfd80218b482cdb57fb373e79875898191fbc96b8bbc61896",
+       "boyut": 38702,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "circuits1-k0124-010"
+      }
+     ]
     },
     {
      "id": "k0125",
@@ -1427,7 +1502,16 @@
      "gosterim": "kapasitör dolma",
      "yol": "u07-birinci-mertebeden-rl-ve-rc-devreleri/k0125-flas-sarji",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "2c902e86c771665ff8b13f4ac4009a87803cb0ada8cfefcb6897f7e6495ee28e",
+       "boyut": 44696,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "circuits1-k0125-001"
+      }
+     ]
     },
     {
      "id": "k0126",
