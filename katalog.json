@@ -1,0 +1,59 @@
+{
+ "surum": 1,
+ "paketler": [
+  {
+   "id": "physics1",
+   "ad": "Physics I",
+   "dersKodu": "505001052010",
+   "kavramSayisi": 252,
+   "gorselSayisi": 113,
+   "boyutMB": 10.0,
+   "manifest": "paketler/physics1/manifest.json"
+  },
+  {
+   "id": "circuits1",
+   "ad": "Circuit Analysis 1",
+   "dersKodu": "505002352024",
+   "kavramSayisi": 173,
+   "gorselSayisi": 51,
+   "boyutMB": 2.5,
+   "manifest": "paketler/circuits1/manifest.json"
+  },
+  {
+   "id": "digital",
+   "ad": "Digital Systems",
+   "dersKodu": "505002122015",
+   "kavramSayisi": 213,
+   "gorselSayisi": 0,
+   "boyutMB": 0.0,
+   "manifest": "paketler/digital/manifest.json"
+  },
+  {
+   "id": "materials",
+   "ad": "Electronic Materials and Device Physics",
+   "dersKodu": "505002242023",
+   "kavramSayisi": 191,
+   "gorselSayisi": 0,
+   "boyutMB": 0.0,
+   "manifest": "paketler/materials/manifest.json"
+  },
+  {
+   "id": "oop",
+   "ad": "Object-Oriented Programming",
+   "dersKodu": "505002372016",
+   "kavramSayisi": 145,
+   "gorselSayisi": 0,
+   "boyutMB": 0.0,
+   "manifest": "paketler/oop/manifest.json"
+  },
+  {
+   "id": "linalg",
+   "ad": "Linear Algebra",
+   "dersKodu": "LAG2052023",
+   "kavramSayisi": 192,
+   "gorselSayisi": 0,
+   "boyutMB": 0.0,
+   "manifest": "paketler/linalg/manifest.json"
+  }
+ ]
+}
