@@ -2,10 +2,10 @@
  "ders": "circuits1",
  "ad": "Circuit Analysis 1",
  "dersKodu": "505002352024",
- "surum": 5,
+ "surum": 6,
  "kavramSayisi": 173,
  "beklenenGorsel": 217,
- "mevcutGorsel": 50,
+ "mevcutGorsel": 51,
  "uniteler": [
   {
    "no": 1,
@@ -1762,6 +1762,14 @@
        "genislik": 1024,
        "yukseklik": 1024,
        "aday": "circuits1-k0143-011"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "60fa0aaa26d45207d835efa9271b1b4717b42b8c452296ab1bf7d0acf6997a24",
+       "boyut": 46022,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "circuits1-k0143-010"
       }
      ]
     }

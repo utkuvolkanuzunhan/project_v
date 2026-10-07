@@ -1,0 +1,2466 @@
+{
+ "ders": "physics1",
+ "ad": "Physics I",
+ "dersKodu": "505001052010",
+ "surum": 1,
+ "kavramSayisi": 252,
+ "beklenenGorsel": 330,
+ "mevcutGorsel": 9,
+ "uniteler": [
+  {
+   "no": 1,
+   "ad": "Ölçme, birimler, vektörler",
+   "klasor": "u01-olcme-birimler-vektorler",
+   "kavramlar": [
+    {
+     "id": "k0001",
+     "ad": "SI temel birimler ve türetilmiş birimler",
+     "hat": "A",
+     "gosterim": "birim ağacı: m, kg, s, A, K, mol, cd ve N, J, W bağıntıları",
+     "yol": "u01-olcme-birimler-vektorler/k0001-si-temel-birimler-ve-turetilmis-birimler",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0002",
+     "ad": "Büyüklük mertebesi (10'un kuvvetleri)",
+     "hat": "A",
+     "gosterim": "logaritmik ölçek üstünde atom → galaksi boyutları",
+     "yol": "u01-olcme-birimler-vektorler/k0002-buyukluk-mertebesi-10-un-kuvvetleri",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0003",
+     "ad": "Anlamlı basamak ve ölçüm belirsizliği",
+     "hat": "A",
+     "gosterim": "hedef tahtası: doğru/kesin, kesin/yanlış, dağınık",
+     "yol": "u01-olcme-birimler-vektorler/k0003-anlamli-basamak-ve-olcum-belirsizligi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0004",
+     "ad": "Skaler ve vektör farkı",
+     "hat": "A",
+     "gosterim": "aynı sayı: yönsüz ölçü ve yönlü ok",
+     "yol": "u01-olcme-birimler-vektorler/k0004-skaler-ve-vektor-farki",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0005",
+     "ad": "Vektör toplama (uç uca / paralelkenar)",
+     "hat": "A",
+     "gosterim": "iki okun bileşkesi",
+     "yol": "u01-olcme-birimler-vektorler/k0005-vektor-toplama-uc-uca-paralelkenar",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0006",
+     "ad": "Vektör bileşenleri",
+     "hat": "A",
+     "gosterim": "x ve y bileşenleri, açı θ",
+     "yol": "u01-olcme-birimler-vektorler/k0006-vektor-bilesenleri",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0007",
+     "ad": "Birim vektörler i, j, k",
+     "hat": "A",
+     "gosterim": "eksenler üzerinde birim oklar",
+     "yol": "u01-olcme-birimler-vektorler/k0007-birim-vektorler-i-j-k",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0008",
+     "ad": "Skaler (nokta) çarpım",
+     "hat": "A",
+     "gosterim": "iki vektör arası açı ve izdüşüm",
+     "yol": "u01-olcme-birimler-vektorler/k0008-skaler-nokta-carpim",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0009",
+     "ad": "Vektörel (çapraz) çarpım ve sağ el kuralı",
+     "hat": "A",
+     "gosterim": "çarpım vektörü sayfadan dışarı/içeri",
+     "yol": "u01-olcme-birimler-vektorler/k0009-vektorel-capraz-carpim-ve-sag-el-kurali",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0010",
+     "ad": "Vektör çıkarma",
+     "hat": "A",
+     "gosterim": "A − B = A + (−B)",
+     "yol": "u01-olcme-birimler-vektorler/k0010-vektor-cikarma",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0011",
+     "ad": "Birim dönüşümü günlük örnek",
+     "hat": "B",
+     "gosterim": "cetvel, termometre, saat ve tartı yan yana",
+     "yol": "u01-olcme-birimler-vektorler/k0011-birim-donusumu-gunluk-ornek",
+     "beklenen": 3,
+     "gorseller": []
+    }
+   ]
+  },
+  {
+   "no": 2,
+   "ad": "Doğrusal hareket (1B kinematik)",
+   "klasor": "u02-dogrusal-hareket-1b-kinematik",
+   "kavramlar": [
+    {
+     "id": "k0012",
+     "ad": "Konum-zaman grafiği",
+     "hat": "A",
+     "gosterim": "eğim = hız",
+     "yol": "u02-dogrusal-hareket-1b-kinematik/k0012-konum-zaman-grafigi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0013",
+     "ad": "Ortalama ve ani hız",
+     "hat": "A",
+     "gosterim": "eğriye sekant ve teğet",
+     "yol": "u02-dogrusal-hareket-1b-kinematik/k0013-ortalama-ve-ani-hiz",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0014",
+     "ad": "Hız-zaman grafiği",
+     "hat": "A",
+     "gosterim": "eğim = ivme, alan = yer değiştirme",
+     "yol": "u02-dogrusal-hareket-1b-kinematik/k0014-hiz-zaman-grafigi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0015",
+     "ad": "İvme-zaman grafiği",
+     "hat": "A",
+     "gosterim": "alan = hız değişimi",
+     "yol": "u02-dogrusal-hareket-1b-kinematik/k0015-ivme-zaman-grafigi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0016",
+     "ad": "Sabit ivmeli hareket denklemleri",
+     "hat": "A",
+     "gosterim": "x-t parabolü, v-t doğrusu",
+     "yol": "u02-dogrusal-hareket-1b-kinematik/k0016-sabit-ivmeli-hareket-denklemleri",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0017",
+     "ad": "Serbest düşme",
+     "hat": "A",
+     "gosterim": "eşit zaman aralıklı konumlar (stroboskop çizimi)",
+     "yol": "u02-dogrusal-hareket-1b-kinematik/k0017-serbest-dusme",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0018",
+     "ad": "Serbest düşmede v-t ve y-t grafikleri",
+     "hat": "A",
+     "gosterim": "g = 9,8 m/s²",
+     "yol": "u02-dogrusal-hareket-1b-kinematik/k0018-serbest-dusmede-v-t-ve-y-t-grafikleri",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0019",
+     "ad": "Yukarı atış, çıkış ve iniş simetrisi",
+     "hat": "A",
+     "gosterim": "tepe noktasında v = 0",
+     "yol": "u02-dogrusal-hareket-1b-kinematik/k0019-yukari-atis-cikis-ve-inis-simetrisi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0020",
+     "ad": "Değişken ivme ve integral",
+     "hat": "A",
+     "gosterim": "v(t) eğrisi altındaki alan",
+     "yol": "u02-dogrusal-hareket-1b-kinematik/k0020-degisken-ivme-ve-integral",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0021",
+     "ad": "Hızlanan araba ve fren",
+     "hat": "B",
+     "gosterim": "yan görünüşte yol, aracın ardışık konumları",
+     "yol": "u02-dogrusal-hareket-1b-kinematik/k0021-hizlanan-araba-ve-fren",
+     "beklenen": 3,
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "8501199d887ba21f56032be34ac7eeb748c7bc0f2ca9cf79d354c10eda77f824",
+       "boyut": 40682,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0021-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "a283f1a505afdef8d7c6bb3aabedf805cb6e309a111d1ed82f93e07f784b7458",
+       "boyut": 41856,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0021-012"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "bfeb43941aba7366d37bb028bb1f933905ae56a39aef3d0b2265afe8c816b761",
+       "boyut": 41058,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0021-010"
+      }
+     ]
+    },
+    {
+     "id": "k0022",
+     "ad": "Cismin binadan bırakılması",
+     "hat": "B",
+     "gosterim": "yüksek bina, aşağı düşen top",
+     "yol": "u02-dogrusal-hareket-1b-kinematik/k0022-cismin-binadan-birakilmasi",
+     "beklenen": 3,
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "1c67e9e582ff4f03a4f51f43abe537a20ab6f873a76917256f3641d45b0199f2",
+       "boyut": 49454,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0022-002"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "be544a152a709ee8236b92c6182573d401c111c1111bebd0b497c94b7f69b22f",
+       "boyut": 61084,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0022-003"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "87655b1197a8faae0b6c18194ee398b072c46a5c53dcb7c6da38ae790d514824",
+       "boyut": 34622,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0022-012"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "no": 3,
+   "ad": "Düzlemde hareket (2B ve 3B)",
+   "klasor": "u03-duzlemde-hareket-2b-ve-3b",
+   "kavramlar": [
+    {
+     "id": "k0023",
+     "ad": "Konum vektörü ve yer değiştirme",
+     "hat": "A",
+     "gosterim": "orijinden r(t) oku",
+     "yol": "u03-duzlemde-hareket-2b-ve-3b/k0023-konum-vektoru-ve-yer-degistirme",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0024",
+     "ad": "Ortalama ve ani hız vektörü",
+     "hat": "A",
+     "gosterim": "yörüngeye teğet ok",
+     "yol": "u03-duzlemde-hareket-2b-ve-3b/k0024-ortalama-ve-ani-hiz-vektoru",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0025",
+     "ad": "İvme vektörü",
+     "hat": "A",
+     "gosterim": "yörünge üzerinde hız değişimi",
+     "yol": "u03-duzlemde-hareket-2b-ve-3b/k0025-ivme-vektoru",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0026",
+     "ad": "Eğik atış yörüngesi",
+     "hat": "A",
+     "gosterim": "parabol, v₀, θ",
+     "yol": "u03-duzlemde-hareket-2b-ve-3b/k0026-egik-atis-yorungesi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0027",
+     "ad": "Eğik atışta bileşenlerin bağımsızlığı",
+     "hat": "A",
+     "gosterim": "yatay düzgün, düşey ivmeli",
+     "yol": "u03-duzlemde-hareket-2b-ve-3b/k0027-egik-atista-bilesenlerin-bagimsizligi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0028",
+     "ad": "Eğik atış menzili ve açı ilişkisi",
+     "hat": "A",
+     "gosterim": "30°, 45°, 60° yörüngeleri",
+     "yol": "u03-duzlemde-hareket-2b-ve-3b/k0028-egik-atis-menzili-ve-aci-iliskisi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0029",
+     "ad": "Maksimum yükseklik ve uçuş süresi",
+     "hat": "A",
+     "gosterim": "tepe, iniş noktası",
+     "yol": "u03-duzlemde-hareket-2b-ve-3b/k0029-maksimum-yukseklik-ve-ucus-suresi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0030",
+     "ad": "Düzgün dairesel hareket",
+     "hat": "A",
+     "gosterim": "yarıçap, hız teğet, ivme merkeze",
+     "yol": "u03-duzlemde-hareket-2b-ve-3b/k0030-duzgun-dairesel-hareket",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0031",
+     "ad": "Merkezcil ivme",
+     "hat": "A",
+     "gosterim": "a = v²/r oku",
+     "yol": "u03-duzlemde-hareket-2b-ve-3b/k0031-merkezcil-ivme",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0032",
+     "ad": "Periyot ve frekans",
+     "hat": "A",
+     "gosterim": "tam dönüş, T = 2πr/v",
+     "yol": "u03-duzlemde-hareket-2b-ve-3b/k0032-periyot-ve-frekans",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0033",
+     "ad": "Bağıl hareket (referans sistemleri)",
+     "hat": "A",
+     "gosterim": "nehirdeki tekne, bileşke hız",
+     "yol": "u03-duzlemde-hareket-2b-ve-3b/k0033-bagil-hareket-referans-sistemleri",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0034",
+     "ad": "Yatay atış",
+     "hat": "A",
+     "gosterim": "yatay hız sabit, düşey serbest düşme",
+     "yol": "u03-duzlemde-hareket-2b-ve-3b/k0034-yatay-atis",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0035",
+     "ad": "Basketbol atışı",
+     "hat": "B",
+     "gosterim": "potaya giden top",
+     "yol": "u03-duzlemde-hareket-2b-ve-3b/k0035-basketbol-atisi",
+     "beklenen": 3,
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "de1135a3aecfba699968ec434ff00376ca91690cb6937d2f036191cf0b53287a",
+       "boyut": 39298,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0035-002"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "86895226944350f8e30381fd39b20cbfe238a9720269841b8bc99daa73109454",
+       "boyut": 91552,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0035-003"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "faffd2dd553ac00ffb111e4a3176719de46195905f4c9a8bd410a11aa5632bc8",
+       "boyut": 67098,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0035-005"
+      }
+     ]
+    },
+    {
+     "id": "k0036",
+     "ad": "Dönen atlıkarınca",
+     "hat": "B",
+     "gosterim": "merkez, kenarda binen çocuk",
+     "yol": "u03-duzlemde-hareket-2b-ve-3b/k0036-donen-atlikarinca",
+     "beklenen": 3,
+     "gorseller": []
+    }
+   ]
+  },
+  {
+   "no": 4,
+   "ad": "Newton'un hareket yasaları",
+   "klasor": "u04-newton-un-hareket-yasalari",
+   "kavramlar": [
+    {
+     "id": "k0037",
+     "ad": "Kuvvet vektör olarak",
+     "hat": "A",
+     "gosterim": "cisim üstünde birden çok ok",
+     "yol": "u04-newton-un-hareket-yasalari/k0037-kuvvet-vektor-olarak",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0038",
+     "ad": "Net kuvvet ve süperpozisyon",
+     "hat": "A",
+     "gosterim": "okların toplamı",
+     "yol": "u04-newton-un-hareket-yasalari/k0038-net-kuvvet-ve-superpozisyon",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0039",
+     "ad": "Birinci yasa (eylemsizlik)",
+     "hat": "A",
+     "gosterim": "kuvvetsiz cisim sabit hızla gider",
+     "yol": "u04-newton-un-hareket-yasalari/k0039-birinci-yasa-eylemsizlik",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0040",
+     "ad": "İkinci yasa F = ma",
+     "hat": "A",
+     "gosterim": "kütle, kuvvet, ivme oku",
+     "yol": "u04-newton-un-hareket-yasalari/k0040-ikinci-yasa-f-ma",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0041",
+     "ad": "Üçüncü yasa (etki-tepki çifti)",
+     "hat": "A",
+     "gosterim": "iki cisim, eşit zıt oklar",
+     "yol": "u04-newton-un-hareket-yasalari/k0041-ucuncu-yasa-etki-tepki-cifti",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0042",
+     "ad": "Serbest cisim diyagramı (SCD)",
+     "hat": "A",
+     "gosterim": "cisim noktası ve üstüne etkiyen oklar",
+     "yol": "u04-newton-un-hareket-yasalari/k0042-serbest-cisim-diyagrami-scd",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0043",
+     "ad": "Ağırlık ve kütle farkı",
+     "hat": "A",
+     "gosterim": "aynı cisim Dünya ve Ay'da",
+     "yol": "u04-newton-un-hareket-yasalari/k0043-agirlik-ve-kutle-farki",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0044",
+     "ad": "Normal kuvvet",
+     "hat": "A",
+     "gosterim": "yüzeye dik ok",
+     "yol": "u04-newton-un-hareket-yasalari/k0044-normal-kuvvet",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0045",
+     "ad": "İp gerilmesi",
+     "hat": "A",
+     "gosterim": "iple asılı cisim, T ve mg",
+     "yol": "u04-newton-un-hareket-yasalari/k0045-ip-gerilmesi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0046",
+     "ad": "Eğik düzlem",
+     "hat": "A",
+     "gosterim": "ağırlığın bileşenlerine ayrılması",
+     "yol": "u04-newton-un-hareket-yasalari/k0046-egik-duzlem",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0047",
+     "ad": "Atwood makarası",
+     "hat": "A",
+     "gosterim": "iki kütle, ip, makara, T ve ivme yönü",
+     "yol": "u04-newton-un-hareket-yasalari/k0047-atwood-makarasi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0048",
+     "ad": "Makara ile bağlı iki cisim (masa + asılı)",
+     "hat": "A",
+     "gosterim": "ivme yönü",
+     "yol": "u04-newton-un-hareket-yasalari/k0048-makara-ile-bagli-iki-cisim-masa-asili",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0049",
+     "ad": "Asansörde görünür ağırlık",
+     "hat": "A",
+     "gosterim": "yukarı/aşağı ivme, normal kuvvet",
+     "yol": "u04-newton-un-hareket-yasalari/k0049-asansorde-gorunur-agirlik",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0050",
+     "ad": "Eylemsiz çerçeve",
+     "hat": "A",
+     "gosterim": "hızlanan araçta sarkan top",
+     "yol": "u04-newton-un-hareket-yasalari/k0050-eylemsiz-cerceve",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0051",
+     "ad": "Roket fırlatma",
+     "hat": "B",
+     "gosterim": "etki-tepki sahnesi",
+     "yol": "u04-newton-un-hareket-yasalari/k0051-roket-firlatma",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0052",
+     "ad": "Buz üzerinde itişen iki kişi",
+     "hat": "B",
+     "gosterim": "üçüncü yasa",
+     "yol": "u04-newton-un-hareket-yasalari/k0052-buz-uzerinde-itisen-iki-kisi",
+     "beklenen": 3,
+     "gorseller": []
+    }
+   ]
+  },
+  {
+   "no": 5,
+   "ad": "Newton yasalarının uygulamaları",
+   "klasor": "u05-newton-yasalarinin-uygulamalari",
+   "kavramlar": [
+    {
+     "id": "k0053",
+     "ad": "Statik sürtünme",
+     "hat": "A",
+     "gosterim": "uygulanan kuvvete göre eşik",
+     "yol": "u05-newton-yasalarinin-uygulamalari/k0053-statik-surtunme",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0054",
+     "ad": "Kinetik sürtünme",
+     "hat": "A",
+     "gosterim": "f = μN, hareket yönüne zıt",
+     "yol": "u05-newton-yasalarinin-uygulamalari/k0054-kinetik-surtunme",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0055",
+     "ad": "Sürtünme kuvveti – uygulanan kuvvet grafiği",
+     "hat": "A",
+     "gosterim": "statik sınır, kinetik düz çizgi",
+     "yol": "u05-newton-yasalarinin-uygulamalari/k0055-surtunme-kuvveti-uygulanan-kuvvet-grafig",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0056",
+     "ad": "Sürtünme katsayısı ölçümü (eğik düzlem açısı)",
+     "hat": "A",
+     "gosterim": "cismin kayma eşiği θ",
+     "yol": "u05-newton-yasalarinin-uygulamalari/k0056-surtunme-katsayisi-olcumu-egik-duzlem-ac",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0057",
+     "ad": "Eğik düzlemde sürtünmeli hareket",
+     "hat": "A",
+     "gosterim": "SCD, bileşenler",
+     "yol": "u05-newton-yasalarinin-uygulamalari/k0057-egik-duzlemde-surtunmeli-hareket",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0058",
+     "ad": "Akışkan direnci (sürüklenme)",
+     "hat": "A",
+     "gosterim": "hız arttıkça artan kuvvet",
+     "yol": "u05-newton-yasalarinin-uygulamalari/k0058-akiskan-direnci-suruklenme",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0059",
+     "ad": "Limit hız",
+     "hat": "A",
+     "gosterim": "v-t grafiği, asimptot",
+     "yol": "u05-newton-yasalarinin-uygulamalari/k0059-limit-hiz",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0060",
+     "ad": "Dairesel harekette kuvvet",
+     "hat": "A",
+     "gosterim": "merkezcil kuvvet oku",
+     "yol": "u05-newton-yasalarinin-uygulamalari/k0060-dairesel-harekette-kuvvet",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0061",
+     "ad": "Viraj dönen araba (düz)",
+     "hat": "A",
+     "gosterim": "sürtünme merkezcil kuvvet",
+     "yol": "u05-newton-yasalarinin-uygulamalari/k0061-viraj-donen-araba-duz",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0062",
+     "ad": "Eğimli virajda araba",
+     "hat": "A",
+     "gosterim": "normal kuvvetin yatay bileşeni",
+     "yol": "u05-newton-yasalarinin-uygulamalari/k0062-egimli-virajda-araba",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0063",
+     "ad": "Konik sarkaç",
+     "hat": "A",
+     "gosterim": "gerilme bileşenleri, yarıçap",
+     "yol": "u05-newton-yasalarinin-uygulamalari/k0063-konik-sarkac",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0064",
+     "ad": "Düşey daire (ölü nokta)",
+     "hat": "A",
+     "gosterim": "alt ve üst noktada kuvvetler",
+     "yol": "u05-newton-yasalarinin-uygulamalari/k0064-dusey-daire-olu-nokta",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0065",
+     "ad": "Doğanın dört temel kuvveti",
+     "hat": "A",
+     "gosterim": "kuvvet ağacı, göreli şiddet logaritmik çubuk",
+     "yol": "u05-newton-yasalarinin-uygulamalari/k0065-doganin-dort-temel-kuvveti",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0066",
+     "ad": "Karda kayan kızak",
+     "hat": "B",
+     "gosterim": "sürtünme sahnesi",
+     "yol": "u05-newton-yasalarinin-uygulamalari/k0066-karda-kayan-kizak",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0067",
+     "ad": "Paraşütle inen kişi",
+     "hat": "B",
+     "gosterim": "limit hız",
+     "yol": "u05-newton-yasalarinin-uygulamalari/k0067-parasutle-inen-kisi",
+     "beklenen": 3,
+     "gorseller": []
+    }
+   ]
+  },
+  {
+   "no": 6,
+   "ad": "İş ve kinetik enerji",
+   "klasor": "u06-is-ve-kinetik-enerji",
+   "kavramlar": [
+    {
+     "id": "k0068",
+     "ad": "Sabit kuvvetin yaptığı iş",
+     "hat": "A",
+     "gosterim": "W = F·d·cosθ, açı",
+     "yol": "u06-is-ve-kinetik-enerji/k0068-sabit-kuvvetin-yaptigi-is",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0069",
+     "ad": "İşin işareti",
+     "hat": "A",
+     "gosterim": "pozitif, sıfır, negatif iş (açıya göre)",
+     "yol": "u06-is-ve-kinetik-enerji/k0069-isin-isareti",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0070",
+     "ad": "Kuvvet–yer değiştirme grafiği",
+     "hat": "A",
+     "gosterim": "alan = iş",
+     "yol": "u06-is-ve-kinetik-enerji/k0070-kuvvet-yer-degistirme-grafigi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0071",
+     "ad": "Değişken kuvvetin işi",
+     "hat": "A",
+     "gosterim": "eğri altındaki alan",
+     "yol": "u06-is-ve-kinetik-enerji/k0071-degisken-kuvvetin-isi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0072",
+     "ad": "Yay kuvveti (Hooke)",
+     "hat": "A",
+     "gosterim": "F = −kx doğrusu",
+     "yol": "u06-is-ve-kinetik-enerji/k0072-yay-kuvveti-hooke",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0073",
+     "ad": "Yayın işi",
+     "hat": "A",
+     "gosterim": "üçgen alan, ½kx²",
+     "yol": "u06-is-ve-kinetik-enerji/k0073-yayin-isi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0074",
+     "ad": "İş–kinetik enerji teoremi",
+     "hat": "A",
+     "gosterim": "W = ΔK",
+     "yol": "u06-is-ve-kinetik-enerji/k0074-is-kinetik-enerji-teoremi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0075",
+     "ad": "Kinetik enerji K = ½mv²",
+     "hat": "A",
+     "gosterim": "v² arttıkça parabol",
+     "yol": "u06-is-ve-kinetik-enerji/k0075-kinetik-enerji-k-mv",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0076",
+     "ad": "Güç",
+     "hat": "A",
+     "gosterim": "P = W/t ve P = F·v",
+     "yol": "u06-is-ve-kinetik-enerji/k0076-guc",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0077",
+     "ad": "Ortalama ve ani güç",
+     "hat": "A",
+     "gosterim": "enerji–zaman eğrisinin eğimi",
+     "yol": "u06-is-ve-kinetik-enerji/k0077-ortalama-ve-ani-guc",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0078",
+     "ad": "Yerçekimi işi (yukarı/aşağı)",
+     "hat": "A",
+     "gosterim": "yol bağımsızlığı",
+     "yol": "u06-is-ve-kinetik-enerji/k0078-yercekimi-isi-yukari-asagi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0079",
+     "ad": "Yükü yukarı çeken vinç",
+     "hat": "B",
+     "gosterim": "güç sahnesi",
+     "yol": "u06-is-ve-kinetik-enerji/k0079-yuku-yukari-ceken-vinc",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0080",
+     "ad": "Gerilmiş yay ve ok",
+     "hat": "B",
+     "gosterim": "enerji depolama",
+     "yol": "u06-is-ve-kinetik-enerji/k0080-gerilmis-yay-ve-ok",
+     "beklenen": 3,
+     "gorseller": []
+    }
+   ]
+  },
+  {
+   "no": 7,
+   "ad": "Potansiyel enerji ve enerjinin korunumu",
+   "klasor": "u07-potansiyel-enerji-ve-enerjinin-korunumu",
+   "kavramlar": [
+    {
+     "id": "k0081",
+     "ad": "Korunumlu ve korunumsuz kuvvet",
+     "hat": "A",
+     "gosterim": "kapalı yolda iş = 0 / ≠ 0",
+     "yol": "u07-potansiyel-enerji-ve-enerjinin-korunumu/k0081-korunumlu-ve-korunumsuz-kuvvet",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0082",
+     "ad": "Yol bağımsızlığı",
+     "hat": "A",
+     "gosterim": "A→B farklı üç yol",
+     "yol": "u07-potansiyel-enerji-ve-enerjinin-korunumu/k0082-yol-bagimsizligi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0083",
+     "ad": "Yerçekimi potansiyel enerjisi",
+     "hat": "A",
+     "gosterim": "U = mgh, h ekseni",
+     "yol": "u07-potansiyel-enerji-ve-enerjinin-korunumu/k0083-yercekimi-potansiyel-enerjisi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0084",
+     "ad": "Esneklik potansiyel enerjisi",
+     "hat": "A",
+     "gosterim": "U = ½kx², parabol",
+     "yol": "u07-potansiyel-enerji-ve-enerjinin-korunumu/k0084-esneklik-potansiyel-enerjisi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0085",
+     "ad": "Mekanik enerjinin korunumu",
+     "hat": "A",
+     "gosterim": "K ve U'nun toplamı sabit çubuk grafiği",
+     "yol": "u07-potansiyel-enerji-ve-enerjinin-korunumu/k0085-mekanik-enerjinin-korunumu",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0086",
+     "ad": "Potansiyel enerji eğrisi ve denge noktaları",
+     "hat": "A",
+     "gosterim": "kararlı, kararsız, nötr",
+     "yol": "u07-potansiyel-enerji-ve-enerjinin-korunumu/k0086-potansiyel-enerji-egrisi-ve-denge-noktal",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0087",
+     "ad": "Dönüm noktaları (U eğrisinde)",
+     "hat": "A",
+     "gosterim": "E çizgisi U ile kesişir",
+     "yol": "u07-potansiyel-enerji-ve-enerjinin-korunumu/k0087-donum-noktalari-u-egrisinde",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0088",
+     "ad": "Kuvvet = −dU/dx",
+     "hat": "A",
+     "gosterim": "eğim ve kuvvet işareti",
+     "yol": "u07-potansiyel-enerji-ve-enerjinin-korunumu/k0088-kuvvet-du-dx",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0089",
+     "ad": "Sarkaçta enerji dönüşümü",
+     "hat": "A",
+     "gosterim": "alt noktada K max, uçlarda U max",
+     "yol": "u07-potansiyel-enerji-ve-enerjinin-korunumu/k0089-sarkacta-enerji-donusumu",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0090",
+     "ad": "Roller coaster yörüngesi",
+     "hat": "A",
+     "gosterim": "farklı noktalarda K ve U çubukları",
+     "yol": "u07-potansiyel-enerji-ve-enerjinin-korunumu/k0090-roller-coaster-yorungesi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0091",
+     "ad": "Sürtünmeli enerji kaybı",
+     "hat": "A",
+     "gosterim": "ısıya dönüşen enerji",
+     "yol": "u07-potansiyel-enerji-ve-enerjinin-korunumu/k0091-surtunmeli-enerji-kaybi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0092",
+     "ad": "Enerjinin korunumu (genel)",
+     "hat": "A",
+     "gosterim": "sistem enerji akış çizimi",
+     "yol": "u07-potansiyel-enerji-ve-enerjinin-korunumu/k0092-enerjinin-korunumu-genel",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0093",
+     "ad": "Yüksekten atılan cismin enerji grafiği",
+     "hat": "A",
+     "gosterim": "K, U, toplam zamanla",
+     "yol": "u07-potansiyel-enerji-ve-enerjinin-korunumu/k0093-yuksekten-atilan-cismin-enerji-grafigi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0094",
+     "ad": "Roller coaster",
+     "hat": "B",
+     "gosterim": "tepe ve vadi sahnesi",
+     "yol": "u07-potansiyel-enerji-ve-enerjinin-korunumu/k0094-roller-coaster",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0095",
+     "ad": "Bungee atlayışı",
+     "hat": "B",
+     "gosterim": "yay ve yerçekimi enerjisi",
+     "yol": "u07-potansiyel-enerji-ve-enerjinin-korunumu/k0095-bungee-atlayisi",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0096",
+     "ad": "Sarkaçlı saat",
+     "hat": "B",
+     "gosterim": "enerji döngüsü",
+     "yol": "u07-potansiyel-enerji-ve-enerjinin-korunumu/k0096-sarkacli-saat",
+     "beklenen": 3,
+     "gorseller": []
+    }
+   ]
+  },
+  {
+   "no": 8,
+   "ad": "Momentum ve itme",
+   "klasor": "u08-momentum-ve-itme",
+   "kavramlar": [
+    {
+     "id": "k0097",
+     "ad": "Lineer momentum p = mv",
+     "hat": "A",
+     "gosterim": "iki kütleli cisim, aynı hız",
+     "yol": "u08-momentum-ve-itme/k0097-lineer-momentum-p-mv",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0098",
+     "ad": "İtme J = F·Δt",
+     "hat": "A",
+     "gosterim": "kuvvet–zaman eğrisinin altındaki alan",
+     "yol": "u08-momentum-ve-itme/k0098-itme-j-f-t",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0099",
+     "ad": "İtme–momentum teoremi",
+     "hat": "A",
+     "gosterim": "J = Δp",
+     "yol": "u08-momentum-ve-itme/k0099-itme-momentum-teoremi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0100",
+     "ad": "Ortalama kuvvet",
+     "hat": "A",
+     "gosterim": "gerçek eğri ve eşdeğer dikdörtgen",
+     "yol": "u08-momentum-ve-itme/k0100-ortalama-kuvvet",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0101",
+     "ad": "Momentumun korunumu",
+     "hat": "A",
+     "gosterim": "çarpışma öncesi ve sonrası",
+     "yol": "u08-momentum-ve-itme/k0101-momentumun-korunumu",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0102",
+     "ad": "Esnek çarpışma (1B)",
+     "hat": "A",
+     "gosterim": "iki cisim, hızlar ve K korunur",
+     "yol": "u08-momentum-ve-itme/k0102-esnek-carpisma-1b",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0103",
+     "ad": "Esnek olmayan çarpışma",
+     "hat": "A",
+     "gosterim": "birleşen cisimler",
+     "yol": "u08-momentum-ve-itme/k0103-esnek-olmayan-carpisma",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0104",
+     "ad": "Tam esnek olmayan çarpışma",
+     "hat": "A",
+     "gosterim": "yapışma, ortak hız",
+     "yol": "u08-momentum-ve-itme/k0104-tam-esnek-olmayan-carpisma",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0105",
+     "ad": "2B çarpışma",
+     "hat": "A",
+     "gosterim": "bileşenlere ayrılmış momentum vektörleri",
+     "yol": "u08-momentum-ve-itme/k0105-2b-carpisma",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0106",
+     "ad": "Kütle merkezi (iki parçacık)",
+     "hat": "A",
+     "gosterim": "ağırlıklı ortalama",
+     "yol": "u08-momentum-ve-itme/k0106-kutle-merkezi-iki-parcacik",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0107",
+     "ad": "Kütle merkezi (sürekli cisim)",
+     "hat": "A",
+     "gosterim": "simetri ve denge noktası",
+     "yol": "u08-momentum-ve-itme/k0107-kutle-merkezi-surekli-cisim",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0108",
+     "ad": "Kütle merkezinin hareketi",
+     "hat": "A",
+     "gosterim": "patlayan cisim, kütle merkezi sabit gider",
+     "yol": "u08-momentum-ve-itme/k0108-kutle-merkezinin-hareketi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0109",
+     "ad": "Balistik sarkaç",
+     "hat": "A",
+     "gosterim": "kurşun, blok ve tırmanma yüksekliği",
+     "yol": "u08-momentum-ve-itme/k0109-balistik-sarkac",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0110",
+     "ad": "Roket hareketi (değişken kütle)",
+     "hat": "A",
+     "gosterim": "yakıt çıkışı, momentum",
+     "yol": "u08-momentum-ve-itme/k0110-roket-hareketi-degisken-kutle",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0111",
+     "ad": "Bilardo toplarının çarpışması",
+     "hat": "B",
+     "gosterim": "itme ve aktarım",
+     "yol": "u08-momentum-ve-itme/k0111-bilardo-toplarinin-carpismasi",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0112",
+     "ad": "Kaza testi (çarpışma bölgesi)",
+     "hat": "B",
+     "gosterim": "kırışma bölgesi, süre uzaması",
+     "yol": "u08-momentum-ve-itme/k0112-kaza-testi-carpisma-bolgesi",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0113",
+     "ad": "Hava yastığı",
+     "hat": "B",
+     "gosterim": "çarpma süresini uzatma",
+     "yol": "u08-momentum-ve-itme/k0113-hava-yastigi",
+     "beklenen": 3,
+     "gorseller": []
+    }
+   ]
+  },
+  {
+   "no": 9,
+   "ad": "Dönme hareketi",
+   "klasor": "u09-donme-hareketi",
+   "kavramlar": [
+    {
+     "id": "k0114",
+     "ad": "Açısal konum, hız, ivme",
+     "hat": "A",
+     "gosterim": "dönen çubuk, θ, ω, α",
+     "yol": "u09-donme-hareketi/k0114-acisal-konum-hiz-ivme",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0115",
+     "ad": "Radyan ve derece",
+     "hat": "A",
+     "gosterim": "yay uzunluğu = rθ",
+     "yol": "u09-donme-hareketi/k0115-radyan-ve-derece",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0116",
+     "ad": "Sabit açısal ivmeli dönme",
+     "hat": "A",
+     "gosterim": "doğrusal harekete benzeşim tablosu",
+     "yol": "u09-donme-hareketi/k0116-sabit-acisal-ivmeli-donme",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0117",
+     "ad": "Doğrusal ve açısal nicelikler",
+     "hat": "A",
+     "gosterim": "v = ωr, a_t = αr, a_c = ω²r",
+     "yol": "u09-donme-hareketi/k0117-dogrusal-ve-acisal-nicelikler",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0118",
+     "ad": "Dönme kinetik enerjisi",
+     "hat": "A",
+     "gosterim": "K = ½Iω²",
+     "yol": "u09-donme-hareketi/k0118-donme-kinetik-enerjisi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0119",
+     "ad": "Eylemsizlik momenti (nokta kütleler)",
+     "hat": "A",
+     "gosterim": "I = Σmr²",
+     "yol": "u09-donme-hareketi/k0119-eylemsizlik-momenti-nokta-kutleler",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0120",
+     "ad": "Eylemsizlik momentleri (halka, disk, çubuk, küre)",
+     "hat": "A",
+     "gosterim": "şekil ve formül sembolleri",
+     "yol": "u09-donme-hareketi/k0120-eylemsizlik-momentleri-halka-disk-cubuk",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0121",
+     "ad": "Paralel eksen (Steiner) teoremi",
+     "hat": "A",
+     "gosterim": "I = I_cm + Md²",
+     "yol": "u09-donme-hareketi/k0121-paralel-eksen-steiner-teoremi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0122",
+     "ad": "Tork τ = r × F",
+     "hat": "A",
+     "gosterim": "kuvvet kolu ve açı",
+     "yol": "u09-donme-hareketi/k0122-tork-r-f",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0123",
+     "ad": "Dönme için Newton ikinci yasası",
+     "hat": "A",
+     "gosterim": "τ = Iα",
+     "yol": "u09-donme-hareketi/k0123-donme-icin-newton-ikinci-yasasi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0124",
+     "ad": "Tork ve kaldıraç kolu",
+     "hat": "A",
+     "gosterim": "eşit kuvvet, farklı kol",
+     "yol": "u09-donme-hareketi/k0124-tork-ve-kaldirac-kolu",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0125",
+     "ad": "Yuvarlanma (kaymadan)",
+     "hat": "A",
+     "gosterim": "v_cm = ωR, tekerlek noktası hareketi",
+     "yol": "u09-donme-hareketi/k0125-yuvarlanma-kaymadan",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0126",
+     "ad": "Yuvarlanan cisim enerjisi",
+     "hat": "A",
+     "gosterim": "K = ½Mv² + ½Iω²",
+     "yol": "u09-donme-hareketi/k0126-yuvarlanan-cisim-enerjisi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0127",
+     "ad": "Eğik düzlemde yuvarlanma",
+     "hat": "A",
+     "gosterim": "halka, disk, küre yarışı",
+     "yol": "u09-donme-hareketi/k0127-egik-duzlemde-yuvarlanma",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0128",
+     "ad": "Cisimlerin yarışı (halka-disk-küre)",
+     "hat": "A",
+     "gosterim": "v ve zaman",
+     "yol": "u09-donme-hareketi/k0128-cisimlerin-yarisi-halka-disk-kure",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0129",
+     "ad": "Açısal momentum L = r × p",
+     "hat": "A",
+     "gosterim": "sağ el kuralı",
+     "yol": "u09-donme-hareketi/k0129-acisal-momentum-l-r-p",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0130",
+     "ad": "Açısal momentum L = Iω",
+     "hat": "A",
+     "gosterim": "dönen disk",
+     "yol": "u09-donme-hareketi/k0130-acisal-momentum-l-i",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0131",
+     "ad": "Açısal momentumun korunumu",
+     "hat": "A",
+     "gosterim": "buz patencisi kolları açıp kapatma",
+     "yol": "u09-donme-hareketi/k0131-acisal-momentumun-korunumu",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0132",
+     "ad": "Presesyon (jiroskop)",
+     "hat": "A",
+     "gosterim": "dönen tepe, ağırlık, tork",
+     "yol": "u09-donme-hareketi/k0132-presesyon-jiroskop",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0133",
+     "ad": "Dönmede iş ve güç",
+     "hat": "A",
+     "gosterim": "W = ∫τ dθ, P = τω",
+     "yol": "u09-donme-hareketi/k0133-donmede-is-ve-guc",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0134",
+     "ad": "Buz patencisi dönüşü",
+     "hat": "B",
+     "gosterim": "kollar içeri ve dışarı",
+     "yol": "u09-donme-hareketi/k0134-buz-patencisi-donusu",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0135",
+     "ad": "Kaldıraç ve tahterevalli",
+     "hat": "B",
+     "gosterim": "tork dengesi",
+     "yol": "u09-donme-hareketi/k0135-kaldirac-ve-tahterevalli",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0136",
+     "ad": "Bisiklet tekerleği",
+     "hat": "B",
+     "gosterim": "dönen jiroskop etkisi",
+     "yol": "u09-donme-hareketi/k0136-bisiklet-tekerlegi",
+     "beklenen": 3,
+     "gorseller": []
+    }
+   ]
+  },
+  {
+   "no": 10,
+   "ad": "Denge ve esneklik",
+   "klasor": "u10-denge-ve-esneklik",
+   "kavramlar": [
+    {
+     "id": "k0137",
+     "ad": "Statik denge koşulları",
+     "hat": "A",
+     "gosterim": "ΣF = 0 ve Στ = 0",
+     "yol": "u10-denge-ve-esneklik/k0137-statik-denge-kosullari",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0138",
+     "ad": "Kütle merkezi ve ağırlık merkezi",
+     "hat": "A",
+     "gosterim": "cismin yerçekimi etki noktası",
+     "yol": "u10-denge-ve-esneklik/k0138-kutle-merkezi-ve-agirlik-merkezi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0139",
+     "ad": "Tek çubuk dengesi",
+     "hat": "A",
+     "gosterim": "iki destek, yük, tepki kuvvetleri",
+     "yol": "u10-denge-ve-esneklik/k0139-tek-cubuk-dengesi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0140",
+     "ad": "Merdiven problemi",
+     "hat": "A",
+     "gosterim": "duvar, zemin, sürtünme, SCD",
+     "yol": "u10-denge-ve-esneklik/k0140-merdiven-problemi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0141",
+     "ad": "Asılı levha / çatı kirişi",
+     "hat": "A",
+     "gosterim": "ip gerilmeleri",
+     "yol": "u10-denge-ve-esneklik/k0141-asili-levha-cati-kirisi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0142",
+     "ad": "Kararlı, kararsız, nötr denge",
+     "hat": "A",
+     "gosterim": "top vadide, tepede, düzlemde",
+     "yol": "u10-denge-ve-esneklik/k0142-kararli-kararsiz-notr-denge",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0143",
+     "ad": "Gerilme (stres) ve birim şekil değiştirme",
+     "hat": "A",
+     "gosterim": "σ = F/A, ε = ΔL/L",
+     "yol": "u10-denge-ve-esneklik/k0143-gerilme-stres-ve-birim-sekil-degistirme",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0144",
+     "ad": "Gerilme–şekil değiştirme eğrisi",
+     "hat": "A",
+     "gosterim": "elastik bölge, akma, kopma",
+     "yol": "u10-denge-ve-esneklik/k0144-gerilme-sekil-degistirme-egrisi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0145",
+     "ad": "Young modülü",
+     "hat": "A",
+     "gosterim": "elastik bölgenin eğimi",
+     "yol": "u10-denge-ve-esneklik/k0145-young-modulu",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0146",
+     "ad": "Kesme (shear) modülü",
+     "hat": "A",
+     "gosterim": "paralel kuvvetle kayma",
+     "yol": "u10-denge-ve-esneklik/k0146-kesme-shear-modulu",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0147",
+     "ad": "Hacim (bulk) modülü",
+     "hat": "A",
+     "gosterim": "basınç altında hacim küçülmesi",
+     "yol": "u10-denge-ve-esneklik/k0147-hacim-bulk-modulu",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0148",
+     "ad": "Yay sabitleri (seri/paralel)",
+     "hat": "A",
+     "gosterim": "eşdeğer k",
+     "yol": "u10-denge-ve-esneklik/k0148-yay-sabitleri-seri-paralel",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0149",
+     "ad": "Taş köprü kemeri",
+     "hat": "B",
+     "gosterim": "kuvvet dağılımı",
+     "yol": "u10-denge-ve-esneklik/k0149-tas-kopru-kemeri",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0150",
+     "ad": "Dengede duran heykel / kaya",
+     "hat": "B",
+     "gosterim": "kütle merkezi sahnesi",
+     "yol": "u10-denge-ve-esneklik/k0150-dengede-duran-heykel-kaya",
+     "beklenen": 3,
+     "gorseller": []
+    }
+   ]
+  },
+  {
+   "no": 11,
+   "ad": "Periyodik hareket",
+   "klasor": "u11-periyodik-hareket",
+   "kavramlar": [
+    {
+     "id": "k0151",
+     "ad": "Basit harmonik hareket (BHH)",
+     "hat": "A",
+     "gosterim": "x(t) sinüs eğrisi",
+     "yol": "u11-periyodik-hareket/k0151-basit-harmonik-hareket-bhh",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0152",
+     "ad": "Yay–kütle sistemi",
+     "hat": "A",
+     "gosterim": "m, k, denge noktası",
+     "yol": "u11-periyodik-hareket/k0152-yay-kutle-sistemi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0153",
+     "ad": "ω = √(k/m) ve periyot",
+     "hat": "A",
+     "gosterim": "farklı k ve m için eğriler",
+     "yol": "u11-periyodik-hareket/k0153-k-m-ve-periyot",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0154",
+     "ad": "Genlik, faz ve faz sabiti",
+     "hat": "A",
+     "gosterim": "kaymış sinüs eğrileri",
+     "yol": "u11-periyodik-hareket/k0154-genlik-faz-ve-faz-sabiti",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0155",
+     "ad": "x, v, a ilişkisi (BHH)",
+     "hat": "A",
+     "gosterim": "üç grafik üst üste, faz farkı",
+     "yol": "u11-periyodik-hareket/k0155-x-v-a-iliskisi-bhh",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0156",
+     "ad": "BHH'de enerji",
+     "hat": "A",
+     "gosterim": "K ve U zamanla ve konumla",
+     "yol": "u11-periyodik-hareket/k0156-bhh-de-enerji",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0157",
+     "ad": "Düşey yay sarkacı",
+     "hat": "A",
+     "gosterim": "denge noktası kayması",
+     "yol": "u11-periyodik-hareket/k0157-dusey-yay-sarkaci",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0158",
+     "ad": "Basit sarkaç",
+     "hat": "A",
+     "gosterim": "uzunluk, açı, T = 2π√(L/g)",
+     "yol": "u11-periyodik-hareket/k0158-basit-sarkac",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0159",
+     "ad": "Fiziksel sarkaç",
+     "hat": "A",
+     "gosterim": "pivot, kütle merkezi, I",
+     "yol": "u11-periyodik-hareket/k0159-fiziksel-sarkac",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0160",
+     "ad": "Burulma sarkacı",
+     "hat": "A",
+     "gosterim": "disk, tel, torsiyon",
+     "yol": "u11-periyodik-hareket/k0160-burulma-sarkaci",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0161",
+     "ad": "Dairesel harekete eşdeğerlik",
+     "hat": "A",
+     "gosterim": "BHH = dairesel hareketin izdüşümü",
+     "yol": "u11-periyodik-hareket/k0161-dairesel-harekete-esdegerlik",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0162",
+     "ad": "Sönümlü harmonik hareket",
+     "hat": "A",
+     "gosterim": "azalan genlik zarfı",
+     "yol": "u11-periyodik-hareket/k0162-sonumlu-harmonik-hareket",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0163",
+     "ad": "Zorlanmış titreşim ve rezonans",
+     "hat": "A",
+     "gosterim": "genlik–frekans eğrisi",
+     "yol": "u11-periyodik-hareket/k0163-zorlanmis-titresim-ve-rezonans",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0164",
+     "ad": "Yay kombinasyonları ve periyot",
+     "hat": "A",
+     "gosterim": "seri/paralel yay, farklı T",
+     "yol": "u11-periyodik-hareket/k0164-yay-kombinasyonlari-ve-periyot",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0165",
+     "ad": "Salıncak",
+     "hat": "B",
+     "gosterim": "basit sarkaç sahnesi",
+     "yol": "u11-periyodik-hareket/k0165-salincak",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0166",
+     "ad": "Tarlada arabanın süspansiyonu",
+     "hat": "B",
+     "gosterim": "sönümleme",
+     "yol": "u11-periyodik-hareket/k0166-tarlada-arabanin-suspansiyonu",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0167",
+     "ad": "Rezonansla çöken köprü",
+     "hat": "B",
+     "gosterim": "rezonans metaforu",
+     "yol": "u11-periyodik-hareket/k0167-rezonansla-coken-kopru",
+     "beklenen": 3,
+     "gorseller": []
+    }
+   ]
+  },
+  {
+   "no": 12,
+   "ad": "Yerçekimi",
+   "klasor": "u12-yercekimi",
+   "kavramlar": [
+    {
+     "id": "k0168",
+     "ad": "Newton'un evrensel çekim yasası",
+     "hat": "A",
+     "gosterim": "iki kütle, r, F oku",
+     "yol": "u12-yercekimi/k0168-newton-un-evrensel-cekim-yasasi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0169",
+     "ad": "Yerçekimi ivmesi (yüzeyde ve yükseklikte)",
+     "hat": "A",
+     "gosterim": "g – yarıçap eğrisi",
+     "yol": "u12-yercekimi/k0169-yercekimi-ivmesi-yuzeyde-ve-yukseklikte",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0170",
+     "ad": "Dünya içinde g",
+     "hat": "A",
+     "gosterim": "yüzey altında doğrusal azalma",
+     "yol": "u12-yercekimi/k0170-dunya-icinde-g",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0171",
+     "ad": "Süperpozisyon ve küre kabuğu teoremi",
+     "hat": "A",
+     "gosterim": "kabuğun içi ve dışı",
+     "yol": "u12-yercekimi/k0171-superpozisyon-ve-kure-kabugu-teoremi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0172",
+     "ad": "Yerçekimi potansiyel enerjisi U = −GMm/r",
+     "hat": "A",
+     "gosterim": "−1/r eğrisi",
+     "yol": "u12-yercekimi/k0172-yercekimi-potansiyel-enerjisi-u-gmm-r",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0173",
+     "ad": "Kurtulma hızı",
+     "hat": "A",
+     "gosterim": "enerji eşiği ve potansiyel kuyusu",
+     "yol": "u12-yercekimi/k0173-kurtulma-hizi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0174",
+     "ad": "Kepler 1. yasa",
+     "hat": "A",
+     "gosterim": "elips ve odak",
+     "yol": "u12-yercekimi/k0174-kepler-1-yasa",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0175",
+     "ad": "Kepler 2. yasa",
+     "hat": "A",
+     "gosterim": "eşit sürede eşit alan",
+     "yol": "u12-yercekimi/k0175-kepler-2-yasa",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0176",
+     "ad": "Kepler 3. yasa",
+     "hat": "A",
+     "gosterim": "T² – a³ doğrusu",
+     "yol": "u12-yercekimi/k0176-kepler-3-yasa",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0177",
+     "ad": "Dairesel yörünge ve hız",
+     "hat": "A",
+     "gosterim": "v = √(GM/r)",
+     "yol": "u12-yercekimi/k0177-dairesel-yorunge-ve-hiz",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0178",
+     "ad": "Uydu enerjisi",
+     "hat": "A",
+     "gosterim": "K, U, E toplam",
+     "yol": "u12-yercekimi/k0178-uydu-enerjisi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0179",
+     "ad": "Jeosenkron yörünge",
+     "hat": "A",
+     "gosterim": "sabit görünen uydu",
+     "yol": "u12-yercekimi/k0179-jeosenkron-yorunge",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0180",
+     "ad": "Elips yörüngede enerji",
+     "hat": "A",
+     "gosterim": "günberi ve günöte",
+     "yol": "u12-yercekimi/k0180-elips-yorungede-enerji",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0181",
+     "ad": "Gelgit kuvvetleri",
+     "hat": "A",
+     "gosterim": "Ay'ın Dünya'ya etkisi, iki şişkinlik",
+     "yol": "u12-yercekimi/k0181-gelgit-kuvvetleri",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0182",
+     "ad": "Kütle çekim alanı çizgileri",
+     "hat": "A",
+     "gosterim": "merkeze yönelen alan okları",
+     "yol": "u12-yercekimi/k0182-kutle-cekim-alani-cizgileri",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0183",
+     "ad": "Ay'ın Dünya çevresinde dönmesi",
+     "hat": "B",
+     "gosterim": "gezegen sahnesi",
+     "yol": "u12-yercekimi/k0183-ay-in-dunya-cevresinde-donmesi",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0184",
+     "ad": "Elmanın düşmesi",
+     "hat": "B",
+     "gosterim": "evrensel çekim anlatımı",
+     "yol": "u12-yercekimi/k0184-elmanin-dusmesi",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0185",
+     "ad": "Uydu fırlatma",
+     "hat": "B",
+     "gosterim": "yörüngeye yerleştirme",
+     "yol": "u12-yercekimi/k0185-uydu-firlatma",
+     "beklenen": 3,
+     "gorseller": []
+    }
+   ]
+  },
+  {
+   "no": 13,
+   "ad": "Dalgalar I (mekanik dalgalar)",
+   "klasor": "u13-dalgalar-i-mekanik-dalgalar",
+   "kavramlar": [
+    {
+     "id": "k0186",
+     "ad": "Enine ve boyuna dalga",
+     "hat": "A",
+     "gosterim": "yay üzerinde iki türde dalga",
+     "yol": "u13-dalgalar-i-mekanik-dalgalar/k0186-enine-ve-boyuna-dalga",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0187",
+     "ad": "Dalga boyu, frekans, hız",
+     "hat": "A",
+     "gosterim": "v = λf, sinüs dalgası",
+     "yol": "u13-dalgalar-i-mekanik-dalgalar/k0187-dalga-boyu-frekans-hiz",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0188",
+     "ad": "Dalga fonksiyonu y(x,t)",
+     "hat": "A",
+     "gosterim": "ilerleyen sinüs, anlık görüntüler",
+     "yol": "u13-dalgalar-i-mekanik-dalgalar/k0188-dalga-fonksiyonu-y-x-t",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0189",
+     "ad": "Faz ve faz hızı",
+     "hat": "A",
+     "gosterim": "dalga tepesinin hareketi",
+     "yol": "u13-dalgalar-i-mekanik-dalgalar/k0189-faz-ve-faz-hizi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0190",
+     "ad": "Gergin ipte dalga hızı",
+     "hat": "A",
+     "gosterim": "v = √(T/μ)",
+     "yol": "u13-dalgalar-i-mekanik-dalgalar/k0190-gergin-ipte-dalga-hizi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0191",
+     "ad": "Dalgada enerji ve güç",
+     "hat": "A",
+     "gosterim": "genlik karesi ile orantı",
+     "yol": "u13-dalgalar-i-mekanik-dalgalar/k0191-dalgada-enerji-ve-guc",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0192",
+     "ad": "Süperpozisyon",
+     "hat": "A",
+     "gosterim": "iki dalganın toplamı",
+     "yol": "u13-dalgalar-i-mekanik-dalgalar/k0192-superpozisyon",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0193",
+     "ad": "Girişim (yapıcı/yıkıcı)",
+     "hat": "A",
+     "gosterim": "faz farkı 0 ve π",
+     "yol": "u13-dalgalar-i-mekanik-dalgalar/k0193-girisim-yapici-yikici",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0194",
+     "ad": "Duran dalgalar",
+     "hat": "A",
+     "gosterim": "düğüm ve karın noktaları",
+     "yol": "u13-dalgalar-i-mekanik-dalgalar/k0194-duran-dalgalar",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0195",
+     "ad": "Gergin tel harmonikleri",
+     "hat": "A",
+     "gosterim": "n = 1, 2, 3 modları",
+     "yol": "u13-dalgalar-i-mekanik-dalgalar/k0195-gergin-tel-harmonikleri",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0196",
+     "ad": "Yansıma (sabit/serbest uç)",
+     "hat": "A",
+     "gosterim": "faz dönüşü",
+     "yol": "u13-dalgalar-i-mekanik-dalgalar/k0196-yansima-sabit-serbest-uc",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0197",
+     "ad": "Rezonans (ipte)",
+     "hat": "A",
+     "gosterim": "farklı frekanslarda modlar",
+     "yol": "u13-dalgalar-i-mekanik-dalgalar/k0197-rezonans-ipte",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0198",
+     "ad": "Su yüzeyinde dalgalar",
+     "hat": "B",
+     "gosterim": "dalga boyu görseli",
+     "yol": "u13-dalgalar-i-mekanik-dalgalar/k0198-su-yuzeyinde-dalgalar",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0199",
+     "ad": "Gitar teli titreşimi",
+     "hat": "B",
+     "gosterim": "duran dalga sahnesi",
+     "yol": "u13-dalgalar-i-mekanik-dalgalar/k0199-gitar-teli-titresimi",
+     "beklenen": 3,
+     "gorseller": []
+    }
+   ]
+  },
+  {
+   "no": 14,
+   "ad": "Dalgalar II (ses)",
+   "klasor": "u14-dalgalar-ii-ses",
+   "kavramlar": [
+    {
+     "id": "k0200",
+     "ad": "Ses dalgası boyuna",
+     "hat": "A",
+     "gosterim": "sıkışma ve genleşme bölgeleri",
+     "yol": "u14-dalgalar-ii-ses/k0200-ses-dalgasi-boyuna",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0201",
+     "ad": "Ses hızı",
+     "hat": "A",
+     "gosterim": "ortama göre değişimi",
+     "yol": "u14-dalgalar-ii-ses/k0201-ses-hizi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0202",
+     "ad": "Ses şiddeti ve desibel",
+     "hat": "A",
+     "gosterim": "logaritmik ölçek",
+     "yol": "u14-dalgalar-ii-ses/k0202-ses-siddeti-ve-desibel",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0203",
+     "ad": "Kaynaktan uzaklık ve şiddet (1/r²)",
+     "hat": "A",
+     "gosterim": "küresel yayılma",
+     "yol": "u14-dalgalar-ii-ses/k0203-kaynaktan-uzaklik-ve-siddet-1-r",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0204",
+     "ad": "Ses kaynaklarında girişim",
+     "hat": "A",
+     "gosterim": "iki hoparlör, yapıcı/yıkıcı noktalar",
+     "yol": "u14-dalgalar-ii-ses/k0204-ses-kaynaklarinda-girisim",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0205",
+     "ad": "Açık boruda duran dalga",
+     "hat": "A",
+     "gosterim": "harmonikler",
+     "yol": "u14-dalgalar-ii-ses/k0205-acik-boruda-duran-dalga",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0206",
+     "ad": "Kapalı boruda duran dalga",
+     "hat": "A",
+     "gosterim": "tek harmonikler",
+     "yol": "u14-dalgalar-ii-ses/k0206-kapali-boruda-duran-dalga",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0207",
+     "ad": "Vuru (beats)",
+     "hat": "A",
+     "gosterim": "yakın frekans, zarf",
+     "yol": "u14-dalgalar-ii-ses/k0207-vuru-beats",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0208",
+     "ad": "Doppler etkisi (hareketli kaynak)",
+     "hat": "A",
+     "gosterim": "sıkışan ve açılan dalga cepheleri",
+     "yol": "u14-dalgalar-ii-ses/k0208-doppler-etkisi-hareketli-kaynak",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0209",
+     "ad": "Doppler etkisi (hareketli gözlemci)",
+     "hat": "A",
+     "gosterim": "algılanan frekans",
+     "yol": "u14-dalgalar-ii-ses/k0209-doppler-etkisi-hareketli-gozlemci",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0210",
+     "ad": "Süpersonik hareket ve Mach konisi",
+     "hat": "A",
+     "gosterim": "şok dalgası",
+     "yol": "u14-dalgalar-ii-ses/k0210-supersonik-hareket-ve-mach-konisi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0211",
+     "ad": "Ambulans sireni geçerken",
+     "hat": "B",
+     "gosterim": "Doppler etkisi",
+     "yol": "u14-dalgalar-ii-ses/k0211-ambulans-sireni-gecerken",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0212",
+     "ad": "Org borusu",
+     "hat": "B",
+     "gosterim": "boru rezonansı",
+     "yol": "u14-dalgalar-ii-ses/k0212-org-borusu",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0213",
+     "ad": "Uçağın ses hızını geçmesi",
+     "hat": "B",
+     "gosterim": "Mach konisi",
+     "yol": "u14-dalgalar-ii-ses/k0213-ucagin-ses-hizini-gecmesi",
+     "beklenen": 3,
+     "gorseller": []
+    }
+   ]
+  },
+  {
+   "no": 15,
+   "ad": "Sıcaklık, ısı, ideal gaz",
+   "klasor": "u15-sicaklik-isi-ideal-gaz",
+   "kavramlar": [
+    {
+     "id": "k0214",
+     "ad": "Sıcaklık ölçekleri",
+     "hat": "A",
+     "gosterim": "Celsius, Fahrenheit, Kelvin eşleşmesi",
+     "yol": "u15-sicaklik-isi-ideal-gaz/k0214-sicaklik-olcekleri",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0215",
+     "ad": "Isıl denge ve sıfırıncı yasa",
+     "hat": "A",
+     "gosterim": "A–B, B–C, A–C",
+     "yol": "u15-sicaklik-isi-ideal-gaz/k0215-isil-denge-ve-sifirinci-yasa",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0216",
+     "ad": "Termal genleşme (çizgisel)",
+     "hat": "A",
+     "gosterim": "ΔL = αLΔT",
+     "yol": "u15-sicaklik-isi-ideal-gaz/k0216-termal-genlesme-cizgisel",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0217",
+     "ad": "Hacimsel genleşme",
+     "hat": "A",
+     "gosterim": "β = 3α",
+     "yol": "u15-sicaklik-isi-ideal-gaz/k0217-hacimsel-genlesme",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0218",
+     "ad": "Isı kapasitesi ve özgül ısı",
+     "hat": "A",
+     "gosterim": "Q = mcΔT",
+     "yol": "u15-sicaklik-isi-ideal-gaz/k0218-isi-kapasitesi-ve-ozgul-isi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0219",
+     "ad": "Faz değişimi eğrisi",
+     "hat": "A",
+     "gosterim": "buz → su → buhar, gizli ısı",
+     "yol": "u15-sicaklik-isi-ideal-gaz/k0219-faz-degisimi-egrisi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0220",
+     "ad": "Isı iletimi",
+     "hat": "A",
+     "gosterim": "kalın levha, sıcak ve soğuk yüz",
+     "yol": "u15-sicaklik-isi-ideal-gaz/k0220-isi-iletimi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0221",
+     "ad": "Konveksiyon ve ışınım",
+     "hat": "A",
+     "gosterim": "sıvı döngüsü, ışınım okları",
+     "yol": "u15-sicaklik-isi-ideal-gaz/k0221-konveksiyon-ve-isinim",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0222",
+     "ad": "İdeal gaz denklemi",
+     "hat": "A",
+     "gosterim": "pV = nRT, p-V izotermleri",
+     "yol": "u15-sicaklik-isi-ideal-gaz/k0222-ideal-gaz-denklemi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0223",
+     "ad": "Boyle, Charles, Gay-Lussac",
+     "hat": "A",
+     "gosterim": "üç ayrı grafik",
+     "yol": "u15-sicaklik-isi-ideal-gaz/k0223-boyle-charles-gay-lussac",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0224",
+     "ad": "İzotermal, izobarik, izokorik süreçler",
+     "hat": "A",
+     "gosterim": "pV diyagramında yollar",
+     "yol": "u15-sicaklik-isi-ideal-gaz/k0224-izotermal-izobarik-izokorik-surecler",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0225",
+     "ad": "Adyabatik süreç",
+     "hat": "A",
+     "gosterim": "izoterm ve adyabat karşılaştırması",
+     "yol": "u15-sicaklik-isi-ideal-gaz/k0225-adyabatik-surec",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0226",
+     "ad": "Kaynayan su ve buhar",
+     "hat": "B",
+     "gosterim": "faz değişimi",
+     "yol": "u15-sicaklik-isi-ideal-gaz/k0226-kaynayan-su-ve-buhar",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0227",
+     "ad": "Isıl iletim: sıcak çay bardağı",
+     "hat": "B",
+     "gosterim": "ısı kaybı",
+     "yol": "u15-sicaklik-isi-ideal-gaz/k0227-isil-iletim-sicak-cay-bardagi",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0228",
+     "ad": "Demiryolu rayı genleşmesi",
+     "hat": "B",
+     "gosterim": "genleşme derzi",
+     "yol": "u15-sicaklik-isi-ideal-gaz/k0228-demiryolu-rayi-genlesmesi",
+     "beklenen": 3,
+     "gorseller": []
+    }
+   ]
+  },
+  {
+   "no": 16,
+   "ad": "Kinetik teori ve termodinamik yasalar",
+   "klasor": "u16-kinetik-teori-ve-termodinamik-yasalar",
+   "kavramlar": [
+    {
+     "id": "k0229",
+     "ad": "Gaz molekülleri hareketi",
+     "hat": "A",
+     "gosterim": "rastgele çarpışan parçacıklar",
+     "yol": "u16-kinetik-teori-ve-termodinamik-yasalar/k0229-gaz-molekulleri-hareketi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0230",
+     "ad": "Basınç ve ortalama hız karesi",
+     "hat": "A",
+     "gosterim": "duvara çarpan moleküller",
+     "yol": "u16-kinetik-teori-ve-termodinamik-yasalar/k0230-basinc-ve-ortalama-hiz-karesi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0231",
+     "ad": "Ortalama kinetik enerji",
+     "hat": "A",
+     "gosterim": "K = 3/2 kT",
+     "yol": "u16-kinetik-teori-ve-termodinamik-yasalar/k0231-ortalama-kinetik-enerji",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0232",
+     "ad": "Maxwell hız dağılımı",
+     "hat": "A",
+     "gosterim": "farklı sıcaklıklarda dağılım eğrisi",
+     "yol": "u16-kinetik-teori-ve-termodinamik-yasalar/k0232-maxwell-hiz-dagilimi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0233",
+     "ad": "Ortalama serbest yol",
+     "hat": "A",
+     "gosterim": "çarpışmalar arası mesafe",
+     "yol": "u16-kinetik-teori-ve-termodinamik-yasalar/k0233-ortalama-serbest-yol",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0234",
+     "ad": "Difüzyon (kinetik görünüm)",
+     "hat": "A",
+     "gosterim": "konsantrasyon farkı, yayılma",
+     "yol": "u16-kinetik-teori-ve-termodinamik-yasalar/k0234-difuzyon-kinetik-gorunum",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0235",
+     "ad": "Fick yasası",
+     "hat": "A",
+     "gosterim": "akı ve konsantrasyon eğimi",
+     "yol": "u16-kinetik-teori-ve-termodinamik-yasalar/k0235-fick-yasasi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0236",
+     "ad": "Taşıma parametreleri",
+     "hat": "A",
+     "gosterim": "difüzyon katsayısı, sıcaklık bağımlılığı",
+     "yol": "u16-kinetik-teori-ve-termodinamik-yasalar/k0236-tasima-parametreleri",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0237",
+     "ad": "Eşbölüşüm teoremi",
+     "hat": "A",
+     "gosterim": "serbestlik dereceleri",
+     "yol": "u16-kinetik-teori-ve-termodinamik-yasalar/k0237-esbolusum-teoremi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0238",
+     "ad": "Molar özgül ısılar (tek, iki atomlu)",
+     "hat": "A",
+     "gosterim": "Cv ve Cp",
+     "yol": "u16-kinetik-teori-ve-termodinamik-yasalar/k0238-molar-ozgul-isilar-tek-iki-atomlu",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0239",
+     "ad": "Termodinamiğin birinci yasası",
+     "hat": "A",
+     "gosterim": "ΔU = Q − W",
+     "yol": "u16-kinetik-teori-ve-termodinamik-yasalar/k0239-termodinamigin-birinci-yasasi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0240",
+     "ad": "pV diyagramında iş",
+     "hat": "A",
+     "gosterim": "eğri altındaki alan",
+     "yol": "u16-kinetik-teori-ve-termodinamik-yasalar/k0240-pv-diyagraminda-is",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0241",
+     "ad": "Çevrim (döngü) işi",
+     "hat": "A",
+     "gosterim": "kapalı çevrim alanı",
+     "yol": "u16-kinetik-teori-ve-termodinamik-yasalar/k0241-cevrim-dongu-isi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0242",
+     "ad": "Termodinamiğin ikinci yasası",
+     "hat": "A",
+     "gosterim": "sıcak kaynak, motor, soğuk kaynak akışı",
+     "yol": "u16-kinetik-teori-ve-termodinamik-yasalar/k0242-termodinamigin-ikinci-yasasi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0243",
+     "ad": "Isı makinesi verimi",
+     "hat": "A",
+     "gosterim": "e = W/Q_H",
+     "yol": "u16-kinetik-teori-ve-termodinamik-yasalar/k0243-isi-makinesi-verimi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0244",
+     "ad": "Carnot çevrimi",
+     "hat": "A",
+     "gosterim": "pV: iki izoterm, iki adyabat",
+     "yol": "u16-kinetik-teori-ve-termodinamik-yasalar/k0244-carnot-cevrimi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0245",
+     "ad": "Carnot verimi",
+     "hat": "A",
+     "gosterim": "e = 1 − T_C/T_H",
+     "yol": "u16-kinetik-teori-ve-termodinamik-yasalar/k0245-carnot-verimi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0246",
+     "ad": "Soğutucu (buzdolabı)",
+     "hat": "A",
+     "gosterim": "ters çevrim, COP",
+     "yol": "u16-kinetik-teori-ve-termodinamik-yasalar/k0246-sogutucu-buzdolabi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0247",
+     "ad": "Entropi tanımı",
+     "hat": "A",
+     "gosterim": "dS = dQ/T, T–S grafiği",
+     "yol": "u16-kinetik-teori-ve-termodinamik-yasalar/k0247-entropi-tanimi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0248",
+     "ad": "Entropi artışı ve düzensizlik",
+     "hat": "A",
+     "gosterim": "gaz iki hazneye yayılır",
+     "yol": "u16-kinetik-teori-ve-termodinamik-yasalar/k0248-entropi-artisi-ve-duzensizlik",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0249",
+     "ad": "Serbest genleşme",
+     "hat": "A",
+     "gosterim": "tersinmezlik",
+     "yol": "u16-kinetik-teori-ve-termodinamik-yasalar/k0249-serbest-genlesme",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0250",
+     "ad": "Buharlı lokomotif / ısı motoru",
+     "hat": "B",
+     "gosterim": "enerji dönüşümü",
+     "yol": "u16-kinetik-teori-ve-termodinamik-yasalar/k0250-buharli-lokomotif-isi-motoru",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0251",
+     "ad": "Buzdolabı",
+     "hat": "B",
+     "gosterim": "ısı pompalama",
+     "yol": "u16-kinetik-teori-ve-termodinamik-yasalar/k0251-buzdolabi",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0252",
+     "ad": "Dağılan mürekkep damlası",
+     "hat": "B",
+     "gosterim": "entropi metaforu",
+     "yol": "u16-kinetik-teori-ve-termodinamik-yasalar/k0252-dagilan-murekkep-damlasi",
+     "beklenen": 3,
+     "gorseller": []
+    }
+   ]
+  }
+ ]
+}
