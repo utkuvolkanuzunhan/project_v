@@ -2,10 +2,10 @@
  "ders": "physics1",
  "ad": "Physics I",
  "dersKodu": "505001052010",
- "surum": 9,
+ "surum": 10,
  "kavramSayisi": 252,
  "beklenenGorsel": 330,
- "mevcutGorsel": 89,
+ "mevcutGorsel": 99,
  "uniteler": [
   {
    "no": 1,
@@ -2751,7 +2751,32 @@
      "gosterim": "boru rezonansı",
      "yol": "u14-dalgalar-ii-ses/k0212-org-borusu",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "a4924565fc97c92d1068895d275cdd08f09377c8a0449545ef68b0486a710693",
+       "boyut": 135866,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0212-003"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "51d216cf2c62eebcb199349f341a07dc4431b893ce88c5cfaab3f4d24151a784",
+       "boyut": 110180,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0212-008"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "21ce52ef18e3acff7e30120c937d04c2d10a27b842b3298f854385577a9b238e",
+       "boyut": 143528,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0212-006"
+      }
+     ]
     },
     {
      "id": "k0213",
@@ -2760,7 +2785,32 @@
      "gosterim": "Mach konisi",
      "yol": "u14-dalgalar-ii-ses/k0213-ucagin-ses-hizini-gecmesi",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "db65e9ce2c771985d39fb2178b8af0670127b3d80408809cdc49faa64947b85f",
+       "boyut": 19408,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0213-003"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "c6c06439473e40fb1b7316b007eadceda839d1a20af0bc7b6bf70af5d8d46ac8",
+       "boyut": 14022,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0213-007"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "e0920ff5be0f05c98c668f0586969432d2433b4fa11415d37ad965e7e6d54dff",
+       "boyut": 15760,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0213-004"
+      }
+     ]
     }
    ]
   },
@@ -2884,7 +2934,32 @@
      "gosterim": "faz değişimi",
      "yol": "u15-sicaklik-isi-ideal-gaz/k0226-kaynayan-su-ve-buhar",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "1e15d1a28f851f5b1fe74a4ba92c4a4514cd78f4696aff6e97846fe35e044299",
+       "boyut": 46784,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0226-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "b9052e71b3c0fac50264a6cd2dfe504c979f6af86d8183be51b55ee9aafffce7",
+       "boyut": 41448,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0226-007"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "690d76f3a882859b0ed22dad08cfe6602ba7a9d05d30e5df43451b2f2472a416",
+       "boyut": 50342,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0226-005"
+      }
+     ]
     },
     {
      "id": "k0227",
@@ -2893,7 +2968,16 @@
      "gosterim": "ısı kaybı",
      "yol": "u15-sicaklik-isi-ideal-gaz/k0227-isil-iletim-sicak-cay-bardagi",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "749276e8cd8e2cb7715798c9edff3c2ed6e559fe2ec0c8ed78628c6b3a157b0a",
+       "boyut": 37638,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0227-001"
+      }
+     ]
     },
     {
      "id": "k0228",
