@@ -2,10 +2,10 @@
  "ders": "physics1",
  "ad": "Physics I",
  "dersKodu": "505001052010",
- "surum": 7,
+ "surum": 8,
  "kavramSayisi": 252,
  "beklenenGorsel": 330,
- "mevcutGorsel": 69,
+ "mevcutGorsel": 79,
  "uniteler": [
   {
    "no": 1,
@@ -2158,6 +2158,22 @@
        "genislik": 1024,
        "yukseklik": 1024,
        "aday": "physics1-k0167-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "18a61d66c720745216db04d8b22149c99f70e1e0e03a09ec5498ce6e718951fd",
+       "boyut": 78750,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0167-012"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "c25ca98285ecc323c51ac723a9dcd8ac328e637a7b4ff2f29ca74c9257e643a9",
+       "boyut": 152960,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0167-009"
       }
      ]
     }
@@ -2310,7 +2326,32 @@
      "gosterim": "gezegen sahnesi",
      "yol": "u12-yercekimi/k0183-ay-in-dunya-cevresinde-donmesi",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "c6e69a7a17399db8e4e6bc51f9a914a34138ef25cba533191c1c44089dd6317b",
+       "boyut": 76580,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0183-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "ac16a0473e4a0182b22756bb910a0b43f544fb6f394e76496417e411bdf1b168",
+       "boyut": 74772,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0183-006"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "f4c1bfb6d4f7fc3851af64235a095622dcdf10ca4a0dbac4f78ecf0346264523",
+       "boyut": 96052,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0183-002"
+      }
+     ]
     },
     {
      "id": "k0184",
@@ -2319,7 +2360,32 @@
      "gosterim": "evrensel çekim anlatımı",
      "yol": "u12-yercekimi/k0184-elmanin-dusmesi",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "bbadeb30f38d87436b89c38032c2c6096cf4e1d0a22bedd3c595d42ea35d8693",
+       "boyut": 94926,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0184-007"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "697d16e2e994b37b928280c6cc95f60a0bd461d1b029c9bb9f8965bf27a09c9c",
+       "boyut": 104116,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0184-010"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "352fc00d88a8de750fc4593ad1b67d90a45e030493aeafc64be15ff0ca4d110a",
+       "boyut": 85314,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0184-012"
+      }
+     ]
     },
     {
      "id": "k0185",
@@ -2328,7 +2394,24 @@
      "gosterim": "yörüngeye yerleştirme",
      "yol": "u12-yercekimi/k0185-uydu-firlatma",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "adcb6e5eb78831519660050944c1df44c96d79ad033905e11c6f2be885c66047",
+       "boyut": 119100,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0185-006"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "aadaa11df893d93445c6fa8aed951687d15f73deae43578966171092e193f526",
+       "boyut": 125406,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0185-007"
+      }
+     ]
     }
    ]
   },
