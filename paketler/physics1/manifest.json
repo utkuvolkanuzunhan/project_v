@@ -2,10 +2,10 @@
  "ders": "physics1",
  "ad": "Physics I",
  "dersKodu": "505001052010",
- "surum": 6,
+ "surum": 7,
  "kavramSayisi": 252,
  "beklenenGorsel": 330,
- "mevcutGorsel": 59,
+ "mevcutGorsel": 69,
  "uniteler": [
   {
    "no": 1,
@@ -1915,7 +1915,32 @@
      "gosterim": "kütle merkezi sahnesi",
      "yol": "u10-denge-ve-esneklik/k0150-dengede-duran-heykel-kaya",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "4e7ea6ac3b984b76f7f75bbd30e6ddf1384ed155217a3fbf142002a73773e238",
+       "boyut": 226406,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0150-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "a729002c8b7d0f77d7031d680dce0f5b1be6369a0b67ee7ab04ffa7e653ea3fe",
+       "boyut": 260236,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0150-007"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "1d1b05a9fe562816d2df13f031c235fd82c7ffc1557464a173b7667d4c043ea1",
+       "boyut": 163934,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0150-014"
+      }
+     ]
     }
    ]
   },
@@ -2057,7 +2082,32 @@
      "gosterim": "basit sarkaç sahnesi",
      "yol": "u11-periyodik-hareket/k0165-salincak",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "ebf798d3e67637c7174bfcd9d5023e6184fc67641f1be96cf7834c550bcb12d8",
+       "boyut": 71050,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0165-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "ad2e1f30211a223d20c05798be246e6b245dfde08db28e818a051646388989b6",
+       "boyut": 73096,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0165-008"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "9aed0f3bd0105d14336315ddc74566463ca071ef1bb186692268cba36d84bc75",
+       "boyut": 118232,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0165-009"
+      }
+     ]
     },
     {
      "id": "k0166",
@@ -2066,7 +2116,32 @@
      "gosterim": "sönümleme",
      "yol": "u11-periyodik-hareket/k0166-tarlada-arabanin-suspansiyonu",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "54fbda37ac196e8b8fe7176bbac8dd9768452e969c271f5e989065594803142b",
+       "boyut": 189020,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0166-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "0729ee24f0f2d061efc0c3c228c9a9f92991b8d0da38eb6bd2066dcc2829504a",
+       "boyut": 162006,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0166-004"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "edb89950602b739bb1ab69027f8e1f2e305f92a31fff19802e2c8d76bd51719e",
+       "boyut": 155480,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0166-010"
+      }
+     ]
     },
     {
      "id": "k0167",
@@ -2075,7 +2150,16 @@
      "gosterim": "rezonans metaforu",
      "yol": "u11-periyodik-hareket/k0167-rezonansla-coken-kopru",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "62dbf3abb63545f52e1fee7eb6aa50631ebaca668a2bb36cc6e628a7f708ccaf",
+       "boyut": 147738,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0167-001"
+      }
+     ]
     }
    ]
   },
