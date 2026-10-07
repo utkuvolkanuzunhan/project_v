@@ -2,10 +2,10 @@
  "ders": "physics1",
  "ad": "Physics I",
  "dersKodu": "505001052010",
- "surum": 2,
+ "surum": 3,
  "kavramSayisi": 252,
  "beklenenGorsel": 330,
- "mevcutGorsel": 19,
+ "mevcutGorsel": 29,
  "uniteler": [
   {
    "no": 1,
@@ -790,6 +790,22 @@
        "genislik": 1024,
        "yukseklik": 1024,
        "aday": "physics1-k0066-002"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "3c861395a0a9eda1fba731aa8d684de55ffc119063fef82934139c574a9ceb9d",
+       "boyut": 37430,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0066-012"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "d4adb884ab151e51ec174a42a2d1acbb5a1f3ff840f684eec48e9c5042bd68f6",
+       "boyut": 70294,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0066-003"
       }
      ]
     },
@@ -800,7 +816,32 @@
      "gosterim": "limit hız",
      "yol": "u05-newton-yasalarinin-uygulamalari/k0067-parasutle-inen-kisi",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "6b62068f6c86d719d869f5548c0f804f5b6b2fa55b23b18a247f0a3012b6e01a",
+       "boyut": 41302,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0067-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "339fe11eb37d98eb7d7b9e70cc72ac0e3e53a067761943d5e356040b35b58e82",
+       "boyut": 43244,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0067-003"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "bc26a18cc451de43a14660f6e45d14d90ec8d45e938a724173913b2cdb692639",
+       "boyut": 56372,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0067-006"
+      }
+     ]
     }
    ]
   },
@@ -915,7 +956,32 @@
      "gosterim": "güç sahnesi",
      "yol": "u06-is-ve-kinetik-enerji/k0079-yuku-yukari-ceken-vinc",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "d9343eb0b0e388b08b8e765dd5979d1f329b8819d568daf2a00e56d775dd5ad1",
+       "boyut": 96310,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0079-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "35003916d1906e6abcbbdd6248cf43c9429182ec605c2d6715d9bd55ee068774",
+       "boyut": 83536,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0079-012"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "85f2284ae1f20859d93ee42c4d18096e5c3c5830271ac1a2620aa789f96a08e8",
+       "boyut": 48502,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0079-008"
+      }
+     ]
     },
     {
      "id": "k0080",
@@ -924,7 +990,24 @@
      "gosterim": "enerji depolama",
      "yol": "u06-is-ve-kinetik-enerji/k0080-gerilmis-yay-ve-ok",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "c815899d752c596d020a319dba2cd9da50a2828fd4430d4c9465b657623aff48",
+       "boyut": 53648,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0080-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "da1677a875d38f9ac485f2fecc238b69f680c0d47628622ce7ea464e83f99496",
+       "boyut": 36044,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0080-025"
+      }
+     ]
     }
    ]
   },
