@@ -2,10 +2,10 @@
  "ders": "physics1",
  "ad": "Physics I",
  "dersKodu": "505001052010",
- "surum": 1,
+ "surum": 2,
  "kavramSayisi": 252,
  "beklenenGorsel": 330,
- "mevcutGorsel": 9,
+ "mevcutGorsel": 19,
  "uniteler": [
   {
    "no": 1,
@@ -423,7 +423,32 @@
      "gosterim": "merkez, kenarda binen çocuk",
      "yol": "u03-duzlemde-hareket-2b-ve-3b/k0036-donen-atlikarinca",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "6c6c2287b0139dc450a6406cf577449e4a2fd99384584cfd476a3ce14016561e",
+       "boyut": 207086,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0036-013"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "afe38947ab91bb1b817a5bda31bf625359669fe3c8dc963039639e5ca0491656",
+       "boyut": 225338,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0036-024"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "69cb757cd06bcb2889d22ba575a54775e1cd77b37b945d9f3e58eed9987d598d",
+       "boyut": 227880,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0036-020"
+      }
+     ]
     }
    ]
   },
@@ -565,7 +590,32 @@
      "gosterim": "etki-tepki sahnesi",
      "yol": "u04-newton-un-hareket-yasalari/k0051-roket-firlatma",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "365b3fbd815c9bf6436ce94b242a122817f55946dea8786952dac4fd8d9673bd",
+       "boyut": 37208,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0051-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "e5138d6c0b4c6c87e9200a26b2a2521f67bed68b69bf1a7699838a4a56bac174",
+       "boyut": 31058,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0051-007"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "327621ede3ee9b2e78857cca6f3d100460dea4f067a9e4b6fcdcee952b04d280",
+       "boyut": 33996,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0051-002"
+      }
+     ]
     },
     {
      "id": "k0052",
@@ -574,7 +624,32 @@
      "gosterim": "üçüncü yasa",
      "yol": "u04-newton-un-hareket-yasalari/k0052-buz-uzerinde-itisen-iki-kisi",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "308419904702c278679c0f015defaa3dff35c38657afbb0f449ae90b51479447",
+       "boyut": 80654,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0052-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "955f55e720b5b64f85bfcc87479c308956ca38cc9c2275b699c3ae05f864c4de",
+       "boyut": 71546,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0052-012"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "250e688607598e4465eab0f9e54eb0bce0afbbf43b6de2f42755b155460607d5",
+       "boyut": 67070,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0052-003"
+      }
+     ]
     }
    ]
   },
@@ -707,7 +782,16 @@
      "gosterim": "sürtünme sahnesi",
      "yol": "u05-newton-yasalarinin-uygulamalari/k0066-karda-kayan-kizak",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "ce190d8371f7330b182d61bf04071aa9528003f97d4da76be3cb29e0398e4071",
+       "boyut": 72050,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0066-002"
+      }
+     ]
     },
     {
      "id": "k0067",
