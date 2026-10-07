@@ -2,10 +2,10 @@
  "ders": "circuits1",
  "ad": "Circuit Analysis 1",
  "dersKodu": "505002352024",
- "surum": 2,
+ "surum": 3,
  "kavramSayisi": 173,
  "beklenenGorsel": 217,
- "mevcutGorsel": 20,
+ "mevcutGorsel": 30,
  "uniteler": [
   {
    "no": 1,
@@ -791,6 +791,14 @@
        "genislik": 1024,
        "yukseklik": 1024,
        "aday": "circuits1-k0066-008"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "037347c7564c2a8d25295175dd64b82a5536b891b2a0b0aca3dfe26d8f6ea008",
+       "boyut": 79766,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "circuits1-k0066-004"
       }
      ]
     }
@@ -961,7 +969,32 @@
      "gosterim": "ses sinyali yükseltme",
      "yol": "u05-islemsel-yukseltec-op-amp/k0084-mikrofon-yukseltici",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "1af93847ba34d2bd31f131b85191884334673bf7f9f1f6a307b5a01937f2fab4",
+       "boyut": 63482,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "circuits1-k0084-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "df0a91a5e6a7ddf3289aaacba710970ceffe09fad25b5c581a97face3f1e9514",
+       "boyut": 61164,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "circuits1-k0084-005"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "67d94ca673bc2f043eb2a3223b27197869745fa12993bad8654a2bef0b8ea800",
+       "boyut": 55350,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "circuits1-k0084-006"
+      }
+     ]
     },
     {
      "id": "k0085",
@@ -970,7 +1003,32 @@
      "gosterim": "gerçek yonga fotoğraf tarzı",
      "yol": "u05-islemsel-yukseltec-op-amp/k0085-entegre-devre-dip-8-op-amp",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "d5e41bcd1f6a68013bfb9c47a764685d5ca19398afdbccd53e557532c86eae4e",
+       "boyut": 43552,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "circuits1-k0085-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "21bbd218049488c3c9052f105889ba77c463f164b9a9031baf3d65eb58e7fd1b",
+       "boyut": 55446,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "circuits1-k0085-008"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "7e64866422f4a2f27e8db8b291dbcb102560a8995eb47c5f054e2a8ed485021f",
+       "boyut": 34518,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "circuits1-k0085-012"
+      }
+     ]
     }
    ]
   },
@@ -1157,7 +1215,32 @@
      "gosterim": "karşılıklı indüktans uygulaması",
      "yol": "u06-induktans-kapasitans-karsilikli-induktan/k0105-telsiz-sarj-kablosuz-sarj",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "fbccd03ca9095d23de31808b5fd58580aaa43a9bdca38ea878eef5923e863e2b",
+       "boyut": 41578,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "circuits1-k0105-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "94dca9b1c988cb95a9e52a5dabb90eeaf0b38f59105f37cd9600b3ee40491252",
+       "boyut": 37702,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "circuits1-k0105-012"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "963879f3dab1ae7ff2e35d104d5b59d7e07f7bb7f26eef22866cd44334b474dc",
+       "boyut": 39634,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "circuits1-k0105-009"
+      }
+     ]
     },
     {
      "id": "k0106",
