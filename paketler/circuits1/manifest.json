@@ -2,10 +2,10 @@
  "ders": "circuits1",
  "ad": "Circuit Analysis 1",
  "dersKodu": "505002352024",
- "surum": 4,
+ "surum": 5,
  "kavramSayisi": 173,
  "beklenenGorsel": 217,
- "mevcutGorsel": 40,
+ "mevcutGorsel": 50,
  "uniteler": [
   {
    "no": 1,
@@ -1510,6 +1510,22 @@
        "genislik": 1024,
        "yukseklik": 1024,
        "aday": "circuits1-k0125-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "d1d48e2e95eb0ca1e8bb4f71d280c6259f51373e08ed5c9290a25cf65975711a",
+       "boyut": 53440,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "circuits1-k0125-009"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "01dee8c18c04b6a93cb87812e938fbf8bfaea75841a296f35a816c8b0a31a87e",
+       "boyut": 38764,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "circuits1-k0125-018"
       }
      ]
     },
@@ -1520,7 +1536,32 @@
      "gosterim": "zaman sabiti",
      "yol": "u07-birinci-mertebeden-rl-ve-rc-devreleri/k0126-fren-lambasinin-gec-sonmesi",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "427291ed2be94770a1f8a1de05e52026013fcfe6f2ba1406b976fbae0ef37cf4",
+       "boyut": 61628,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "circuits1-k0126-002"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "f55aaf1d58cf41e24eb0628fbc7e43484936b02d59665413adf25647a9c537f8",
+       "boyut": 47640,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "circuits1-k0126-006"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "58f42daed182fda5002a11eba91d83acdc08e196332fcc43e4aeb5ec6f392d6e",
+       "boyut": 41454,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "circuits1-k0126-003"
+      }
+     ]
     }
    ]
   },
@@ -1671,7 +1712,32 @@
      "gosterim": "mekanik–elektrik benzeşimi",
      "yol": "u08-ikinci-mertebeden-rlc-devreleri/k0142-sarkac-ve-rlc-benzesimi",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "55f1218445a4e8a45f5c378723471264cecd2c8352f284bc6a38f59709c216e8",
+       "boyut": 50702,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "circuits1-k0142-002"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "6cb97c69f9168e77bbeed826da7e73271d96d0ae160957af8e913c076deaf2b1",
+       "boyut": 52788,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "circuits1-k0142-012"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "efb4be4185df5a7d35eedaa5ed96075715732a439e4138e46e9b901b4ff3f399",
+       "boyut": 57464,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "circuits1-k0142-010"
+      }
+     ]
     },
     {
      "id": "k0143",
@@ -1680,7 +1746,24 @@
      "gosterim": "rezonans ayarı",
      "yol": "u08-ikinci-mertebeden-rlc-devreleri/k0143-radyo-ayar-dugmesi",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "370760cdbe9db64621406c9b949539239a80d0a79575c8415893703795909f61",
+       "boyut": 61734,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "circuits1-k0143-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "8fd8d74856185ecd802d7284e64b3c9c5ba66db61effe13212b6d329bd6bd714",
+       "boyut": 45306,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "circuits1-k0143-011"
+      }
+     ]
     }
    ]
   },
