@@ -10,7 +10,7 @@ Bu depo iki şey tutar: (1) **volkiapp** uygulamasının indireceği ders görse
 | `calisma_klasoru/` | Bilgisayardaki çalışma klasörünün yedeği: `araclar/`, `is_akisi/`, `mufredat/`, `uretim/` (yalnız ayar ve karar dosyaları). |
 
 ## İlgili diğer depo
-**volkiapp** (özel) — `https://github.com/utkuvolkanuzunhan/volkiapp` — Flutter uygulaması. Bu işin kuralı `Planlama/KURALLAR.md` R.41, işleri `Planlama/IS_LISTESI.md` İ.163-İ.167.
+**volkiapp** (özel) — `https://github.com/utkuvolkanuzunhan/volkiapp` — Flutter uygulaması. Bu işin kuralı `urun-kapsami` dalında **R.103**, işleri `Planlama/IS_LISTESI.md` **İ.431-İ.435**; simülasyon planı İ.270 (`Planlama/tasarim/SIMULASYON_DEPOSU.md`). Kayıt dalı: `gorsel-paketi-kayit`.
 
 ## Dersler
 `physics1` Physics I · `circuits1` Circuit Analysis 1 · `digital` Digital Systems · `materials` Electronic Materials and Device Physics · `oop` Object-Oriented Programming · `linalg` Linear Algebra (Ege Üni. EEM, 2026-2027).

@@ -3,7 +3,7 @@
 ## İki depo
 | Depo | Görünürlük | Ne için |
 |---|---|---|
-| **volkiapp** — `github.com/utkuvolkanuzunhan/volkiapp` | özel | Flutter uygulaması. Kurallar `Planlama/KURALLAR.md` (R.41 bu iş için), iş listesi `Planlama/IS_LISTESI.md` (İ.163 görsel hattı, İ.164 uygulamada paket sayfası, İ.165 NotebookLM, İ.166 simülasyon deneme sayfası, İ.167 kartların ≥%50'sinde görsel/etkileşim) |
+| **volkiapp** — `github.com/utkuvolkanuzunhan/volkiapp` | özel | Flutter uygulaması. **Belge düzeni 7 Ekim'de değişti:** kurallar kökte `CLAUDE.md` + konu dalları `.claude/skills/<dal>/SKILL.md` (bu iş: `urun-kapsami` **R.103**), iş listesi `Planlama/IS_LISTESI.md` (çekirdek) + `Planlama/isler/I-<n>.md`: **İ.431** görsel hattı, **İ.432** NotebookLM, **İ.433** kapsam ölçümü, **İ.434** simülasyon deneme sayfası (öneri), **İ.435** uygulamada paket sayfası (dondurulmuş). Simülasyon planı: **İ.270** + `Planlama/tasarim/SIMULASYON_DEPOSU.md`. Yerel kopya `Desktop\volkiapp` ESKİDİR (963 commit geride); çalışma için `git worktree add … origin/master`. Kayıt dalı: `gorsel-paketi-kayit` |
 | **project_v** — `github.com/utkuvolkanuzunhan/project_v` | HERKESE AÇIK | Uygulamanın indireceği **ders görsel paketleri** (`paketler/`, `katalog.json`) + bu işi yürüten **araçlar, planlar, müfredat ağacı** (`calisma_klasoru/`, `plan/`) |
 
 Uygulamaya paketleri bu depodan (raw.githubusercontent.com / Release) çektireceğiz; uygulama depoyu özel tutar.
@@ -31,7 +31,7 @@ Başka bilgisayarda yeniden kurmak için indirilecekler (hepsi açık lisans): C
 
 ## Durum (8 Ekim 2026)
 - **B hattı:** 55/122 kavram tamam (Physics 38/38, Circuit 17/22; Digital, Materials, OOP, Linear Algebra başlamadı). Yayında 164 fotoğraf (Physics 113, Circuit 51). Kalan ~201 onaylı foto; ~200 aday inceleme bekliyor.
-- **A hattı (1042 kavram):** `plan/A_HATTI_PLANI.md`. Karar: kodla çizim uygulamanın içinde şablon (aile) + kavram başına küçük JSON ayarı olarak çalışır. 4 aile var (devre, parçacık-kuvvet, vektör alanı, fonksiyon eğrisi); ~9 yeni aile planlı. İlk iş: fonksiyon eğrisini formül destekli yapmak (İ.167).
+- **A hattı (1042 kavram) — REVİZE:** ayrı paket yok. Uygulamada simülasyon (İ.270, R.77, `Planlama/tasarim/SIMULASYON_DEPOSU.md`: 43 tür, T1 var, T2-T9 planlı) ve şema (11 aile) depoları zaten var; yapay zekâ yalnız parametre/tarif doldurur. Bu hattın A'daki işi: kapsam ölçümü ve tur sırası (`plan/A_HATTI_PLANI.md`). Bekleyen karar: İ.270'in hangi T turuyla başlanacağı.
 - **NotebookLM (İ.165):** kullanıcı kitapları/ders planlarını NotebookLM'e yükleyip sabit istemle kavram listesi çıkaracak (`plan/NOTEBOOKLM_PLANI.md`); `agac_karsilastir.py` eksik/fazlayı bulur.
 
 ## Tuzaklar (tekrar yaşama)
