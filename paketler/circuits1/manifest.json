@@ -2,10 +2,10 @@
  "ders": "circuits1",
  "ad": "Circuit Analysis 1",
  "dersKodu": "505002352024",
- "surum": 1,
+ "surum": 2,
  "kavramSayisi": 173,
  "beklenenGorsel": 217,
- "mevcutGorsel": 10,
+ "mevcutGorsel": 20,
  "uniteler": [
   {
    "no": 1,
@@ -494,6 +494,22 @@
        "genislik": 1024,
        "yukseklik": 1024,
        "aday": "circuits1-k0043-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "139bf43561ff0f05081ddbe6cf377c0d1ca024720f1f43c4ef6bcccf6ba86906",
+       "boyut": 44482,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "circuits1-k0043-006"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "3a32adfe304d9ea971a60120776788274048e961f8b72e73f7da3d41effc6a60",
+       "boyut": 47570,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "circuits1-k0043-002"
       }
      ]
     },
@@ -504,7 +520,32 @@
      "gosterim": "paralel bağlantı sezgisi",
      "yol": "u03-basit-rezistif-devreler/k0044-ev-kablolamasi-paralel-prizler",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "fc1b778347ee64ee5f889cbe0afc33d54f346a28c3611972294d2aca78da904f",
+       "boyut": 30646,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "circuits1-k0044-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "b5253a25919589a17dd9413ee3244f7f3f40affdd6c5fdfabc0fa3dbb094cba9",
+       "boyut": 50250,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "circuits1-k0044-008"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "c5b762757f215cd02bb991f7a827813edd84460c1aff021a8b6568d8e026ae1c",
+       "boyut": 31446,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "circuits1-k0044-002"
+      }
+     ]
     }
    ]
   },
@@ -700,7 +741,32 @@
      "gosterim": "maksimum güç sahnesi",
      "yol": "u04-devre-analiz-teknikleri/k0065-dagitim-panosu-ve-yuk",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "d00c493d17e9edc22d0d617f905e327e25ee9e3031226e89818106faa4f43acf",
+       "boyut": 51296,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "circuits1-k0065-002"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "1698b6a1cf0ad7f87ed8f3f3d5d744792d9af0e1f66218bc07e761bbad14dd7a",
+       "boyut": 43206,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "circuits1-k0065-005"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "706ce0d1fb5c6f27c2a8acd1faec2573089282c288463b987595d8126e54e8c1",
+       "boyut": 42134,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "circuits1-k0065-012"
+      }
+     ]
     },
     {
      "id": "k0066",
@@ -709,7 +775,24 @@
      "gosterim": "Thevenin eşdeğeri metaforu",
      "yol": "u04-devre-analiz-teknikleri/k0066-gunes-paneli-ve-aku",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "1c855fc5f86cc28a798d92f73c646cdde8b030129bff543378e81f01ff0386d0",
+       "boyut": 72388,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "circuits1-k0066-003"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "f2e7fc2535670e0bce3d42f54df4a0a381c2181b646a5b2649d8dee7068bdf44",
+       "boyut": 55242,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "circuits1-k0066-008"
+      }
+     ]
     }
    ]
   },
