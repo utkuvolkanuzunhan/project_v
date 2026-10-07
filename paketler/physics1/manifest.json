@@ -2,10 +2,10 @@
  "ders": "physics1",
  "ad": "Physics I",
  "dersKodu": "505001052010",
- "surum": 3,
+ "surum": 4,
  "kavramSayisi": 252,
  "beklenenGorsel": 330,
- "mevcutGorsel": 29,
+ "mevcutGorsel": 39,
  "uniteler": [
   {
    "no": 1,
@@ -1006,6 +1006,14 @@
        "genislik": 1024,
        "yukseklik": 1024,
        "aday": "physics1-k0080-025"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "da7853092f2ef49d2df967f9833a5a118a6d4ef10a7f04ea6f24cd6c2ee83f9c",
+       "boyut": 30532,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0080-021"
       }
      ]
     }
@@ -1140,7 +1148,32 @@
      "gosterim": "tepe ve vadi sahnesi",
      "yol": "u07-potansiyel-enerji-ve-enerjinin-korunumu/k0094-roller-coaster",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "3b57e4d9e955423c9c4cfc034bb28c987c0d238e833962055355a26797392ceb",
+       "boyut": 200754,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0094-004"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "cffbd8799f12ee59e694d5e53ba43ba50f4992d528c65bb45270f37d8685a054",
+       "boyut": 116682,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0094-006"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "45f061053f73262d8e935a7570bb9a99e8d7dca7a9787f3bd7d97c3489388f28",
+       "boyut": 144556,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0094-012"
+      }
+     ]
     },
     {
      "id": "k0095",
@@ -1149,7 +1182,32 @@
      "gosterim": "yay ve yerçekimi enerjisi",
      "yol": "u07-potansiyel-enerji-ve-enerjinin-korunumu/k0095-bungee-atlayisi",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "89a52f6a79d501ae2788fe7c6924dfc1715d75faf7c3bea738279910544cb69e",
+       "boyut": 146166,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0095-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "0487e92894f3ccf46a0146a8184805949354478a15a2fccabd8fc8f941a89cc0",
+       "boyut": 95410,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0095-010"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "f731bfe9eaee463a6852e221c23446888b459206c5308d6240edb6c01ef563ff",
+       "boyut": 146510,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0095-005"
+      }
+     ]
     },
     {
      "id": "k0096",
@@ -1158,7 +1216,32 @@
      "gosterim": "enerji döngüsü",
      "yol": "u07-potansiyel-enerji-ve-enerjinin-korunumu/k0096-sarkacli-saat",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "42ed53bd969691e9f35514fa8358be38a4f606d1f0a8d66f5f12807247b497d9",
+       "boyut": 41486,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0096-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "3f995ecef60ca1f07dedf05556d51eab7998b62cddec37e84419dbe8183ac8f4",
+       "boyut": 45360,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0096-013"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "3783beadd69d74217fc24966c0eec4fa53b5edb0dee686593cc157921809f9f8",
+       "boyut": 29118,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0096-024"
+      }
+     ]
     }
    ]
   },
