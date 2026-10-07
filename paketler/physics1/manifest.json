@@ -2,10 +2,10 @@
  "ders": "physics1",
  "ad": "Physics I",
  "dersKodu": "505001052010",
- "surum": 10,
+ "surum": 11,
  "kavramSayisi": 252,
  "beklenenGorsel": 330,
- "mevcutGorsel": 99,
+ "mevcutGorsel": 109,
  "uniteler": [
   {
    "no": 1,
@@ -2976,6 +2976,22 @@
        "genislik": 1024,
        "yukseklik": 1024,
        "aday": "physics1-k0227-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "451ebcd442a30ed713e08456ccdfb9ba876df461444711b2e2bf42190bbdfbee",
+       "boyut": 47052,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0227-004"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "597297d926f550d9c79078d45dca7b2a2ff1833189e67b3eed0e27eac3426911",
+       "boyut": 43798,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0227-009"
       }
      ]
     },
@@ -2986,7 +3002,32 @@
      "gosterim": "genleşme derzi",
      "yol": "u15-sicaklik-isi-ideal-gaz/k0228-demiryolu-rayi-genlesmesi",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "276013691bc3b095d5262f77435e1bf8ff6c2a8ccc24de9008d7e331c33522de",
+       "boyut": 126806,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0228-004"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "a17ebe3e8b43395195a0514d3ea57b5768338643001c581085d38acc0e1914dd",
+       "boyut": 87092,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0228-008"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "555aebabb592381bddf68f670e3db1226811efc2c8c92c7eac07f7cbc8605223",
+       "boyut": 72750,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0228-007"
+      }
+     ]
     }
    ]
   },
@@ -3191,7 +3232,32 @@
      "gosterim": "enerji dönüşümü",
      "yol": "u16-kinetik-teori-ve-termodinamik-yasalar/k0250-buharli-lokomotif-isi-motoru",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "4f998bf310efac40f668c456429738fd0452ebdefc1127e86a7c54331770e4a7",
+       "boyut": 208356,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0250-002"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "a6a89f3e8f585be3ccf3735867243d00ba927d8221bad7c2cb75064aa9230fc0",
+       "boyut": 159868,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0250-012"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "2481f4ddedade39af0020146019d707801368812f8693d3a526a780552899e49",
+       "boyut": 155086,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0250-007"
+      }
+     ]
     },
     {
      "id": "k0251",
@@ -3200,7 +3266,24 @@
      "gosterim": "ısı pompalama",
      "yol": "u16-kinetik-teori-ve-termodinamik-yasalar/k0251-buzdolabi",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "143ca9730425295284f38906beb3cc74a547b442b52fe80a6abacec31daeda76",
+       "boyut": 64006,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0251-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "d772386c07b292496ccda5db2b68b086dc71bed52aa603ecc0b5e386596ea63f",
+       "boyut": 65106,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0251-012"
+      }
+     ]
     },
     {
      "id": "k0252",
