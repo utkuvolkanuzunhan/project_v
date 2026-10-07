@@ -1,0 +1,212 @@
+# Electronic Materials and Device Physics (505002242023) — Streetman & Banerjee, Pierret
+
+## 1. Kristal özellikleri
+- A | Katı türleri | amorf, polikristal, tek kristal yapıları
+- A | Kristal kafes ve birim hücre | kafes noktaları, taban vektörleri
+- A | Basit kübik (SC) | atom konumları
+- A | Cisim merkezli kübik (BCC) | atom konumları
+- A | Yüzey merkezli kübik (FCC) | atom konumları
+- A | Elmas kafes yapısı | iç içe iki FCC, tetrahedral bağ
+- A | Çinko sülfür (zincblende) yapısı | GaAs örneği, iki tür atom
+- A | Atomik paketleme oranı | SC, BCC, FCC, elmas
+- A | Miller indisleri (düzlemler) | (100), (110), (111) düzlemleri küp içinde
+- A | Miller indisleri (yönler) | [100], [110], [111] yönleri
+- A | Düzlem yoğunluğu | yüzey atom sayısı
+- A | Si wafer kesim yönleri | (100) ve (111) yüzey, düz kenar
+- A | Kristal kusurlar (nokta) | boşluk, ara yer, katkı atomu
+- A | Kristal kusurlar (çizgi ve düzlem) | dislokasyon, tane sınırı
+- A | Periyodik tablo (yarıiletken grupları) | II–VI, III–V, IV
+- B | Silisyum külçe ve wafer | gerçek wafer sahnesi
+- B | Kuvars/ elmas kristal | kristal yapısı
+
+## 2. Atomik bağ ve enerji bantları
+- A | Bohr modeli (hidrojen) | enerji seviyeleri
+- A | Kuantum durumları ve Pauli ilkesi | enerji seviyelerinde elektron dizilimi
+- A | Atomlar yakınlaşınca seviyelerin yarılması | enerji–atom mesafesi
+- A | Enerji bantları oluşumu | ayrık seviyeler → bant
+- A | İletken, yarıiletken, yalıtkan band yapıları | üç bant diyagramı
+- A | Bant aralığı E_g | Si, Ge, GaAs değerleri çubuk
+- A | Değerlik ve iletim bantları | E_c, E_v
+- A | Kovalent bağ (Si) | iki boyutlu bağ modeli
+- A | Serbest elektron ve boşluk oluşumu | kopmuş bağ, boşluk
+- A | Elektron ve boşluk hareketi | iki yönlü akış gösterimi
+- A | Doğrudan ve dolaylı bant aralığı | E–k diyagramı
+- A | Etkin kütle | E–k parabolünün eğriliği
+- A | Bant aralığının sıcaklıkla değişimi | E_g(T) eğrisi
+- A | Taşıyıcı hareket modelleri | serbest elektron, Drude
+- A | Elektron enerji dağılımı | metal, yarıiletken
+- B | LED ışık yayımı | bant geçişi metaforu
+- B | Güneş hücresi | foton ile elektron-boşluk çifti
+
+## 3. Yarıiletkenlerde yük taşıyıcılar
+- A | Öz (intrinsic) yarıiletken | n = p = n_i
+- A | Taşıyıcı yoğunluğu ve sıcaklık | n_i – 1/T grafiği
+- A | Durum yoğunluğu g(E) | parabolik g(E)
+- A | Fermi–Dirac dağılımı | f(E), sıcaklık ailesi
+- A | Fermi seviyesi (öz) | bandın ortası
+- A | n ve p hesabı | f(E)g(E) çarpımı alanı
+- A | Kütle etkisi yasası n·p = n_i² | n ve p ters orantı
+- A | n tipi katkılama | donör seviyesi, E_D
+- A | p tipi katkılama | akseptör seviyesi, E_A
+- A | Katkılı yarıiletkende Fermi seviyesi | n ve p tipi için konum
+- A | Bant diyagramında Fermi seviyesi | n tipi, p tipi, öz
+- A | Yük nötrlüğü | iyonize donör ve akseptörler
+- A | Sıcaklıkla taşıyıcı yoğunluğu (üç bölge) | dondurma, ekstrinsik, intrinsic
+- A | Dejenere yarıiletken | Fermi seviyesi bantın içinde
+- A | Kompanse yarıiletken | hem donör hem akseptör
+- B | Katkılama (boron/ fosfor) | silisyum içine katkı atomu metaforu
+
+## 4. Taşıyıcı taşınımı
+- A | Drift (sürüklenme) hızı | elektrik alan, ortalama hız
+- A | Hareketlilik μ | v_d = μE
+- A | İletkenlik ve özdirenç | σ = q(nμ_n + pμ_p)
+- A | Saçılma mekanizmaları | kafes saçılması, safsızlık saçılması
+- A | Hareketlilik – sıcaklık | iki saçılma etkisi, eğri
+- A | Hareketlilik – katkı | yüksek katkıda azalma
+- A | Özdirenç – katkı yoğunluğu | Si için eğri
+- A | Hall etkisi | B, I, V_H, yük işareti
+- A | Hall katsayısı | n ve p için ayırma
+- A | Difüzyon | konsantrasyon farkı, akı
+- A | Difüzyon akımı | J = qD dn/dx
+- A | Einstein bağıntısı | D = μ kT/q
+- A | Toplam akım yoğunluğu | drift + difüzyon
+- A | Bant eğilmesi ve elektrik alan | E = −dE_c/dx
+- A | Doğrusal olmayan hareket (hız doygunluğu) | v–E eğrisi
+- B | Kalabalıkta yayılan insanlar | difüzyon metaforu
+- B | Akıntıda yüzen insanlar | sürüklenme metaforu
+
+## 5. Fazla taşıyıcılar
+- A | Optik soğurma | foton enerjisi ve bant aralığı
+- A | Soğurma katsayısı ve dalga boyu | eşik eğrisi
+- A | Elektron-boşluk çifti üretimi | foton → çift
+- A | Luminesans (ışıma) | fotolüminesans, elektrolüminesans
+- A | Rekombinasyon türleri | doğrudan, tuzak aracılı (SRH), Auger
+- A | Taşıyıcı ömür süresi τ | üstel azalma
+- A | Fotoiletkenlik | ışık altında iletkenlik artışı
+- A | Yarı Fermi seviyeleri (quasi-Fermi) | denge dışı F_n, F_p
+- A | Süreklilik denklemi | üretim, rekombinasyon, akım
+- A | Azınlık taşıyıcı difüzyon denklemi | Δp(x) üstel
+- A | Difüzyon uzunluğu L_p | Δp(x) eğrisi, uzunluk
+- A | Uzun ve kısa diyot için çözümler | üstel ve doğrusal profil
+- A | Haynes–Shockley deneyi | yayılan darbe
+- A | Yüzey rekombinasyonu | yüzey tuzakları
+- B | Işık düşen sensör | fotodiyot ya da LDR
+- B | Floresan ışıma | ışımalı rekombinasyon
+
+## 6. PN kavşağı (denge)
+- A | PN kavşağı yapısı | p ve n bölgeleri
+- A | PN kavşağı oluşumu | taşıyıcı difüzyonu başlangıcı
+- A | Boşluk bölgesi (depletion) | sabit iyonlar, yük dağılımı
+- A | Yük yoğunluğu ρ(x) (basamak kavşak) | dikdörtgen yük
+- A | Elektrik alan E(x) | üçgen
+- A | Potansiyel V(x) | parabolik eğri
+- A | Bant diyagramı (denge) | tek Fermi seviyesi, bant bükülmesi
+- A | İç potansiyel (built-in) V_bi | formül ve değer
+- A | Boşluk bölgesi genişliği | W, x_n, x_p
+- A | Doğrusal geçişli kavşak | ρ(x) eğimli
+- A | Asimetrik kavşak (p⁺n) | boşluk bölgesi daha çok n tarafta
+- A | Kavşak üretimi (difüzyon, iyon implantasyonu) | süreç adımları
+- A | Epitaksi ve oksidasyon | kalın katman büyütme
+- A | Fotolitografi adımları | maske, ışık, aşındırma
+- B | Entegre devre üretim odası | temiz oda
+- B | Silisyum yonga kesiti | katman yapısı
+
+## 7. PN kavşağı (kutuplu)
+- A | İleri kutuplama | bariyer düşer, akım geçer
+- A | Geri kutuplama | bariyer artar, boşluk bölgesi genişler
+- A | Kutuplama altında bant diyagramı | kuasi-Fermi seviyeleri
+- A | Azınlık taşıyıcı enjeksiyonu | kavşak kenarında Δp, Δn
+- A | Taşıyıcı dağılımı (ileri kutuplama) | üstel profil
+- A | İdeal diyot denklemi | I = I_S(e^{V/V_T} − 1)
+- A | Diyot I–V karakteristiği | ileri üstel, geri doyma
+- A | Geri doyma akımı | I_S bileşenleri
+- A | Sıcaklığın I–V'ye etkisi | eğri kayması
+- A | İdeal olmayan diyot | geri üretim, ileri rekombinasyon akımı
+- A | İdealite faktörü n | log I–V eğimi
+- A | Yüksek akım etkileri | seri direnç
+- A | Çığ (avalanche) çöküşü | yüksek alanda çarpışma iyonizasyonu
+- A | Zener çöküşü (tünelleme) | dar bariyer, bantlar arası geçiş
+- A | Çöküş gerilimi – katkı | eğri
+- A | Kavşak kapasitansı (boşluk) | C_j – V eğrisi
+- A | Difüzyon kapasitansı | depolanan yük
+- A | Varaktör diyot | gerilimle değişen C
+- A | Anahtarlama davranışı | depolama zamanı, geri toparlanma
+- A | Küçük sinyal eşdeğer devre | r_d, C_j, C_d
+- A | Metal–yarıiletken kavşak | Schottky bariyeri bant diyagramı
+- A | Omik kontak | düşük bariyer, doğrusal I–V
+- A | Schottky ve PN diyot karşılaştırma | I–V eğrileri
+- A | Isı oluşumu | diyot sıcaklığı
+- B | Diyot devre elemanı | gerçek diyot fotoğraf
+- B | LED | ileri kutuplamada ışıma
+- B | Su sürahisi ve tek yönlü valf | diyot metaforu
+
+## 8. Bipolar kavşak transistör (BJT)
+- A | BJT yapısı (NPN, PNP) | emetör, baz, kolektör bölgeleri
+- A | BJT sembolü | NPN ve PNP, akım yönü okları
+- A | Aktif çalışma modu | EB ileri, CB geri
+- A | Taşıyıcı hareketi (NPN) | elektron enjeksiyonu, baz geçişi
+- A | Baz bölgesinde azınlık dağılımı | doğrusal profil
+- A | Akım bileşenleri | I_E, I_B, I_C
+- A | Akım kazancı α ve β | β = α/(1−α)
+- A | Emetör verimi, taşıma faktörü | γ, α_T
+- A | Bant diyagramı (aktif) | emetör–baz–kolektör
+- A | Kesim (cutoff) bölgesi | iki kavşak geri
+- A | Doyma (saturation) bölgesi | iki kavşak ileri
+- A | Ters aktif mod | EB geri, CB ileri
+- A | BJT çıkış karakteristikleri | I_C – V_CE ailesi
+- A | BJT giriş karakteristiği | I_B – V_BE
+- A | Early etkisi | baz genişliği modülasyonu, eğim
+- A | Ortak emetör, ortak baz, ortak kolektör | üç bağlantı
+- A | BJT'nin yükseltici olarak çalışması | küçük sinyal, yük doğrusu
+- A | Yük doğrusu ve Q noktası | çıkış karakteristikleri üstüne
+- A | BJT'nin anahtar olarak kullanımı | aç-kapa bölgeleri
+- A | Anahtarlama zamanları | gecikme, yükselme, depolama, düşme
+- A | Kutuplama devreleri | sabit baz, gerilim bölücü
+- A | Kırılma gerilimleri BV_CEO, BV_CBO | çıkış eğrisinde
+- A | Frekans sınırlaması | β(f) eğrisi, f_T
+- A | Küçük sinyal modeli (hibrit-π) | g_m, r_π, C_π, C_μ
+- A | Ebers–Moll modeli | iki diyot ve akım kaynakları
+- A | Heterojunction BJT | bant uyumsuzluğu
+- B | Transistör (TO-92) | gerçek parça
+- B | Musluk metaforu | küçük akım büyük akımı kontrol eder
+- B | Ses yükselteç devresi | yükseltme uygulaması
+
+## 9. MOS yapıları (MOS kapasitör)
+- A | MOS kapasitör yapısı | metal, oksit, yarıiletken
+- A | İdeal MOS bant diyagramı | gerilimsiz
+- A | Birikim (accumulation) | gate eksi (p tipi için)
+- A | Tüketim (depletion) | az pozitif gate
+- A | Evirme (inversion) | yeterli pozitif gate
+- A | Eşik gerilimi V_T | inversion başlangıcı
+- A | Yük dağılımı (üç bölge) | MOS'ta yük
+- A | MOS C–V eğrisi | düşük ve yüksek frekans
+- A | Yüzey potansiyeli | ψ_s – V_G
+- A | Düzbant (flat-band) gerilimi | iş fonksiyonu farkı ve oksit yükü
+- A | Oksit yükleri | sabit yük, arayüz tuzakları
+- A | Oksit kalınlığı etkisi | C_ox
+- A | Silisyum–oksit arayüzü | SiO₂ katmanı
+- B | Kapasitör levhaları | MOS metaforu
+
+## 10. Alan etkili transistörler (FET)
+- A | JFET yapısı | kanal, gate, kaynak, savak
+- A | JFET çalışması | kanalın daralması
+- A | Pinch-off | kanal kapanması
+- A | JFET I–V karakteristikleri | doğrusal ve doyma bölgesi
+- A | MOSFET yapısı (nMOS) | kaynak, savak, gate, kanal, gövde
+- A | MOSFET sembolleri | n kanal, p kanal, geliştirme, tüketim
+- A | n kanal oluşumu | V_GS > V_T
+- A | MOSFET çalışma bölgeleri | kesim, lineer (triyot), doyma
+- A | MOSFET I_D–V_DS | eşik altı, lineer, doyma eğrileri
+- A | MOSFET transfer karakteristiği | I_D – V_GS parabolü
+- A | Pinch-off ve kanal boyu modülasyonu | doyma
+- A | Eşik gerilimi etkileri | gövde etkisi
+- A | pMOS ve nMOS karşılaştırma | taşıyıcı ve polarite
+- A | CMOS evirici | nMOS ve pMOS çifti, VTC eğrisi
+- A | MOSFET anahtar olarak | mantık seviyeleri
+- A | MOSFET küçük sinyal modeli | g_m, r_o
+- A | Kısa kanal etkileri | DIBL, hız doygunluğu
+- A | Ölçekleme (Moore yasası) | boyut–yıl grafiği
+- A | MOSFET kapasitansları | C_gs, C_gd, C_gb
+- A | Tüketim ve geliştirme tipi | kanal var/yok
+- B | MOSFET (TO-220) | güç transistörü gerçek parça
+- B | İşlemci yongası | milyarlarca transistör
