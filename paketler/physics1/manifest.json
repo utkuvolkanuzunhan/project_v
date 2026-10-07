@@ -2,10 +2,10 @@
  "ders": "physics1",
  "ad": "Physics I",
  "dersKodu": "505001052010",
- "surum": 4,
+ "surum": 5,
  "kavramSayisi": 252,
  "beklenenGorsel": 330,
- "mevcutGorsel": 39,
+ "mevcutGorsel": 49,
  "uniteler": [
   {
    "no": 1,
@@ -1383,7 +1383,32 @@
      "gosterim": "itme ve aktarım",
      "yol": "u08-momentum-ve-itme/k0111-bilardo-toplarinin-carpismasi",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "16d08fba9f1db36f2156785589b98c4d156420c50fd3165c015c39d1dc2cda6b",
+       "boyut": 36344,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0111-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "c4e7fa12b5e77a41d748871df7a49991daa5547e0be1f6497af13fc7c3bea4aa",
+       "boyut": 54704,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0111-006"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "7a6590bcbebb0634a914638836f7a656c801a254a5108dca11c2382cb5ce5798",
+       "boyut": 39028,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0111-003"
+      }
+     ]
     },
     {
      "id": "k0112",
@@ -1392,7 +1417,32 @@
      "gosterim": "kırışma bölgesi, süre uzaması",
      "yol": "u08-momentum-ve-itme/k0112-kaza-testi-carpisma-bolgesi",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "0f947f447d53931553537c32dbdf94d9dbb951a0908fcb5986eabc037df324d9",
+       "boyut": 105314,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0112-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "3dd3a0e43d3c67b67f8a03a851218b79d7adfa65695662a34d41085da87bbf66",
+       "boyut": 108842,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0112-011"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "5b6dadf8d58c4418d43e31fc3202db3dd1b55f0564709ca5e640e35267ac514e",
+       "boyut": 119276,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0112-007"
+      }
+     ]
     },
     {
      "id": "k0113",
@@ -1401,7 +1451,32 @@
      "gosterim": "çarpma süresini uzatma",
      "yol": "u08-momentum-ve-itme/k0113-hava-yastigi",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "215dfc0bf2cda24bbdee6a6e4cce7ae2c6d15927f496a4a8c5f0cd485e45d27e",
+       "boyut": 93514,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0113-003"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "1c4b989c73d59ca20555c16dd6cb6bd2996277ad52fce71bbc6d2385acf8aebb",
+       "boyut": 89052,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0113-015"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "28e1cc7887bfcffd6e12f520d55485054f2983cf2a6340b05177058a36d2c9b2",
+       "boyut": 70310,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0113-011"
+      }
+     ]
     }
    ]
   },
@@ -1597,7 +1672,16 @@
      "gosterim": "kollar içeri ve dışarı",
      "yol": "u09-donme-hareketi/k0134-buz-patencisi-donusu",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "85679a3bcd2eae92d19b2e0a6b50b036adac2fbbe8e8d59b43575ed6c40b3739",
+       "boyut": 39160,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0134-002"
+      }
+     ]
     },
     {
      "id": "k0135",
