@@ -2,10 +2,10 @@
  "ders": "physics1",
  "ad": "Physics I",
  "dersKodu": "505001052010",
- "surum": 11,
+ "surum": 12,
  "kavramSayisi": 252,
  "beklenenGorsel": 330,
- "mevcutGorsel": 109,
+ "mevcutGorsel": 113,
  "uniteler": [
   {
    "no": 1,
@@ -3282,6 +3282,14 @@
        "genislik": 1024,
        "yukseklik": 1024,
        "aday": "physics1-k0251-012"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "c19353ee64837825f145401a42ff430705cfd628948dc56c772e71ad7ec6892c",
+       "boyut": 56926,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0251-009"
       }
      ]
     },
@@ -3292,7 +3300,32 @@
      "gosterim": "entropi metaforu",
      "yol": "u16-kinetik-teori-ve-termodinamik-yasalar/k0252-dagilan-murekkep-damlasi",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "6fcb8f5800ecf63bd9bb35f1dd03cddf0faace276e18c560250b5236b5665f9d",
+       "boyut": 31602,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0252-002"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "1a1815a82ff74dbf5c5a81c763bca5e98fad7b14daa819e59fc7f48c17654b55",
+       "boyut": 17978,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0252-011"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "8dbcbffca139d352fb2886785ad52a442ad431083c3cb811099d7d431c837228",
+       "boyut": 20448,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0252-005"
+      }
+     ]
     }
    ]
   }
