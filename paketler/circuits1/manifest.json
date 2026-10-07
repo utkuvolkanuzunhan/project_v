@@ -1,0 +1,1722 @@
+{
+ "ders": "circuits1",
+ "ad": "Circuit Analysis 1",
+ "dersKodu": "505002352024",
+ "surum": 1,
+ "kavramSayisi": 173,
+ "beklenenGorsel": 217,
+ "mevcutGorsel": 10,
+ "uniteler": [
+  {
+   "no": 1,
+   "ad": "Devre değişkenleri",
+   "klasor": "u01-devre-degiskenleri",
+   "kavramlar": [
+    {
+     "id": "k0001",
+     "ad": "SI birimleri ve önekleri",
+     "hat": "A",
+     "gosterim": "pico'dan giga'ya ölçek merdiveni",
+     "yol": "u01-devre-degiskenleri/k0001-si-birimleri-ve-onekleri",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0002",
+     "ad": "Devre ve devre elemanı kavramı",
+     "hat": "A",
+     "gosterim": "kaynak, yük, iletken bağlantı şeması",
+     "yol": "u01-devre-degiskenleri/k0002-devre-ve-devre-elemani-kavrami",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0003",
+     "ad": "Gerilim, akım, yük ilişkisi",
+     "hat": "A",
+     "gosterim": "I = dq/dt, V = dw/dq okları",
+     "yol": "u01-devre-degiskenleri/k0003-gerilim-akim-yuk-iliskisi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0004",
+     "ad": "Gerilim polaritesi (+ / −)",
+     "hat": "A",
+     "gosterim": "eleman üzerinde artı ve eksi uç",
+     "yol": "u01-devre-degiskenleri/k0004-gerilim-polaritesi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0005",
+     "ad": "Akım yönü (konvansiyonel)",
+     "hat": "A",
+     "gosterim": "oku ve elektron akışı yönü",
+     "yol": "u01-devre-degiskenleri/k0005-akim-yonu-konvansiyonel",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0006",
+     "ad": "Pasif işaret kuralı",
+     "hat": "A",
+     "gosterim": "akım artı uçtan girerse güç emilir",
+     "yol": "u01-devre-degiskenleri/k0006-pasif-isaret-kurali",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0007",
+     "ad": "Güç ve enerji p = vi",
+     "hat": "A",
+     "gosterim": "pozitif ve negatif güç örnekleri",
+     "yol": "u01-devre-degiskenleri/k0007-guc-ve-enerji-p-vi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0008",
+     "ad": "Güç dengesi",
+     "hat": "A",
+     "gosterim": "tüm elemanlarda toplam güç sıfır",
+     "yol": "u01-devre-degiskenleri/k0008-guc-dengesi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0009",
+     "ad": "Ayırt edici işaret (+/−) hatası",
+     "hat": "A",
+     "gosterim": "yanlış ve doğru okların karşılaştırması",
+     "yol": "u01-devre-degiskenleri/k0009-ayirt-edici-isaret-hatasi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0010",
+     "ad": "Su borusu benzetmesi",
+     "hat": "B",
+     "gosterim": "gerilim = basınç, akım = debi",
+     "yol": "u01-devre-degiskenleri/k0010-su-borusu-benzetmesi",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0011",
+     "ad": "Pil ile lamba",
+     "hat": "B",
+     "gosterim": "basit devre sahnesi",
+     "yol": "u01-devre-degiskenleri/k0011-pil-ile-lamba",
+     "beklenen": 3,
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "869bad3b97a4f85ea5a5f08b84b389c322e63806f05238a87ffa55dbe8dd3010",
+       "boyut": 49728,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "circuits1-k0011-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "a3ae696590939aab9b0131ab12d1038900e90751684196f569d345083f3d68bd",
+       "boyut": 40090,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "circuits1-k0011-006"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "8684639dd1d19cf882d8c0fadb4653de528b89287c4318bdb09e6c130baae7b2",
+       "boyut": 45000,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "circuits1-k0011-010"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "no": 2,
+   "ad": "Devre elemanları",
+   "klasor": "u02-devre-elemanlari",
+   "kavramlar": [
+    {
+     "id": "k0012",
+     "ad": "Bağımsız gerilim kaynağı",
+     "hat": "A",
+     "gosterim": "daire, + ve − uç",
+     "yol": "u02-devre-elemanlari/k0012-bagimsiz-gerilim-kaynagi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0013",
+     "ad": "Bağımsız akım kaynağı",
+     "hat": "A",
+     "gosterim": "daire, ok",
+     "yol": "u02-devre-elemanlari/k0013-bagimsiz-akim-kaynagi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0014",
+     "ad": "Bağımlı kaynaklar (4 tür)",
+     "hat": "A",
+     "gosterim": "VCVS, CCVS, VCCS, CCCS elmasları",
+     "yol": "u02-devre-elemanlari/k0014-bagimli-kaynaklar-4-tur",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0015",
+     "ad": "İdeal ve gerçek kaynak farkı",
+     "hat": "A",
+     "gosterim": "iç direnç ile gerilim düşüşü",
+     "yol": "u02-devre-elemanlari/k0015-ideal-ve-gercek-kaynak-farki",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0016",
+     "ad": "Direnç ve Ohm yasası",
+     "hat": "A",
+     "gosterim": "v = iR doğrusu",
+     "yol": "u02-devre-elemanlari/k0016-direnc-ve-ohm-yasasi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0017",
+     "ad": "Direnç sembolleri",
+     "hat": "A",
+     "gosterim": "zigzag ve dikdörtgen gösterimi",
+     "yol": "u02-devre-elemanlari/k0017-direnc-sembolleri",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0018",
+     "ad": "İletkenlik G = 1/R",
+     "hat": "A",
+     "gosterim": "siemens, grafik",
+     "yol": "u02-devre-elemanlari/k0018-iletkenlik-g-1-r",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0019",
+     "ad": "Kısa devre ve açık devre",
+     "hat": "A",
+     "gosterim": "R = 0 ve R = ∞",
+     "yol": "u02-devre-elemanlari/k0019-kisa-devre-ve-acik-devre",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0020",
+     "ad": "Direnç gücü",
+     "hat": "A",
+     "gosterim": "p = i²R = v²/R parabolü",
+     "yol": "u02-devre-elemanlari/k0020-direnc-gucu",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0021",
+     "ad": "Kirchhoff akım yasası (KCL)",
+     "hat": "A",
+     "gosterim": "düğümde akımlar toplamı sıfır",
+     "yol": "u02-devre-elemanlari/k0021-kirchhoff-akim-yasasi-kcl",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0022",
+     "ad": "Kirchhoff gerilim yasası (KVL)",
+     "hat": "A",
+     "gosterim": "kapalı çevrede gerilimler toplamı sıfır",
+     "yol": "u02-devre-elemanlari/k0022-kirchhoff-gerilim-yasasi-kvl",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0023",
+     "ad": "Düğüm, dal, çevre tanımları",
+     "hat": "A",
+     "gosterim": "bir devre üzerinde işaretli kısımlar",
+     "yol": "u02-devre-elemanlari/k0023-dugum-dal-cevre-tanimlari",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0024",
+     "ad": "KVL ve KCL birlikte örnek",
+     "hat": "A",
+     "gosterim": "basit devrenin çözümü",
+     "yol": "u02-devre-elemanlari/k0024-kvl-ve-kcl-birlikte-ornek",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0025",
+     "ad": "Bağımlı kaynaklı devre",
+     "hat": "A",
+     "gosterim": "kontrol değişkeni ve kaynak",
+     "yol": "u02-devre-elemanlari/k0025-bagimli-kaynakli-devre",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0026",
+     "ad": "Ampermetre ve voltmetre bağlantısı",
+     "hat": "A",
+     "gosterim": "seri ve paralel yerleşim",
+     "yol": "u02-devre-elemanlari/k0026-ampermetre-ve-voltmetre-baglantisi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0027",
+     "ad": "Wheatstone köprüsü",
+     "hat": "A",
+     "gosterim": "denge koşulu",
+     "yol": "u02-devre-elemanlari/k0027-wheatstone-koprusu",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0028",
+     "ad": "Direnç renk kodları",
+     "hat": "B",
+     "gosterim": "renkli bantlı direnç yakın plan",
+     "yol": "u02-devre-elemanlari/k0028-direnc-renk-kodlari",
+     "beklenen": 3,
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "8d552edd8e28db71b1cc722332893db33f2eedd5eb02bddeb36b397e43650317",
+       "boyut": 31638,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "circuits1-k0028-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "0d0e4f8d343696de093864b53713d54afc657308c815ce35b536a0182e212e57",
+       "boyut": 29902,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "circuits1-k0028-002"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "1481fabe3943e3cfb8b981a6486ab4c7b91a00d853e696b1a0e9cba7eb001e6e",
+       "boyut": 28310,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "circuits1-k0028-003"
+      }
+     ]
+    },
+    {
+     "id": "k0029",
+     "ad": "Devre elemanları koleksiyonu",
+     "hat": "B",
+     "gosterim": "direnç, kondansatör, bobin gerçek parçalar",
+     "yol": "u02-devre-elemanlari/k0029-devre-elemanlari-koleksiyonu",
+     "beklenen": 3,
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "fdb5c9b0bdc65fcd194ae35bb38f698fefd2a5585562ca1a55b28dfbb7719a39",
+       "boyut": 45300,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "circuits1-k0029-002"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "166edacd86c1a8f111b713b1f52092ae3fc9f83c0fa7a8fb9e0fa776ce611884",
+       "boyut": 69452,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "circuits1-k0029-004"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "538994b0fbf5a6c93239f135a7360a6eb02fdb56c9aec45b00c20e75c7842ec8",
+       "boyut": 64366,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "circuits1-k0029-011"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "no": 3,
+   "ad": "Basit rezistif devreler",
+   "klasor": "u03-basit-rezistif-devreler",
+   "kavramlar": [
+    {
+     "id": "k0030",
+     "ad": "Seri dirençler",
+     "hat": "A",
+     "gosterim": "R_eş = ΣR",
+     "yol": "u03-basit-rezistif-devreler/k0030-seri-direncler",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0031",
+     "ad": "Paralel dirençler",
+     "hat": "A",
+     "gosterim": "1/R_eş = Σ1/R",
+     "yol": "u03-basit-rezistif-devreler/k0031-paralel-direncler",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0032",
+     "ad": "İki paralel direnç kısa formül",
+     "hat": "A",
+     "gosterim": "R₁R₂/(R₁+R₂)",
+     "yol": "u03-basit-rezistif-devreler/k0032-iki-paralel-direnc-kisa-formul",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0033",
+     "ad": "Seri ve paralel karışık devre indirgeme",
+     "hat": "A",
+     "gosterim": "adım adım indirgeme",
+     "yol": "u03-basit-rezistif-devreler/k0033-seri-ve-paralel-karisik-devre-indirgeme",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0034",
+     "ad": "Gerilim bölücü",
+     "hat": "A",
+     "gosterim": "V_out = V_in · R₂/(R₁+R₂)",
+     "yol": "u03-basit-rezistif-devreler/k0034-gerilim-bolucu",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0035",
+     "ad": "Gerilim bölücü yükle",
+     "hat": "A",
+     "gosterim": "yük direncinin etkisi",
+     "yol": "u03-basit-rezistif-devreler/k0035-gerilim-bolucu-yukle",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0036",
+     "ad": "Akım bölücü",
+     "hat": "A",
+     "gosterim": "I₁ = I · R₂/(R₁+R₂)",
+     "yol": "u03-basit-rezistif-devreler/k0036-akim-bolucu",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0037",
+     "ad": "Gerilim bölücü ve akım bölücü karşılaştırma",
+     "hat": "A",
+     "gosterim": "yan yana iki devre",
+     "yol": "u03-basit-rezistif-devreler/k0037-gerilim-bolucu-ve-akim-bolucu-karsilasti",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0038",
+     "ad": "Ampermetre (d'Arsonval) modeli",
+     "hat": "A",
+     "gosterim": "kayma direnci",
+     "yol": "u03-basit-rezistif-devreler/k0038-ampermetre-d-arsonval-modeli",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0039",
+     "ad": "Voltmetre yükleme etkisi",
+     "hat": "A",
+     "gosterim": "iç direnç, ölçüm hatası",
+     "yol": "u03-basit-rezistif-devreler/k0039-voltmetre-yukleme-etkisi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0040",
+     "ad": "Köprü devresi dengesi",
+     "hat": "A",
+     "gosterim": "Wheatstone, ölçü",
+     "yol": "u03-basit-rezistif-devreler/k0040-kopru-devresi-dengesi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0041",
+     "ad": "Y–Δ (yıldız-üçgen) dönüşümü",
+     "hat": "A",
+     "gosterim": "iki şekil ve formül sembolleri",
+     "yol": "u03-basit-rezistif-devreler/k0041-y-yildiz-ucgen-donusumu",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0042",
+     "ad": "Δ–Y dönüşümü örneği",
+     "hat": "A",
+     "gosterim": "köprü devre çözümü",
+     "yol": "u03-basit-rezistif-devreler/k0042-y-donusumu-ornegi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0043",
+     "ad": "Gerilim bölücü ışık sensörü",
+     "hat": "B",
+     "gosterim": "LDR ve sensör sahnesi",
+     "yol": "u03-basit-rezistif-devreler/k0043-gerilim-bolucu-isik-sensoru",
+     "beklenen": 3,
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "12ba810bc71020d42e0a6183a687bebaf5cc7c787a39eed17bcfe49caa42d41f",
+       "boyut": 52092,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "circuits1-k0043-001"
+      }
+     ]
+    },
+    {
+     "id": "k0044",
+     "ad": "Ev kablolaması: paralel prizler",
+     "hat": "B",
+     "gosterim": "paralel bağlantı sezgisi",
+     "yol": "u03-basit-rezistif-devreler/k0044-ev-kablolamasi-paralel-prizler",
+     "beklenen": 3,
+     "gorseller": []
+    }
+   ]
+  },
+  {
+   "no": 4,
+   "ad": "Devre analiz teknikleri",
+   "klasor": "u04-devre-analiz-teknikleri",
+   "kavramlar": [
+    {
+     "id": "k0045",
+     "ad": "Devre analizine genel bakış",
+     "hat": "A",
+     "gosterim": "hangi yöntem ne zaman akış şeması",
+     "yol": "u04-devre-analiz-teknikleri/k0045-devre-analizine-genel-bakis",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0046",
+     "ad": "Düğüm gerilimleri yöntemi (temel)",
+     "hat": "A",
+     "gosterim": "referans düğüm, bilinmeyenler",
+     "yol": "u04-devre-analiz-teknikleri/k0046-dugum-gerilimleri-yontemi-temel",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0047",
+     "ad": "Düğüm yöntemi, gerilim kaynağı varken",
+     "hat": "A",
+     "gosterim": "süpersüğüm",
+     "yol": "u04-devre-analiz-teknikleri/k0047-dugum-yontemi-gerilim-kaynagi-varken",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0048",
+     "ad": "Düğüm yöntemi ve bağımlı kaynaklar",
+     "hat": "A",
+     "gosterim": "ek denklemler",
+     "yol": "u04-devre-analiz-teknikleri/k0048-dugum-yontemi-ve-bagimli-kaynaklar",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0049",
+     "ad": "Çevre akımları yöntemi (temel)",
+     "hat": "A",
+     "gosterim": "döngü okları",
+     "yol": "u04-devre-analiz-teknikleri/k0049-cevre-akimlari-yontemi-temel",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0050",
+     "ad": "Çevre akımı, akım kaynağı varken",
+     "hat": "A",
+     "gosterim": "süpergöz",
+     "yol": "u04-devre-analiz-teknikleri/k0050-cevre-akimi-akim-kaynagi-varken",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0051",
+     "ad": "Çevre akımı ve bağımlı kaynaklar",
+     "hat": "A",
+     "gosterim": "ek denklemler",
+     "yol": "u04-devre-analiz-teknikleri/k0051-cevre-akimi-ve-bagimli-kaynaklar",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0052",
+     "ad": "Düğüm mü çevre mi seçimi",
+     "hat": "A",
+     "gosterim": "iki yöntemin denklem sayıları",
+     "yol": "u04-devre-analiz-teknikleri/k0052-dugum-mu-cevre-mi-secimi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0053",
+     "ad": "Kaynak dönüşümü",
+     "hat": "A",
+     "gosterim": "gerilim kaynağı + R ⇄ akım kaynağı ∥ R",
+     "yol": "u04-devre-analiz-teknikleri/k0053-kaynak-donusumu",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0054",
+     "ad": "Thevenin eşdeğeri",
+     "hat": "A",
+     "gosterim": "V_Th ve R_Th, iki uçlu devre",
+     "yol": "u04-devre-analiz-teknikleri/k0054-thevenin-esdegeri",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0055",
+     "ad": "Thevenin: açık devre gerilimi ve kısa devre akımı",
+     "hat": "A",
+     "gosterim": "yöntem ölçümü",
+     "yol": "u04-devre-analiz-teknikleri/k0055-thevenin-acik-devre-gerilimi-ve-kisa-dev",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0056",
+     "ad": "Thevenin R_Th bulma (test kaynağı)",
+     "hat": "A",
+     "gosterim": "bağımlı kaynaklı devre",
+     "yol": "u04-devre-analiz-teknikleri/k0056-thevenin-r-th-bulma-test-kaynagi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0057",
+     "ad": "Norton eşdeğeri",
+     "hat": "A",
+     "gosterim": "I_N ve R_N",
+     "yol": "u04-devre-analiz-teknikleri/k0057-norton-esdegeri",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0058",
+     "ad": "Thevenin–Norton dönüşümü",
+     "hat": "A",
+     "gosterim": "eşdeğer iki model",
+     "yol": "u04-devre-analiz-teknikleri/k0058-thevenin-norton-donusumu",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0059",
+     "ad": "Maksimum güç aktarımı",
+     "hat": "A",
+     "gosterim": "güç – R_L grafiği, R_L = R_Th",
+     "yol": "u04-devre-analiz-teknikleri/k0059-maksimum-guc-aktarimi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0060",
+     "ad": "Maksimum güç verim ilişkisi",
+     "hat": "A",
+     "gosterim": "%50 verim",
+     "yol": "u04-devre-analiz-teknikleri/k0060-maksimum-guc-verim-iliskisi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0061",
+     "ad": "Süperpozisyon (doğrusallık)",
+     "hat": "A",
+     "gosterim": "kaynakları tek tek etkinleştirme",
+     "yol": "u04-devre-analiz-teknikleri/k0061-superpozisyon-dogrusallik",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0062",
+     "ad": "Süperpozisyon örneği",
+     "hat": "A",
+     "gosterim": "iki kaynaklı devre, kısmi cevaplar",
+     "yol": "u04-devre-analiz-teknikleri/k0062-superpozisyon-ornegi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0063",
+     "ad": "Doğrusal devre ve ölçekleme",
+     "hat": "A",
+     "gosterim": "giriş iki katı, çıkış iki katı",
+     "yol": "u04-devre-analiz-teknikleri/k0063-dogrusal-devre-ve-olcekleme",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0064",
+     "ad": "Kaynak devre eşdeğerleri tablosu",
+     "hat": "A",
+     "gosterim": "dönüşüm özeti",
+     "yol": "u04-devre-analiz-teknikleri/k0064-kaynak-devre-esdegerleri-tablosu",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0065",
+     "ad": "Dağıtım panosu ve yük",
+     "hat": "B",
+     "gosterim": "maksimum güç sahnesi",
+     "yol": "u04-devre-analiz-teknikleri/k0065-dagitim-panosu-ve-yuk",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0066",
+     "ad": "Güneş paneli ve akü",
+     "hat": "B",
+     "gosterim": "Thevenin eşdeğeri metaforu",
+     "yol": "u04-devre-analiz-teknikleri/k0066-gunes-paneli-ve-aku",
+     "beklenen": 3,
+     "gorseller": []
+    }
+   ]
+  },
+  {
+   "no": 5,
+   "ad": "İşlemsel yükselteç (op-amp)",
+   "klasor": "u05-islemsel-yukseltec-op-amp",
+   "kavramlar": [
+    {
+     "id": "k0067",
+     "ad": "Op-amp sembolü ve uçları",
+     "hat": "A",
+     "gosterim": "+, −, V⁺, V⁻, çıkış",
+     "yol": "u05-islemsel-yukseltec-op-amp/k0067-op-amp-sembolu-ve-uclari",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0068",
+     "ad": "Op-amp iç yapı bloğu",
+     "hat": "A",
+     "gosterim": "giriş katı, kazanç katı, çıkış katı",
+     "yol": "u05-islemsel-yukseltec-op-amp/k0068-op-amp-ic-yapi-blogu",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0069",
+     "ad": "İdeal op-amp kabulleri",
+     "hat": "A",
+     "gosterim": "i₊ = i₋ = 0, v₊ = v₋",
+     "yol": "u05-islemsel-yukseltec-op-amp/k0069-ideal-op-amp-kabulleri",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0070",
+     "ad": "Op-amp transfer karakteristiği",
+     "hat": "A",
+     "gosterim": "doyma bölgeleri, lineer bölge",
+     "yol": "u05-islemsel-yukseltec-op-amp/k0070-op-amp-transfer-karakteristigi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0071",
+     "ad": "Kıyaslayıcı (karşılaştırıcı)",
+     "hat": "A",
+     "gosterim": "eşik, ±V_sat çıkışı",
+     "yol": "u05-islemsel-yukseltec-op-amp/k0071-kiyaslayici-karsilastirici",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0072",
+     "ad": "Evirici yükselteç",
+     "hat": "A",
+     "gosterim": "A = −Rf/Rin",
+     "yol": "u05-islemsel-yukseltec-op-amp/k0072-evirici-yukseltec",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0073",
+     "ad": "Evirmeyen yükselteç",
+     "hat": "A",
+     "gosterim": "A = 1 + Rf/R",
+     "yol": "u05-islemsel-yukseltec-op-amp/k0073-evirmeyen-yukseltec",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0074",
+     "ad": "Gerilim izleyici (buffer)",
+     "hat": "A",
+     "gosterim": "A = 1, yüksek giriş direnci",
+     "yol": "u05-islemsel-yukseltec-op-amp/k0074-gerilim-izleyici-buffer",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0075",
+     "ad": "Toplayıcı yükselteç",
+     "hat": "A",
+     "gosterim": "çok girişli, ağırlıklı toplam",
+     "yol": "u05-islemsel-yukseltec-op-amp/k0075-toplayici-yukseltec",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0076",
+     "ad": "Fark yükselteci",
+     "hat": "A",
+     "gosterim": "v₂ − v₁ çıkışı",
+     "yol": "u05-islemsel-yukseltec-op-amp/k0076-fark-yukselteci",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0077",
+     "ad": "Enstrümantasyon yükselteci",
+     "hat": "A",
+     "gosterim": "üç op-amp yapısı",
+     "yol": "u05-islemsel-yukseltec-op-amp/k0077-enstrumantasyon-yukselteci",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0078",
+     "ad": "Doyma (saturation)",
+     "hat": "A",
+     "gosterim": "giriş ve çıkış dalgaları kırpılır",
+     "yol": "u05-islemsel-yukseltec-op-amp/k0078-doyma-saturation",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0079",
+     "ad": "Gerçek op-amp: kaydırma gerilimi",
+     "hat": "A",
+     "gosterim": "ofset modeli",
+     "yol": "u05-islemsel-yukseltec-op-amp/k0079-gercek-op-amp-kaydirma-gerilimi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0080",
+     "ad": "Gerçek op-amp: sonlu kazanç",
+     "hat": "A",
+     "gosterim": "açık çevrim kazanç eğrisi",
+     "yol": "u05-islemsel-yukseltec-op-amp/k0080-gercek-op-amp-sonlu-kazanc",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0081",
+     "ad": "Çıkış akımı sınırı",
+     "hat": "A",
+     "gosterim": "yük direnci ve limit",
+     "yol": "u05-islemsel-yukseltec-op-amp/k0081-cikis-akimi-siniri",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0082",
+     "ad": "Geri besleme kavramı",
+     "hat": "A",
+     "gosterim": "blok diyagram, negatif geri besleme",
+     "yol": "u05-islemsel-yukseltec-op-amp/k0082-geri-besleme-kavrami",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0083",
+     "ad": "Op-amp'li devre analiz yöntemi",
+     "hat": "A",
+     "gosterim": "sanal kısa devre",
+     "yol": "u05-islemsel-yukseltec-op-amp/k0083-op-amp-li-devre-analiz-yontemi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0084",
+     "ad": "Mikrofon yükseltici",
+     "hat": "B",
+     "gosterim": "ses sinyali yükseltme",
+     "yol": "u05-islemsel-yukseltec-op-amp/k0084-mikrofon-yukseltici",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0085",
+     "ad": "Entegre devre (DIP-8 op-amp)",
+     "hat": "B",
+     "gosterim": "gerçek yonga fotoğraf tarzı",
+     "yol": "u05-islemsel-yukseltec-op-amp/k0085-entegre-devre-dip-8-op-amp",
+     "beklenen": 3,
+     "gorseller": []
+    }
+   ]
+  },
+  {
+   "no": 6,
+   "ad": "İndüktans, kapasitans, karşılıklı indüktans",
+   "klasor": "u06-induktans-kapasitans-karsilikli-induktan",
+   "kavramlar": [
+    {
+     "id": "k0086",
+     "ad": "Kondansatör sembolü ve yapısı",
+     "hat": "A",
+     "gosterim": "iki plaka, dielektrik",
+     "yol": "u06-induktans-kapasitans-karsilikli-induktan/k0086-kondansator-sembolu-ve-yapisi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0087",
+     "ad": "Kapasitans C = Q/V",
+     "hat": "A",
+     "gosterim": "düzlem paralel levha",
+     "yol": "u06-induktans-kapasitans-karsilikli-induktan/k0087-kapasitans-c-q-v",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0088",
+     "ad": "i = C dv/dt",
+     "hat": "A",
+     "gosterim": "gerilim ve akım dalga şekilleri",
+     "yol": "u06-induktans-kapasitans-karsilikli-induktan/k0088-i-c-dv-dt",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0089",
+     "ad": "Kondansatör enerjisi",
+     "hat": "A",
+     "gosterim": "w = ½CV²",
+     "yol": "u06-induktans-kapasitans-karsilikli-induktan/k0089-kondansator-enerjisi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0090",
+     "ad": "Kondansatör gerilimi sürekliliği",
+     "hat": "A",
+     "gosterim": "ani değişemez",
+     "yol": "u06-induktans-kapasitans-karsilikli-induktan/k0090-kondansator-gerilimi-surekliligi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0091",
+     "ad": "Kondansatör seri-paralel",
+     "hat": "A",
+     "gosterim": "C_eş formülleri",
+     "yol": "u06-induktans-kapasitans-karsilikli-induktan/k0091-kondansator-seri-paralel",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0092",
+     "ad": "Kondansatör DC'de açık devre",
+     "hat": "A",
+     "gosterim": "kararlı durum",
+     "yol": "u06-induktans-kapasitans-karsilikli-induktan/k0092-kondansator-dc-de-acik-devre",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0093",
+     "ad": "Bobin sembolü ve yapısı",
+     "hat": "A",
+     "gosterim": "sarım, çekirdek",
+     "yol": "u06-induktans-kapasitans-karsilikli-induktan/k0093-bobin-sembolu-ve-yapisi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0094",
+     "ad": "v = L di/dt",
+     "hat": "A",
+     "gosterim": "akım ve gerilim şekilleri",
+     "yol": "u06-induktans-kapasitans-karsilikli-induktan/k0094-v-l-di-dt",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0095",
+     "ad": "Bobin enerjisi",
+     "hat": "A",
+     "gosterim": "w = ½Li²",
+     "yol": "u06-induktans-kapasitans-karsilikli-induktan/k0095-bobin-enerjisi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0096",
+     "ad": "Bobin akımı sürekliliği",
+     "hat": "A",
+     "gosterim": "ani değişemez",
+     "yol": "u06-induktans-kapasitans-karsilikli-induktan/k0096-bobin-akimi-surekliligi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0097",
+     "ad": "Bobin seri-paralel",
+     "hat": "A",
+     "gosterim": "L_eş formülleri",
+     "yol": "u06-induktans-kapasitans-karsilikli-induktan/k0097-bobin-seri-paralel",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0098",
+     "ad": "Bobin DC'de kısa devre",
+     "hat": "A",
+     "gosterim": "kararlı durum",
+     "yol": "u06-induktans-kapasitans-karsilikli-induktan/k0098-bobin-dc-de-kisa-devre",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0099",
+     "ad": "Karşılıklı indüktans",
+     "hat": "A",
+     "gosterim": "iki bobin, ortak akı",
+     "yol": "u06-induktans-kapasitans-karsilikli-induktan/k0099-karsilikli-induktans",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0100",
+     "ad": "Nokta kuralı (dot convention)",
+     "hat": "A",
+     "gosterim": "manyetik kuplajlı bobinlerde işaret",
+     "yol": "u06-induktans-kapasitans-karsilikli-induktan/k0100-nokta-kurali-dot-convention",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0101",
+     "ad": "Kuplaj katsayısı k",
+     "hat": "A",
+     "gosterim": "0 ≤ k ≤ 1 şekli",
+     "yol": "u06-induktans-kapasitans-karsilikli-induktan/k0101-kuplaj-katsayisi-k",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0102",
+     "ad": "Karşılıklı indüktanslı devre analizi",
+     "hat": "A",
+     "gosterim": "iki çevre denklemi",
+     "yol": "u06-induktans-kapasitans-karsilikli-induktan/k0102-karsilikli-induktansli-devre-analizi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0103",
+     "ad": "Transformatör (ideal)",
+     "hat": "A",
+     "gosterim": "N₁:N₂, V ve I oranı",
+     "yol": "u06-induktans-kapasitans-karsilikli-induktan/k0103-transformator-ideal",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0104",
+     "ad": "Eşdeğer indüktans (kuplajlı seri)",
+     "hat": "A",
+     "gosterim": "L₁ + L₂ ± 2M",
+     "yol": "u06-induktans-kapasitans-karsilikli-induktan/k0104-esdeger-induktans-kuplajli-seri",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0105",
+     "ad": "Telsiz şarj (kablosuz şarj)",
+     "hat": "B",
+     "gosterim": "karşılıklı indüktans uygulaması",
+     "yol": "u06-induktans-kapasitans-karsilikli-induktan/k0105-telsiz-sarj-kablosuz-sarj",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0106",
+     "ad": "Kamera flaşı",
+     "hat": "B",
+     "gosterim": "kondansatör şarj/deşarj",
+     "yol": "u06-induktans-kapasitans-karsilikli-induktan/k0106-kamera-flasi",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0107",
+     "ad": "Bakır sargılı transformatör",
+     "hat": "B",
+     "gosterim": "gerçek görünüm",
+     "yol": "u06-induktans-kapasitans-karsilikli-induktan/k0107-bakir-sargili-transformator",
+     "beklenen": 3,
+     "gorseller": []
+    }
+   ]
+  },
+  {
+   "no": 7,
+   "ad": "Birinci mertebeden RL ve RC devreleri",
+   "klasor": "u07-birinci-mertebeden-rl-ve-rc-devreleri",
+   "kavramlar": [
+    {
+     "id": "k0108",
+     "ad": "Doğal cevap (RL)",
+     "hat": "A",
+     "gosterim": "i(t) = I₀ e^{−t/τ}",
+     "yol": "u07-birinci-mertebeden-rl-ve-rc-devreleri/k0108-dogal-cevap-rl",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0109",
+     "ad": "Doğal cevap (RC)",
+     "hat": "A",
+     "gosterim": "v(t) = V₀ e^{−t/τ}",
+     "yol": "u07-birinci-mertebeden-rl-ve-rc-devreleri/k0109-dogal-cevap-rc",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0110",
+     "ad": "Zaman sabiti τ",
+     "hat": "A",
+     "gosterim": "τ = L/R ve τ = RC",
+     "yol": "u07-birinci-mertebeden-rl-ve-rc-devreleri/k0110-zaman-sabiti",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0111",
+     "ad": "Üstel eğri ve 5τ kuralı",
+     "hat": "A",
+     "gosterim": "%63, %86, %95, %99 işaretleri",
+     "yol": "u07-birinci-mertebeden-rl-ve-rc-devreleri/k0111-ustel-egri-ve-5-kurali",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0112",
+     "ad": "Adım cevabı (RL)",
+     "hat": "A",
+     "gosterim": "akım yükselişi, üstel yaklaşım",
+     "yol": "u07-birinci-mertebeden-rl-ve-rc-devreleri/k0112-adim-cevabi-rl",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0113",
+     "ad": "Adım cevabı (RC)",
+     "hat": "A",
+     "gosterim": "gerilim yükselişi",
+     "yol": "u07-birinci-mertebeden-rl-ve-rc-devreleri/k0113-adim-cevabi-rc",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0114",
+     "ad": "Genel çözüm yöntemi",
+     "hat": "A",
+     "gosterim": "başlangıç değeri, son değer, τ",
+     "yol": "u07-birinci-mertebeden-rl-ve-rc-devreleri/k0114-genel-cozum-yontemi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0115",
+     "ad": "Birim basamak fonksiyonu u(t)",
+     "hat": "A",
+     "gosterim": "basamak dalgası",
+     "yol": "u07-birinci-mertebeden-rl-ve-rc-devreleri/k0115-birim-basamak-fonksiyonu-u-t",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0116",
+     "ad": "Anahtarlanan kaynak ve u(t)",
+     "hat": "A",
+     "gosterim": "anahtarlama modeli",
+     "yol": "u07-birinci-mertebeden-rl-ve-rc-devreleri/k0116-anahtarlanan-kaynak-ve-u-t",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0117",
+     "ad": "Dalga şekli ve doğal cevap",
+     "hat": "A",
+     "gosterim": "bölgesel (parçalı) çözüm",
+     "yol": "u07-birinci-mertebeden-rl-ve-rc-devreleri/k0117-dalga-sekli-ve-dogal-cevap",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0118",
+     "ad": "Ardışık anahtarlama",
+     "hat": "A",
+     "gosterim": "iki farklı geçiş, parçalı üstel eğri",
+     "yol": "u07-birinci-mertebeden-rl-ve-rc-devreleri/k0118-ardisik-anahtarlama",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0119",
+     "ad": "Sınırsız cevap",
+     "hat": "A",
+     "gosterim": "kararsız devre örneği",
+     "yol": "u07-birinci-mertebeden-rl-ve-rc-devreleri/k0119-sinirsiz-cevap",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0120",
+     "ad": "Entegratör olarak RC",
+     "hat": "A",
+     "gosterim": "kare dalga girişte üçgen çıkış",
+     "yol": "u07-birinci-mertebeden-rl-ve-rc-devreleri/k0120-entegrator-olarak-rc",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0121",
+     "ad": "Diferansiyatör olarak RC",
+     "hat": "A",
+     "gosterim": "kare dalga girişte sivri uçlar",
+     "yol": "u07-birinci-mertebeden-rl-ve-rc-devreleri/k0121-diferansiyator-olarak-rc",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0122",
+     "ad": "Op-amp'li RC devresi",
+     "hat": "A",
+     "gosterim": "integratör devresi",
+     "yol": "u07-birinci-mertebeden-rl-ve-rc-devreleri/k0122-op-amp-li-rc-devresi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0123",
+     "ad": "Karşılaştırma: RC ve RL cevapları",
+     "hat": "A",
+     "gosterim": "yan yana grafik",
+     "yol": "u07-birinci-mertebeden-rl-ve-rc-devreleri/k0123-karsilastirma-rc-ve-rl-cevaplari",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0124",
+     "ad": "Lambanın yavaşça sönmesi",
+     "hat": "B",
+     "gosterim": "RC boşalma",
+     "yol": "u07-birinci-mertebeden-rl-ve-rc-devreleri/k0124-lambanin-yavasca-sonmesi",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0125",
+     "ad": "Flaş şarjı",
+     "hat": "B",
+     "gosterim": "kapasitör dolma",
+     "yol": "u07-birinci-mertebeden-rl-ve-rc-devreleri/k0125-flas-sarji",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0126",
+     "ad": "Fren lambasının geç sönmesi",
+     "hat": "B",
+     "gosterim": "zaman sabiti",
+     "yol": "u07-birinci-mertebeden-rl-ve-rc-devreleri/k0126-fren-lambasinin-gec-sonmesi",
+     "beklenen": 3,
+     "gorseller": []
+    }
+   ]
+  },
+  {
+   "no": 8,
+   "ad": "İkinci mertebeden RLC devreleri",
+   "klasor": "u08-ikinci-mertebeden-rlc-devreleri",
+   "kavramlar": [
+    {
+     "id": "k0127",
+     "ad": "Seri RLC doğal cevap",
+     "hat": "A",
+     "gosterim": "diferansiyel denklem",
+     "yol": "u08-ikinci-mertebeden-rlc-devreleri/k0127-seri-rlc-dogal-cevap",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0128",
+     "ad": "Karakteristik denklem ve kökler",
+     "hat": "A",
+     "gosterim": "s düzleminde iki kök",
+     "yol": "u08-ikinci-mertebeden-rlc-devreleri/k0128-karakteristik-denklem-ve-kokler",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0129",
+     "ad": "Aşırı sönümlü cevap",
+     "hat": "A",
+     "gosterim": "iki gerçek kök, üstel azalma",
+     "yol": "u08-ikinci-mertebeden-rlc-devreleri/k0129-asiri-sonumlu-cevap",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0130",
+     "ad": "Kritik sönümlü cevap",
+     "hat": "A",
+     "gosterim": "tek kök",
+     "yol": "u08-ikinci-mertebeden-rlc-devreleri/k0130-kritik-sonumlu-cevap",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0131",
+     "ad": "Az sönümlü cevap",
+     "hat": "A",
+     "gosterim": "sönümlü sinüs",
+     "yol": "u08-ikinci-mertebeden-rlc-devreleri/k0131-az-sonumlu-cevap",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0132",
+     "ad": "Sönüm oranı ζ ve doğal frekans ω₀",
+     "hat": "A",
+     "gosterim": "ζ'ye göre eğri ailesi",
+     "yol": "u08-ikinci-mertebeden-rlc-devreleri/k0132-sonum-orani-ve-dogal-frekans",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0133",
+     "ad": "Kökler ve cevap ilişkisi",
+     "hat": "A",
+     "gosterim": "s düzlemi ve zaman cevabı eşleşmesi",
+     "yol": "u08-ikinci-mertebeden-rlc-devreleri/k0133-kokler-ve-cevap-iliskisi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0134",
+     "ad": "Paralel RLC doğal cevap",
+     "hat": "A",
+     "gosterim": "akım ve gerilim",
+     "yol": "u08-ikinci-mertebeden-rlc-devreleri/k0134-paralel-rlc-dogal-cevap",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0135",
+     "ad": "Seri RLC adım cevabı",
+     "hat": "A",
+     "gosterim": "aşım, yerleşme",
+     "yol": "u08-ikinci-mertebeden-rlc-devreleri/k0135-seri-rlc-adim-cevabi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0136",
+     "ad": "Paralel RLC adım cevabı",
+     "hat": "A",
+     "gosterim": "üç sönüm durumu",
+     "yol": "u08-ikinci-mertebeden-rlc-devreleri/k0136-paralel-rlc-adim-cevabi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0137",
+     "ad": "Aşım ve yerleşme zamanı",
+     "hat": "A",
+     "gosterim": "adım cevabında ölçüler",
+     "yol": "u08-ikinci-mertebeden-rlc-devreleri/k0137-asim-ve-yerlesme-zamani",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0138",
+     "ad": "LC rezonansı",
+     "hat": "A",
+     "gosterim": "enerji salınımı, L ve C arasında",
+     "yol": "u08-ikinci-mertebeden-rlc-devreleri/k0138-lc-rezonansi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0139",
+     "ad": "İkinci mertebe devre başlangıç koşulları",
+     "hat": "A",
+     "gosterim": "v(0), i(0), türevler",
+     "yol": "u08-ikinci-mertebeden-rlc-devreleri/k0139-ikinci-mertebe-devre-baslangic-kosullari",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0140",
+     "ad": "Op-amp'li ikinci mertebe devre",
+     "hat": "A",
+     "gosterim": "iki integratörlü yapı",
+     "yol": "u08-ikinci-mertebeden-rlc-devreleri/k0140-op-amp-li-ikinci-mertebe-devre",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0141",
+     "ad": "Faz diyagramı",
+     "hat": "A",
+     "gosterim": "v–i yörüngesi, sarmal",
+     "yol": "u08-ikinci-mertebeden-rlc-devreleri/k0141-faz-diyagrami",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0142",
+     "ad": "Sarkaç ve RLC benzeşimi",
+     "hat": "B",
+     "gosterim": "mekanik–elektrik benzeşimi",
+     "yol": "u08-ikinci-mertebeden-rlc-devreleri/k0142-sarkac-ve-rlc-benzesimi",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0143",
+     "ad": "Radyo ayar düğmesi",
+     "hat": "B",
+     "gosterim": "rezonans ayarı",
+     "yol": "u08-ikinci-mertebeden-rlc-devreleri/k0143-radyo-ayar-dugmesi",
+     "beklenen": 3,
+     "gorseller": []
+    }
+   ]
+  },
+  {
+   "no": 9,
+   "ad": "Sinüzoidal kararlı durum",
+   "klasor": "u09-sinuzoidal-kararli-durum",
+   "kavramlar": [
+    {
+     "id": "k0144",
+     "ad": "Sinüs kaynağı",
+     "hat": "A",
+     "gosterim": "genlik, frekans, faz",
+     "yol": "u09-sinuzoidal-kararli-durum/k0144-sinus-kaynagi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0145",
+     "ad": "Sinüs dalga parametreleri",
+     "hat": "A",
+     "gosterim": "V_m, ω, φ, T",
+     "yol": "u09-sinuzoidal-kararli-durum/k0145-sinus-dalga-parametreleri",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0146",
+     "ad": "RMS değeri",
+     "hat": "A",
+     "gosterim": "etkin değer gösterimi",
+     "yol": "u09-sinuzoidal-kararli-durum/k0146-rms-degeri",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0147",
+     "ad": "Fazör kavramı",
+     "hat": "A",
+     "gosterim": "dönen vektör ve izdüşüm",
+     "yol": "u09-sinuzoidal-kararli-durum/k0147-fazor-kavrami",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0148",
+     "ad": "Fazör dönüşümü",
+     "hat": "A",
+     "gosterim": "zaman uzayı ⇄ fazör",
+     "yol": "u09-sinuzoidal-kararli-durum/k0148-fazor-donusumu",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0149",
+     "ad": "R, L, C fazör ilişkileri",
+     "hat": "A",
+     "gosterim": "akım ve gerilim faz farkları",
+     "yol": "u09-sinuzoidal-kararli-durum/k0149-r-l-c-fazor-iliskileri",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0150",
+     "ad": "Empedans ve admitans",
+     "hat": "A",
+     "gosterim": "Z = R + jX",
+     "yol": "u09-sinuzoidal-kararli-durum/k0150-empedans-ve-admitans",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0151",
+     "ad": "Empedans üçgeni",
+     "hat": "A",
+     "gosterim": "R, X, |Z|, θ",
+     "yol": "u09-sinuzoidal-kararli-durum/k0151-empedans-ucgeni",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0152",
+     "ad": "Seri RL / RC empedansı",
+     "hat": "A",
+     "gosterim": "fazör diyagramı",
+     "yol": "u09-sinuzoidal-kararli-durum/k0152-seri-rl-rc-empedansi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0153",
+     "ad": "Seri RLC rezonans eğrisi",
+     "hat": "A",
+     "gosterim": "|Z| – frekans",
+     "yol": "u09-sinuzoidal-kararli-durum/k0153-seri-rlc-rezonans-egrisi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0154",
+     "ad": "Kirchhoff yasaları fazörlerle",
+     "hat": "A",
+     "gosterim": "vektör toplamı",
+     "yol": "u09-sinuzoidal-kararli-durum/k0154-kirchhoff-yasalari-fazorlerle",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0155",
+     "ad": "Anlık, gerçek, reaktif ve görünür güç",
+     "hat": "A",
+     "gosterim": "güç üçgeni",
+     "yol": "u09-sinuzoidal-kararli-durum/k0155-anlik-gercek-reaktif-ve-gorunur-guc",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0156",
+     "ad": "Güç faktörü",
+     "hat": "A",
+     "gosterim": "cos φ, ileri ve geri",
+     "yol": "u09-sinuzoidal-kararli-durum/k0156-guc-faktoru",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0157",
+     "ad": "Prizdeki alternatif gerilim",
+     "hat": "B",
+     "gosterim": "sinüs dalga sahnesi",
+     "yol": "u09-sinuzoidal-kararli-durum/k0157-prizdeki-alternatif-gerilim",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0158",
+     "ad": "Osiloskop ekranı",
+     "hat": "B",
+     "gosterim": "sinüs ve kare dalga",
+     "yol": "u09-sinuzoidal-kararli-durum/k0158-osiloskop-ekrani",
+     "beklenen": 3,
+     "gorseller": []
+    }
+   ]
+  },
+  {
+   "no": 10,
+   "ad": "Laboratuvar ve ölçme",
+   "klasor": "u10-laboratuvar-ve-olcme",
+   "kavramlar": [
+    {
+     "id": "k0159",
+     "ad": "Multimetre (DC gerilim ölçme)",
+     "hat": "A",
+     "gosterim": "prob bağlantısı şeması",
+     "yol": "u10-laboratuvar-ve-olcme/k0159-multimetre-dc-gerilim-olcme",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0160",
+     "ad": "Akım ölçme (seri bağlantı)",
+     "hat": "A",
+     "gosterim": "ampermetre devre içinde",
+     "yol": "u10-laboratuvar-ve-olcme/k0160-akim-olcme-seri-baglanti",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0161",
+     "ad": "Breadboard bağlantı şeması",
+     "hat": "A",
+     "gosterim": "satır ve sütun bağlantıları",
+     "yol": "u10-laboratuvar-ve-olcme/k0161-breadboard-baglanti-semasi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0162",
+     "ad": "Osiloskop temel okuma",
+     "hat": "A",
+     "gosterim": "V/div, s/div, tepe-tepe",
+     "yol": "u10-laboratuvar-ve-olcme/k0162-osiloskop-temel-okuma",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0163",
+     "ad": "Sinyal jeneratörü",
+     "hat": "A",
+     "gosterim": "dalga seçimi, frekans",
+     "yol": "u10-laboratuvar-ve-olcme/k0163-sinyal-jeneratoru",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0164",
+     "ad": "Ohm kanunu deneyi",
+     "hat": "A",
+     "gosterim": "V–I grafiği, eğim = R",
+     "yol": "u10-laboratuvar-ve-olcme/k0164-ohm-kanunu-deneyi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0165",
+     "ad": "Kirchhoff deneyi",
+     "hat": "A",
+     "gosterim": "iki düğümlü devre",
+     "yol": "u10-laboratuvar-ve-olcme/k0165-kirchhoff-deneyi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0166",
+     "ad": "Düğüm ve çevre analizi deneyi",
+     "hat": "A",
+     "gosterim": "ölçüm yerleşimi",
+     "yol": "u10-laboratuvar-ve-olcme/k0166-dugum-ve-cevre-analizi-deneyi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0167",
+     "ad": "Thevenin deneyi",
+     "hat": "A",
+     "gosterim": "yük direnci değiştirme",
+     "yol": "u10-laboratuvar-ve-olcme/k0167-thevenin-deneyi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0168",
+     "ad": "Süperpozisyon deneyi",
+     "hat": "A",
+     "gosterim": "iki kaynaklı devre",
+     "yol": "u10-laboratuvar-ve-olcme/k0168-superpozisyon-deneyi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0169",
+     "ad": "Op-amp deneyi",
+     "hat": "A",
+     "gosterim": "evirici yükselteç bağlantısı",
+     "yol": "u10-laboratuvar-ve-olcme/k0169-op-amp-deneyi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0170",
+     "ad": "RC–RL cevap deneyi",
+     "hat": "A",
+     "gosterim": "kare dalga ve osiloskop eğrisi",
+     "yol": "u10-laboratuvar-ve-olcme/k0170-rc-rl-cevap-deneyi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0171",
+     "ad": "Seri/paralel RLC deneyi",
+     "hat": "A",
+     "gosterim": "rezonans frekansı bulma",
+     "yol": "u10-laboratuvar-ve-olcme/k0171-seri-paralel-rlc-deneyi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0172",
+     "ad": "Laboratuvar masası",
+     "hat": "B",
+     "gosterim": "multimetre, breadboard, güç kaynağı",
+     "yol": "u10-laboratuvar-ve-olcme/k0172-laboratuvar-masasi",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0173",
+     "ad": "Osiloskop fotoğraf tarzı",
+     "hat": "B",
+     "gosterim": "dalga ekranı",
+     "yol": "u10-laboratuvar-ve-olcme/k0173-osiloskop-fotograf-tarzi",
+     "beklenen": 3,
+     "gorseller": []
+    }
+   ]
+  }
+ ]
+}
