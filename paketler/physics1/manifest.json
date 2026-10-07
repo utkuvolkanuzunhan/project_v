@@ -2,10 +2,10 @@
  "ders": "physics1",
  "ad": "Physics I",
  "dersKodu": "505001052010",
- "surum": 5,
+ "surum": 6,
  "kavramSayisi": 252,
  "beklenenGorsel": 330,
- "mevcutGorsel": 49,
+ "mevcutGorsel": 59,
  "uniteler": [
   {
    "no": 1,
@@ -1680,6 +1680,22 @@
        "genislik": 1024,
        "yukseklik": 1024,
        "aday": "physics1-k0134-002"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "a11fea77e4f815547f7f22d989e02ccac11ee9e3581a08953a08cff48b42850c",
+       "boyut": 42588,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0134-005"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "4a936a9267aebd3d6335e4a00e51cf5dc8cab9cd19e024ce780aa2e9b1849ba7",
+       "boyut": 36884,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0134-012"
       }
      ]
     },
@@ -1690,7 +1706,24 @@
      "gosterim": "tork dengesi",
      "yol": "u09-donme-hareketi/k0135-kaldirac-ve-tahterevalli",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "3a20986d3eb224dbfe38abd086c7496a2a6522eadb633970e1e4857234779f50",
+       "boyut": 191876,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0135-016"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "370c5dabbe695b77fb5cbfc46fc3f57419201466352722aaeff8cde10f30cc1d",
+       "boyut": 181722,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0135-018"
+      }
+     ]
     },
     {
      "id": "k0136",
@@ -1699,7 +1732,32 @@
      "gosterim": "dönen jiroskop etkisi",
      "yol": "u09-donme-hareketi/k0136-bisiklet-tekerlegi",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "d1a6a3fb2cac4a03b50842053979236e8644b283141fa63ee048a5f29eb85c32",
+       "boyut": 75362,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0136-002"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "6df28a6f4461a82c8bc8322e37fc4734ae815a0ce1a8378ddae7a25b1d0035e6",
+       "boyut": 59532,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0136-011"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "991e51d8ba43b79b6120f0f4acdff947e330e767bdf3ceac5d35b8347388bc91",
+       "boyut": 66310,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0136-012"
+      }
+     ]
     }
    ]
   },
@@ -1823,7 +1881,32 @@
      "gosterim": "kuvvet dağılımı",
      "yol": "u10-denge-ve-esneklik/k0149-tas-kopru-kemeri",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "0f400caa5c83d228b7725b47d2ba055c703738f8f258e0ca5910a701504506ab",
+       "boyut": 232934,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0149-003"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "4e4e7a4dfb8393efaaeb19838d5634c596fb7461ff16eefa8dcad0f9272ffde1",
+       "boyut": 190390,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0149-010"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "a0efd253f30354ca77f49e069e7774f5f888ba6faf44eb96c00b1c5f292f7044",
+       "boyut": 156000,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "physics1-k0149-004"
+      }
+     ]
     },
     {
      "id": "k0150",
