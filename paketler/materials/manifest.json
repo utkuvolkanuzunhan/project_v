@@ -2,10 +2,10 @@
  "ders": "materials",
  "ad": "Electronic Materials and Device Physics",
  "dersKodu": "505002242023",
- "surum": 1,
+ "surum": 2,
  "kavramSayisi": 191,
  "beklenenGorsel": 231,
- "mevcutGorsel": 5,
+ "mevcutGorsel": 15,
  "uniteler": [
   {
    "no": 1,
@@ -204,6 +204,14 @@
        "genislik": 1024,
        "yukseklik": 1024,
        "aday": "materials-k0017-004"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "e04117e5cf52f75c3b2156e5414fb87c7c9f643aff95dfa3d9b34fe196307fcc",
+       "boyut": 32972,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "materials-k0017-002"
       }
      ]
     }
@@ -356,7 +364,32 @@
      "gosterim": "bant geçişi metaforu",
      "yol": "u02-atomik-bag-ve-enerji-bantlari/k0033-led-isik-yayimi",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "b3bf3ef6f5c5c819306f20f91283ecb04a469dafdf13ddc19658dd2ba18f7668",
+       "boyut": 29394,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "materials-k0033-004"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "cf11b77d36053b05e8a7f9c6f5eff12ab8ddb511a77ab306d59362093fc0aea5",
+       "boyut": 23382,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "materials-k0033-012"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "d439a5d4ba068230fedd58a47d9f42e0145894d068f162bb4ead88ab7247855b",
+       "boyut": 33820,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "materials-k0033-010"
+      }
+     ]
     },
     {
      "id": "k0034",
@@ -365,7 +398,32 @@
      "gosterim": "foton ile elektron-boşluk çifti",
      "yol": "u02-atomik-bag-ve-enerji-bantlari/k0034-gunes-hucresi",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "a5153029f5d37f4ccff32e6d0e287beb33f5d9519a46d57ce542c5a326270829",
+       "boyut": 64262,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "materials-k0034-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "8e6a971f36a738475c6dd1d0c19a7a76dc424166c45070d3bec88e32b89cf505",
+       "boyut": 48020,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "materials-k0034-015"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "d2797383aa9442f13dfcb669297e8962b326caad8ab1ad1137443e84d77c73fa",
+       "boyut": 46944,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "materials-k0034-013"
+      }
+     ]
     }
    ]
   },
@@ -516,7 +574,32 @@
      "gosterim": "silisyum içine katkı atomu metaforu",
      "yol": "u03-yariiletkenlerde-yuk-tasiyicilar/k0050-katkilama-boron-fosfor",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "1e9e0bbca09ae7582b27aaf8ac03ff56a420cfcfe9ade203da368b0ae00dc729",
+       "boyut": 40502,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "materials-k0050-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "5642a815211e5e924f71056f3bf662c018007d8ff6dd6f450429d5d9a2e5f6b9",
+       "boyut": 41760,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "materials-k0050-003"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "fc3807b0c4e27ed2e2496c9e04bb24311bd4e45fd881756768d1431660aca939",
+       "boyut": 42400,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "materials-k0050-002"
+      }
+     ]
     }
    ]
   },
