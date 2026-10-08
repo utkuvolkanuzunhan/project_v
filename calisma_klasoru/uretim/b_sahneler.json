@@ -1,146 +1,412 @@
 {
-  "physics1": {
-    "k0011": {"atla": true, "sahne": "cetvel/termometre/saat: rakamsız görüntülenemez; B'de görselsiz, istenirse A hattında"},
-    "k0021": {"sahne": "a car braking on an empty road, seen from the side with a faint skid, motion blur on the background"},
-    "k0022": {"sahne": "a ball falling from the roof of a tall building, seen from below against the sky"},
-    "k0035": {"sahne": "a basketball in mid-air near the top of its arc heading toward an outdoor hoop with a plain net, no player in frame"},
-    "k0036": {"sahne": "a classic fairground carousel with painted wooden horses on brass poles, children riding the horses, warm lights on the canopy, seen from the side"},
-    "k0051": {"sahne": "a tall white rocket lifting off from a launch pad with a bright exhaust plume and billowing smoke, plain white rocket without any markings or flags"},
-    "k0052": {"sahne": "two people on an ice rink pushing off against each other's hands, sliding apart"},
-    "k0066": {"sahne": "a wooden sled sliding down a snowy hill, snow spraying behind it"},
-    "k0067": {"sahne": "a skydiver hanging below a fully open parachute canopy, descending steadily through a clear sky, seen from below"},
-    "k0079": {"sahne": "a construction crane lifting a concrete block high above a building site"},
-    "k0080": {"sahne": "an archer in dark silhouette at full draw, seen exactly from the side, the bowstring pulled all the way back to the face, the arrow straight and level beside the bow and not crossing the body, the bow strongly bent, only two arms",
-              "varyantlar": ["against a bright sunset sky", "against a glowing sunrise sky", "against a pale overcast sky",
-                             "against golden evening light with a hazy horizon", "on an open field with a low sun behind",
-                             "against a clear blue sky, strongly backlit"]},
-    "k0094": {"sahne": "a steel roller coaster train of open cars climbing the first lift hill of a steel track, amusement park in the background",
-              "varyantlar": ["seen from the side", "wide shot seen from the side", "seen from the side in soft overcast light",
-                             "seen from the side in warm golden hour light", "seen from the side with shallow depth of field",
-                             "seen from the side in bright daylight"]},
-    "k0095": {"sahne": "a bungee jumper at the lowest point of the jump with the cord fully stretched over a gorge"},
-    "k0096": {"sahne": "a pendulum wall clock with a brass pendulum visible below the clock face"},
-    "k0111": {"sahne": "billiard balls colliding on a green felt table, the white ball striking a group of colored balls"},
-    "k0112": {"sahne": "a car crash test with the front of the car crumpled against a concrete barrier in a testing facility"},
-    "k0113": {"sahne": "inside a car at the moment of a crash, a large white airbag bursting out of the center hub of the steering wheel and inflating into a big round cushion between the driver seat and the windshield"},
-    "k0134": {"sahne": "an ice skater spinning on one skate with both arms pulled in tight against the body, motion blur on the rink"},
-    "k0135": {"sahne": "a playground seesaw: one long straight flat horizontal plank resting on a single triangular support in the exact middle, the plank perfectly level and parallel to the ground, a child sitting on each end, side view",
-              "varyantlar": ["side view", "wide side view of the whole plank", "side view in soft overcast light",
-                             "side view in warm golden hour light", "side view with shallow depth of field", "side view in bright daylight"]},
-    "k0136": {"sahne": "a bicycle front wheel held up by its axle with both hands, spinning fast, close-up"},
-    "k0149": {"sahne": "a stone arch bridge over a calm river, seen from the side"},
-    "k0150": {"sahne": "a large rock balanced precariously on top of a smaller rock in a desert landscape"},
-    "k0165": {"sahne": "a child on a playground swing at the highest point of the swing arc, the swing ropes taut and angled about 45 degrees from vertical"},
-    "k0166": {"sahne": "a pickup truck driving over a bumpy dirt field, the front suspension compressed over a bump"},
-    "k0167": {"sahne": "a long suspension bridge in strong wind with a visible wave-like sway of the deck"},
-    "k0183": {"sahne": "the full moon rising above the curved horizon of the Earth, seen from space"},
-    "k0184": {"sahne": "a red apple falling from a tree branch above green grass, mid-fall"},
-    "k0185": {"sahne": "a satellite in orbit above the Earth with its solar panels extended, seen from space"},
-    "k0198": {"sahne": "concentric circular ripples spreading across a calm water surface after a single droplet falls"},
-    "k0199": {"sahne": "a vibrating acoustic guitar string close-up, the string blurred by its motion"},
-    "k0211": {"sahne": "an ambulance driving past at speed with a blue flashing light, plain white van without any lettering or symbols"},
-    "k0212": {"sahne": "a pipe organ with rows of tall shiny metal pipes inside a church"},
-    "k0213": {"sahne": "a jet aircraft flying at supersonic speed with a white condensation cone forming around it"},
-    "k0226": {"sahne": "a metal pot of boiling water with steam rising from the surface"},
-    "k0227": {"sahne": "a ceramic cup of hot tea with steam rising, on a wooden table, side view"},
-    "k0228": {"sahne": "a railway track with a small expansion gap between two rail segments, close-up on the rail joint"},
-    "k0250": {"sahne": "a classic black steam locomotive releasing white steam on a railway track"},
-    "k0251": {"sahne": "an open refrigerator in a bright kitchen with food on the shelves"},
-    "k0252": {"sahne": "a single drop of blue ink spreading slowly in a clear glass of water"}
+ "physics1": {
+  "k0011": {
+   "atla": true,
+   "sahne": "cetvel/termometre/saat: rakamsız görüntülenemez; B'de görselsiz, istenirse A hattında"
   },
-  "circuits1": {
-    "k0010": {"sahne": "an ordinary household copper water supply pipe running along a wall inside a house, with a small valve and a tap, everyday plumbing"},
-    "k0011": {"sahne": "a battery connected by two wires to a glowing light bulb on a table"},
-    "k0028": {"sahne": "a carbon film resistor with four colored stripes lying on white paper, macro"},
-    "k0029": {"sahne": "a collection of electronic components, resistors, capacitors, inductors and diodes, arranged on a white table"},
-    "k0043": {"sahne": "a photoresistor light sensor on a breadboard with a lamp shining on it"},
-    "k0044": {"sahne": "a wall with several electrical sockets in a row and plugs inserted in them"},
-    "k0065": {"sahne": "an open electrical distribution panel with a row of circuit breakers, plain unlabeled"},
-    "k0066": {"sahne": "a solar panel connected by cables to a car battery outdoors"},
-    "k0084": {"sahne": "a studio microphone on a stand in front of a small amplifier"},
-    "k0085": {"sahne": "an eight-pin dual in-line integrated circuit plugged into a breadboard, top view"},
-    "k0105": {"sahne": "a smartphone lying on a wireless charging pad on a desk"},
-    "k0106": {"sahne": "a camera with its flash firing a bright burst of light"},
-    "k0107": {"sahne": "a copper-wound transformer on a workbench with wires attached"},
-    "k0124": {"sahne": "an incandescent filament bulb glowing softly and fading, dark background"},
-    "k0125": {"sahne": "a camera flash unit with a small green ready light on, close-up"},
-    "k0126": {"sahne": "the rear of a car at night with the red brake lights glowing"},
-    "k0142": {"sahne": "a pendulum swinging beside a coil of copper wire and a capacitor on a table"},
-    "k0143": {"sahne": "a vintage radio with a round tuning knob and a plain dial with a pointer"},
-    "k0157": {"sahne": "an electrical wall outlet with a plug halfway inserted"},
-    "k0158": {"sahne": "an oscilloscope screen showing a smooth bright sine wave, close-up of the display"},
-    "k0172": {"sahne": "an electronics lab bench with a multimeter, a breadboard and a bench power supply"},
-    "k0173": {"sahne": "an oscilloscope on a lab bench with a probe clipped to a circuit, seen from a three-quarter angle"}
+  "k0021": {
+   "sahne": "a car braking on an empty road, seen from the side with a faint skid, motion blur on the background"
   },
-  "digital": {
-    "k0033": {"sahne": "a traffic light with the red light lit on a quiet street"},
-    "k0034": {"sahne": "a lamp connected to two toggle switches on a wooden board with wires"},
-    "k0054": {"sahne": "a four-digit seven-segment LED clock display glowing on a dark background"},
-    "k0055": {"sahne": "a vertical column of round plain elevator buttons, two of them lit"},
-    "k0069": {"sahne": "a heavy padlock locked on a metal gate, close-up"},
-    "k0070": {"sahne": "a finger pressing a push-button light switch on a wall"},
-    "k0086": {"sahne": "a vintage mechanical rotary counter with several rolling wheels, close-up"},
-    "k0087": {"sahne": "a race starting gantry with a row of red starting lights above a track"},
-    "k0101": {"sahne": "a door with an electronic keypad lock, close-up"},
-    "k0102": {"sahne": "a snack vending machine with a glass front and spiral product rows, front view, no logos"},
-    "k0119": {"sahne": "a city bus on a bus lane with passengers boarding, no text on the bus"},
-    "k0120": {"sahne": "a mail sorting center with conveyor belts and trays of letters"},
-    "k0133": {"sahne": "a car factory assembly line with robotic arms welding a car body"},
-    "k0149": {"sahne": "a computer motherboard with a CPU socket and memory slots, top view"},
-    "k0171": {"sahne": "a hand placing one more plate on top of a stack of white plates in a kitchen"},
-    "k0172": {"sahne": "a wall of apartment mailboxes in a row, each with a small door, no labels"},
-    "k0193": {"sahne": "a library with tall bookshelves and a reading table, a hand taking a book from a shelf"},
-    "k0194": {"sahne": "an assembly line with three stations passing boxes along a conveyor belt"},
-    "k0212": {"sahne": "an FPGA development board with switches and LEDs on a desk, top view"},
-    "k0213": {"sahne": "a silicon microchip die close-up with metallic logic patterns"}
+  "k0022": {
+   "sahne": "a ball falling from the roof of a tall building, seen from below against the sky"
   },
-  "materials": {
-    "k0016": {"sahne": "a stack of polished mirror-like silicon wafers with a gray metallic cylindrical silicon ingot beside them"},
-    "k0017": {"sahne": "a cluster of clear quartz crystals with sharp facets"},
-    "k0033": {"sahne": "a blue light-emitting diode glowing on a breadboard in a dark room"},
-    "k0034": {"sahne": "a solar panel surface close-up with blue photovoltaic cells under sunlight"},
-    "k0050": {"sahne": "a glowing quartz furnace tube holding silicon wafers on a boat inside a semiconductor lab"},
-    "k0066": {"sahne": "a crowded plaza with many people spreading out evenly, seen from above"},
-    "k0067": {"sahne": "people floating down a calm river on inflatable rafts, seen from above"},
-    "k0082": {"sahne": "a small photodiode sensor on a circuit board with a beam of light shining on it"},
-    "k0083": {"sahne": "fluorescent minerals glowing green under ultraviolet light in a dark room"},
-    "k0098": {"sahne": "a semiconductor cleanroom with technicians in white suits under yellow lighting"},
-    "k0099": {"sahne": "extreme macro of stacked thin colorful layers on a silicon chip surface"},
-    "k0124": {"sahne": "a black glass-encapsulated diode with a silver band lying on a white surface"},
-    "k0125": {"sahne": "a red LED glowing on a breadboard, close-up"},
-    "k0126": {"sahne": "a brass plumbing check valve fitting on a pipe"},
-    "k0153": {"sahne": "a black plastic TO-92 transistor with three metal legs on a white surface"},
-    "k0154": {"sahne": "a water tap with a small handle controlling a strong stream into a sink"},
-    "k0155": {"sahne": "a guitar amplifier speaker with a guitar cable plugged in, no brand logos"},
-    "k0169": {"sahne": "two parallel metal plates with a thin gap between them, macro"},
-    "k0190": {"sahne": "a power MOSFET in a TO-220 package with a metal heatsink tab on a white surface"},
-    "k0191": {"sahne": "a processor chip held between fingers showing its gold contact pads"}
+  "k0035": {
+   "sahne": "a basketball in mid-air near the top of its arc heading toward an outdoor hoop with a plain net, no player in frame"
   },
-  "oop": {
-    "k0024": {"sahne": "a row of identical houses along a street with a mailbox in front of each, one house highlighted with a bright arrow"},
-    "k0025": {"sahne": "a neat stack of colorful plates with one plate being placed on the top"},
-    "k0038": {"sahne": "a translator's desk with a globe and two empty speech bubbles of different colors"},
-    "k0063": {"sahne": "a star-shaped cookie cutter on rolled dough with several identical star cookies beside it"},
-    "k0064": {"sahne": "a car with a closed hood and a driver's hands on the steering wheel"},
-    "k0078": {"atla": true, "sahne": "metin içerikli kavram (sembolün anlamı); görselsiz bırakılması önerilir"},
-    "k0094": {"sahne": "a family tree illustration with grandparents at the top, parents in the middle and children at the bottom, connected by branches, people as simple figures"},
-    "k0095": {"sahne": "three vehicles arranged as a tree: one generic vehicle at the top connected to a car and a motorcycle below"},
-    "k0111": {"sahne": "a universal remote control in front of a television, a speaker and a lamp"},
-    "k0112": {"sahne": "an orchestra with a violin, a trumpet, a flute and a drum all following one conductor's baton"},
-    "k0132": {"sahne": "water flowing through a long pipe from a tank into a bucket"},
-    "k0133": {"sahne": "a filing cabinet with open drawers and file folders"},
-    "k0145": {"sahne": "a bank ATM machine with a screen, keypad, card slot and cash slot, front view"}
+  "k0036": {
+   "sahne": "a classic fairground carousel with painted wooden horses on brass poles, children riding the horses, warm lights on the canopy, seen from the side"
   },
-  "linalg": {
-    "k0022": {"sahne": "a classic two-pan balance scale perfectly level with identical weights on both pans"},
-    "k0048": {"sahne": "a rectangular grid of colored square tiles arranged in neat rows and columns"},
-    "k0065": {"sahne": "a parallelogram-shaped floor tile pattern seen from above with diagonal lines of tiles"},
-    "k0098": {"sahne": "a vintage compass lying on a folded paper map"},
-    "k0099": {"sahne": "a small airplane flying through the sky with curved wind streaks pushing against it"},
-    "k0123": {"sahne": "a doorway opening from one room into another room, three-dimensional perspective"},
-    "k0140": {"sahne": "a cube casting a long shadow on the ground from a lamp"},
-    "k0165": {"sahne": "a flat disk spinning around a vertical rod through its center with curved motion arcs"},
-    "k0191": {"sahne": "a simple object and its mirror image, symmetric across a vertical mirror line"},
-    "k0192": {"sahne": "a paper cutout of a bird in front of a lamp casting its shadow on a wall"}
+  "k0051": {
+   "sahne": "a tall white rocket lifting off from a launch pad with a bright exhaust plume and billowing smoke, plain white rocket without any markings or flags"
+  },
+  "k0052": {
+   "sahne": "two people on an ice rink pushing off against each other's hands, sliding apart"
+  },
+  "k0066": {
+   "sahne": "a wooden sled sliding down a snowy hill, snow spraying behind it"
+  },
+  "k0067": {
+   "sahne": "a skydiver hanging below a fully open parachute canopy, descending steadily through a clear sky, seen from below"
+  },
+  "k0079": {
+   "sahne": "a construction crane lifting a concrete block high above a building site"
+  },
+  "k0080": {
+   "sahne": "an archer in dark silhouette at full draw, seen exactly from the side, the bowstring pulled all the way back to the face, the arrow straight and level beside the bow and not crossing the body, the bow strongly bent, only two arms",
+   "varyantlar": [
+    "against a bright sunset sky",
+    "against a glowing sunrise sky",
+    "against a pale overcast sky",
+    "against golden evening light with a hazy horizon",
+    "on an open field with a low sun behind",
+    "against a clear blue sky, strongly backlit"
+   ]
+  },
+  "k0094": {
+   "sahne": "a steel roller coaster train of open cars climbing the first lift hill of a steel track, amusement park in the background",
+   "varyantlar": [
+    "seen from the side",
+    "wide shot seen from the side",
+    "seen from the side in soft overcast light",
+    "seen from the side in warm golden hour light",
+    "seen from the side with shallow depth of field",
+    "seen from the side in bright daylight"
+   ]
+  },
+  "k0095": {
+   "sahne": "a bungee jumper at the lowest point of the jump with the cord fully stretched over a gorge"
+  },
+  "k0096": {
+   "sahne": "a pendulum wall clock with a brass pendulum visible below the clock face"
+  },
+  "k0111": {
+   "sahne": "billiard balls colliding on a green felt table, the white ball striking a group of colored balls"
+  },
+  "k0112": {
+   "sahne": "a car crash test with the front of the car crumpled against a concrete barrier in a testing facility"
+  },
+  "k0113": {
+   "sahne": "inside a car at the moment of a crash, a large white airbag bursting out of the center hub of the steering wheel and inflating into a big round cushion between the driver seat and the windshield"
+  },
+  "k0134": {
+   "sahne": "an ice skater spinning on one skate with both arms pulled in tight against the body, motion blur on the rink"
+  },
+  "k0135": {
+   "sahne": "a playground seesaw: one long straight flat horizontal plank resting on a single triangular support in the exact middle, the plank perfectly level and parallel to the ground, a child sitting on each end, side view",
+   "varyantlar": [
+    "side view",
+    "wide side view of the whole plank",
+    "side view in soft overcast light",
+    "side view in warm golden hour light",
+    "side view with shallow depth of field",
+    "side view in bright daylight"
+   ]
+  },
+  "k0136": {
+   "sahne": "a bicycle front wheel held up by its axle with both hands, spinning fast, close-up"
+  },
+  "k0149": {
+   "sahne": "a stone arch bridge over a calm river, seen from the side"
+  },
+  "k0150": {
+   "sahne": "a large rock balanced precariously on top of a smaller rock in a desert landscape"
+  },
+  "k0165": {
+   "sahne": "a child on a playground swing at the highest point of the swing arc, the swing ropes taut and angled about 45 degrees from vertical"
+  },
+  "k0166": {
+   "sahne": "a pickup truck driving over a bumpy dirt field, the front suspension compressed over a bump"
+  },
+  "k0167": {
+   "sahne": "a long suspension bridge in strong wind with a visible wave-like sway of the deck"
+  },
+  "k0183": {
+   "sahne": "the full moon rising above the curved horizon of the Earth, seen from space"
+  },
+  "k0184": {
+   "sahne": "a red apple falling from a tree branch above green grass, mid-fall"
+  },
+  "k0185": {
+   "sahne": "a satellite in orbit above the Earth with its solar panels extended, seen from space"
+  },
+  "k0198": {
+   "sahne": "concentric circular ripples spreading across a calm water surface after a single droplet falls"
+  },
+  "k0199": {
+   "sahne": "a vibrating acoustic guitar string close-up, the string blurred by its motion"
+  },
+  "k0211": {
+   "sahne": "an ambulance driving past at speed with a blue flashing light, plain white van without any lettering or symbols"
+  },
+  "k0212": {
+   "sahne": "a pipe organ with rows of tall shiny metal pipes inside a church"
+  },
+  "k0213": {
+   "sahne": "a jet aircraft flying at supersonic speed with a white condensation cone forming around it"
+  },
+  "k0226": {
+   "sahne": "a metal pot of boiling water with steam rising from the surface"
+  },
+  "k0227": {
+   "sahne": "a ceramic cup of hot tea with steam rising, on a wooden table, side view"
+  },
+  "k0228": {
+   "sahne": "a railway track with a small expansion gap between two rail segments, close-up on the rail joint"
+  },
+  "k0250": {
+   "sahne": "a classic black steam locomotive releasing white steam on a railway track"
+  },
+  "k0251": {
+   "sahne": "an open refrigerator in a bright kitchen with food on the shelves"
+  },
+  "k0252": {
+   "sahne": "a single drop of blue ink spreading slowly in a clear glass of water"
   }
+ },
+ "circuits1": {
+  "k0010": {
+   "sahne": "an ordinary household copper water supply pipe running along a wall inside a house, with a small valve and a tap, everyday plumbing"
+  },
+  "k0011": {
+   "sahne": "a battery connected by two wires to a glowing light bulb on a table"
+  },
+  "k0028": {
+   "sahne": "a carbon film resistor with four colored stripes lying on white paper, macro"
+  },
+  "k0029": {
+   "sahne": "a collection of electronic components, resistors, capacitors, inductors and diodes, arranged on a white table"
+  },
+  "k0043": {
+   "sahne": "a photoresistor light sensor on a breadboard with a lamp shining on it"
+  },
+  "k0044": {
+   "sahne": "a wall with several electrical sockets in a row and plugs inserted in them"
+  },
+  "k0065": {
+   "sahne": "an open electrical distribution panel with a row of circuit breakers, plain unlabeled"
+  },
+  "k0066": {
+   "sahne": "a solar panel connected by cables to a car battery outdoors"
+  },
+  "k0084": {
+   "sahne": "a studio microphone on a stand in front of a small amplifier"
+  },
+  "k0085": {
+   "sahne": "an eight-pin dual in-line integrated circuit plugged into a breadboard, top view"
+  },
+  "k0105": {
+   "sahne": "a smartphone lying on a wireless charging pad on a desk"
+  },
+  "k0106": {
+   "sahne": "a camera with its flash firing a bright burst of light"
+  },
+  "k0107": {
+   "sahne": "a copper-wound transformer on a workbench with wires attached"
+  },
+  "k0124": {
+   "sahne": "an incandescent filament bulb glowing softly and fading, dark background"
+  },
+  "k0125": {
+   "sahne": "a camera flash unit with a small green ready light on, close-up"
+  },
+  "k0126": {
+   "sahne": "the rear of a car at night with the red brake lights glowing"
+  },
+  "k0142": {
+   "sahne": "a pendulum swinging beside a coil of copper wire and a capacitor on a table"
+  },
+  "k0143": {
+   "sahne": "a vintage radio with a round tuning knob and a plain dial with a pointer"
+  },
+  "k0157": {
+   "sahne": "an electrical wall outlet with a plug halfway inserted"
+  },
+  "k0158": {
+   "sahne": "an oscilloscope screen showing a smooth bright sine wave, close-up of the display"
+  },
+  "k0172": {
+   "sahne": "an electronics lab bench with a multimeter, a breadboard and a bench power supply"
+  },
+  "k0173": {
+   "sahne": "an oscilloscope on a lab bench with a probe clipped to a circuit, seen from a three-quarter angle"
+  }
+ },
+ "digital": {
+  "k0033": {
+   "sahne": "a traffic light with the red light lit on a quiet street"
+  },
+  "k0034": {
+   "sahne": "a lamp connected to two toggle switches on a wooden board with wires"
+  },
+  "k0054": {
+   "sahne": "a four-digit seven-segment LED clock display glowing on a dark background"
+  },
+  "k0055": {
+   "sahne": "a vertical column of round plain elevator buttons, two of them lit"
+  },
+  "k0069": {
+   "sahne": "a heavy padlock locked on a metal gate, close-up"
+  },
+  "k0070": {
+   "sahne": "a finger pressing a push-button light switch on a wall"
+  },
+  "k0086": {
+   "sahne": "a vintage mechanical rotary counter with several rolling wheels, close-up"
+  },
+  "k0087": {
+   "sahne": "a race starting gantry with a row of red starting lights above a track"
+  },
+  "k0101": {
+   "sahne": "a door with an electronic keypad lock, close-up"
+  },
+  "k0102": {
+   "sahne": "a snack vending machine with a glass front and spiral product rows, front view, no logos"
+  },
+  "k0119": {
+   "sahne": "a city bus on a bus lane with passengers boarding, no text on the bus"
+  },
+  "k0120": {
+   "sahne": "a mail sorting center with conveyor belts and trays of letters"
+  },
+  "k0133": {
+   "sahne": "a car factory assembly line with robotic arms welding a car body"
+  },
+  "k0149": {
+   "sahne": "a computer motherboard with a CPU socket and memory slots, top view"
+  },
+  "k0171": {
+   "sahne": "a hand placing one more plate on top of a stack of white plates in a kitchen"
+  },
+  "k0172": {
+   "sahne": "a wall of apartment mailboxes in a row, each with a small door, no labels"
+  },
+  "k0193": {
+   "sahne": "a library with tall bookshelves and a reading table, a hand taking a book from a shelf"
+  },
+  "k0194": {
+   "sahne": "an assembly line with three stations passing boxes along a conveyor belt"
+  },
+  "k0212": {
+   "sahne": "an FPGA development board with switches and LEDs on a desk, top view"
+  },
+  "k0213": {
+   "sahne": "a silicon microchip die close-up with metallic logic patterns"
+  }
+ },
+ "materials": {
+  "k0016": {
+   "sahne": "a stack of polished mirror-like silicon wafers with a gray metallic cylindrical silicon ingot beside them"
+  },
+  "k0017": {
+   "sahne": "a cluster of clear quartz crystals with sharp facets"
+  },
+  "k0033": {
+   "sahne": "a blue light-emitting diode glowing on a breadboard in a dark room"
+  },
+  "k0034": {
+   "sahne": "a solar panel surface close-up with blue photovoltaic cells under sunlight"
+  },
+  "k0050": {
+   "sahne": "a glowing quartz furnace tube holding silicon wafers on a boat inside a semiconductor lab"
+  },
+  "k0066": {
+   "sahne": "a crowded plaza with many people spreading out evenly, seen from above"
+  },
+  "k0067": {
+   "sahne": "people floating down a calm river on inflatable rafts, seen from above"
+  },
+  "k0082": {
+   "sahne": "a small photodiode sensor on a circuit board with a beam of light shining on it"
+  },
+  "k0083": {
+   "sahne": "fluorescent minerals glowing green under ultraviolet light in a dark room"
+  },
+  "k0098": {
+   "sahne": "a semiconductor cleanroom with technicians in white suits under yellow lighting"
+  },
+  "k0099": {
+   "sahne": "extreme macro of stacked thin colorful layers on a silicon chip surface"
+  },
+  "k0124": {
+   "sahne": "a black glass-encapsulated diode with a silver band lying on a white surface"
+  },
+  "k0125": {
+   "sahne": "a red LED glowing on a breadboard, close-up"
+  },
+  "k0126": {
+   "sahne": "a brass plumbing check valve fitting on a pipe"
+  },
+  "k0153": {
+   "sahne": "a black plastic TO-92 transistor with a flat front face, a rounded back and exactly three thin straight metal legs pointing downward, standing on a white surface, centered"
+  },
+  "k0154": {
+   "sahne": "a water tap with a small handle controlling a strong stream into a sink"
+  },
+  "k0155": {
+   "sahne": "a guitar amplifier speaker with a guitar cable plugged in, no brand logos"
+  },
+  "k0169": {
+   "sahne": "two large flat rectangular shiny metal plates facing each other in parallel with a very thin air gap between them, side view, like a parallel plate capacitor, on a white surface"
+  },
+  "k0190": {
+   "sahne": "a black power transistor in a TO-220 package: a rectangular black plastic body with a large metal heatsink tab with a round hole on top and exactly three straight metal leads pointing down, standing upright on a white surface"
+  },
+  "k0191": {
+   "sahne": "a processor chip held between fingers showing its gold contact pads"
+  }
+ },
+ "oop": {
+  "k0024": {
+   "sahne": "a row of identical houses along a street with a mailbox in front of each, one house highlighted with a bright arrow"
+  },
+  "k0025": {
+   "sahne": "a neat stack of colorful plates with one plate being placed on the top"
+  },
+  "k0038": {
+   "sahne": "a translator's desk with a globe and two empty speech bubbles of different colors"
+  },
+  "k0063": {
+   "sahne": "a star-shaped cookie cutter on rolled dough with several identical star cookies beside it"
+  },
+  "k0064": {
+   "sahne": "a car with a closed hood and a driver's hands on the steering wheel"
+  },
+  "k0078": {
+   "atla": true,
+   "sahne": "metin içerikli kavram (sembolün anlamı); görselsiz bırakılması önerilir"
+  },
+  "k0094": {
+   "sahne": "a family tree illustration with grandparents at the top, parents in the middle and children at the bottom, connected by branches, people as simple figures"
+  },
+  "k0095": {
+   "sahne": "three vehicles arranged as a tree: one generic vehicle at the top connected to a car and a motorcycle below"
+  },
+  "k0111": {
+   "sahne": "a universal remote control in front of a television, a speaker and a lamp"
+  },
+  "k0112": {
+   "sahne": "an orchestra with a violin, a trumpet, a flute and a drum all following one conductor's baton"
+  },
+  "k0132": {
+   "sahne": "water flowing through a long pipe from a tank into a bucket"
+  },
+  "k0133": {
+   "sahne": "a filing cabinet with open drawers and file folders"
+  },
+  "k0145": {
+   "sahne": "a bank ATM machine with a screen, keypad, card slot and cash slot, front view"
+  }
+ },
+ "linalg": {
+  "k0022": {
+   "sahne": "a classic two-pan balance scale perfectly level with identical weights on both pans"
+  },
+  "k0048": {
+   "sahne": "a rectangular grid of colored square tiles arranged in neat rows and columns"
+  },
+  "k0065": {
+   "sahne": "a parallelogram-shaped floor tile pattern seen from above with diagonal lines of tiles"
+  },
+  "k0098": {
+   "sahne": "a vintage compass lying on a folded paper map"
+  },
+  "k0099": {
+   "sahne": "a small airplane flying through the sky with curved wind streaks pushing against it"
+  },
+  "k0123": {
+   "sahne": "a doorway opening from one room into another room, three-dimensional perspective"
+  },
+  "k0140": {
+   "sahne": "a cube casting a long shadow on the ground from a lamp"
+  },
+  "k0165": {
+   "sahne": "a flat disk spinning around a vertical rod through its center with curved motion arcs"
+  },
+  "k0191": {
+   "sahne": "a simple object and its mirror image, symmetric across a vertical mirror line"
+  },
+  "k0192": {
+   "sahne": "a paper cutout of a bird in front of a lamp casting its shadow on a wall"
+  }
+ }
 }
