@@ -53,7 +53,7 @@ def durum():
     return d
 
 
-PARTI = 250  # kullanıcı kararı (8 Ekim): her 250 üretilen fotoğrafta dur; arayüzdeki "Devam et" ile sürer
+PARTI = 100000  # Buse 8 Ekim 14:01: doğrulamayı Claude yapıyor, parti sınırı yok
 PARTI_DOSYASI = URETIM / "parti.json"
 
 
@@ -157,3 +157,4 @@ if __name__ == "__main__":
         except Exception:
             gunluk("HATA: " + traceback.format_exc().splitlines()[-1])
             time.sleep(90)
+
