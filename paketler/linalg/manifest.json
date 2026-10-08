@@ -2,10 +2,10 @@
  "ders": "linalg",
  "ad": "Linear Algebra",
  "dersKodu": "LAG2052023",
- "surum": 3,
+ "surum": 4,
  "kavramSayisi": 192,
  "beklenenGorsel": 212,
- "mevcutGorsel": 25,
+ "mevcutGorsel": 30,
  "uniteler": [
   {
    "no": 1,
@@ -1986,6 +1986,22 @@
        "genislik": 1024,
        "yukseklik": 1024,
        "aday": "linalg-k0191-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "2aeacec8e9e3c235a0fd46542d8c67be90d3b2ab2c8589e4610cdc1184f100bf",
+       "boyut": 25178,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "linalg-k0191-004"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "4399c87bee6e2d0466ee6f39f41bcb0a2d2f54672139272bc3f859f821666a3d",
+       "boyut": 19890,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "linalg-k0191-003"
       }
      ]
     },
@@ -1996,7 +2012,32 @@
      "gosterim": "izdüşüm metaforu",
      "yol": "u08-dogrusal-donusumler/k0192-golge-oyunu",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "9dcd5be1c50008911773e9f26550fdce08bd3d504f3f2eabc9c1b3cc71fe1f8a",
+       "boyut": 15660,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "linalg-k0192-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "f984d75ae02dced9ff1ad2260209899e8d907c9737f87e757f6862e8be996084",
+       "boyut": 14412,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "linalg-k0192-006"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "69c9d5e54f67a79c7cc0985e1967e37dc84ab9ed1f9e0450c2dd6218851a9d64",
+       "boyut": 17416,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "linalg-k0192-002"
+      }
+     ]
     }
    ]
   }
