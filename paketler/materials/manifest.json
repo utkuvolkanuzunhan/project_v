@@ -2,10 +2,10 @@
  "ders": "materials",
  "ad": "Electronic Materials and Device Physics",
  "dersKodu": "505002242023",
- "surum": 5,
+ "surum": 6,
  "kavramSayisi": 191,
  "beklenenGorsel": 231,
- "mevcutGorsel": 45,
+ "mevcutGorsel": 55,
  "uniteler": [
   {
    "no": 1,
@@ -1820,6 +1820,22 @@
        "genislik": 1024,
        "yukseklik": 1024,
        "aday": "materials-k0154-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "78a1dc7871b20bd9e3f5b61779599c08ade8fe7e661e5bdc2c7ff13956b12cc1",
+       "boyut": 46100,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "materials-k0154-010"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "14699e7320808da6403aa6c73255ebbf59ee8be1dd4768b7f619bd533e2c84d9",
+       "boyut": 23296,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "materials-k0154-007"
       }
      ]
     },
@@ -1830,7 +1846,32 @@
      "gosterim": "yükseltme uygulaması",
      "yol": "u08-bipolar-kavsak-transistor-bjt/k0155-ses-yukseltec-devresi",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "289e8ce4d38cc693110d66d1c18280f506db50761db47419a02c8295bdcc4c4e",
+       "boyut": 102582,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "materials-k0155-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "1d7f95736d1fa374e5cdb7bf5ffdd83b03ae30914e56f66abde10b6b08feb5c3",
+       "boyut": 97416,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "materials-k0155-002"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "0e8bb1c0296fbde3c298f6194d919403445d724f6c4c101a85ee1ac0ad779fb0",
+       "boyut": 159378,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "materials-k0155-005"
+      }
+     ]
     }
    ]
   },
@@ -1963,7 +2004,32 @@
      "gosterim": "MOS metaforu",
      "yol": "u09-mos-yapilari-mos-kapasitor/k0169-kapasitor-levhalari",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "8ee968ddd40291283bcc035c8b064e8aae9e5d59a6867625eb5454794e887ad7",
+       "boyut": 18898,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "materials-k0169-004"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "396ca96f1e5fc1c5a496a4435f4093c5fe1a45e11cf566a3363423e56c7b5f05",
+       "boyut": 13978,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "materials-k0169-031"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "e5373356503a2e39f645d7e37475df9fbd606837368306b16e2f6b1205b111c5",
+       "boyut": 15762,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "materials-k0169-005"
+      }
+     ]
     }
    ]
   },
@@ -2159,7 +2225,24 @@
      "gosterim": "güç transistörü gerçek parça",
      "yol": "u10-alan-etkili-transistorler-fet/k0190-mosfet-to-220",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "3d0b7ec5e75f3be4fe8c3a7d91b33b1ee645c398864dcaf2b17c96ede1b1198a",
+       "boyut": 25078,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "materials-k0190-031"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "e96af6818b144a6459001725037b71da4f1bc79e792c4ec34c2303ac7d45393d",
+       "boyut": 33278,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "materials-k0190-048"
+      }
+     ]
     },
     {
      "id": "k0191",
