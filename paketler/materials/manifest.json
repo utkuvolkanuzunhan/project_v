@@ -2,10 +2,10 @@
  "ders": "materials",
  "ad": "Electronic Materials and Device Physics",
  "dersKodu": "505002242023",
- "surum": 3,
+ "surum": 4,
  "kavramSayisi": 191,
  "beklenenGorsel": 231,
- "mevcutGorsel": 25,
+ "mevcutGorsel": 35,
  "uniteler": [
   {
    "no": 1,
@@ -993,6 +993,22 @@
        "genislik": 1024,
        "yukseklik": 1024,
        "aday": "materials-k0083-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "45f74b454c1a5064ce0e5fe0032ebc1771fa68941a9c769aa439b0e4493eb32e",
+       "boyut": 41566,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "materials-k0083-002"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "cf19984860903c99d75bb2742bd386751c9dfa5662b113baae794ee3814bd959",
+       "boyut": 37768,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "materials-k0083-003"
       }
      ]
     }
@@ -1136,7 +1152,32 @@
      "gosterim": "temiz oda",
      "yol": "u06-pn-kavsagi-denge/k0098-entegre-devre-uretim-odasi",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "6368df2960d905f629f71bbdc3433625b49524c5630d6d2e4c4455d2a6598a91",
+       "boyut": 66430,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "materials-k0098-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "3a4c44f2b55b95e3a35bf104c1791721ab84f0d6d09387b8b53e721ad31cf201",
+       "boyut": 71382,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "materials-k0098-004"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "0d10aeb02e83aa08fddb0e234621662dffbf0e92ecc1b747d944b316babd6f19",
+       "boyut": 65870,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "materials-k0098-003"
+      }
+     ]
     },
     {
      "id": "k0099",
@@ -1145,7 +1186,32 @@
      "gosterim": "katman yapısı",
      "yol": "u06-pn-kavsagi-denge/k0099-silisyum-yonga-kesiti",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "b3c2a35318457ee0136bb1697dd9a51c107d6f9459fd1ac8e8d73d6bbe037b68",
+       "boyut": 55430,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "materials-k0099-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "03f22030f7e05003bd3632041fc5b4fcf508481c11045ce7fea45cacc6b10770",
+       "boyut": 42192,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "materials-k0099-004"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "20078a6e23964bbfa6add544c0c7fb924a327ed2d5e7579f3ad200c7a720458e",
+       "boyut": 31398,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "materials-k0099-006"
+      }
+     ]
     }
    ]
   },
@@ -1377,7 +1443,24 @@
      "gosterim": "gerçek diyot fotoğraf",
      "yol": "u07-pn-kavsagi-kutuplu/k0124-diyot-devre-elemani",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "c488740ab77cb819879c7f2b210531c63dce6e48992f962a9944b4bbbace5a57",
+       "boyut": 12814,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "materials-k0124-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "e1d9098b7244f92e754e47d417a24771fa148857bd39e9e8be7a258a61e8832c",
+       "boyut": 10484,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "materials-k0124-005"
+      }
+     ]
     },
     {
      "id": "k0125",
