@@ -2,10 +2,10 @@
  "ders": "digital",
  "ad": "Digital Systems",
  "dersKodu": "505002122015",
- "surum": 3,
+ "surum": 4,
  "kavramSayisi": 213,
  "beklenenGorsel": 253,
- "mevcutGorsel": 25,
+ "mevcutGorsel": 35,
  "uniteler": [
   {
    "no": 1,
@@ -1162,6 +1162,22 @@
        "genislik": 1024,
        "yukseklik": 1024,
        "aday": "digital-k0101-002"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "71324408459ab4e4d350e81b47f3d739db89ddde2631d67d8bf8ebc0d9047b8c",
+       "boyut": 38562,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "digital-k0101-004"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "62a1584e198540366cb4c8742d072b9d765773f5ea0e67c6c0e9d7224c6e5872",
+       "boyut": 43568,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "digital-k0101-006"
       }
      ]
     },
@@ -1172,7 +1188,32 @@
      "gosterim": "durum makinesi metaforu",
      "yol": "u06-sonlu-durum-makineleri-fsm/k0102-jukebox-satis-makinesi",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "3d33cba415a6e64b6116659f653df18b4771fa4e5cbdcdd5f008c0d84b578f9f",
+       "boyut": 65636,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "digital-k0102-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "7f16343f6ca32b5a52c3a768f3d8fecb7dae8ae0d5c2be1eedfe9c5ac82fec9c",
+       "boyut": 48860,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "digital-k0102-012"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "872559c2bb199d259369301ccf62a383aac9f233e62b1052c2bdf77824442533",
+       "boyut": 89442,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "digital-k0102-002"
+      }
+     ]
     }
    ]
   },
@@ -1332,7 +1373,32 @@
      "gosterim": "veri yolu = ortak yol",
      "yol": "u07-kutuk-yazmac-aktarimi-ve-veri-yollari-rt/k0119-otobus-hatti-metaforu",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "bfc59a20920f7460d44de8eb5a252e4a56147d740548bb37cab364fa51208dbe",
+       "boyut": 127654,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "digital-k0119-004"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "58afa25c1158c89e217ab2d787350f8eefb171e330d3a3c58dd192f341caeaf1",
+       "boyut": 47718,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "digital-k0119-008"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "094cecba16e9e9e17a4952becb3e79e98db95c1d9cf58ce9a0598b58a47470b1",
+       "boyut": 78190,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "digital-k0119-012"
+      }
+     ]
     },
     {
      "id": "k0120",
@@ -1341,7 +1407,24 @@
      "gosterim": "kaydırma ve yönlendirme",
      "yol": "u07-kutuk-yazmac-aktarimi-ve-veri-yollari-rt/k0120-posta-dagitim-merkezi",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "fa5435456022340d3afa2e213f856ae0248efdd6b7d5bff5a2b806dc9824dbb6",
+       "boyut": 54246,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "digital-k0120-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "cea2cd674e847bfacf138ceda8257159f67664f58102a7af17cc631a6bdb7520",
+       "boyut": 61942,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "digital-k0120-012"
+      }
+     ]
     }
    ]
   },
