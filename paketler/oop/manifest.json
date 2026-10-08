@@ -2,10 +2,10 @@
  "ders": "oop",
  "ad": "Object-Oriented Programming",
  "dersKodu": "505002372016",
- "surum": 1,
+ "surum": 2,
  "kavramSayisi": 145,
  "beklenenGorsel": 171,
- "mevcutGorsel": 7,
+ "mevcutGorsel": 17,
  "uniteler": [
   {
    "no": 1,
@@ -417,6 +417,22 @@
        "genislik": 1024,
        "yukseklik": 1024,
        "aday": "oop-k0038-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "58fa249e98cba5bdffcb551573e2fa54e52bae4a51e0446b2012e39c60bea751",
+       "boyut": 26008,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "oop-k0038-006"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "45cc144ca3df9583fdf32d88ed4145083b277e3743595b5f3752233e0fff8a03",
+       "boyut": 29462,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "oop-k0038-005"
       }
      ]
     }
@@ -650,7 +666,32 @@
      "gosterim": "sınıf = kalıp",
      "yol": "u03-siniflar-ve-veri-soyutlama/k0063-kurabiye-kalibi-ve-kurabiyeler",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "dc09d737fc6ba81dd19f9f4998cce028cf039fbb3972bcb799ddabbaa0420917",
+       "boyut": 18988,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "oop-k0063-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "2c33f127444d88fc59b212c5b96c75334797730c3de2d58f38012570ebecc415",
+       "boyut": 24636,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "oop-k0063-016"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "e8f2db22b079dc06d3c051b57ba367e64d7b4c6dcf155b9733b5819920de064d",
+       "boyut": 23468,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "oop-k0063-017"
+      }
+     ]
     },
     {
      "id": "k0064",
@@ -659,7 +700,32 @@
      "gosterim": "arayüz ve gizli gerçekleme",
      "yol": "u03-siniflar-ve-veri-soyutlama/k0064-araba-kullanma-direksiyon-ve-motor",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "18ec026a0b1a42be65361c06a8589db880c12d4851d944a881044495cfe3083d",
+       "boyut": 21380,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "oop-k0064-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "b3f5494d55829976d614a6c03cc4d559666a9e54ab3b2aa8d1604e5980d10301",
+       "boyut": 22058,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "oop-k0064-007"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "1cd9c88ea5f388ef557bf898b95b78125f8a0e01798a4ce6521e4579a0a66935",
+       "boyut": 22874,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "oop-k0064-008"
+      }
+     ]
     }
    ]
   },
@@ -943,7 +1009,24 @@
      "gosterim": "kalıtım metaforu",
      "yol": "u05-kalitim/k0094-aile-agaci",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "ebecac009b3ec32b27ef10e01c2b3633c274736536553183e02017d773cea4a8",
+       "boyut": 54658,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "oop-k0094-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "75ccb86cc1d73b9a4ac7d8218012ba3a3798dd414d3f3c4efc3e5a1788d6f042",
+       "boyut": 18160,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "oop-k0094-010"
+      }
+     ]
     },
     {
      "id": "k0095",
