@@ -1,0 +1,1842 @@
+{
+ "ders": "materials",
+ "ad": "Electronic Materials and Device Physics",
+ "dersKodu": "505002242023",
+ "surum": 1,
+ "kavramSayisi": 191,
+ "beklenenGorsel": 231,
+ "mevcutGorsel": 5,
+ "uniteler": [
+  {
+   "no": 1,
+   "ad": "Kristal özellikleri",
+   "klasor": "u01-kristal-ozellikleri",
+   "kavramlar": [
+    {
+     "id": "k0001",
+     "ad": "Katı türleri",
+     "hat": "A",
+     "gosterim": "amorf, polikristal, tek kristal yapıları",
+     "yol": "u01-kristal-ozellikleri/k0001-kati-turleri",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0002",
+     "ad": "Kristal kafes ve birim hücre",
+     "hat": "A",
+     "gosterim": "kafes noktaları, taban vektörleri",
+     "yol": "u01-kristal-ozellikleri/k0002-kristal-kafes-ve-birim-hucre",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0003",
+     "ad": "Basit kübik (SC)",
+     "hat": "A",
+     "gosterim": "atom konumları",
+     "yol": "u01-kristal-ozellikleri/k0003-basit-kubik-sc",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0004",
+     "ad": "Cisim merkezli kübik (BCC)",
+     "hat": "A",
+     "gosterim": "atom konumları",
+     "yol": "u01-kristal-ozellikleri/k0004-cisim-merkezli-kubik-bcc",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0005",
+     "ad": "Yüzey merkezli kübik (FCC)",
+     "hat": "A",
+     "gosterim": "atom konumları",
+     "yol": "u01-kristal-ozellikleri/k0005-yuzey-merkezli-kubik-fcc",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0006",
+     "ad": "Elmas kafes yapısı",
+     "hat": "A",
+     "gosterim": "iç içe iki FCC, tetrahedral bağ",
+     "yol": "u01-kristal-ozellikleri/k0006-elmas-kafes-yapisi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0007",
+     "ad": "Çinko sülfür (zincblende) yapısı",
+     "hat": "A",
+     "gosterim": "GaAs örneği, iki tür atom",
+     "yol": "u01-kristal-ozellikleri/k0007-cinko-sulfur-zincblende-yapisi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0008",
+     "ad": "Atomik paketleme oranı",
+     "hat": "A",
+     "gosterim": "SC, BCC, FCC, elmas",
+     "yol": "u01-kristal-ozellikleri/k0008-atomik-paketleme-orani",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0009",
+     "ad": "Miller indisleri (düzlemler)",
+     "hat": "A",
+     "gosterim": "(100), (110), (111) düzlemleri küp içinde",
+     "yol": "u01-kristal-ozellikleri/k0009-miller-indisleri-duzlemler",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0010",
+     "ad": "Miller indisleri (yönler)",
+     "hat": "A",
+     "gosterim": "[100], [110], [111] yönleri",
+     "yol": "u01-kristal-ozellikleri/k0010-miller-indisleri-yonler",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0011",
+     "ad": "Düzlem yoğunluğu",
+     "hat": "A",
+     "gosterim": "yüzey atom sayısı",
+     "yol": "u01-kristal-ozellikleri/k0011-duzlem-yogunlugu",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0012",
+     "ad": "Si wafer kesim yönleri",
+     "hat": "A",
+     "gosterim": "(100) ve (111) yüzey, düz kenar",
+     "yol": "u01-kristal-ozellikleri/k0012-si-wafer-kesim-yonleri",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0013",
+     "ad": "Kristal kusurlar (nokta)",
+     "hat": "A",
+     "gosterim": "boşluk, ara yer, katkı atomu",
+     "yol": "u01-kristal-ozellikleri/k0013-kristal-kusurlar-nokta",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0014",
+     "ad": "Kristal kusurlar (çizgi ve düzlem)",
+     "hat": "A",
+     "gosterim": "dislokasyon, tane sınırı",
+     "yol": "u01-kristal-ozellikleri/k0014-kristal-kusurlar-cizgi-ve-duzlem",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0015",
+     "ad": "Periyodik tablo (yarıiletken grupları)",
+     "hat": "A",
+     "gosterim": "II–VI, III–V, IV",
+     "yol": "u01-kristal-ozellikleri/k0015-periyodik-tablo-yariiletken-gruplari",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0016",
+     "ad": "Silisyum külçe ve wafer",
+     "hat": "B",
+     "gosterim": "gerçek wafer sahnesi",
+     "yol": "u01-kristal-ozellikleri/k0016-silisyum-kulce-ve-wafer",
+     "beklenen": 3,
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "097d735a47e90a7dd7642f6d4ce96048f0f31a53e3ad4138abad364e4e20921f",
+       "boyut": 34368,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "materials-k0016-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "28d693aaf401da61ff4d49dc154835bcdd7ca7fa8df11f88af4697b7f6a93f3c",
+       "boyut": 20580,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "materials-k0016-004"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "a52f87d4bebdc65c17c356de9fd040eaa8a730de554fdc31e7872e11507f21db",
+       "boyut": 14448,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "materials-k0016-005"
+      }
+     ]
+    },
+    {
+     "id": "k0017",
+     "ad": "Kuvars/ elmas kristal",
+     "hat": "B",
+     "gosterim": "kristal yapısı",
+     "yol": "u01-kristal-ozellikleri/k0017-kuvars-elmas-kristal",
+     "beklenen": 3,
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "e7bebf0acba16a53b981f05884df321b4492e26c0635cc7a367c7cded8dbc1f8",
+       "boyut": 31696,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "materials-k0017-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "0191c9517a6dfacd92d6049f5a133cb740048b86e21b3dddfa328ce6e75f61bf",
+       "boyut": 36656,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "materials-k0017-004"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "no": 2,
+   "ad": "Atomik bağ ve enerji bantları",
+   "klasor": "u02-atomik-bag-ve-enerji-bantlari",
+   "kavramlar": [
+    {
+     "id": "k0018",
+     "ad": "Bohr modeli (hidrojen)",
+     "hat": "A",
+     "gosterim": "enerji seviyeleri",
+     "yol": "u02-atomik-bag-ve-enerji-bantlari/k0018-bohr-modeli-hidrojen",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0019",
+     "ad": "Kuantum durumları ve Pauli ilkesi",
+     "hat": "A",
+     "gosterim": "enerji seviyelerinde elektron dizilimi",
+     "yol": "u02-atomik-bag-ve-enerji-bantlari/k0019-kuantum-durumlari-ve-pauli-ilkesi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0020",
+     "ad": "Atomlar yakınlaşınca seviyelerin yarılması",
+     "hat": "A",
+     "gosterim": "enerji–atom mesafesi",
+     "yol": "u02-atomik-bag-ve-enerji-bantlari/k0020-atomlar-yakinlasinca-seviyelerin-yarilma",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0021",
+     "ad": "Enerji bantları oluşumu",
+     "hat": "A",
+     "gosterim": "ayrık seviyeler → bant",
+     "yol": "u02-atomik-bag-ve-enerji-bantlari/k0021-enerji-bantlari-olusumu",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0022",
+     "ad": "İletken, yarıiletken, yalıtkan band yapıları",
+     "hat": "A",
+     "gosterim": "üç bant diyagramı",
+     "yol": "u02-atomik-bag-ve-enerji-bantlari/k0022-iletken-yariiletken-yalitkan-band-yapila",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0023",
+     "ad": "Bant aralığı E_g",
+     "hat": "A",
+     "gosterim": "Si, Ge, GaAs değerleri çubuk",
+     "yol": "u02-atomik-bag-ve-enerji-bantlari/k0023-bant-araligi-e-g",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0024",
+     "ad": "Değerlik ve iletim bantları",
+     "hat": "A",
+     "gosterim": "E_c, E_v",
+     "yol": "u02-atomik-bag-ve-enerji-bantlari/k0024-degerlik-ve-iletim-bantlari",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0025",
+     "ad": "Kovalent bağ (Si)",
+     "hat": "A",
+     "gosterim": "iki boyutlu bağ modeli",
+     "yol": "u02-atomik-bag-ve-enerji-bantlari/k0025-kovalent-bag-si",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0026",
+     "ad": "Serbest elektron ve boşluk oluşumu",
+     "hat": "A",
+     "gosterim": "kopmuş bağ, boşluk",
+     "yol": "u02-atomik-bag-ve-enerji-bantlari/k0026-serbest-elektron-ve-bosluk-olusumu",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0027",
+     "ad": "Elektron ve boşluk hareketi",
+     "hat": "A",
+     "gosterim": "iki yönlü akış gösterimi",
+     "yol": "u02-atomik-bag-ve-enerji-bantlari/k0027-elektron-ve-bosluk-hareketi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0028",
+     "ad": "Doğrudan ve dolaylı bant aralığı",
+     "hat": "A",
+     "gosterim": "E–k diyagramı",
+     "yol": "u02-atomik-bag-ve-enerji-bantlari/k0028-dogrudan-ve-dolayli-bant-araligi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0029",
+     "ad": "Etkin kütle",
+     "hat": "A",
+     "gosterim": "E–k parabolünün eğriliği",
+     "yol": "u02-atomik-bag-ve-enerji-bantlari/k0029-etkin-kutle",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0030",
+     "ad": "Bant aralığının sıcaklıkla değişimi",
+     "hat": "A",
+     "gosterim": "E_g(T) eğrisi",
+     "yol": "u02-atomik-bag-ve-enerji-bantlari/k0030-bant-araliginin-sicaklikla-degisimi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0031",
+     "ad": "Taşıyıcı hareket modelleri",
+     "hat": "A",
+     "gosterim": "serbest elektron, Drude",
+     "yol": "u02-atomik-bag-ve-enerji-bantlari/k0031-tasiyici-hareket-modelleri",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0032",
+     "ad": "Elektron enerji dağılımı",
+     "hat": "A",
+     "gosterim": "metal, yarıiletken",
+     "yol": "u02-atomik-bag-ve-enerji-bantlari/k0032-elektron-enerji-dagilimi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0033",
+     "ad": "LED ışık yayımı",
+     "hat": "B",
+     "gosterim": "bant geçişi metaforu",
+     "yol": "u02-atomik-bag-ve-enerji-bantlari/k0033-led-isik-yayimi",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0034",
+     "ad": "Güneş hücresi",
+     "hat": "B",
+     "gosterim": "foton ile elektron-boşluk çifti",
+     "yol": "u02-atomik-bag-ve-enerji-bantlari/k0034-gunes-hucresi",
+     "beklenen": 3,
+     "gorseller": []
+    }
+   ]
+  },
+  {
+   "no": 3,
+   "ad": "Yarıiletkenlerde yük taşıyıcılar",
+   "klasor": "u03-yariiletkenlerde-yuk-tasiyicilar",
+   "kavramlar": [
+    {
+     "id": "k0035",
+     "ad": "Öz (intrinsic) yarıiletken",
+     "hat": "A",
+     "gosterim": "n = p = n_i",
+     "yol": "u03-yariiletkenlerde-yuk-tasiyicilar/k0035-oz-intrinsic-yariiletken",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0036",
+     "ad": "Taşıyıcı yoğunluğu ve sıcaklık",
+     "hat": "A",
+     "gosterim": "n_i – 1/T grafiği",
+     "yol": "u03-yariiletkenlerde-yuk-tasiyicilar/k0036-tasiyici-yogunlugu-ve-sicaklik",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0037",
+     "ad": "Durum yoğunluğu g(E)",
+     "hat": "A",
+     "gosterim": "parabolik g(E)",
+     "yol": "u03-yariiletkenlerde-yuk-tasiyicilar/k0037-durum-yogunlugu-g-e",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0038",
+     "ad": "Fermi–Dirac dağılımı",
+     "hat": "A",
+     "gosterim": "f(E), sıcaklık ailesi",
+     "yol": "u03-yariiletkenlerde-yuk-tasiyicilar/k0038-fermi-dirac-dagilimi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0039",
+     "ad": "Fermi seviyesi (öz)",
+     "hat": "A",
+     "gosterim": "bandın ortası",
+     "yol": "u03-yariiletkenlerde-yuk-tasiyicilar/k0039-fermi-seviyesi-oz",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0040",
+     "ad": "n ve p hesabı",
+     "hat": "A",
+     "gosterim": "f(E)g(E) çarpımı alanı",
+     "yol": "u03-yariiletkenlerde-yuk-tasiyicilar/k0040-n-ve-p-hesabi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0041",
+     "ad": "Kütle etkisi yasası n·p = n_i²",
+     "hat": "A",
+     "gosterim": "n ve p ters orantı",
+     "yol": "u03-yariiletkenlerde-yuk-tasiyicilar/k0041-kutle-etkisi-yasasi-n-p-n-i",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0042",
+     "ad": "n tipi katkılama",
+     "hat": "A",
+     "gosterim": "donör seviyesi, E_D",
+     "yol": "u03-yariiletkenlerde-yuk-tasiyicilar/k0042-n-tipi-katkilama",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0043",
+     "ad": "p tipi katkılama",
+     "hat": "A",
+     "gosterim": "akseptör seviyesi, E_A",
+     "yol": "u03-yariiletkenlerde-yuk-tasiyicilar/k0043-p-tipi-katkilama",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0044",
+     "ad": "Katkılı yarıiletkende Fermi seviyesi",
+     "hat": "A",
+     "gosterim": "n ve p tipi için konum",
+     "yol": "u03-yariiletkenlerde-yuk-tasiyicilar/k0044-katkili-yariiletkende-fermi-seviyesi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0045",
+     "ad": "Bant diyagramında Fermi seviyesi",
+     "hat": "A",
+     "gosterim": "n tipi, p tipi, öz",
+     "yol": "u03-yariiletkenlerde-yuk-tasiyicilar/k0045-bant-diyagraminda-fermi-seviyesi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0046",
+     "ad": "Yük nötrlüğü",
+     "hat": "A",
+     "gosterim": "iyonize donör ve akseptörler",
+     "yol": "u03-yariiletkenlerde-yuk-tasiyicilar/k0046-yuk-notrlugu",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0047",
+     "ad": "Sıcaklıkla taşıyıcı yoğunluğu (üç bölge)",
+     "hat": "A",
+     "gosterim": "dondurma, ekstrinsik, intrinsic",
+     "yol": "u03-yariiletkenlerde-yuk-tasiyicilar/k0047-sicaklikla-tasiyici-yogunlugu-uc-bolge",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0048",
+     "ad": "Dejenere yarıiletken",
+     "hat": "A",
+     "gosterim": "Fermi seviyesi bantın içinde",
+     "yol": "u03-yariiletkenlerde-yuk-tasiyicilar/k0048-dejenere-yariiletken",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0049",
+     "ad": "Kompanse yarıiletken",
+     "hat": "A",
+     "gosterim": "hem donör hem akseptör",
+     "yol": "u03-yariiletkenlerde-yuk-tasiyicilar/k0049-kompanse-yariiletken",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0050",
+     "ad": "Katkılama (boron/ fosfor)",
+     "hat": "B",
+     "gosterim": "silisyum içine katkı atomu metaforu",
+     "yol": "u03-yariiletkenlerde-yuk-tasiyicilar/k0050-katkilama-boron-fosfor",
+     "beklenen": 3,
+     "gorseller": []
+    }
+   ]
+  },
+  {
+   "no": 4,
+   "ad": "Taşıyıcı taşınımı",
+   "klasor": "u04-tasiyici-tasinimi",
+   "kavramlar": [
+    {
+     "id": "k0051",
+     "ad": "Drift (sürüklenme) hızı",
+     "hat": "A",
+     "gosterim": "elektrik alan, ortalama hız",
+     "yol": "u04-tasiyici-tasinimi/k0051-drift-suruklenme-hizi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0052",
+     "ad": "Hareketlilik μ",
+     "hat": "A",
+     "gosterim": "v_d = μE",
+     "yol": "u04-tasiyici-tasinimi/k0052-hareketlilik",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0053",
+     "ad": "İletkenlik ve özdirenç",
+     "hat": "A",
+     "gosterim": "σ = q(nμ_n + pμ_p)",
+     "yol": "u04-tasiyici-tasinimi/k0053-iletkenlik-ve-ozdirenc",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0054",
+     "ad": "Saçılma mekanizmaları",
+     "hat": "A",
+     "gosterim": "kafes saçılması, safsızlık saçılması",
+     "yol": "u04-tasiyici-tasinimi/k0054-sacilma-mekanizmalari",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0055",
+     "ad": "Hareketlilik – sıcaklık",
+     "hat": "A",
+     "gosterim": "iki saçılma etkisi, eğri",
+     "yol": "u04-tasiyici-tasinimi/k0055-hareketlilik-sicaklik",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0056",
+     "ad": "Hareketlilik – katkı",
+     "hat": "A",
+     "gosterim": "yüksek katkıda azalma",
+     "yol": "u04-tasiyici-tasinimi/k0056-hareketlilik-katki",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0057",
+     "ad": "Özdirenç – katkı yoğunluğu",
+     "hat": "A",
+     "gosterim": "Si için eğri",
+     "yol": "u04-tasiyici-tasinimi/k0057-ozdirenc-katki-yogunlugu",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0058",
+     "ad": "Hall etkisi",
+     "hat": "A",
+     "gosterim": "B, I, V_H, yük işareti",
+     "yol": "u04-tasiyici-tasinimi/k0058-hall-etkisi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0059",
+     "ad": "Hall katsayısı",
+     "hat": "A",
+     "gosterim": "n ve p için ayırma",
+     "yol": "u04-tasiyici-tasinimi/k0059-hall-katsayisi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0060",
+     "ad": "Difüzyon",
+     "hat": "A",
+     "gosterim": "konsantrasyon farkı, akı",
+     "yol": "u04-tasiyici-tasinimi/k0060-difuzyon",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0061",
+     "ad": "Difüzyon akımı",
+     "hat": "A",
+     "gosterim": "J = qD dn/dx",
+     "yol": "u04-tasiyici-tasinimi/k0061-difuzyon-akimi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0062",
+     "ad": "Einstein bağıntısı",
+     "hat": "A",
+     "gosterim": "D = μ kT/q",
+     "yol": "u04-tasiyici-tasinimi/k0062-einstein-bagintisi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0063",
+     "ad": "Toplam akım yoğunluğu",
+     "hat": "A",
+     "gosterim": "drift + difüzyon",
+     "yol": "u04-tasiyici-tasinimi/k0063-toplam-akim-yogunlugu",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0064",
+     "ad": "Bant eğilmesi ve elektrik alan",
+     "hat": "A",
+     "gosterim": "E = −dE_c/dx",
+     "yol": "u04-tasiyici-tasinimi/k0064-bant-egilmesi-ve-elektrik-alan",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0065",
+     "ad": "Doğrusal olmayan hareket (hız doygunluğu)",
+     "hat": "A",
+     "gosterim": "v–E eğrisi",
+     "yol": "u04-tasiyici-tasinimi/k0065-dogrusal-olmayan-hareket-hiz-doygunlugu",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0066",
+     "ad": "Kalabalıkta yayılan insanlar",
+     "hat": "B",
+     "gosterim": "difüzyon metaforu",
+     "yol": "u04-tasiyici-tasinimi/k0066-kalabalikta-yayilan-insanlar",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0067",
+     "ad": "Akıntıda yüzen insanlar",
+     "hat": "B",
+     "gosterim": "sürüklenme metaforu",
+     "yol": "u04-tasiyici-tasinimi/k0067-akintida-yuzen-insanlar",
+     "beklenen": 3,
+     "gorseller": []
+    }
+   ]
+  },
+  {
+   "no": 5,
+   "ad": "Fazla taşıyıcılar",
+   "klasor": "u05-fazla-tasiyicilar",
+   "kavramlar": [
+    {
+     "id": "k0068",
+     "ad": "Optik soğurma",
+     "hat": "A",
+     "gosterim": "foton enerjisi ve bant aralığı",
+     "yol": "u05-fazla-tasiyicilar/k0068-optik-sogurma",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0069",
+     "ad": "Soğurma katsayısı ve dalga boyu",
+     "hat": "A",
+     "gosterim": "eşik eğrisi",
+     "yol": "u05-fazla-tasiyicilar/k0069-sogurma-katsayisi-ve-dalga-boyu",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0070",
+     "ad": "Elektron-boşluk çifti üretimi",
+     "hat": "A",
+     "gosterim": "foton → çift",
+     "yol": "u05-fazla-tasiyicilar/k0070-elektron-bosluk-cifti-uretimi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0071",
+     "ad": "Luminesans (ışıma)",
+     "hat": "A",
+     "gosterim": "fotolüminesans, elektrolüminesans",
+     "yol": "u05-fazla-tasiyicilar/k0071-luminesans-isima",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0072",
+     "ad": "Rekombinasyon türleri",
+     "hat": "A",
+     "gosterim": "doğrudan, tuzak aracılı (SRH), Auger",
+     "yol": "u05-fazla-tasiyicilar/k0072-rekombinasyon-turleri",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0073",
+     "ad": "Taşıyıcı ömür süresi τ",
+     "hat": "A",
+     "gosterim": "üstel azalma",
+     "yol": "u05-fazla-tasiyicilar/k0073-tasiyici-omur-suresi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0074",
+     "ad": "Fotoiletkenlik",
+     "hat": "A",
+     "gosterim": "ışık altında iletkenlik artışı",
+     "yol": "u05-fazla-tasiyicilar/k0074-fotoiletkenlik",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0075",
+     "ad": "Yarı Fermi seviyeleri (quasi-Fermi)",
+     "hat": "A",
+     "gosterim": "denge dışı F_n, F_p",
+     "yol": "u05-fazla-tasiyicilar/k0075-yari-fermi-seviyeleri-quasi-fermi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0076",
+     "ad": "Süreklilik denklemi",
+     "hat": "A",
+     "gosterim": "üretim, rekombinasyon, akım",
+     "yol": "u05-fazla-tasiyicilar/k0076-sureklilik-denklemi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0077",
+     "ad": "Azınlık taşıyıcı difüzyon denklemi",
+     "hat": "A",
+     "gosterim": "Δp(x) üstel",
+     "yol": "u05-fazla-tasiyicilar/k0077-azinlik-tasiyici-difuzyon-denklemi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0078",
+     "ad": "Difüzyon uzunluğu L_p",
+     "hat": "A",
+     "gosterim": "Δp(x) eğrisi, uzunluk",
+     "yol": "u05-fazla-tasiyicilar/k0078-difuzyon-uzunlugu-l-p",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0079",
+     "ad": "Uzun ve kısa diyot için çözümler",
+     "hat": "A",
+     "gosterim": "üstel ve doğrusal profil",
+     "yol": "u05-fazla-tasiyicilar/k0079-uzun-ve-kisa-diyot-icin-cozumler",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0080",
+     "ad": "Haynes–Shockley deneyi",
+     "hat": "A",
+     "gosterim": "yayılan darbe",
+     "yol": "u05-fazla-tasiyicilar/k0080-haynes-shockley-deneyi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0081",
+     "ad": "Yüzey rekombinasyonu",
+     "hat": "A",
+     "gosterim": "yüzey tuzakları",
+     "yol": "u05-fazla-tasiyicilar/k0081-yuzey-rekombinasyonu",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0082",
+     "ad": "Işık düşen sensör",
+     "hat": "B",
+     "gosterim": "fotodiyot ya da LDR",
+     "yol": "u05-fazla-tasiyicilar/k0082-isik-dusen-sensor",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0083",
+     "ad": "Floresan ışıma",
+     "hat": "B",
+     "gosterim": "ışımalı rekombinasyon",
+     "yol": "u05-fazla-tasiyicilar/k0083-floresan-isima",
+     "beklenen": 3,
+     "gorseller": []
+    }
+   ]
+  },
+  {
+   "no": 6,
+   "ad": "PN kavşağı (denge)",
+   "klasor": "u06-pn-kavsagi-denge",
+   "kavramlar": [
+    {
+     "id": "k0084",
+     "ad": "PN kavşağı yapısı",
+     "hat": "A",
+     "gosterim": "p ve n bölgeleri",
+     "yol": "u06-pn-kavsagi-denge/k0084-pn-kavsagi-yapisi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0085",
+     "ad": "PN kavşağı oluşumu",
+     "hat": "A",
+     "gosterim": "taşıyıcı difüzyonu başlangıcı",
+     "yol": "u06-pn-kavsagi-denge/k0085-pn-kavsagi-olusumu",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0086",
+     "ad": "Boşluk bölgesi (depletion)",
+     "hat": "A",
+     "gosterim": "sabit iyonlar, yük dağılımı",
+     "yol": "u06-pn-kavsagi-denge/k0086-bosluk-bolgesi-depletion",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0087",
+     "ad": "Yük yoğunluğu ρ(x) (basamak kavşak)",
+     "hat": "A",
+     "gosterim": "dikdörtgen yük",
+     "yol": "u06-pn-kavsagi-denge/k0087-yuk-yogunlugu-x-basamak-kavsak",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0088",
+     "ad": "Elektrik alan E(x)",
+     "hat": "A",
+     "gosterim": "üçgen",
+     "yol": "u06-pn-kavsagi-denge/k0088-elektrik-alan-e-x",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0089",
+     "ad": "Potansiyel V(x)",
+     "hat": "A",
+     "gosterim": "parabolik eğri",
+     "yol": "u06-pn-kavsagi-denge/k0089-potansiyel-v-x",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0090",
+     "ad": "Bant diyagramı (denge)",
+     "hat": "A",
+     "gosterim": "tek Fermi seviyesi, bant bükülmesi",
+     "yol": "u06-pn-kavsagi-denge/k0090-bant-diyagrami-denge",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0091",
+     "ad": "İç potansiyel (built-in) V_bi",
+     "hat": "A",
+     "gosterim": "formül ve değer",
+     "yol": "u06-pn-kavsagi-denge/k0091-ic-potansiyel-built-in-v-bi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0092",
+     "ad": "Boşluk bölgesi genişliği",
+     "hat": "A",
+     "gosterim": "W, x_n, x_p",
+     "yol": "u06-pn-kavsagi-denge/k0092-bosluk-bolgesi-genisligi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0093",
+     "ad": "Doğrusal geçişli kavşak",
+     "hat": "A",
+     "gosterim": "ρ(x) eğimli",
+     "yol": "u06-pn-kavsagi-denge/k0093-dogrusal-gecisli-kavsak",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0094",
+     "ad": "Asimetrik kavşak (p⁺n)",
+     "hat": "A",
+     "gosterim": "boşluk bölgesi daha çok n tarafta",
+     "yol": "u06-pn-kavsagi-denge/k0094-asimetrik-kavsak-p-n",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0095",
+     "ad": "Kavşak üretimi (difüzyon, iyon implantasyonu)",
+     "hat": "A",
+     "gosterim": "süreç adımları",
+     "yol": "u06-pn-kavsagi-denge/k0095-kavsak-uretimi-difuzyon-iyon-implantasyo",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0096",
+     "ad": "Epitaksi ve oksidasyon",
+     "hat": "A",
+     "gosterim": "kalın katman büyütme",
+     "yol": "u06-pn-kavsagi-denge/k0096-epitaksi-ve-oksidasyon",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0097",
+     "ad": "Fotolitografi adımları",
+     "hat": "A",
+     "gosterim": "maske, ışık, aşındırma",
+     "yol": "u06-pn-kavsagi-denge/k0097-fotolitografi-adimlari",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0098",
+     "ad": "Entegre devre üretim odası",
+     "hat": "B",
+     "gosterim": "temiz oda",
+     "yol": "u06-pn-kavsagi-denge/k0098-entegre-devre-uretim-odasi",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0099",
+     "ad": "Silisyum yonga kesiti",
+     "hat": "B",
+     "gosterim": "katman yapısı",
+     "yol": "u06-pn-kavsagi-denge/k0099-silisyum-yonga-kesiti",
+     "beklenen": 3,
+     "gorseller": []
+    }
+   ]
+  },
+  {
+   "no": 7,
+   "ad": "PN kavşağı (kutuplu)",
+   "klasor": "u07-pn-kavsagi-kutuplu",
+   "kavramlar": [
+    {
+     "id": "k0100",
+     "ad": "İleri kutuplama",
+     "hat": "A",
+     "gosterim": "bariyer düşer, akım geçer",
+     "yol": "u07-pn-kavsagi-kutuplu/k0100-ileri-kutuplama",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0101",
+     "ad": "Geri kutuplama",
+     "hat": "A",
+     "gosterim": "bariyer artar, boşluk bölgesi genişler",
+     "yol": "u07-pn-kavsagi-kutuplu/k0101-geri-kutuplama",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0102",
+     "ad": "Kutuplama altında bant diyagramı",
+     "hat": "A",
+     "gosterim": "kuasi-Fermi seviyeleri",
+     "yol": "u07-pn-kavsagi-kutuplu/k0102-kutuplama-altinda-bant-diyagrami",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0103",
+     "ad": "Azınlık taşıyıcı enjeksiyonu",
+     "hat": "A",
+     "gosterim": "kavşak kenarında Δp, Δn",
+     "yol": "u07-pn-kavsagi-kutuplu/k0103-azinlik-tasiyici-enjeksiyonu",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0104",
+     "ad": "Taşıyıcı dağılımı (ileri kutuplama)",
+     "hat": "A",
+     "gosterim": "üstel profil",
+     "yol": "u07-pn-kavsagi-kutuplu/k0104-tasiyici-dagilimi-ileri-kutuplama",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0105",
+     "ad": "İdeal diyot denklemi",
+     "hat": "A",
+     "gosterim": "I = I_S(e^{V/V_T} − 1)",
+     "yol": "u07-pn-kavsagi-kutuplu/k0105-ideal-diyot-denklemi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0106",
+     "ad": "Diyot I–V karakteristiği",
+     "hat": "A",
+     "gosterim": "ileri üstel, geri doyma",
+     "yol": "u07-pn-kavsagi-kutuplu/k0106-diyot-i-v-karakteristigi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0107",
+     "ad": "Geri doyma akımı",
+     "hat": "A",
+     "gosterim": "I_S bileşenleri",
+     "yol": "u07-pn-kavsagi-kutuplu/k0107-geri-doyma-akimi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0108",
+     "ad": "Sıcaklığın I–V'ye etkisi",
+     "hat": "A",
+     "gosterim": "eğri kayması",
+     "yol": "u07-pn-kavsagi-kutuplu/k0108-sicakligin-i-v-ye-etkisi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0109",
+     "ad": "İdeal olmayan diyot",
+     "hat": "A",
+     "gosterim": "geri üretim, ileri rekombinasyon akımı",
+     "yol": "u07-pn-kavsagi-kutuplu/k0109-ideal-olmayan-diyot",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0110",
+     "ad": "İdealite faktörü n",
+     "hat": "A",
+     "gosterim": "log I–V eğimi",
+     "yol": "u07-pn-kavsagi-kutuplu/k0110-idealite-faktoru-n",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0111",
+     "ad": "Yüksek akım etkileri",
+     "hat": "A",
+     "gosterim": "seri direnç",
+     "yol": "u07-pn-kavsagi-kutuplu/k0111-yuksek-akim-etkileri",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0112",
+     "ad": "Çığ (avalanche) çöküşü",
+     "hat": "A",
+     "gosterim": "yüksek alanda çarpışma iyonizasyonu",
+     "yol": "u07-pn-kavsagi-kutuplu/k0112-cig-avalanche-cokusu",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0113",
+     "ad": "Zener çöküşü (tünelleme)",
+     "hat": "A",
+     "gosterim": "dar bariyer, bantlar arası geçiş",
+     "yol": "u07-pn-kavsagi-kutuplu/k0113-zener-cokusu-tunelleme",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0114",
+     "ad": "Çöküş gerilimi – katkı",
+     "hat": "A",
+     "gosterim": "eğri",
+     "yol": "u07-pn-kavsagi-kutuplu/k0114-cokus-gerilimi-katki",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0115",
+     "ad": "Kavşak kapasitansı (boşluk)",
+     "hat": "A",
+     "gosterim": "C_j – V eğrisi",
+     "yol": "u07-pn-kavsagi-kutuplu/k0115-kavsak-kapasitansi-bosluk",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0116",
+     "ad": "Difüzyon kapasitansı",
+     "hat": "A",
+     "gosterim": "depolanan yük",
+     "yol": "u07-pn-kavsagi-kutuplu/k0116-difuzyon-kapasitansi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0117",
+     "ad": "Varaktör diyot",
+     "hat": "A",
+     "gosterim": "gerilimle değişen C",
+     "yol": "u07-pn-kavsagi-kutuplu/k0117-varaktor-diyot",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0118",
+     "ad": "Anahtarlama davranışı",
+     "hat": "A",
+     "gosterim": "depolama zamanı, geri toparlanma",
+     "yol": "u07-pn-kavsagi-kutuplu/k0118-anahtarlama-davranisi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0119",
+     "ad": "Küçük sinyal eşdeğer devre",
+     "hat": "A",
+     "gosterim": "r_d, C_j, C_d",
+     "yol": "u07-pn-kavsagi-kutuplu/k0119-kucuk-sinyal-esdeger-devre",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0120",
+     "ad": "Metal–yarıiletken kavşak",
+     "hat": "A",
+     "gosterim": "Schottky bariyeri bant diyagramı",
+     "yol": "u07-pn-kavsagi-kutuplu/k0120-metal-yariiletken-kavsak",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0121",
+     "ad": "Omik kontak",
+     "hat": "A",
+     "gosterim": "düşük bariyer, doğrusal I–V",
+     "yol": "u07-pn-kavsagi-kutuplu/k0121-omik-kontak",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0122",
+     "ad": "Schottky ve PN diyot karşılaştırma",
+     "hat": "A",
+     "gosterim": "I–V eğrileri",
+     "yol": "u07-pn-kavsagi-kutuplu/k0122-schottky-ve-pn-diyot-karsilastirma",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0123",
+     "ad": "Isı oluşumu",
+     "hat": "A",
+     "gosterim": "diyot sıcaklığı",
+     "yol": "u07-pn-kavsagi-kutuplu/k0123-isi-olusumu",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0124",
+     "ad": "Diyot devre elemanı",
+     "hat": "B",
+     "gosterim": "gerçek diyot fotoğraf",
+     "yol": "u07-pn-kavsagi-kutuplu/k0124-diyot-devre-elemani",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0125",
+     "ad": "LED",
+     "hat": "B",
+     "gosterim": "ileri kutuplamada ışıma",
+     "yol": "u07-pn-kavsagi-kutuplu/k0125-led",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0126",
+     "ad": "Su sürahisi ve tek yönlü valf",
+     "hat": "B",
+     "gosterim": "diyot metaforu",
+     "yol": "u07-pn-kavsagi-kutuplu/k0126-su-surahisi-ve-tek-yonlu-valf",
+     "beklenen": 3,
+     "gorseller": []
+    }
+   ]
+  },
+  {
+   "no": 8,
+   "ad": "Bipolar kavşak transistör (BJT)",
+   "klasor": "u08-bipolar-kavsak-transistor-bjt",
+   "kavramlar": [
+    {
+     "id": "k0127",
+     "ad": "BJT yapısı (NPN, PNP)",
+     "hat": "A",
+     "gosterim": "emetör, baz, kolektör bölgeleri",
+     "yol": "u08-bipolar-kavsak-transistor-bjt/k0127-bjt-yapisi-npn-pnp",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0128",
+     "ad": "BJT sembolü",
+     "hat": "A",
+     "gosterim": "NPN ve PNP, akım yönü okları",
+     "yol": "u08-bipolar-kavsak-transistor-bjt/k0128-bjt-sembolu",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0129",
+     "ad": "Aktif çalışma modu",
+     "hat": "A",
+     "gosterim": "EB ileri, CB geri",
+     "yol": "u08-bipolar-kavsak-transistor-bjt/k0129-aktif-calisma-modu",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0130",
+     "ad": "Taşıyıcı hareketi (NPN)",
+     "hat": "A",
+     "gosterim": "elektron enjeksiyonu, baz geçişi",
+     "yol": "u08-bipolar-kavsak-transistor-bjt/k0130-tasiyici-hareketi-npn",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0131",
+     "ad": "Baz bölgesinde azınlık dağılımı",
+     "hat": "A",
+     "gosterim": "doğrusal profil",
+     "yol": "u08-bipolar-kavsak-transistor-bjt/k0131-baz-bolgesinde-azinlik-dagilimi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0132",
+     "ad": "Akım bileşenleri",
+     "hat": "A",
+     "gosterim": "I_E, I_B, I_C",
+     "yol": "u08-bipolar-kavsak-transistor-bjt/k0132-akim-bilesenleri",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0133",
+     "ad": "Akım kazancı α ve β",
+     "hat": "A",
+     "gosterim": "β = α/(1−α)",
+     "yol": "u08-bipolar-kavsak-transistor-bjt/k0133-akim-kazanci-ve",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0134",
+     "ad": "Emetör verimi, taşıma faktörü",
+     "hat": "A",
+     "gosterim": "γ, α_T",
+     "yol": "u08-bipolar-kavsak-transistor-bjt/k0134-emetor-verimi-tasima-faktoru",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0135",
+     "ad": "Bant diyagramı (aktif)",
+     "hat": "A",
+     "gosterim": "emetör–baz–kolektör",
+     "yol": "u08-bipolar-kavsak-transistor-bjt/k0135-bant-diyagrami-aktif",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0136",
+     "ad": "Kesim (cutoff) bölgesi",
+     "hat": "A",
+     "gosterim": "iki kavşak geri",
+     "yol": "u08-bipolar-kavsak-transistor-bjt/k0136-kesim-cutoff-bolgesi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0137",
+     "ad": "Doyma (saturation) bölgesi",
+     "hat": "A",
+     "gosterim": "iki kavşak ileri",
+     "yol": "u08-bipolar-kavsak-transistor-bjt/k0137-doyma-saturation-bolgesi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0138",
+     "ad": "Ters aktif mod",
+     "hat": "A",
+     "gosterim": "EB geri, CB ileri",
+     "yol": "u08-bipolar-kavsak-transistor-bjt/k0138-ters-aktif-mod",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0139",
+     "ad": "BJT çıkış karakteristikleri",
+     "hat": "A",
+     "gosterim": "I_C – V_CE ailesi",
+     "yol": "u08-bipolar-kavsak-transistor-bjt/k0139-bjt-cikis-karakteristikleri",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0140",
+     "ad": "BJT giriş karakteristiği",
+     "hat": "A",
+     "gosterim": "I_B – V_BE",
+     "yol": "u08-bipolar-kavsak-transistor-bjt/k0140-bjt-giris-karakteristigi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0141",
+     "ad": "Early etkisi",
+     "hat": "A",
+     "gosterim": "baz genişliği modülasyonu, eğim",
+     "yol": "u08-bipolar-kavsak-transistor-bjt/k0141-early-etkisi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0142",
+     "ad": "Ortak emetör, ortak baz, ortak kolektör",
+     "hat": "A",
+     "gosterim": "üç bağlantı",
+     "yol": "u08-bipolar-kavsak-transistor-bjt/k0142-ortak-emetor-ortak-baz-ortak-kolektor",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0143",
+     "ad": "BJT'nin yükseltici olarak çalışması",
+     "hat": "A",
+     "gosterim": "küçük sinyal, yük doğrusu",
+     "yol": "u08-bipolar-kavsak-transistor-bjt/k0143-bjt-nin-yukseltici-olarak-calismasi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0144",
+     "ad": "Yük doğrusu ve Q noktası",
+     "hat": "A",
+     "gosterim": "çıkış karakteristikleri üstüne",
+     "yol": "u08-bipolar-kavsak-transistor-bjt/k0144-yuk-dogrusu-ve-q-noktasi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0145",
+     "ad": "BJT'nin anahtar olarak kullanımı",
+     "hat": "A",
+     "gosterim": "aç-kapa bölgeleri",
+     "yol": "u08-bipolar-kavsak-transistor-bjt/k0145-bjt-nin-anahtar-olarak-kullanimi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0146",
+     "ad": "Anahtarlama zamanları",
+     "hat": "A",
+     "gosterim": "gecikme, yükselme, depolama, düşme",
+     "yol": "u08-bipolar-kavsak-transistor-bjt/k0146-anahtarlama-zamanlari",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0147",
+     "ad": "Kutuplama devreleri",
+     "hat": "A",
+     "gosterim": "sabit baz, gerilim bölücü",
+     "yol": "u08-bipolar-kavsak-transistor-bjt/k0147-kutuplama-devreleri",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0148",
+     "ad": "Kırılma gerilimleri BV_CEO, BV_CBO",
+     "hat": "A",
+     "gosterim": "çıkış eğrisinde",
+     "yol": "u08-bipolar-kavsak-transistor-bjt/k0148-kirilma-gerilimleri-bv-ceo-bv-cbo",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0149",
+     "ad": "Frekans sınırlaması",
+     "hat": "A",
+     "gosterim": "β(f) eğrisi, f_T",
+     "yol": "u08-bipolar-kavsak-transistor-bjt/k0149-frekans-sinirlamasi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0150",
+     "ad": "Küçük sinyal modeli (hibrit-π)",
+     "hat": "A",
+     "gosterim": "g_m, r_π, C_π, C_μ",
+     "yol": "u08-bipolar-kavsak-transistor-bjt/k0150-kucuk-sinyal-modeli-hibrit",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0151",
+     "ad": "Ebers–Moll modeli",
+     "hat": "A",
+     "gosterim": "iki diyot ve akım kaynakları",
+     "yol": "u08-bipolar-kavsak-transistor-bjt/k0151-ebers-moll-modeli",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0152",
+     "ad": "Heterojunction BJT",
+     "hat": "A",
+     "gosterim": "bant uyumsuzluğu",
+     "yol": "u08-bipolar-kavsak-transistor-bjt/k0152-heterojunction-bjt",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0153",
+     "ad": "Transistör (TO-92)",
+     "hat": "B",
+     "gosterim": "gerçek parça",
+     "yol": "u08-bipolar-kavsak-transistor-bjt/k0153-transistor-to-92",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0154",
+     "ad": "Musluk metaforu",
+     "hat": "B",
+     "gosterim": "küçük akım büyük akımı kontrol eder",
+     "yol": "u08-bipolar-kavsak-transistor-bjt/k0154-musluk-metaforu",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0155",
+     "ad": "Ses yükselteç devresi",
+     "hat": "B",
+     "gosterim": "yükseltme uygulaması",
+     "yol": "u08-bipolar-kavsak-transistor-bjt/k0155-ses-yukseltec-devresi",
+     "beklenen": 3,
+     "gorseller": []
+    }
+   ]
+  },
+  {
+   "no": 9,
+   "ad": "MOS yapıları (MOS kapasitör)",
+   "klasor": "u09-mos-yapilari-mos-kapasitor",
+   "kavramlar": [
+    {
+     "id": "k0156",
+     "ad": "MOS kapasitör yapısı",
+     "hat": "A",
+     "gosterim": "metal, oksit, yarıiletken",
+     "yol": "u09-mos-yapilari-mos-kapasitor/k0156-mos-kapasitor-yapisi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0157",
+     "ad": "İdeal MOS bant diyagramı",
+     "hat": "A",
+     "gosterim": "gerilimsiz",
+     "yol": "u09-mos-yapilari-mos-kapasitor/k0157-ideal-mos-bant-diyagrami",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0158",
+     "ad": "Birikim (accumulation)",
+     "hat": "A",
+     "gosterim": "gate eksi (p tipi için)",
+     "yol": "u09-mos-yapilari-mos-kapasitor/k0158-birikim-accumulation",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0159",
+     "ad": "Tüketim (depletion)",
+     "hat": "A",
+     "gosterim": "az pozitif gate",
+     "yol": "u09-mos-yapilari-mos-kapasitor/k0159-tuketim-depletion",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0160",
+     "ad": "Evirme (inversion)",
+     "hat": "A",
+     "gosterim": "yeterli pozitif gate",
+     "yol": "u09-mos-yapilari-mos-kapasitor/k0160-evirme-inversion",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0161",
+     "ad": "Eşik gerilimi V_T",
+     "hat": "A",
+     "gosterim": "inversion başlangıcı",
+     "yol": "u09-mos-yapilari-mos-kapasitor/k0161-esik-gerilimi-v-t",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0162",
+     "ad": "Yük dağılımı (üç bölge)",
+     "hat": "A",
+     "gosterim": "MOS'ta yük",
+     "yol": "u09-mos-yapilari-mos-kapasitor/k0162-yuk-dagilimi-uc-bolge",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0163",
+     "ad": "MOS C–V eğrisi",
+     "hat": "A",
+     "gosterim": "düşük ve yüksek frekans",
+     "yol": "u09-mos-yapilari-mos-kapasitor/k0163-mos-c-v-egrisi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0164",
+     "ad": "Yüzey potansiyeli",
+     "hat": "A",
+     "gosterim": "ψ_s – V_G",
+     "yol": "u09-mos-yapilari-mos-kapasitor/k0164-yuzey-potansiyeli",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0165",
+     "ad": "Düzbant (flat-band) gerilimi",
+     "hat": "A",
+     "gosterim": "iş fonksiyonu farkı ve oksit yükü",
+     "yol": "u09-mos-yapilari-mos-kapasitor/k0165-duzbant-flat-band-gerilimi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0166",
+     "ad": "Oksit yükleri",
+     "hat": "A",
+     "gosterim": "sabit yük, arayüz tuzakları",
+     "yol": "u09-mos-yapilari-mos-kapasitor/k0166-oksit-yukleri",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0167",
+     "ad": "Oksit kalınlığı etkisi",
+     "hat": "A",
+     "gosterim": "C_ox",
+     "yol": "u09-mos-yapilari-mos-kapasitor/k0167-oksit-kalinligi-etkisi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0168",
+     "ad": "Silisyum–oksit arayüzü",
+     "hat": "A",
+     "gosterim": "SiO₂ katmanı",
+     "yol": "u09-mos-yapilari-mos-kapasitor/k0168-silisyum-oksit-arayuzu",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0169",
+     "ad": "Kapasitör levhaları",
+     "hat": "B",
+     "gosterim": "MOS metaforu",
+     "yol": "u09-mos-yapilari-mos-kapasitor/k0169-kapasitor-levhalari",
+     "beklenen": 3,
+     "gorseller": []
+    }
+   ]
+  },
+  {
+   "no": 10,
+   "ad": "Alan etkili transistörler (FET)",
+   "klasor": "u10-alan-etkili-transistorler-fet",
+   "kavramlar": [
+    {
+     "id": "k0170",
+     "ad": "JFET yapısı",
+     "hat": "A",
+     "gosterim": "kanal, gate, kaynak, savak",
+     "yol": "u10-alan-etkili-transistorler-fet/k0170-jfet-yapisi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0171",
+     "ad": "JFET çalışması",
+     "hat": "A",
+     "gosterim": "kanalın daralması",
+     "yol": "u10-alan-etkili-transistorler-fet/k0171-jfet-calismasi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0172",
+     "ad": "Pinch-off",
+     "hat": "A",
+     "gosterim": "kanal kapanması",
+     "yol": "u10-alan-etkili-transistorler-fet/k0172-pinch-off",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0173",
+     "ad": "JFET I–V karakteristikleri",
+     "hat": "A",
+     "gosterim": "doğrusal ve doyma bölgesi",
+     "yol": "u10-alan-etkili-transistorler-fet/k0173-jfet-i-v-karakteristikleri",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0174",
+     "ad": "MOSFET yapısı (nMOS)",
+     "hat": "A",
+     "gosterim": "kaynak, savak, gate, kanal, gövde",
+     "yol": "u10-alan-etkili-transistorler-fet/k0174-mosfet-yapisi-nmos",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0175",
+     "ad": "MOSFET sembolleri",
+     "hat": "A",
+     "gosterim": "n kanal, p kanal, geliştirme, tüketim",
+     "yol": "u10-alan-etkili-transistorler-fet/k0175-mosfet-sembolleri",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0176",
+     "ad": "n kanal oluşumu",
+     "hat": "A",
+     "gosterim": "V_GS > V_T",
+     "yol": "u10-alan-etkili-transistorler-fet/k0176-n-kanal-olusumu",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0177",
+     "ad": "MOSFET çalışma bölgeleri",
+     "hat": "A",
+     "gosterim": "kesim, lineer (triyot), doyma",
+     "yol": "u10-alan-etkili-transistorler-fet/k0177-mosfet-calisma-bolgeleri",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0178",
+     "ad": "MOSFET I_D–V_DS",
+     "hat": "A",
+     "gosterim": "eşik altı, lineer, doyma eğrileri",
+     "yol": "u10-alan-etkili-transistorler-fet/k0178-mosfet-i-d-v-ds",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0179",
+     "ad": "MOSFET transfer karakteristiği",
+     "hat": "A",
+     "gosterim": "I_D – V_GS parabolü",
+     "yol": "u10-alan-etkili-transistorler-fet/k0179-mosfet-transfer-karakteristigi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0180",
+     "ad": "Pinch-off ve kanal boyu modülasyonu",
+     "hat": "A",
+     "gosterim": "doyma",
+     "yol": "u10-alan-etkili-transistorler-fet/k0180-pinch-off-ve-kanal-boyu-modulasyonu",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0181",
+     "ad": "Eşik gerilimi etkileri",
+     "hat": "A",
+     "gosterim": "gövde etkisi",
+     "yol": "u10-alan-etkili-transistorler-fet/k0181-esik-gerilimi-etkileri",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0182",
+     "ad": "pMOS ve nMOS karşılaştırma",
+     "hat": "A",
+     "gosterim": "taşıyıcı ve polarite",
+     "yol": "u10-alan-etkili-transistorler-fet/k0182-pmos-ve-nmos-karsilastirma",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0183",
+     "ad": "CMOS evirici",
+     "hat": "A",
+     "gosterim": "nMOS ve pMOS çifti, VTC eğrisi",
+     "yol": "u10-alan-etkili-transistorler-fet/k0183-cmos-evirici",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0184",
+     "ad": "MOSFET anahtar olarak",
+     "hat": "A",
+     "gosterim": "mantık seviyeleri",
+     "yol": "u10-alan-etkili-transistorler-fet/k0184-mosfet-anahtar-olarak",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0185",
+     "ad": "MOSFET küçük sinyal modeli",
+     "hat": "A",
+     "gosterim": "g_m, r_o",
+     "yol": "u10-alan-etkili-transistorler-fet/k0185-mosfet-kucuk-sinyal-modeli",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0186",
+     "ad": "Kısa kanal etkileri",
+     "hat": "A",
+     "gosterim": "DIBL, hız doygunluğu",
+     "yol": "u10-alan-etkili-transistorler-fet/k0186-kisa-kanal-etkileri",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0187",
+     "ad": "Ölçekleme (Moore yasası)",
+     "hat": "A",
+     "gosterim": "boyut–yıl grafiği",
+     "yol": "u10-alan-etkili-transistorler-fet/k0187-olcekleme-moore-yasasi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0188",
+     "ad": "MOSFET kapasitansları",
+     "hat": "A",
+     "gosterim": "C_gs, C_gd, C_gb",
+     "yol": "u10-alan-etkili-transistorler-fet/k0188-mosfet-kapasitanslari",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0189",
+     "ad": "Tüketim ve geliştirme tipi",
+     "hat": "A",
+     "gosterim": "kanal var/yok",
+     "yol": "u10-alan-etkili-transistorler-fet/k0189-tuketim-ve-gelistirme-tipi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0190",
+     "ad": "MOSFET (TO-220)",
+     "hat": "B",
+     "gosterim": "güç transistörü gerçek parça",
+     "yol": "u10-alan-etkili-transistorler-fet/k0190-mosfet-to-220",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0191",
+     "ad": "İşlemci yongası",
+     "hat": "B",
+     "gosterim": "milyarlarca transistör",
+     "yol": "u10-alan-etkili-transistorler-fet/k0191-islemci-yongasi",
+     "beklenen": 3,
+     "gorseller": []
+    }
+   ]
+  }
+ ]
+}
