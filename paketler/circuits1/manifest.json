@@ -2,10 +2,10 @@
  "ders": "circuits1",
  "ad": "Circuit Analysis 1",
  "dersKodu": "505002352024",
- "surum": 7,
+ "surum": 8,
  "kavramSayisi": 173,
  "beklenenGorsel": 217,
- "mevcutGorsel": 61,
+ "mevcutGorsel": 66,
  "uniteler": [
   {
    "no": 1,
@@ -2129,6 +2129,22 @@
        "genislik": 1024,
        "yukseklik": 1024,
        "aday": "circuits1-k0172-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "f820fd48e30e63de94658261dc032d8af546f48b9472df86db11c37c1ef18820",
+       "boyut": 56802,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "circuits1-k0172-012"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "8c9761edc55ef41cf56150a1a4414ed5053731f73969ad34f5d5910912115f24",
+       "boyut": 58638,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "circuits1-k0172-010"
       }
      ]
     },
@@ -2139,7 +2155,32 @@
      "gosterim": "dalga ekranı",
      "yol": "u10-laboratuvar-ve-olcme/k0173-osiloskop-fotograf-tarzi",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "ddea1ba46c9d5b7178afc8b0cdc0a285c6185482c696f554911df940a3584732",
+       "boyut": 59162,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "circuits1-k0173-002"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "c647159098f063c0bf4a2b7d8b7a1d84dd1d3c7754e4ea87457f6877ab9681ca",
+       "boyut": 37172,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "circuits1-k0173-009"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "56c2e6b45bd3a1696ca79bf29b9c0e3077e9fe51a2e0050f998f640ea8e8d838",
+       "boyut": 50106,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "circuits1-k0173-003"
+      }
+     ]
     }
    ]
   }

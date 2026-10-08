@@ -1,0 +1,2054 @@
+{
+ "ders": "digital",
+ "ad": "Digital Systems",
+ "dersKodu": "505002122015",
+ "surum": 1,
+ "kavramSayisi": 213,
+ "beklenenGorsel": 253,
+ "mevcutGorsel": 5,
+ "uniteler": [
+  {
+   "no": 1,
+   "ad": "Sayı sistemleri ve kodlar",
+   "klasor": "u01-sayi-sistemleri-ve-kodlar",
+   "kavramlar": [
+    {
+     "id": "k0001",
+     "ad": "İkili, onlu, onaltılı karşılaştırma",
+     "hat": "A",
+     "gosterim": "aynı sayı üç tabanda",
+     "yol": "u01-sayi-sistemleri-ve-kodlar/k0001-ikili-onlu-onaltili-karsilastirma",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0002",
+     "ad": "Taban dönüşümü (bölme yöntemi)",
+     "hat": "A",
+     "gosterim": "adım adım bölme ve kalanlar",
+     "yol": "u01-sayi-sistemleri-ve-kodlar/k0002-taban-donusumu-bolme-yontemi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0003",
+     "ad": "İşaretsiz ikili sayılar",
+     "hat": "A",
+     "gosterim": "bit ağırlıkları 2⁷...2⁰",
+     "yol": "u01-sayi-sistemleri-ve-kodlar/k0003-isaretsiz-ikili-sayilar",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0004",
+     "ad": "1'e ve 2'ye tümleyen",
+     "hat": "A",
+     "gosterim": "negatif sayı gösterimi",
+     "yol": "u01-sayi-sistemleri-ve-kodlar/k0004-1-e-ve-2-ye-tumleyen",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0005",
+     "ad": "İşaretli sayı gösterimleri",
+     "hat": "A",
+     "gosterim": "işaret-büyüklük, 1'e, 2'ye tümleyen",
+     "yol": "u01-sayi-sistemleri-ve-kodlar/k0005-isaretli-sayi-gosterimleri",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0006",
+     "ad": "İkili toplama ve taşma",
+     "hat": "A",
+     "gosterim": "taşıma zinciri",
+     "yol": "u01-sayi-sistemleri-ve-kodlar/k0006-ikili-toplama-ve-tasma",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0007",
+     "ad": "Taşma (overflow) koşulu",
+     "hat": "A",
+     "gosterim": "işaretli toplamda taşma örnekleri",
+     "yol": "u01-sayi-sistemleri-ve-kodlar/k0007-tasma-overflow-kosulu",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0008",
+     "ad": "BCD kodu",
+     "hat": "A",
+     "gosterim": "her onlu hane 4 bit",
+     "yol": "u01-sayi-sistemleri-ve-kodlar/k0008-bcd-kodu",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0009",
+     "ad": "Gray kodu",
+     "hat": "A",
+     "gosterim": "tek bit değişen sıra",
+     "yol": "u01-sayi-sistemleri-ve-kodlar/k0009-gray-kodu",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0010",
+     "ad": "ASCII tablosu (kısmi)",
+     "hat": "A",
+     "gosterim": "harfin 7 bit kodu",
+     "yol": "u01-sayi-sistemleri-ve-kodlar/k0010-ascii-tablosu-kismi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0011",
+     "ad": "Hata denetleyen kodlar: eşlik biti",
+     "hat": "A",
+     "gosterim": "tek ve çift eşlik",
+     "yol": "u01-sayi-sistemleri-ve-kodlar/k0011-hata-denetleyen-kodlar-eslik-biti",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0012",
+     "ad": "Hamming kodu",
+     "hat": "A",
+     "gosterim": "paritelerin bit konumları",
+     "yol": "u01-sayi-sistemleri-ve-kodlar/k0012-hamming-kodu",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0013",
+     "ad": "Kayan noktalı sayı (IEEE 754)",
+     "hat": "A",
+     "gosterim": "işaret, üs, mantis alanları",
+     "yol": "u01-sayi-sistemleri-ve-kodlar/k0013-kayan-noktali-sayi-ieee-754",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0014",
+     "ad": "Sabit ve kayan noktalı karşılaştırma",
+     "hat": "A",
+     "gosterim": "sayı doğrusu ve hassasiyet",
+     "yol": "u01-sayi-sistemleri-ve-kodlar/k0014-sabit-ve-kayan-noktali-karsilastirma",
+     "beklenen": 1,
+     "gorseller": []
+    }
+   ]
+  },
+  {
+   "no": 2,
+   "ad": "Boole cebri ve mantık kapıları",
+   "klasor": "u02-boole-cebri-ve-mantik-kapilari",
+   "kavramlar": [
+    {
+     "id": "k0015",
+     "ad": "AND, OR, NOT kapı sembolleri",
+     "hat": "A",
+     "gosterim": "doğruluk tabloları",
+     "yol": "u02-boole-cebri-ve-mantik-kapilari/k0015-and-or-not-kapi-sembolleri",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0016",
+     "ad": "NAND, NOR, XOR, XNOR",
+     "hat": "A",
+     "gosterim": "sembol ve tablo",
+     "yol": "u02-boole-cebri-ve-mantik-kapilari/k0016-nand-nor-xor-xnor",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0017",
+     "ad": "Evrensel kapılar (NAND/NOR)",
+     "hat": "A",
+     "gosterim": "NAND ile diğer kapılar",
+     "yol": "u02-boole-cebri-ve-mantik-kapilari/k0017-evrensel-kapilar-nand-nor",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0018",
+     "ad": "Boole aksiyomları",
+     "hat": "A",
+     "gosterim": "kimlikler listesi (sembolik)",
+     "yol": "u02-boole-cebri-ve-mantik-kapilari/k0018-boole-aksiyomlari",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0019",
+     "ad": "De Morgan teoremi",
+     "hat": "A",
+     "gosterim": "iki eşdeğer devre",
+     "yol": "u02-boole-cebri-ve-mantik-kapilari/k0019-de-morgan-teoremi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0020",
+     "ad": "Mantık kapısı eşdeğerleri",
+     "hat": "A",
+     "gosterim": "kabarcık kaydırma",
+     "yol": "u02-boole-cebri-ve-mantik-kapilari/k0020-mantik-kapisi-esdegerleri",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0021",
+     "ad": "Boole fonksiyonundan devre",
+     "hat": "A",
+     "gosterim": "ifade ve devre çizimi",
+     "yol": "u02-boole-cebri-ve-mantik-kapilari/k0021-boole-fonksiyonundan-devre",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0022",
+     "ad": "Doğruluk tablosundan fonksiyon",
+     "hat": "A",
+     "gosterim": "minterm ve maxterm",
+     "yol": "u02-boole-cebri-ve-mantik-kapilari/k0022-dogruluk-tablosundan-fonksiyon",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0023",
+     "ad": "Kanonik biçimler (SOP, POS)",
+     "hat": "A",
+     "gosterim": "iki seviyeli devre",
+     "yol": "u02-boole-cebri-ve-mantik-kapilari/k0023-kanonik-bicimler-sop-pos",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0024",
+     "ad": "Karnaugh haritası (2 değişken)",
+     "hat": "A",
+     "gosterim": "gruplama örneği",
+     "yol": "u02-boole-cebri-ve-mantik-kapilari/k0024-karnaugh-haritasi-2-degisken",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0025",
+     "ad": "Karnaugh haritası (3 değişken)",
+     "hat": "A",
+     "gosterim": "gruplama",
+     "yol": "u02-boole-cebri-ve-mantik-kapilari/k0025-karnaugh-haritasi-3-degisken",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0026",
+     "ad": "Karnaugh haritası (4 değişken)",
+     "hat": "A",
+     "gosterim": "dörtlü, sekizli gruplar",
+     "yol": "u02-boole-cebri-ve-mantik-kapilari/k0026-karnaugh-haritasi-4-degisken",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0027",
+     "ad": "Önemsiz (don't care) durumlar",
+     "hat": "A",
+     "gosterim": "K-map'te x işaretleri",
+     "yol": "u02-boole-cebri-ve-mantik-kapilari/k0027-onemsiz-don-t-care-durumlar",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0028",
+     "ad": "Asal gerektirenler (prime implicant)",
+     "hat": "A",
+     "gosterim": "K-map renklendirme",
+     "yol": "u02-boole-cebri-ve-mantik-kapilari/k0028-asal-gerektirenler-prime-implicant",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0029",
+     "ad": "Quine–McCluskey yöntemi",
+     "hat": "A",
+     "gosterim": "tablo",
+     "yol": "u02-boole-cebri-ve-mantik-kapilari/k0029-quine-mccluskey-yontemi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0030",
+     "ad": "İki seviyeli NAND-NAND gerçekleştirme",
+     "hat": "A",
+     "gosterim": "AND-OR'dan dönüşüm",
+     "yol": "u02-boole-cebri-ve-mantik-kapilari/k0030-iki-seviyeli-nand-nand-gerceklestirme",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0031",
+     "ad": "Kapı gecikmesi",
+     "hat": "A",
+     "gosterim": "giriş-çıkış dalga şekli",
+     "yol": "u02-boole-cebri-ve-mantik-kapilari/k0031-kapi-gecikmesi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0032",
+     "ad": "Hazard (glitch)",
+     "hat": "A",
+     "gosterim": "statik 1 hazard dalga şekli",
+     "yol": "u02-boole-cebri-ve-mantik-kapilari/k0032-hazard-glitch",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0033",
+     "ad": "Kırmızı-yeşil trafik ışığı mantığı",
+     "hat": "B",
+     "gosterim": "mantık metaforu",
+     "yol": "u02-boole-cebri-ve-mantik-kapilari/k0033-kirmizi-yesil-trafik-isigi-mantigi",
+     "beklenen": 3,
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "bd4eb6a2009db953240b134c93a53ec4c667eecf4c61f862f8288b410398f782",
+       "boyut": 57834,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "digital-k0033-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "9fc9e392eecee0f6561c981a4cbc4cb87399720ed673811b9ac297f7cd79c804",
+       "boyut": 55054,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "digital-k0033-012"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "ff112e4658a808db652d89a34e610500fc4117cd0ae15120dbc793a49346e25f",
+       "boyut": 64186,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "digital-k0033-006"
+      }
+     ]
+    },
+    {
+     "id": "k0034",
+     "ad": "Anahtarlar ve lamba",
+     "hat": "B",
+     "gosterim": "AND = seri, OR = paralel anahtar",
+     "yol": "u02-boole-cebri-ve-mantik-kapilari/k0034-anahtarlar-ve-lamba",
+     "beklenen": 3,
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "88b198a6f42f87fe2852919a287f1f17ebe8d9074915e1b3628c7ea9a96062ee",
+       "boyut": 55168,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "digital-k0034-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "762014c8ef84810a9b761d8aad889f52634f842c15aa6a76bd2aafa40d22dbd9",
+       "boyut": 64430,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "digital-k0034-008"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "no": 3,
+   "ad": "Kombinasyonel devreler",
+   "klasor": "u03-kombinasyonel-devreler",
+   "kavramlar": [
+    {
+     "id": "k0035",
+     "ad": "Yarım toplayıcı (half adder)",
+     "hat": "A",
+     "gosterim": "devre ve tablo",
+     "yol": "u03-kombinasyonel-devreler/k0035-yarim-toplayici-half-adder",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0036",
+     "ad": "Tam toplayıcı (full adder)",
+     "hat": "A",
+     "gosterim": "devre ve tablo",
+     "yol": "u03-kombinasyonel-devreler/k0036-tam-toplayici-full-adder",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0037",
+     "ad": "4 bit ripple-carry toplayıcı",
+     "hat": "A",
+     "gosterim": "zincirleme tam toplayıcı",
+     "yol": "u03-kombinasyonel-devreler/k0037-4-bit-ripple-carry-toplayici",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0038",
+     "ad": "Carry-lookahead toplayıcı",
+     "hat": "A",
+     "gosterim": "generate/propagate",
+     "yol": "u03-kombinasyonel-devreler/k0038-carry-lookahead-toplayici",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0039",
+     "ad": "Toplayıcı/çıkarıcı",
+     "hat": "A",
+     "gosterim": "XOR'lu kontrol",
+     "yol": "u03-kombinasyonel-devreler/k0039-toplayici-cikarici",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0040",
+     "ad": "Karşılaştırıcı (magnitude comparator)",
+     "hat": "A",
+     "gosterim": "A > B, A = B, A < B",
+     "yol": "u03-kombinasyonel-devreler/k0040-karsilastirici-magnitude-comparator",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0041",
+     "ad": "Kod çözücü (decoder 2→4)",
+     "hat": "A",
+     "gosterim": "doğruluk tablosu ve devre",
+     "yol": "u03-kombinasyonel-devreler/k0041-kod-cozucu-decoder-2-4",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0042",
+     "ad": "Kod çözücü (decoder 3→8)",
+     "hat": "A",
+     "gosterim": "çıkış hatları",
+     "yol": "u03-kombinasyonel-devreler/k0042-kod-cozucu-decoder-3-8",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0043",
+     "ad": "Kodlayıcı (encoder 4→2)",
+     "hat": "A",
+     "gosterim": "tek aktif girişten kod",
+     "yol": "u03-kombinasyonel-devreler/k0043-kodlayici-encoder-4-2",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0044",
+     "ad": "Öncelikli kodlayıcı",
+     "hat": "A",
+     "gosterim": "öncelik sırası",
+     "yol": "u03-kombinasyonel-devreler/k0044-oncelikli-kodlayici",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0045",
+     "ad": "Çoklayıcı (MUX 2→1)",
+     "hat": "A",
+     "gosterim": "seçim hattı",
+     "yol": "u03-kombinasyonel-devreler/k0045-coklayici-mux-2-1",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0046",
+     "ad": "Çoklayıcı (MUX 4→1)",
+     "hat": "A",
+     "gosterim": "iki seçim biti",
+     "yol": "u03-kombinasyonel-devreler/k0046-coklayici-mux-4-1",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0047",
+     "ad": "MUX ile fonksiyon gerçekleme",
+     "hat": "A",
+     "gosterim": "Boole ifadesi",
+     "yol": "u03-kombinasyonel-devreler/k0047-mux-ile-fonksiyon-gercekleme",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0048",
+     "ad": "Ayrıştırıcı (DEMUX)",
+     "hat": "A",
+     "gosterim": "tek girişten çok çıkış",
+     "yol": "u03-kombinasyonel-devreler/k0048-ayristirici-demux",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0049",
+     "ad": "7 segment gösterge ve kod çözücü",
+     "hat": "A",
+     "gosterim": "segment ışıkları a-g",
+     "yol": "u03-kombinasyonel-devreler/k0049-7-segment-gosterge-ve-kod-cozucu",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0050",
+     "ad": "Parity üreteci/denetleyicisi",
+     "hat": "A",
+     "gosterim": "XOR zinciri",
+     "yol": "u03-kombinasyonel-devreler/k0050-parity-ureteci-denetleyicisi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0051",
+     "ad": "Çarpıcı (array multiplier)",
+     "hat": "A",
+     "gosterim": "AND ve toplayıcı matrisi",
+     "yol": "u03-kombinasyonel-devreler/k0051-carpici-array-multiplier",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0052",
+     "ad": "ROM ile kombinasyonel mantık",
+     "hat": "A",
+     "gosterim": "adres–çıkış tablosu",
+     "yol": "u03-kombinasyonel-devreler/k0052-rom-ile-kombinasyonel-mantik",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0053",
+     "ad": "PLA ve PAL",
+     "hat": "A",
+     "gosterim": "programlanabilir AND/OR düzlemleri",
+     "yol": "u03-kombinasyonel-devreler/k0053-pla-ve-pal",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0054",
+     "ad": "Sayısal saat ekranı",
+     "hat": "B",
+     "gosterim": "7 segment gösterge",
+     "yol": "u03-kombinasyonel-devreler/k0054-sayisal-saat-ekrani",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0055",
+     "ad": "Asansör kat düğmeleri",
+     "hat": "B",
+     "gosterim": "öncelikli kodlayıcı metaforu",
+     "yol": "u03-kombinasyonel-devreler/k0055-asansor-kat-dugmeleri",
+     "beklenen": 3,
+     "gorseller": []
+    }
+   ]
+  },
+  {
+   "no": 4,
+   "ad": "Ardışıl devreler: tutucu, flip-flop",
+   "klasor": "u04-ardisil-devreler-tutucu-flip-flop",
+   "kavramlar": [
+    {
+     "id": "k0056",
+     "ad": "SR latch (NOR)",
+     "hat": "A",
+     "gosterim": "devre ve tablo",
+     "yol": "u04-ardisil-devreler-tutucu-flip-flop/k0056-sr-latch-nor",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0057",
+     "ad": "SR latch (NAND)",
+     "hat": "A",
+     "gosterim": "aktif-düşük giriş",
+     "yol": "u04-ardisil-devreler-tutucu-flip-flop/k0057-sr-latch-nand",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0058",
+     "ad": "Kapılı D latch",
+     "hat": "A",
+     "gosterim": "seviye duyarlı",
+     "yol": "u04-ardisil-devreler-tutucu-flip-flop/k0058-kapili-d-latch",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0059",
+     "ad": "D flip-flop (kenar tetiklemeli)",
+     "hat": "A",
+     "gosterim": "yükselen kenar",
+     "yol": "u04-ardisil-devreler-tutucu-flip-flop/k0059-d-flip-flop-kenar-tetiklemeli",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0060",
+     "ad": "JK flip-flop",
+     "hat": "A",
+     "gosterim": "tablo ve geçişler",
+     "yol": "u04-ardisil-devreler-tutucu-flip-flop/k0060-jk-flip-flop",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0061",
+     "ad": "T flip-flop",
+     "hat": "A",
+     "gosterim": "toggle",
+     "yol": "u04-ardisil-devreler-tutucu-flip-flop/k0061-t-flip-flop",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0062",
+     "ad": "Flip-flop sembolleri",
+     "hat": "A",
+     "gosterim": "yükselen/düşen kenar, preset/clear",
+     "yol": "u04-ardisil-devreler-tutucu-flip-flop/k0062-flip-flop-sembolleri",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0063",
+     "ad": "Master–slave yapı",
+     "hat": "A",
+     "gosterim": "iki latch",
+     "yol": "u04-ardisil-devreler-tutucu-flip-flop/k0063-master-slave-yapi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0064",
+     "ad": "Kurulma ve tutulma zamanı",
+     "hat": "A",
+     "gosterim": "setup/hold zamanlama diyagramı",
+     "yol": "u04-ardisil-devreler-tutucu-flip-flop/k0064-kurulma-ve-tutulma-zamani",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0065",
+     "ad": "Asenkron preset ve clear",
+     "hat": "A",
+     "gosterim": "öncelik dalga şekli",
+     "yol": "u04-ardisil-devreler-tutucu-flip-flop/k0065-asenkron-preset-ve-clear",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0066",
+     "ad": "Flip-flop karakteristik denklemleri",
+     "hat": "A",
+     "gosterim": "Q(t+1) ifadeleri",
+     "yol": "u04-ardisil-devreler-tutucu-flip-flop/k0066-flip-flop-karakteristik-denklemleri",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0067",
+     "ad": "Uyarma tabloları",
+     "hat": "A",
+     "gosterim": "geçiş için gerekli girişler",
+     "yol": "u04-ardisil-devreler-tutucu-flip-flop/k0067-uyarma-tablolari",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0068",
+     "ad": "Metastabilite",
+     "hat": "A",
+     "gosterim": "zayıf çıkış, geçiş bölgesi",
+     "yol": "u04-ardisil-devreler-tutucu-flip-flop/k0068-metastabilite",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0069",
+     "ad": "Sarkaç ve mandal",
+     "hat": "B",
+     "gosterim": "latch metaforu (kilit)",
+     "yol": "u04-ardisil-devreler-tutucu-flip-flop/k0069-sarkac-ve-mandal",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0070",
+     "ad": "Işık anahtarı: basınca aç/kapat",
+     "hat": "B",
+     "gosterim": "T flip-flop",
+     "yol": "u04-ardisil-devreler-tutucu-flip-flop/k0070-isik-anahtari-basinca-ac-kapat",
+     "beklenen": 3,
+     "gorseller": []
+    }
+   ]
+  },
+  {
+   "no": 5,
+   "ad": "Saymaçlar ve yazmaçlar",
+   "klasor": "u05-saymaclar-ve-yazmaclar",
+   "kavramlar": [
+    {
+     "id": "k0071",
+     "ad": "Kaydırmalı yazmaç (shift register)",
+     "hat": "A",
+     "gosterim": "D flip-flop zinciri",
+     "yol": "u05-saymaclar-ve-yazmaclar/k0071-kaydirmali-yazmac-shift-register",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0072",
+     "ad": "Seri-paralel dönüşüm",
+     "hat": "A",
+     "gosterim": "yazmaç, veri akışı",
+     "yol": "u05-saymaclar-ve-yazmaclar/k0072-seri-paralel-donusum",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0073",
+     "ad": "Paralel yüklemeli yazmaç",
+     "hat": "A",
+     "gosterim": "LOAD girişi",
+     "yol": "u05-saymaclar-ve-yazmaclar/k0073-paralel-yuklemeli-yazmac",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0074",
+     "ad": "Evrensel kaydırmalı yazmaç",
+     "hat": "A",
+     "gosterim": "mod seçimi",
+     "yol": "u05-saymaclar-ve-yazmaclar/k0074-evrensel-kaydirmali-yazmac",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0075",
+     "ad": "Halka sayacı (ring counter)",
+     "hat": "A",
+     "gosterim": "tek 1 dönüyor",
+     "yol": "u05-saymaclar-ve-yazmaclar/k0075-halka-sayaci-ring-counter",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0076",
+     "ad": "Johnson sayacı",
+     "hat": "A",
+     "gosterim": "bükülmüş halka",
+     "yol": "u05-saymaclar-ve-yazmaclar/k0076-johnson-sayaci",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0077",
+     "ad": "Asenkron (ripple) sayaç",
+     "hat": "A",
+     "gosterim": "flip-flop zincir, gecikme",
+     "yol": "u05-saymaclar-ve-yazmaclar/k0077-asenkron-ripple-sayac",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0078",
+     "ad": "Senkron ikili sayaç",
+     "hat": "A",
+     "gosterim": "ortak saat",
+     "yol": "u05-saymaclar-ve-yazmaclar/k0078-senkron-ikili-sayac",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0079",
+     "ad": "Yukarı/aşağı sayaç",
+     "hat": "A",
+     "gosterim": "yön girişi",
+     "yol": "u05-saymaclar-ve-yazmaclar/k0079-yukari-asagi-sayac",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0080",
+     "ad": "Mod-N sayaç",
+     "hat": "A",
+     "gosterim": "sıfırlama ile kesme",
+     "yol": "u05-saymaclar-ve-yazmaclar/k0080-mod-n-sayac",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0081",
+     "ad": "BCD sayaç",
+     "hat": "A",
+     "gosterim": "0'dan 9'a",
+     "yol": "u05-saymaclar-ve-yazmaclar/k0081-bcd-sayac",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0082",
+     "ad": "Sayaç dalga şekilleri",
+     "hat": "A",
+     "gosterim": "Q₀, Q₁, Q₂ zamanlama",
+     "yol": "u05-saymaclar-ve-yazmaclar/k0082-sayac-dalga-sekilleri",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0083",
+     "ad": "Frekans bölücü",
+     "hat": "A",
+     "gosterim": "saat bölme",
+     "yol": "u05-saymaclar-ve-yazmaclar/k0083-frekans-bolucu",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0084",
+     "ad": "Yazmaç dosyası (register file)",
+     "hat": "A",
+     "gosterim": "okuma ve yazma portları",
+     "yol": "u05-saymaclar-ve-yazmaclar/k0084-yazmac-dosyasi-register-file",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0085",
+     "ad": "LFSR (doğrusal geri beslemeli yazmaç)",
+     "hat": "A",
+     "gosterim": "sözde rastgele dizi",
+     "yol": "u05-saymaclar-ve-yazmaclar/k0085-lfsr-dogrusal-geri-beslemeli-yazmac",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0086",
+     "ad": "Kilometre sayacı",
+     "hat": "B",
+     "gosterim": "döner rakamlar (analog metafor)",
+     "yol": "u05-saymaclar-ve-yazmaclar/k0086-kilometre-sayaci",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0087",
+     "ad": "Yarış başlangıç geri sayımı",
+     "hat": "B",
+     "gosterim": "sayıcı metaforu",
+     "yol": "u05-saymaclar-ve-yazmaclar/k0087-yaris-baslangic-geri-sayimi",
+     "beklenen": 3,
+     "gorseller": []
+    }
+   ]
+  },
+  {
+   "no": 6,
+   "ad": "Sonlu durum makineleri (FSM)",
+   "klasor": "u06-sonlu-durum-makineleri-fsm",
+   "kavramlar": [
+    {
+     "id": "k0088",
+     "ad": "Moore makinesi",
+     "hat": "A",
+     "gosterim": "durum diyagramı, çıkış durum içinde",
+     "yol": "u06-sonlu-durum-makineleri-fsm/k0088-moore-makinesi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0089",
+     "ad": "Mealy makinesi",
+     "hat": "A",
+     "gosterim": "geçiş üstünde çıkış",
+     "yol": "u06-sonlu-durum-makineleri-fsm/k0089-mealy-makinesi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0090",
+     "ad": "Moore ve Mealy karşılaştırması",
+     "hat": "A",
+     "gosterim": "zamanlama farkı",
+     "yol": "u06-sonlu-durum-makineleri-fsm/k0090-moore-ve-mealy-karsilastirmasi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0091",
+     "ad": "Durum diyagramı çizimi",
+     "hat": "A",
+     "gosterim": "dairesel durumlar, oklar",
+     "yol": "u06-sonlu-durum-makineleri-fsm/k0091-durum-diyagrami-cizimi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0092",
+     "ad": "Durum tablosu",
+     "hat": "A",
+     "gosterim": "mevcut durum, giriş, sonraki durum",
+     "yol": "u06-sonlu-durum-makineleri-fsm/k0092-durum-tablosu",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0093",
+     "ad": "Durum kodlama (ikili, one-hot, Gray)",
+     "hat": "A",
+     "gosterim": "üç kodlama",
+     "yol": "u06-sonlu-durum-makineleri-fsm/k0093-durum-kodlama-ikili-one-hot-gray",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0094",
+     "ad": "Dizi dedektörü (101)",
+     "hat": "A",
+     "gosterim": "durum diyagramı",
+     "yol": "u06-sonlu-durum-makineleri-fsm/k0094-dizi-dedektoru-101",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0095",
+     "ad": "Durum indirgeme",
+     "hat": "A",
+     "gosterim": "eşdeğer durumlar",
+     "yol": "u06-sonlu-durum-makineleri-fsm/k0095-durum-indirgeme",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0096",
+     "ad": "Tasarım adımları",
+     "hat": "A",
+     "gosterim": "akış şeması",
+     "yol": "u06-sonlu-durum-makineleri-fsm/k0096-tasarim-adimlari",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0097",
+     "ad": "Senkron ardışıl devre blok yapısı",
+     "hat": "A",
+     "gosterim": "kombinasyonel mantık + durum yazmaçları",
+     "yol": "u06-sonlu-durum-makineleri-fsm/k0097-senkron-ardisil-devre-blok-yapisi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0098",
+     "ad": "Trafik ışığı denetleyicisi",
+     "hat": "A",
+     "gosterim": "durum diyagramı",
+     "yol": "u06-sonlu-durum-makineleri-fsm/k0098-trafik-isigi-denetleyicisi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0099",
+     "ad": "Seri toplayıcı FSM",
+     "hat": "A",
+     "gosterim": "taşıma durumu",
+     "yol": "u06-sonlu-durum-makineleri-fsm/k0099-seri-toplayici-fsm",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0100",
+     "ad": "Satıcı makinesi (vending) FSM",
+     "hat": "A",
+     "gosterim": "para durumları",
+     "yol": "u06-sonlu-durum-makineleri-fsm/k0100-satici-makinesi-vending-fsm",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0101",
+     "ad": "Kapı kilidi",
+     "hat": "B",
+     "gosterim": "şifre girişi sahnesi",
+     "yol": "u06-sonlu-durum-makineleri-fsm/k0101-kapi-kilidi",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0102",
+     "ad": "Jukebox / satış makinesi",
+     "hat": "B",
+     "gosterim": "durum makinesi metaforu",
+     "yol": "u06-sonlu-durum-makineleri-fsm/k0102-jukebox-satis-makinesi",
+     "beklenen": 3,
+     "gorseller": []
+    }
+   ]
+  },
+  {
+   "no": 7,
+   "ad": "Kütük yazmaç aktarımı ve veri yolları (RTL)",
+   "klasor": "u07-kutuk-yazmac-aktarimi-ve-veri-yollari-rt",
+   "kavramlar": [
+    {
+     "id": "k0103",
+     "ad": "Yazmaç aktarım dili (RTL)",
+     "hat": "A",
+     "gosterim": "R2 ← R1 notasyonu",
+     "yol": "u07-kutuk-yazmac-aktarimi-ve-veri-yollari-rt/k0103-yazmac-aktarim-dili-rtl",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0104",
+     "ad": "Yazmaç aktarım gösterimi",
+     "hat": "A",
+     "gosterim": "kontrol sinyali ile aktarım",
+     "yol": "u07-kutuk-yazmac-aktarimi-ve-veri-yollari-rt/k0104-yazmac-aktarim-gosterimi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0105",
+     "ad": "Ortak veri yolu (bus)",
+     "hat": "A",
+     "gosterim": "çoklayıcı tabanlı",
+     "yol": "u07-kutuk-yazmac-aktarimi-ve-veri-yollari-rt/k0105-ortak-veri-yolu-bus",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0106",
+     "ad": "Üç durumlu (tri-state) tampon",
+     "hat": "A",
+     "gosterim": "yüksek empedans durumu",
+     "yol": "u07-kutuk-yazmac-aktarimi-ve-veri-yollari-rt/k0106-uc-durumlu-tri-state-tampon",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0107",
+     "ad": "Üç durumlu hat ile veri yolu",
+     "hat": "A",
+     "gosterim": "tampon tabanlı",
+     "yol": "u07-kutuk-yazmac-aktarimi-ve-veri-yollari-rt/k0107-uc-durumlu-hat-ile-veri-yolu",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0108",
+     "ad": "Bellek aktarımı",
+     "hat": "A",
+     "gosterim": "adres, veri, okuma/yazma",
+     "yol": "u07-kutuk-yazmac-aktarimi-ve-veri-yollari-rt/k0108-bellek-aktarimi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0109",
+     "ad": "Mikroişlemler (aritmetik)",
+     "hat": "A",
+     "gosterim": "toplama, çıkarma, artırma",
+     "yol": "u07-kutuk-yazmac-aktarimi-ve-veri-yollari-rt/k0109-mikroislemler-aritmetik",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0110",
+     "ad": "Mantık mikroişlemleri",
+     "hat": "A",
+     "gosterim": "AND, OR, XOR, tümleyen",
+     "yol": "u07-kutuk-yazmac-aktarimi-ve-veri-yollari-rt/k0110-mantik-mikroislemleri",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0111",
+     "ad": "Öteleme (shift) mikroişlemleri",
+     "hat": "A",
+     "gosterim": "mantıksal, aritmetik, dairesel",
+     "yol": "u07-kutuk-yazmac-aktarimi-ve-veri-yollari-rt/k0111-oteleme-shift-mikroislemleri",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0112",
+     "ad": "Barrel shifter",
+     "hat": "A",
+     "gosterim": "çoklayıcı ağı",
+     "yol": "u07-kutuk-yazmac-aktarimi-ve-veri-yollari-rt/k0112-barrel-shifter",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0113",
+     "ad": "Aritmetik mantık birimi (ALU)",
+     "hat": "A",
+     "gosterim": "A, B, seçim, sonuç, bayraklar",
+     "yol": "u07-kutuk-yazmac-aktarimi-ve-veri-yollari-rt/k0113-aritmetik-mantik-birimi-alu",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0114",
+     "ad": "ALU bayrakları (Z, N, C, V)",
+     "hat": "A",
+     "gosterim": "işlem sonucuna göre",
+     "yol": "u07-kutuk-yazmac-aktarimi-ve-veri-yollari-rt/k0114-alu-bayraklari-z-n-c-v",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0115",
+     "ad": "Veri yolu gösterimi",
+     "hat": "A",
+     "gosterim": "yazmaçlar, ALU, çoklayıcılar",
+     "yol": "u07-kutuk-yazmac-aktarimi-ve-veri-yollari-rt/k0115-veri-yolu-gosterimi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0116",
+     "ad": "Kontrol kelimesi",
+     "hat": "A",
+     "gosterim": "bit alanları ve veri yolu seçimleri",
+     "yol": "u07-kutuk-yazmac-aktarimi-ve-veri-yollari-rt/k0116-kontrol-kelimesi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0117",
+     "ad": "Zamanda çoğullanmış veri yolu",
+     "hat": "A",
+     "gosterim": "tek kaynak çok kullanım",
+     "yol": "u07-kutuk-yazmac-aktarimi-ve-veri-yollari-rt/k0117-zamanda-cogullanmis-veri-yolu",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0118",
+     "ad": "Boru hattı veri yolu (pipelined)",
+     "hat": "A",
+     "gosterim": "evreler arası yazmaç",
+     "yol": "u07-kutuk-yazmac-aktarimi-ve-veri-yollari-rt/k0118-boru-hatti-veri-yolu-pipelined",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0119",
+     "ad": "Otobüs hattı metaforu",
+     "hat": "B",
+     "gosterim": "veri yolu = ortak yol",
+     "yol": "u07-kutuk-yazmac-aktarimi-ve-veri-yollari-rt/k0119-otobus-hatti-metaforu",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0120",
+     "ad": "Posta dağıtım merkezi",
+     "hat": "B",
+     "gosterim": "kaydırma ve yönlendirme",
+     "yol": "u07-kutuk-yazmac-aktarimi-ve-veri-yollari-rt/k0120-posta-dagitim-merkezi",
+     "beklenen": 3,
+     "gorseller": []
+    }
+   ]
+  },
+  {
+   "no": 8,
+   "ad": "Sıralama ve kontrol (ASM)",
+   "klasor": "u08-siralama-ve-kontrol-asm",
+   "kavramlar": [
+    {
+     "id": "k0121",
+     "ad": "Kontrol birimi ve veri yolu ilişkisi",
+     "hat": "A",
+     "gosterim": "blok diyagram",
+     "yol": "u08-siralama-ve-kontrol-asm/k0121-kontrol-birimi-ve-veri-yolu-iliskisi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0122",
+     "ad": "ASM şeması sembolleri",
+     "hat": "A",
+     "gosterim": "durum, karar, koşullu çıkış kutuları",
+     "yol": "u08-siralama-ve-kontrol-asm/k0122-asm-semasi-sembolleri",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0123",
+     "ad": "ASM akış diyagramı örneği",
+     "hat": "A",
+     "gosterim": "karar ve durumlar",
+     "yol": "u08-siralama-ve-kontrol-asm/k0123-asm-akis-diyagrami-ornegi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0124",
+     "ad": "ASM ve durum diyagramı eşleşmesi",
+     "hat": "A",
+     "gosterim": "iki gösterim",
+     "yol": "u08-siralama-ve-kontrol-asm/k0124-asm-ve-durum-diyagrami-eslesmesi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0125",
+     "ad": "Zamanlama önlemleri",
+     "hat": "A",
+     "gosterim": "saat darbesi ve geçişler",
+     "yol": "u08-siralama-ve-kontrol-asm/k0125-zamanlama-onlemleri",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0126",
+     "ad": "İkili çarpıcı tasarımı",
+     "hat": "A",
+     "gosterim": "veri yolu + ASM",
+     "yol": "u08-siralama-ve-kontrol-asm/k0126-ikili-carpici-tasarimi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0127",
+     "ad": "İkili çarpma algoritması (toplama–kaydırma)",
+     "hat": "A",
+     "gosterim": "adım adım örnek",
+     "yol": "u08-siralama-ve-kontrol-asm/k0127-ikili-carpma-algoritmasi-toplama-kaydirm",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0128",
+     "ad": "Donanım bağlantılı kontrol",
+     "hat": "A",
+     "gosterim": "durum yazmacı + kod çözücü",
+     "yol": "u08-siralama-ve-kontrol-asm/k0128-donanim-baglantili-kontrol",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0129",
+     "ad": "Sıralamalı yazmaç ve kod çözücü yöntemi",
+     "hat": "A",
+     "gosterim": "tek sıralayıcı",
+     "yol": "u08-siralama-ve-kontrol-asm/k0129-siralamali-yazmac-ve-kod-cozucu-yontemi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0130",
+     "ad": "Her durum için bir flip-flop (one-hot)",
+     "hat": "A",
+     "gosterim": "kontrol yapısı",
+     "yol": "u08-siralama-ve-kontrol-asm/k0130-her-durum-icin-bir-flip-flop-one-hot",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0131",
+     "ad": "Çarpıcı için HDL gösterimi",
+     "hat": "A",
+     "gosterim": "VHDL/Verilog yapı blokları",
+     "yol": "u08-siralama-ve-kontrol-asm/k0131-carpici-icin-hdl-gosterimi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0132",
+     "ad": "Bölme algoritması",
+     "hat": "A",
+     "gosterim": "kaydırma ve çıkarma",
+     "yol": "u08-siralama-ve-kontrol-asm/k0132-bolme-algoritmasi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0133",
+     "ad": "Montaj hattı",
+     "hat": "B",
+     "gosterim": "sıralı işlem metaforu",
+     "yol": "u08-siralama-ve-kontrol-asm/k0133-montaj-hatti",
+     "beklenen": 3,
+     "gorseller": []
+    }
+   ]
+  },
+  {
+   "no": 9,
+   "ad": "Basit bilgisayar ve mikroprogramlı kontrol",
+   "klasor": "u09-basit-bilgisayar-ve-mikroprogramli-kontr",
+   "kavramlar": [
+    {
+     "id": "k0134",
+     "ad": "Basit bilgisayar mimarisi",
+     "hat": "A",
+     "gosterim": "CPU, bellek, G/Ç",
+     "yol": "u09-basit-bilgisayar-ve-mikroprogramli-kontr/k0134-basit-bilgisayar-mimarisi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0135",
+     "ad": "Komut formatları",
+     "hat": "A",
+     "gosterim": "işlem kodu + adres alanı",
+     "yol": "u09-basit-bilgisayar-ve-mikroprogramli-kontr/k0135-komut-formatlari",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0136",
+     "ad": "Komut yürütme çevrimi",
+     "hat": "A",
+     "gosterim": "getir, çöz, yürüt",
+     "yol": "u09-basit-bilgisayar-ve-mikroprogramli-kontr/k0136-komut-yurutme-cevrimi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0137",
+     "ad": "Hafıza yeni-kaynak diyagramı (storage resource)",
+     "hat": "A",
+     "gosterim": "yazmaçlar, bellek, PC",
+     "yol": "u09-basit-bilgisayar-ve-mikroprogramli-kontr/k0137-hafiza-yeni-kaynak-diyagrami-storage-res",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0138",
+     "ad": "Tek periyotlu donanım bağlantılı kontrol",
+     "hat": "A",
+     "gosterim": "tek çevrimde komut",
+     "yol": "u09-basit-bilgisayar-ve-mikroprogramli-kontr/k0138-tek-periyotlu-donanim-baglantili-kontrol",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0139",
+     "ad": "Komut kodlayıcı (instruction decoder)",
+     "hat": "A",
+     "gosterim": "opcode → sinyaller",
+     "yol": "u09-basit-bilgisayar-ve-mikroprogramli-kontr/k0139-komut-kodlayici-instruction-decoder",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0140",
+     "ad": "Örnek komutlar ve program",
+     "hat": "A",
+     "gosterim": "birkaç komut, yürütme",
+     "yol": "u09-basit-bilgisayar-ve-mikroprogramli-kontr/k0140-ornek-komutlar-ve-program",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0141",
+     "ad": "Çok periyotlu kontrol",
+     "hat": "A",
+     "gosterim": "çok çevrim zamanlama",
+     "yol": "u09-basit-bilgisayar-ve-mikroprogramli-kontr/k0141-cok-periyotlu-kontrol",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0142",
+     "ad": "Mikroprogramlı kontrol birimi",
+     "hat": "A",
+     "gosterim": "kontrol belleği, µPC",
+     "yol": "u09-basit-bilgisayar-ve-mikroprogramli-kontr/k0142-mikroprogramli-kontrol-birimi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0143",
+     "ad": "Mikroprogram tasarımı",
+     "hat": "A",
+     "gosterim": "mikrokomut alanları",
+     "yol": "u09-basit-bilgisayar-ve-mikroprogramli-kontr/k0143-mikroprogram-tasarimi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0144",
+     "ad": "Mikrokomut formatı",
+     "hat": "A",
+     "gosterim": "bit alanları",
+     "yol": "u09-basit-bilgisayar-ve-mikroprogramli-kontr/k0144-mikrokomut-formati",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0145",
+     "ad": "Mikroprogram sıralayıcı",
+     "hat": "A",
+     "gosterim": "dallanma mantığı",
+     "yol": "u09-basit-bilgisayar-ve-mikroprogramli-kontr/k0145-mikroprogram-siralayici",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0146",
+     "ad": "Donanım bağlantılı ve mikroprogramlı karşılaştırma",
+     "hat": "A",
+     "gosterim": "iki yapı",
+     "yol": "u09-basit-bilgisayar-ve-mikroprogramli-kontr/k0146-donanim-baglantili-ve-mikroprogramli-kar",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0147",
+     "ad": "Zamanda çoğullanmış kontrol",
+     "hat": "A",
+     "gosterim": "çok çevrim paylaşımı",
+     "yol": "u09-basit-bilgisayar-ve-mikroprogramli-kontr/k0147-zamanda-cogullanmis-kontrol",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0148",
+     "ad": "Performans (CPI, saat hızı)",
+     "hat": "A",
+     "gosterim": "süre ve çevrim çarpımı",
+     "yol": "u09-basit-bilgisayar-ve-mikroprogramli-kontr/k0148-performans-cpi-saat-hizi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0149",
+     "ad": "Sanal bilgisayar blok sahnesi",
+     "hat": "B",
+     "gosterim": "CPU ve bellek modülleri",
+     "yol": "u09-basit-bilgisayar-ve-mikroprogramli-kontr/k0149-sanal-bilgisayar-blok-sahnesi",
+     "beklenen": 3,
+     "gorseller": []
+    }
+   ]
+  },
+  {
+   "no": 10,
+   "ad": "Komut seti mimarisi (ISA)",
+   "klasor": "u10-komut-seti-mimarisi-isa",
+   "kavramlar": [
+    {
+     "id": "k0150",
+     "ad": "Bilgisayar mimari kavramları",
+     "hat": "A",
+     "gosterim": "ISA, organizasyon, donanım katmanları",
+     "yol": "u10-komut-seti-mimarisi-isa/k0150-bilgisayar-mimari-kavramlari",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0151",
+     "ad": "Temel bilgisayar işlem çevrimi",
+     "hat": "A",
+     "gosterim": "getir, çöz, adres, yürüt",
+     "yol": "u10-komut-seti-mimarisi-isa/k0151-temel-bilgisayar-islem-cevrimi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0152",
+     "ad": "Yazmaç seti",
+     "hat": "A",
+     "gosterim": "genel amaçlı ve özel yazmaçlar",
+     "yol": "u10-komut-seti-mimarisi-isa/k0152-yazmac-seti",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0153",
+     "ad": "Operand adresleme (3, 2, 1, 0 adresli komutlar)",
+     "hat": "A",
+     "gosterim": "dört format",
+     "yol": "u10-komut-seti-mimarisi-isa/k0153-operand-adresleme-3-2-1-0-adresli-komutl",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0154",
+     "ad": "Yığın tabanlı makine",
+     "hat": "A",
+     "gosterim": "push/pop, yığın işaretçisi",
+     "yol": "u10-komut-seti-mimarisi-isa/k0154-yigin-tabanli-makine",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0155",
+     "ad": "Akümülatör tabanlı makine",
+     "hat": "A",
+     "gosterim": "tek yazmaç",
+     "yol": "u10-komut-seti-mimarisi-isa/k0155-akumulator-tabanli-makine",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0156",
+     "ad": "Yazmaç tabanlı (load/store) mimari",
+     "hat": "A",
+     "gosterim": "yalnız yük/depo bellek erişimi",
+     "yol": "u10-komut-seti-mimarisi-isa/k0156-yazmac-tabanli-load-store-mimari",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0157",
+     "ad": "Adresleme kipleri: anlık",
+     "hat": "A",
+     "gosterim": "operand komutun içinde",
+     "yol": "u10-komut-seti-mimarisi-isa/k0157-adresleme-kipleri-anlik",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0158",
+     "ad": "Adresleme kipleri: doğrudan",
+     "hat": "A",
+     "gosterim": "adres alanı bellek hücresi",
+     "yol": "u10-komut-seti-mimarisi-isa/k0158-adresleme-kipleri-dogrudan",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0159",
+     "ad": "Adresleme kipleri: dolaylı",
+     "hat": "A",
+     "gosterim": "adres → adres → veri",
+     "yol": "u10-komut-seti-mimarisi-isa/k0159-adresleme-kipleri-dolayli",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0160",
+     "ad": "Adresleme kipleri: yazmaç, yazmaç dolaylı",
+     "hat": "A",
+     "gosterim": "yazmaçtaki adres",
+     "yol": "u10-komut-seti-mimarisi-isa/k0160-adresleme-kipleri-yazmac-yazmac-dolayli",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0161",
+     "ad": "Adresleme kipleri: göreli (PC relative)",
+     "hat": "A",
+     "gosterim": "PC + ofset",
+     "yol": "u10-komut-seti-mimarisi-isa/k0161-adresleme-kipleri-goreli-pc-relative",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0162",
+     "ad": "Adresleme kipleri: indeksli",
+     "hat": "A",
+     "gosterim": "taban + indeks",
+     "yol": "u10-komut-seti-mimarisi-isa/k0162-adresleme-kipleri-indeksli",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0163",
+     "ad": "Veri transfer komutları",
+     "hat": "A",
+     "gosterim": "LOAD, STORE, MOVE",
+     "yol": "u10-komut-seti-mimarisi-isa/k0163-veri-transfer-komutlari",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0164",
+     "ad": "Yığın komutları",
+     "hat": "A",
+     "gosterim": "PUSH, POP animasyon sırası",
+     "yol": "u10-komut-seti-mimarisi-isa/k0164-yigin-komutlari",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0165",
+     "ad": "Bağımsız ve bellek haritalı G/Ç",
+     "hat": "A",
+     "gosterim": "adres uzayı farkı",
+     "yol": "u10-komut-seti-mimarisi-isa/k0165-bagimsiz-ve-bellek-haritali-g-c",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0166",
+     "ad": "Veri manipülasyon komutları",
+     "hat": "A",
+     "gosterim": "aritmetik, mantık, öteleme",
+     "yol": "u10-komut-seti-mimarisi-isa/k0166-veri-manipulasyon-komutlari",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0167",
+     "ad": "Yüzen nokta hesaplamaları",
+     "hat": "A",
+     "gosterim": "formatlar, işlem",
+     "yol": "u10-komut-seti-mimarisi-isa/k0167-yuzen-nokta-hesaplamalari",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0168",
+     "ad": "Program kontrol komutları",
+     "hat": "A",
+     "gosterim": "JUMP, BRANCH, CALL, RETURN",
+     "yol": "u10-komut-seti-mimarisi-isa/k0168-program-kontrol-komutlari",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0169",
+     "ad": "Program kesmesi",
+     "hat": "A",
+     "gosterim": "kesme hizmet yordamına atlama",
+     "yol": "u10-komut-seti-mimarisi-isa/k0169-program-kesmesi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0170",
+     "ad": "RISC ve CISC karşılaştırma",
+     "hat": "A",
+     "gosterim": "iki yaklaşım",
+     "yol": "u10-komut-seti-mimarisi-isa/k0170-risc-ve-cisc-karsilastirma",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0171",
+     "ad": "Yığın tabak metaforu",
+     "hat": "B",
+     "gosterim": "LIFO yığın",
+     "yol": "u10-komut-seti-mimarisi-isa/k0171-yigin-tabak-metaforu",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0172",
+     "ad": "Posta kutuları ve adresler",
+     "hat": "B",
+     "gosterim": "adresleme kipleri",
+     "yol": "u10-komut-seti-mimarisi-isa/k0172-posta-kutulari-ve-adresler",
+     "beklenen": 3,
+     "gorseller": []
+    }
+   ]
+  },
+  {
+   "no": 11,
+   "ad": "CPU, giriş-çıkış, bellek sistemleri",
+   "klasor": "u11-cpu-giris-cikis-bellek-sistemleri",
+   "kavramlar": [
+    {
+     "id": "k0173",
+     "ad": "CPU organizasyonu",
+     "hat": "A",
+     "gosterim": "ALU, kontrol, yazmaçlar, iç yollar",
+     "yol": "u11-cpu-giris-cikis-bellek-sistemleri/k0173-cpu-organizasyonu",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0174",
+     "ad": "Tek çevrimli işlemci veri yolu",
+     "hat": "A",
+     "gosterim": "PC, komut belleği, yazmaç dosyası, ALU",
+     "yol": "u11-cpu-giris-cikis-bellek-sistemleri/k0174-tek-cevrimli-islemci-veri-yolu",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0175",
+     "ad": "Çok çevrimli işlemci",
+     "hat": "A",
+     "gosterim": "ara yazmaçlar",
+     "yol": "u11-cpu-giris-cikis-bellek-sistemleri/k0175-cok-cevrimli-islemci",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0176",
+     "ad": "Boru hattı (5 evre)",
+     "hat": "A",
+     "gosterim": "IF, ID, EX, MEM, WB zamanlama",
+     "yol": "u11-cpu-giris-cikis-bellek-sistemleri/k0176-boru-hatti-5-evre",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0177",
+     "ad": "Boru hattı tehlikeleri (hazard)",
+     "hat": "A",
+     "gosterim": "veri, kontrol, yapısal",
+     "yol": "u11-cpu-giris-cikis-bellek-sistemleri/k0177-boru-hatti-tehlikeleri-hazard",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0178",
+     "ad": "İleri besleme (forwarding)",
+     "hat": "A",
+     "gosterim": "veri yolu ek yolları",
+     "yol": "u11-cpu-giris-cikis-bellek-sistemleri/k0178-ileri-besleme-forwarding",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0179",
+     "ad": "Dallanma tahmini",
+     "hat": "A",
+     "gosterim": "doğru/yanlış tahmin",
+     "yol": "u11-cpu-giris-cikis-bellek-sistemleri/k0179-dallanma-tahmini",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0180",
+     "ad": "Giriş-çıkış organizasyonu",
+     "hat": "A",
+     "gosterim": "G/Ç arayüz modülleri",
+     "yol": "u11-cpu-giris-cikis-bellek-sistemleri/k0180-giris-cikis-organizasyonu",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0181",
+     "ad": "G/Ç yöntemleri: sorgulama, kesme, DMA",
+     "hat": "A",
+     "gosterim": "üç yöntem",
+     "yol": "u11-cpu-giris-cikis-bellek-sistemleri/k0181-g-c-yontemleri-sorgulama-kesme-dma",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0182",
+     "ad": "Kesme sistemi",
+     "hat": "A",
+     "gosterim": "kesme istek hatları, öncelik",
+     "yol": "u11-cpu-giris-cikis-bellek-sistemleri/k0182-kesme-sistemi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0183",
+     "ad": "DMA denetleyicisi",
+     "hat": "A",
+     "gosterim": "CPU'suz bellek erişimi",
+     "yol": "u11-cpu-giris-cikis-bellek-sistemleri/k0183-dma-denetleyicisi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0184",
+     "ad": "Seri ve paralel iletişim",
+     "hat": "A",
+     "gosterim": "veri hatları",
+     "yol": "u11-cpu-giris-cikis-bellek-sistemleri/k0184-seri-ve-paralel-iletisim",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0185",
+     "ad": "Senkron ve asenkron iletim",
+     "hat": "A",
+     "gosterim": "start/stop bitleri, çerçeve",
+     "yol": "u11-cpu-giris-cikis-bellek-sistemleri/k0185-senkron-ve-asenkron-iletim",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0186",
+     "ad": "Bellek hiyerarşisi",
+     "hat": "A",
+     "gosterim": "yazmaç, önbellek, RAM, disk, hız-boyut piramidi",
+     "yol": "u11-cpu-giris-cikis-bellek-sistemleri/k0186-bellek-hiyerarsisi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0187",
+     "ad": "Önbellek (cache) kavramı",
+     "hat": "A",
+     "gosterim": "isabet ve ıska",
+     "yol": "u11-cpu-giris-cikis-bellek-sistemleri/k0187-onbellek-cache-kavrami",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0188",
+     "ad": "Doğrudan eşlemeli önbellek",
+     "hat": "A",
+     "gosterim": "adres alanları (tag, index, offset)",
+     "yol": "u11-cpu-giris-cikis-bellek-sistemleri/k0188-dogrudan-eslemeli-onbellek",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0189",
+     "ad": "Çok yollu ve tam ilişkili önbellek",
+     "hat": "A",
+     "gosterim": "eşleme farkı",
+     "yol": "u11-cpu-giris-cikis-bellek-sistemleri/k0189-cok-yollu-ve-tam-iliskili-onbellek",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0190",
+     "ad": "RAM türleri (SRAM, DRAM)",
+     "hat": "A",
+     "gosterim": "hücre yapısı",
+     "yol": "u11-cpu-giris-cikis-bellek-sistemleri/k0190-ram-turleri-sram-dram",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0191",
+     "ad": "Bellek adres kod çözme",
+     "hat": "A",
+     "gosterim": "bellek haritası",
+     "yol": "u11-cpu-giris-cikis-bellek-sistemleri/k0191-bellek-adres-kod-cozme",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0192",
+     "ad": "Sanal bellek ve sayfalama",
+     "hat": "A",
+     "gosterim": "sayfa tablosu",
+     "yol": "u11-cpu-giris-cikis-bellek-sistemleri/k0192-sanal-bellek-ve-sayfalama",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0193",
+     "ad": "Kütüphane: raf, masa, el",
+     "hat": "B",
+     "gosterim": "bellek hiyerarşisi metaforu",
+     "yol": "u11-cpu-giris-cikis-bellek-sistemleri/k0193-kutuphane-raf-masa-el",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0194",
+     "ad": "Montaj hattı boru hattı",
+     "hat": "B",
+     "gosterim": "boru hattı metaforu",
+     "yol": "u11-cpu-giris-cikis-bellek-sistemleri/k0194-montaj-hatti-boru-hatti",
+     "beklenen": 3,
+     "gorseller": []
+    }
+   ]
+  },
+  {
+   "no": 12,
+   "ad": "VHDL ve FPGA",
+   "klasor": "u12-vhdl-ve-fpga",
+   "kavramlar": [
+    {
+     "id": "k0195",
+     "ad": "VHDL: entity ve architecture",
+     "hat": "A",
+     "gosterim": "blok kutu ve iç yapı",
+     "yol": "u12-vhdl-ve-fpga/k0195-vhdl-entity-ve-architecture",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0196",
+     "ad": "VHDL ile kombinasyonel devre",
+     "hat": "A",
+     "gosterim": "eşzamanlı atama",
+     "yol": "u12-vhdl-ve-fpga/k0196-vhdl-ile-kombinasyonel-devre",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0197",
+     "ad": "VHDL process ve ardışıl devre",
+     "hat": "A",
+     "gosterim": "duyarlılık listesi",
+     "yol": "u12-vhdl-ve-fpga/k0197-vhdl-process-ve-ardisil-devre",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0198",
+     "ad": "VHDL ile durum makinesi",
+     "hat": "A",
+     "gosterim": "üç süreç yaklaşımı",
+     "yol": "u12-vhdl-ve-fpga/k0198-vhdl-ile-durum-makinesi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0199",
+     "ad": "VHDL ile ALU",
+     "hat": "A",
+     "gosterim": "seçimli çıkışlar",
+     "yol": "u12-vhdl-ve-fpga/k0199-vhdl-ile-alu",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0200",
+     "ad": "VHDL ile toplayıcı (yarım, tam, 4 bit)",
+     "hat": "A",
+     "gosterim": "yapısal gösterim",
+     "yol": "u12-vhdl-ve-fpga/k0200-vhdl-ile-toplayici-yarim-tam-4-bit",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0201",
+     "ad": "VHDL ile bellek",
+     "hat": "A",
+     "gosterim": "adres ve veri",
+     "yol": "u12-vhdl-ve-fpga/k0201-vhdl-ile-bellek",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0202",
+     "ad": "VHDL ile yazmaç dosyası",
+     "hat": "A",
+     "gosterim": "okuma-yazma portu",
+     "yol": "u12-vhdl-ve-fpga/k0202-vhdl-ile-yazmac-dosyasi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0203",
+     "ad": "VHDL ile veri yolu",
+     "hat": "A",
+     "gosterim": "bileşen bağlantıları",
+     "yol": "u12-vhdl-ve-fpga/k0203-vhdl-ile-veri-yolu",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0204",
+     "ad": "VHDL ile tek çevrimli işlemci",
+     "hat": "A",
+     "gosterim": "bloklar",
+     "yol": "u12-vhdl-ve-fpga/k0204-vhdl-ile-tek-cevrimli-islemci",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0205",
+     "ad": "Yapısal / davranışsal / veri akışı modelleme",
+     "hat": "A",
+     "gosterim": "üç üslup",
+     "yol": "u12-vhdl-ve-fpga/k0205-yapisal-davranissal-veri-akisi-modelleme",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0206",
+     "ad": "Test tezgahı (testbench)",
+     "hat": "A",
+     "gosterim": "uyarıcı ve çıkış karşılaştırması",
+     "yol": "u12-vhdl-ve-fpga/k0206-test-tezgahi-testbench",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0207",
+     "ad": "FPGA iç yapısı",
+     "hat": "A",
+     "gosterim": "CLB, yönlendirme, G/Ç blokları",
+     "yol": "u12-vhdl-ve-fpga/k0207-fpga-ic-yapisi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0208",
+     "ad": "Look-up table (LUT)",
+     "hat": "A",
+     "gosterim": "4 girişli LUT, tablo",
+     "yol": "u12-vhdl-ve-fpga/k0208-look-up-table-lut",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0209",
+     "ad": "FPGA tasarım akışı",
+     "hat": "A",
+     "gosterim": "sentez, yerleştir-yönlendir, bit akışı",
+     "yol": "u12-vhdl-ve-fpga/k0209-fpga-tasarim-akisi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0210",
+     "ad": "FPGA kartında gerçekleştirme",
+     "hat": "A",
+     "gosterim": "anahtarlar, LED'ler, saat",
+     "yol": "u12-vhdl-ve-fpga/k0210-fpga-kartinda-gerceklestirme",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0211",
+     "ad": "Zamanlama analizi",
+     "hat": "A",
+     "gosterim": "kritik yol",
+     "yol": "u12-vhdl-ve-fpga/k0211-zamanlama-analizi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0212",
+     "ad": "FPGA geliştirme kartı",
+     "hat": "B",
+     "gosterim": "gerçek kart sahnesi",
+     "yol": "u12-vhdl-ve-fpga/k0212-fpga-gelistirme-karti",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0213",
+     "ad": "Mantık kapıları ve silikon yonga",
+     "hat": "B",
+     "gosterim": "yonga yakın plan",
+     "yol": "u12-vhdl-ve-fpga/k0213-mantik-kapilari-ve-silikon-yonga",
+     "beklenen": 3,
+     "gorseller": []
+    }
+   ]
+  }
+ ]
+}
