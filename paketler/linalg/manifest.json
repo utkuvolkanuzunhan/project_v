@@ -2,10 +2,10 @@
  "ders": "linalg",
  "ad": "Linear Algebra",
  "dersKodu": "LAG2052023",
- "surum": 2,
+ "surum": 3,
  "kavramSayisi": 192,
  "beklenenGorsel": 212,
- "mevcutGorsel": 15,
+ "mevcutGorsel": 25,
  "uniteler": [
   {
    "no": 1,
@@ -1270,7 +1270,32 @@
      "gosterim": "boyut metaforu",
      "yol": "u05-oklid-vektor-uzayi-ve-n-boyutlu-uzay/k0123-kapi-ve-oda-yon-ve-boyut",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "de0064ee7abc6eca0f89c24a8242594c9a0cd83ced296329f36721eeb5c8b798",
+       "boyut": 11938,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "linalg-k0123-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "3614b73ad65fc5b68a72d4cc3ee5bc883efaed4462649528fc048d2cf39b6497",
+       "boyut": 30618,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "linalg-k0123-004"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "c9cdaeb2fb39efc48ec7e75f2964254e1da6069a5eb8df2aa665c40a15a44d2e",
+       "boyut": 10344,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "linalg-k0123-003"
+      }
+     ]
     }
    ]
   },
@@ -1430,7 +1455,32 @@
      "gosterim": "izdüşüm metaforu",
      "yol": "u06-ic-carpim-uzaylari/k0140-golge-ve-isik",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "813ce01e9ba6fa015fe0b0c2b9978c0677eaf53df8e5530f7ed177007120ba54",
+       "boyut": 12298,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "linalg-k0140-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "77822c2db04b86e8e9641914e8141f2569438d5264b51a20d2c4ee68639938a0",
+       "boyut": 13142,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "linalg-k0140-007"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "bb497276c87d6e656f70d49de79b9a4a047423b51894520d3d8041a8b971cb4d",
+       "boyut": 14226,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "linalg-k0140-008"
+      }
+     ]
     }
    ]
   },
@@ -1662,7 +1712,32 @@
      "gosterim": "dönüş ekseni metaforu",
      "yol": "u07-ozdegerler-ve-ozvektorler/k0165-donen-disk-eksen",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "58a9f5eecd8b3bf7cd0d91acd485bd7b2330baab48b6693aedc06d1f450f9498",
+       "boyut": 15356,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "linalg-k0165-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "30f86e12fbcf90d31256661a7cf3ea422c26b76e46b8929f21efb29a7f73fa4d",
+       "boyut": 18758,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "linalg-k0165-005"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "957f47cc7b5ac4a2105533b47d3531cb617ec94ad84b7a3adf90807235d73b8d",
+       "boyut": 25674,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "linalg-k0165-007"
+      }
+     ]
     }
    ]
   },
@@ -1903,7 +1978,16 @@
      "gosterim": "yansıma metaforu",
      "yol": "u08-dogrusal-donusumler/k0191-aynadaki-yansima",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "7fa16875df1638530e5b13bebd8d3242baede1d06535f73ad17a01da68445a41",
+       "boyut": 15348,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "linalg-k0191-001"
+      }
+     ]
     },
     {
      "id": "k0192",
