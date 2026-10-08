@@ -2,10 +2,10 @@
  "ders": "oop",
  "ad": "Object-Oriented Programming",
  "dersKodu": "505002372016",
- "surum": 3,
+ "surum": 4,
  "kavramSayisi": 145,
  "beklenenGorsel": 171,
- "mevcutGorsel": 27,
+ "mevcutGorsel": 36,
  "uniteler": [
   {
    "no": 1,
@@ -1465,7 +1465,32 @@
      "gosterim": "akış metaforu",
      "yol": "u07-dizgi-g-c-akislari-hata-yakalama-dosyala/k0132-boru-hatti-ve-su-akisi",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "658f89b44069bba8db29242a5e8859fd7a3011581be57247e64f0cb1571ff4d0",
+       "boyut": 8072,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "oop-k0132-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "05b358b8d63fd3eddcca1ab49e82f7b83defff87dfc4b280418ae90eb6c74ea5",
+       "boyut": 14374,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "oop-k0132-004"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "3207eff4f200e7b16a3bbc00d7116b36adb63ee3edd6a3db9ffe30a1ab8938b1",
+       "boyut": 17892,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "oop-k0132-006"
+      }
+     ]
     },
     {
      "id": "k0133",
@@ -1474,7 +1499,32 @@
      "gosterim": "dosya metaforu",
      "yol": "u07-dizgi-g-c-akislari-hata-yakalama-dosyala/k0133-depo-ve-fis-kutulari",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "0bb2a813578971255cc0e73dbabad9566e94fe1cc4f923ec9bea0ec73f338aa7",
+       "boyut": 8758,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "oop-k0133-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "9205e88cf2354828367aebbb5920fc7e719384dd464d482b7b311df24646af6b",
+       "boyut": 17196,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "oop-k0133-004"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "eb8ab53e2aae6246b82ee1364e0d7627d2e1b332e616e559e0114e4b82d36ca7",
+       "boyut": 17910,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "oop-k0133-007"
+      }
+     ]
     }
    ]
   },
@@ -1589,7 +1639,32 @@
      "gosterim": "gerçek ATM sahnesi",
      "yol": "u08-atm-vaka-calismasi/k0145-atm-makinesi",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "03ad8a413b236f53c9cc6a0803f66762a07f58885ed333a97ae8d8794f840c90",
+       "boyut": 15960,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "oop-k0145-004"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "ff4a34be0263c2e66923532fda3b4105c44f6bd978d7d9da7440235cd04ae01c",
+       "boyut": 27132,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "oop-k0145-007"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "ab5611b9b160c145a4d5e8a40626ca0af59f20124d2cacad9dad26f9836026d4",
+       "boyut": 14348,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "oop-k0145-005"
+      }
+     ]
     }
    ]
   }
