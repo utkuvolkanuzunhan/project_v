@@ -2,10 +2,10 @@
  "ders": "materials",
  "ad": "Electronic Materials and Device Physics",
  "dersKodu": "505002242023",
- "surum": 4,
+ "surum": 5,
  "kavramSayisi": 191,
  "beklenenGorsel": 231,
- "mevcutGorsel": 35,
+ "mevcutGorsel": 45,
  "uniteler": [
   {
    "no": 1,
@@ -1459,6 +1459,14 @@
        "genislik": 1024,
        "yukseklik": 1024,
        "aday": "materials-k0124-005"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "74f69d1beab078b42f3f303ac0b96679e40d7f77bc0cc88add7eec7f6d80f0be",
+       "boyut": 12218,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "materials-k0124-003"
       }
      ]
     },
@@ -1469,7 +1477,32 @@
      "gosterim": "ileri kutuplamada ışıma",
      "yol": "u07-pn-kavsagi-kutuplu/k0125-led",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "c589e8111b668c697ffcb8b083c4a4c4eec2789d8726b9c05df6d3d2876d16fd",
+       "boyut": 34936,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "materials-k0125-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "d547354295bf70fd6b434eda4ef12ff186a15276260e0978f59dbfa6387a56a4",
+       "boyut": 20510,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "materials-k0125-011"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "eec1f4962c09c1edecfa7a3b0fde9c5420cca300b4cc51d04877a5290b3d17d5",
+       "boyut": 30510,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "materials-k0125-005"
+      }
+     ]
     },
     {
      "id": "k0126",
@@ -1478,7 +1511,32 @@
      "gosterim": "diyot metaforu",
      "yol": "u07-pn-kavsagi-kutuplu/k0126-su-surahisi-ve-tek-yonlu-valf",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "ae2e18870fb3858f73bda782bac2de4a3c42102db2a502a86f340251d895a7bd",
+       "boyut": 58790,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "materials-k0126-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "f26c5233ddf350b41bc07e849aaddc06886926f0162b665e9c1fb5977c46dd19",
+       "boyut": 19164,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "materials-k0126-007"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "10f73b68f8fda289f789f7e9ad65219022125e24b1fd3d1e2420d526ac05803b",
+       "boyut": 23952,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "materials-k0126-009"
+      }
+     ]
     }
    ]
   },
@@ -1728,7 +1786,24 @@
      "gosterim": "gerçek parça",
      "yol": "u08-bipolar-kavsak-transistor-bjt/k0153-transistor-to-92",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "2386de26645fa46ebb9f07168c3800bf90cf0ae38b6a5ad5b4c84345d48518b8",
+       "boyut": 17036,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "materials-k0153-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "b6bcd16aeb5817fe77c283e33a3bf8a7853ea2427989e0fb033950f76af8a99d",
+       "boyut": 33708,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "materials-k0153-006"
+      }
+     ]
     },
     {
      "id": "k0154",
@@ -1737,7 +1812,16 @@
      "gosterim": "küçük akım büyük akımı kontrol eder",
      "yol": "u08-bipolar-kavsak-transistor-bjt/k0154-musluk-metaforu",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "8d2bc79c8bfc0c98a7231ea586b2dce7cc26c1b3f9920944134aa1732e1867ac",
+       "boyut": 17896,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "materials-k0154-001"
+      }
+     ]
     },
     {
      "id": "k0155",
