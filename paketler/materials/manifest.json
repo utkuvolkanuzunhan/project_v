@@ -2,10 +2,10 @@
  "ders": "materials",
  "ad": "Electronic Materials and Device Physics",
  "dersKodu": "505002242023",
- "surum": 2,
+ "surum": 3,
  "kavramSayisi": 191,
  "beklenenGorsel": 231,
- "mevcutGorsel": 15,
+ "mevcutGorsel": 25,
  "uniteler": [
   {
    "no": 1,
@@ -750,7 +750,32 @@
      "gosterim": "difüzyon metaforu",
      "yol": "u04-tasiyici-tasinimi/k0066-kalabalikta-yayilan-insanlar",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "122b6e8f1dfec995331fcd6a78cb9fe9906a4d1ad065705a66a83cea515d75d4",
+       "boyut": 215526,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "materials-k0066-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "3fa74b5168d59ba9d892062676e66e82dcbd11fa645d1749a755f82e71f6f081",
+       "boyut": 273844,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "materials-k0066-004"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "f939859bf9769a3bdbdf61cebd1241ab9e0c64a276e56894c1436d6313b057bb",
+       "boyut": 304804,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "materials-k0066-006"
+      }
+     ]
     },
     {
      "id": "k0067",
@@ -759,7 +784,32 @@
      "gosterim": "sürüklenme metaforu",
      "yol": "u04-tasiyici-tasinimi/k0067-akintida-yuzen-insanlar",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "f0823300cf87d5d948d8dff9e088866655c2bc7bdaec333e5f9c672dd3410078",
+       "boyut": 97694,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "materials-k0067-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "ebffaee198bddf9b9d0b49bd362a21e4677715dd9d28eb9b05157fd410989226",
+       "boyut": 237218,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "materials-k0067-005"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "ec79b5ca515329c2f2b2db2ffeb9b6cc035669556d1208814217505dfd62e27c",
+       "boyut": 130146,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "materials-k0067-002"
+      }
+     ]
     }
    ]
   },
@@ -901,7 +951,32 @@
      "gosterim": "fotodiyot ya da LDR",
      "yol": "u05-fazla-tasiyicilar/k0082-isik-dusen-sensor",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "583f0328df4acf6cae7cc4fd42e5297601f6892a1a7aa235ed27690c35c6e4f6",
+       "boyut": 63020,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "materials-k0082-004"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "6f69893ca064620b72658b7b4e5a59f923bf97656667e095e20e84f9c497dad6",
+       "boyut": 48488,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "materials-k0082-006"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "ff3ed649f28187e78d59f01a9cc273aa94af8e1b62cf0ca0554bbac08dd67819",
+       "boyut": 43486,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "materials-k0082-005"
+      }
+     ]
     },
     {
      "id": "k0083",
@@ -910,7 +985,16 @@
      "gosterim": "ışımalı rekombinasyon",
      "yol": "u05-fazla-tasiyicilar/k0083-floresan-isima",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "329cc231d3391a0ce8e3633668fb5101c261ba5d3a2526decca5f401c8a03bdc",
+       "boyut": 49458,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "materials-k0083-001"
+      }
+     ]
     }
    ]
   },
