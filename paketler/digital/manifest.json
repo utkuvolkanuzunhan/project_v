@@ -2,10 +2,10 @@
  "ders": "digital",
  "ad": "Digital Systems",
  "dersKodu": "505002122015",
- "surum": 2,
+ "surum": 3,
  "kavramSayisi": 213,
  "beklenenGorsel": 253,
- "mevcutGorsel": 15,
+ "mevcutGorsel": 25,
  "uniteler": [
   {
    "no": 1,
@@ -786,7 +786,32 @@
      "gosterim": "T flip-flop",
      "yol": "u04-ardisil-devreler-tutucu-flip-flop/k0070-isik-anahtari-basinca-ac-kapat",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "17e4ea8f8d161331ccd490e469d85a0dcc45b6ce8e86772874f5d0f5bee8f3e8",
+       "boyut": 38782,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "digital-k0070-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "f71afe3b04536042ee0638a7f147613754af796b0058fd20a41edb42e998c1fb",
+       "boyut": 31012,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "digital-k0070-007"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "13f69935be3936f9c0bf495b96a89782d22a0bf8f629c4ea93a03378803d348b",
+       "boyut": 39146,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "digital-k0070-003"
+      }
+     ]
     }
    ]
   },
@@ -937,7 +962,32 @@
      "gosterim": "döner rakamlar (analog metafor)",
      "yol": "u05-saymaclar-ve-yazmaclar/k0086-kilometre-sayaci",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "ace29a236e45631073a7df46ec2f6a5beea6b71130a7b716312d7002c0161f4a",
+       "boyut": 59376,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "digital-k0086-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "9dcf098e82fb5ff2739e3974d7413bc0028a58535ecad557a7e34881d68ea686",
+       "boyut": 48638,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "digital-k0086-008"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "757bc4c103d5c67fb2dc9fb38b8bdc7231283b013f6f07633d4a948d275bf1fa",
+       "boyut": 54460,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "digital-k0086-007"
+      }
+     ]
     },
     {
      "id": "k0087",
@@ -946,7 +996,32 @@
      "gosterim": "sayıcı metaforu",
      "yol": "u05-saymaclar-ve-yazmaclar/k0087-yaris-baslangic-geri-sayimi",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "57b67e0471c658a694baf46436a6c1fabd52d73127ad6b1b20f377e91493073b",
+       "boyut": 50812,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "digital-k0087-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "aece23e3f896a4b00b61ac9d3ac63d052d4417a8f1daf4a151d8f726a707d2a5",
+       "boyut": 51668,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "digital-k0087-006"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "1ea5a6e117c3cb7200298e95c76f9ace8a212c083e17b883a55f9eda9b96774e",
+       "boyut": 47460,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "digital-k0087-008"
+      }
+     ]
     }
    ]
   },
@@ -1079,7 +1154,16 @@
      "gosterim": "şifre girişi sahnesi",
      "yol": "u06-sonlu-durum-makineleri-fsm/k0101-kapi-kilidi",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "374eb47965d450f46acf2bdac37f86bd7956c10473e72fd69e7e31f63f3b055b",
+       "boyut": 33454,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "digital-k0101-002"
+      }
+     ]
     },
     {
      "id": "k0102",
