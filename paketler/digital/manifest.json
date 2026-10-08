@@ -2,10 +2,10 @@
  "ders": "digital",
  "ad": "Digital Systems",
  "dersKodu": "505002122015",
- "surum": 6,
+ "surum": 7,
  "kavramSayisi": 213,
  "beklenenGorsel": 253,
- "mevcutGorsel": 55,
+ "mevcutGorsel": 60,
  "uniteler": [
   {
    "no": 1,
@@ -2453,6 +2453,22 @@
        "genislik": 1024,
        "yukseklik": 1024,
        "aday": "digital-k0212-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "9eff23ec87c4e601b45ab33d7e7b5fb4a087c52c78fe7edf9eec4cd347661c21",
+       "boyut": 80102,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "digital-k0212-002"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "7accbb8c59f4dd2b5e9bed0fe69015c1ab30244a9638aec0e58aa7c45018c60b",
+       "boyut": 72430,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "digital-k0212-004"
       }
      ]
     },
@@ -2463,7 +2479,32 @@
      "gosterim": "yonga yakın plan",
      "yol": "u12-vhdl-ve-fpga/k0213-mantik-kapilari-ve-silikon-yonga",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "a264efd22f0b0c9fd04e6634806b01bf2314a7be27cdd8e3920d59439e4aeba9",
+       "boyut": 81252,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "digital-k0213-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "df3250bc433c13012bf78dba3a1d06fbfb7f18692bbca2ce9598e5b477192769",
+       "boyut": 65000,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "digital-k0213-004"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "ec9ce86a6cb0886b2d56f2dacc8c814385eb8e0e9572a3b66b8c485ab811e99f",
+       "boyut": 63558,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "digital-k0213-003"
+      }
+     ]
     }
    ]
   }

@@ -1,0 +1,1837 @@
+{
+ "ders": "linalg",
+ "ad": "Linear Algebra",
+ "dersKodu": "LAG2052023",
+ "surum": 1,
+ "kavramSayisi": 192,
+ "beklenenGorsel": 212,
+ "mevcutGorsel": 5,
+ "uniteler": [
+  {
+   "no": 1,
+   "ad": "Doğrusal denklem sistemleri",
+   "klasor": "u01-dogrusal-denklem-sistemleri",
+   "kavramlar": [
+    {
+     "id": "k0001",
+     "ad": "Doğrusal denklem",
+     "hat": "A",
+     "gosterim": "düzlemde doğru",
+     "yol": "u01-dogrusal-denklem-sistemleri/k0001-dogrusal-denklem",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0002",
+     "ad": "2×2 sistem (tek çözüm)",
+     "hat": "A",
+     "gosterim": "iki doğrunun kesişimi",
+     "yol": "u01-dogrusal-denklem-sistemleri/k0002-2-2-sistem-tek-cozum",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0003",
+     "ad": "2×2 sistem (çözümsüz)",
+     "hat": "A",
+     "gosterim": "paralel doğrular",
+     "yol": "u01-dogrusal-denklem-sistemleri/k0003-2-2-sistem-cozumsuz",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0004",
+     "ad": "2×2 sistem (sonsuz çözüm)",
+     "hat": "A",
+     "gosterim": "üst üste doğrular",
+     "yol": "u01-dogrusal-denklem-sistemleri/k0004-2-2-sistem-sonsuz-cozum",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0005",
+     "ad": "3×3 sistem (üç düzlem)",
+     "hat": "A",
+     "gosterim": "tek nokta kesişimi",
+     "yol": "u01-dogrusal-denklem-sistemleri/k0005-3-3-sistem-uc-duzlem",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0006",
+     "ad": "3 düzlem: çözümsüz durumlar",
+     "hat": "A",
+     "gosterim": "paralel veya üçgen prizma",
+     "yol": "u01-dogrusal-denklem-sistemleri/k0006-3-duzlem-cozumsuz-durumlar",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0007",
+     "ad": "3 düzlem: sonsuz çözüm",
+     "hat": "A",
+     "gosterim": "doğru boyunca kesişim",
+     "yol": "u01-dogrusal-denklem-sistemleri/k0007-3-duzlem-sonsuz-cozum",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0008",
+     "ad": "Genişletilmiş matris",
+     "hat": "A",
+     "gosterim": "katsayılar ve sağ taraf",
+     "yol": "u01-dogrusal-denklem-sistemleri/k0008-genisletilmis-matris",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0009",
+     "ad": "Temel satır işlemleri",
+     "hat": "A",
+     "gosterim": "yer değiştirme, ölçekleme, ekleme",
+     "yol": "u01-dogrusal-denklem-sistemleri/k0009-temel-satir-islemleri",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0010",
+     "ad": "Satır eşelon biçimi",
+     "hat": "A",
+     "gosterim": "basamak yapısı, pivotlar",
+     "yol": "u01-dogrusal-denklem-sistemleri/k0010-satir-eselon-bicimi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0011",
+     "ad": "İndirgenmiş satır eşelon biçimi",
+     "hat": "A",
+     "gosterim": "birim pivotlar",
+     "yol": "u01-dogrusal-denklem-sistemleri/k0011-indirgenmis-satir-eselon-bicimi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0012",
+     "ad": "Gauss yok etmesi",
+     "hat": "A",
+     "gosterim": "adım adım matris",
+     "yol": "u01-dogrusal-denklem-sistemleri/k0012-gauss-yok-etmesi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0013",
+     "ad": "Gauss–Jordan yöntemi",
+     "hat": "A",
+     "gosterim": "geri yerleştirme yok",
+     "yol": "u01-dogrusal-denklem-sistemleri/k0013-gauss-jordan-yontemi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0014",
+     "ad": "Geri yerleştirme",
+     "hat": "A",
+     "gosterim": "alttan yukarı çözüm",
+     "yol": "u01-dogrusal-denklem-sistemleri/k0014-geri-yerlestirme",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0015",
+     "ad": "Serbest ve bağımlı değişkenler",
+     "hat": "A",
+     "gosterim": "parametrik çözüm",
+     "yol": "u01-dogrusal-denklem-sistemleri/k0015-serbest-ve-bagimli-degiskenler",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0016",
+     "ad": "Homojen sistem",
+     "hat": "A",
+     "gosterim": "trivial ve trivial olmayan çözüm",
+     "yol": "u01-dogrusal-denklem-sistemleri/k0016-homojen-sistem",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0017",
+     "ad": "Çözüm kümesi geometrisi",
+     "hat": "A",
+     "gosterim": "nokta, doğru, düzlem",
+     "yol": "u01-dogrusal-denklem-sistemleri/k0017-cozum-kumesi-geometrisi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0018",
+     "ad": "Doğrusal sistemin matris biçimi",
+     "hat": "A",
+     "gosterim": "Ax = b",
+     "yol": "u01-dogrusal-denklem-sistemleri/k0018-dogrusal-sistemin-matris-bicimi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0019",
+     "ad": "Pivot sayısı ve çözüm sayısı",
+     "hat": "A",
+     "gosterim": "karar ağacı",
+     "yol": "u01-dogrusal-denklem-sistemleri/k0019-pivot-sayisi-ve-cozum-sayisi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0020",
+     "ad": "Doğrusal denklem uygulaması: devre",
+     "hat": "A",
+     "gosterim": "devre akımları",
+     "yol": "u01-dogrusal-denklem-sistemleri/k0020-dogrusal-denklem-uygulamasi-devre",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0021",
+     "ad": "Doğrusal denklem uygulaması: trafik",
+     "hat": "A",
+     "gosterim": "trafik akışı, dengeleme",
+     "yol": "u01-dogrusal-denklem-sistemleri/k0021-dogrusal-denklem-uygulamasi-trafik",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0022",
+     "ad": "Terazi ve ağırlıklar",
+     "hat": "B",
+     "gosterim": "denklem dengesi",
+     "yol": "u01-dogrusal-denklem-sistemleri/k0022-terazi-ve-agirliklar",
+     "beklenen": 3,
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "2ea8501dc97801c593731817fd5cb698abc05ee4856102a861362c8230a3db81",
+       "boyut": 16886,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "linalg-k0022-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "7aa14cf6432fe24bdfeac8c8b2062709dd21f2f3172ff23646818dddd61907a4",
+       "boyut": 34502,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "linalg-k0022-013"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "5502580b4796ec5c3273d05deea9e1c3e32fafb307a2b9e277d099ea8dc7fab2",
+       "boyut": 33814,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "linalg-k0022-014"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "no": 2,
+   "ad": "Matrisler ve matris işlemleri",
+   "klasor": "u02-matrisler-ve-matris-islemleri",
+   "kavramlar": [
+    {
+     "id": "k0023",
+     "ad": "Matris tanımı ve boyutu",
+     "hat": "A",
+     "gosterim": "m×n tablo",
+     "yol": "u02-matrisler-ve-matris-islemleri/k0023-matris-tanimi-ve-boyutu",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0024",
+     "ad": "Matris türleri",
+     "hat": "A",
+     "gosterim": "kare, köşegen, birim, sıfır, üçgen",
+     "yol": "u02-matrisler-ve-matris-islemleri/k0024-matris-turleri",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0025",
+     "ad": "Matris toplamı",
+     "hat": "A",
+     "gosterim": "eleman elemana",
+     "yol": "u02-matrisler-ve-matris-islemleri/k0025-matris-toplami",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0026",
+     "ad": "Skalerle çarpım",
+     "hat": "A",
+     "gosterim": "her elemanı ölçekleme",
+     "yol": "u02-matrisler-ve-matris-islemleri/k0026-skalerle-carpim",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0027",
+     "ad": "Matris çarpımı (eleman hesabı)",
+     "hat": "A",
+     "gosterim": "satır × sütun",
+     "yol": "u02-matrisler-ve-matris-islemleri/k0027-matris-carpimi-eleman-hesabi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0028",
+     "ad": "Matris çarpımı: boyut kuralı",
+     "hat": "A",
+     "gosterim": "(m×n)(n×p)",
+     "yol": "u02-matrisler-ve-matris-islemleri/k0028-matris-carpimi-boyut-kurali",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0029",
+     "ad": "Matris çarpımı: sütun ve satır görünümü",
+     "hat": "A",
+     "gosterim": "doğrusal kombinasyon",
+     "yol": "u02-matrisler-ve-matris-islemleri/k0029-matris-carpimi-sutun-ve-satir-gorunumu",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0030",
+     "ad": "Çarpmanın değişme özelliği yok",
+     "hat": "A",
+     "gosterim": "AB ≠ BA",
+     "yol": "u02-matrisler-ve-matris-islemleri/k0030-carpmanin-degisme-ozelligi-yok",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0031",
+     "ad": "Matris çarpımı: dağılma ve birleşme",
+     "hat": "A",
+     "gosterim": "özellik listesi",
+     "yol": "u02-matrisler-ve-matris-islemleri/k0031-matris-carpimi-dagilma-ve-birlesme",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0032",
+     "ad": "Matrisin devriği (transpoze)",
+     "hat": "A",
+     "gosterim": "satır ↔ sütun",
+     "yol": "u02-matrisler-ve-matris-islemleri/k0032-matrisin-devrigi-transpoze",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0033",
+     "ad": "Simetrik ve ters simetrik matrisler",
+     "hat": "A",
+     "gosterim": "köşegen yansıması",
+     "yol": "u02-matrisler-ve-matris-islemleri/k0033-simetrik-ve-ters-simetrik-matrisler",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0034",
+     "ad": "Matrisin izi (trace)",
+     "hat": "A",
+     "gosterim": "köşegen toplamı",
+     "yol": "u02-matrisler-ve-matris-islemleri/k0034-matrisin-izi-trace",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0035",
+     "ad": "Matrisin kuvveti",
+     "hat": "A",
+     "gosterim": "A², A³",
+     "yol": "u02-matrisler-ve-matris-islemleri/k0035-matrisin-kuvveti",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0036",
+     "ad": "Blok matrisler",
+     "hat": "A",
+     "gosterim": "bölümlendirme",
+     "yol": "u02-matrisler-ve-matris-islemleri/k0036-blok-matrisler",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0037",
+     "ad": "Ters matris (tanım)",
+     "hat": "A",
+     "gosterim": "AA⁻¹ = I",
+     "yol": "u02-matrisler-ve-matris-islemleri/k0037-ters-matris-tanim",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0038",
+     "ad": "2×2 ters matris formülü",
+     "hat": "A",
+     "gosterim": "adj/det",
+     "yol": "u02-matrisler-ve-matris-islemleri/k0038-2-2-ters-matris-formulu",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0039",
+     "ad": "Ters matris bulma [A|I] → [I|A⁻¹]",
+     "hat": "A",
+     "gosterim": "Gauss–Jordan",
+     "yol": "u02-matrisler-ve-matris-islemleri/k0039-ters-matris-bulma-a-i-i-a",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0040",
+     "ad": "Ters matrisin özellikleri",
+     "hat": "A",
+     "gosterim": "(AB)⁻¹ = B⁻¹A⁻¹",
+     "yol": "u02-matrisler-ve-matris-islemleri/k0040-ters-matrisin-ozellikleri",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0041",
+     "ad": "Tersinir olmayan matris",
+     "hat": "A",
+     "gosterim": "tekil, pivotsuz sütun",
+     "yol": "u02-matrisler-ve-matris-islemleri/k0041-tersinir-olmayan-matris",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0042",
+     "ad": "Elementer matrisler",
+     "hat": "A",
+     "gosterim": "satır işlemi = matris çarpımı",
+     "yol": "u02-matrisler-ve-matris-islemleri/k0042-elementer-matrisler",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0043",
+     "ad": "Denklem sistemi ve ters matris",
+     "hat": "A",
+     "gosterim": "x = A⁻¹b",
+     "yol": "u02-matrisler-ve-matris-islemleri/k0043-denklem-sistemi-ve-ters-matris",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0044",
+     "ad": "LU ayrışımı",
+     "hat": "A",
+     "gosterim": "alt ve üst üçgen matrisler",
+     "yol": "u02-matrisler-ve-matris-islemleri/k0044-lu-ayrisimi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0045",
+     "ad": "Matris ve doğrusal sistem eşdeğerliği",
+     "hat": "A",
+     "gosterim": "denk koşullar listesi",
+     "yol": "u02-matrisler-ve-matris-islemleri/k0045-matris-ve-dogrusal-sistem-esdegerligi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0046",
+     "ad": "Markov zincirleri",
+     "hat": "A",
+     "gosterim": "durum geçiş matrisi diyagramı",
+     "yol": "u02-matrisler-ve-matris-islemleri/k0046-markov-zincirleri",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0047",
+     "ad": "Ağ/graf ve komşuluk matrisi",
+     "hat": "A",
+     "gosterim": "düğümler ve matris",
+     "yol": "u02-matrisler-ve-matris-islemleri/k0047-ag-graf-ve-komsuluk-matrisi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0048",
+     "ad": "Tablo / elektronik tablo",
+     "hat": "B",
+     "gosterim": "matris metaforu",
+     "yol": "u02-matrisler-ve-matris-islemleri/k0048-tablo-elektronik-tablo",
+     "beklenen": 3,
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "8d717a83ffa7ae5ccea79c2860bda2ba4be6c35ac683023692e8db0a767744ca",
+       "boyut": 20050,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "linalg-k0048-003"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "dac06b731065c2c237f8c52fac2fa997b7b021b7d733895a8b8ed125d4405b85",
+       "boyut": 32780,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "linalg-k0048-008"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "no": 3,
+   "ad": "Determinantlar",
+   "klasor": "u03-determinantlar",
+   "kavramlar": [
+    {
+     "id": "k0049",
+     "ad": "2×2 determinant",
+     "hat": "A",
+     "gosterim": "alan ve işaret",
+     "yol": "u03-determinantlar/k0049-2-2-determinant",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0050",
+     "ad": "3×3 determinant (Sarrus)",
+     "hat": "A",
+     "gosterim": "çapraz çarpımlar",
+     "yol": "u03-determinantlar/k0050-3-3-determinant-sarrus",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0051",
+     "ad": "Determinantın geometrik anlamı (2B)",
+     "hat": "A",
+     "gosterim": "paralelkenar alanı",
+     "yol": "u03-determinantlar/k0051-determinantin-geometrik-anlami-2b",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0052",
+     "ad": "Determinantın geometrik anlamı (3B)",
+     "hat": "A",
+     "gosterim": "paralelyüzlü hacim",
+     "yol": "u03-determinantlar/k0052-determinantin-geometrik-anlami-3b",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0053",
+     "ad": "Kofaktör açılımı",
+     "hat": "A",
+     "gosterim": "minör ve işaret deseni",
+     "yol": "u03-determinantlar/k0053-kofaktor-acilimi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0054",
+     "ad": "İşaret deseni (checkerboard)",
+     "hat": "A",
+     "gosterim": "+ − + − ...",
+     "yol": "u03-determinantlar/k0054-isaret-deseni-checkerboard",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0055",
+     "ad": "Satır indirgeme ile determinant",
+     "hat": "A",
+     "gosterim": "üçgenleştirme",
+     "yol": "u03-determinantlar/k0055-satir-indirgeme-ile-determinant",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0056",
+     "ad": "Satır işlemlerinin determinanta etkisi",
+     "hat": "A",
+     "gosterim": "yer değiştirme, ölçekleme, ekleme",
+     "yol": "u03-determinantlar/k0056-satir-islemlerinin-determinanta-etkisi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0057",
+     "ad": "Üçgen matrisin determinantı",
+     "hat": "A",
+     "gosterim": "köşegen çarpımı",
+     "yol": "u03-determinantlar/k0057-ucgen-matrisin-determinanti",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0058",
+     "ad": "Determinantın özellikleri",
+     "hat": "A",
+     "gosterim": "det(AB) = det A · det B",
+     "yol": "u03-determinantlar/k0058-determinantin-ozellikleri",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0059",
+     "ad": "det(A) = 0 ve tersinirlik",
+     "hat": "A",
+     "gosterim": "kolon bağımlılığı",
+     "yol": "u03-determinantlar/k0059-det-a-0-ve-tersinirlik",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0060",
+     "ad": "Determinant ve ters matris",
+     "hat": "A",
+     "gosterim": "adjoint yöntemi",
+     "yol": "u03-determinantlar/k0060-determinant-ve-ters-matris",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0061",
+     "ad": "Cramer kuralı",
+     "hat": "A",
+     "gosterim": "Δ ve Δᵢ",
+     "yol": "u03-determinantlar/k0061-cramer-kurali",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0062",
+     "ad": "Cramer kuralı geometrik yorum",
+     "hat": "A",
+     "gosterim": "alan oranları",
+     "yol": "u03-determinantlar/k0062-cramer-kurali-geometrik-yorum",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0063",
+     "ad": "Determinant ve doğrusal bağımsızlık",
+     "hat": "A",
+     "gosterim": "hacmin sıfır olması",
+     "yol": "u03-determinantlar/k0063-determinant-ve-dogrusal-bagimsizlik",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0064",
+     "ad": "Permütasyonlar ve determinant",
+     "hat": "A",
+     "gosterim": "permütasyon işaretleri",
+     "yol": "u03-determinantlar/k0064-permutasyonlar-ve-determinant",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0065",
+     "ad": "Zemin döşemesi alanı",
+     "hat": "B",
+     "gosterim": "paralelkenar alanı metaforu",
+     "yol": "u03-determinantlar/k0065-zemin-dosemesi-alani",
+     "beklenen": 3,
+     "gorseller": []
+    }
+   ]
+  },
+  {
+   "no": 4,
+   "ad": "2 ve 3 boyutlu uzayda vektörler",
+   "klasor": "u04-2-ve-3-boyutlu-uzayda-vektorler",
+   "kavramlar": [
+    {
+     "id": "k0066",
+     "ad": "Vektör: büyüklük ve yön",
+     "hat": "A",
+     "gosterim": "yönlü doğru parçası",
+     "yol": "u04-2-ve-3-boyutlu-uzayda-vektorler/k0066-vektor-buyukluk-ve-yon",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0067",
+     "ad": "Vektör eşitliği",
+     "hat": "A",
+     "gosterim": "paralel ötelenmiş oklar",
+     "yol": "u04-2-ve-3-boyutlu-uzayda-vektorler/k0067-vektor-esitligi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0068",
+     "ad": "Vektör toplama (üçgen kuralı)",
+     "hat": "A",
+     "gosterim": "uç uca",
+     "yol": "u04-2-ve-3-boyutlu-uzayda-vektorler/k0068-vektor-toplama-ucgen-kurali",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0069",
+     "ad": "Vektör toplama (paralelkenar kuralı)",
+     "hat": "A",
+     "gosterim": "ortak başlangıç",
+     "yol": "u04-2-ve-3-boyutlu-uzayda-vektorler/k0069-vektor-toplama-paralelkenar-kurali",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0070",
+     "ad": "Vektörün skalerle çarpımı",
+     "hat": "A",
+     "gosterim": "uzama, kısalma, ters yön",
+     "yol": "u04-2-ve-3-boyutlu-uzayda-vektorler/k0070-vektorun-skalerle-carpimi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0071",
+     "ad": "Vektör çıkarma",
+     "hat": "A",
+     "gosterim": "iki uç arası ok",
+     "yol": "u04-2-ve-3-boyutlu-uzayda-vektorler/k0071-vektor-cikarma",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0072",
+     "ad": "Bileşen gösterimi",
+     "hat": "A",
+     "gosterim": "x, y, z bileşenleri",
+     "yol": "u04-2-ve-3-boyutlu-uzayda-vektorler/k0072-bilesen-gosterimi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0073",
+     "ad": "Vektörün normu",
+     "hat": "A",
+     "gosterim": "uzunluk, Pisagor",
+     "yol": "u04-2-ve-3-boyutlu-uzayda-vektorler/k0073-vektorun-normu",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0074",
+     "ad": "Birim vektör",
+     "hat": "A",
+     "gosterim": "normalize etme",
+     "yol": "u04-2-ve-3-boyutlu-uzayda-vektorler/k0074-birim-vektor",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0075",
+     "ad": "Konum vektörü",
+     "hat": "A",
+     "gosterim": "orijinden noktaya",
+     "yol": "u04-2-ve-3-boyutlu-uzayda-vektorler/k0075-konum-vektoru",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0076",
+     "ad": "İki nokta arasındaki vektör",
+     "hat": "A",
+     "gosterim": "PQ = Q − P",
+     "yol": "u04-2-ve-3-boyutlu-uzayda-vektorler/k0076-iki-nokta-arasindaki-vektor",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0077",
+     "ad": "Nokta çarpım (iç çarpım)",
+     "hat": "A",
+     "gosterim": "u·v = |u||v|cosθ",
+     "yol": "u04-2-ve-3-boyutlu-uzayda-vektorler/k0077-nokta-carpim-ic-carpim",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0078",
+     "ad": "Vektörler arası açı",
+     "hat": "A",
+     "gosterim": "θ hesaplama",
+     "yol": "u04-2-ve-3-boyutlu-uzayda-vektorler/k0078-vektorler-arasi-aci",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0079",
+     "ad": "Dik vektörler",
+     "hat": "A",
+     "gosterim": "u·v = 0",
+     "yol": "u04-2-ve-3-boyutlu-uzayda-vektorler/k0079-dik-vektorler",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0080",
+     "ad": "İzdüşüm (projeksiyon)",
+     "hat": "A",
+     "gosterim": "proj_u v",
+     "yol": "u04-2-ve-3-boyutlu-uzayda-vektorler/k0080-izdusum-projeksiyon",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0081",
+     "ad": "Vektörün bileşenlere ayrılması",
+     "hat": "A",
+     "gosterim": "paralel ve dik bileşen",
+     "yol": "u04-2-ve-3-boyutlu-uzayda-vektorler/k0081-vektorun-bilesenlere-ayrilmasi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0082",
+     "ad": "Cauchy–Schwarz",
+     "hat": "A",
+     "gosterim": "|u·v| ≤ |u||v|",
+     "yol": "u04-2-ve-3-boyutlu-uzayda-vektorler/k0082-cauchy-schwarz",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0083",
+     "ad": "Üçgen eşitsizliği",
+     "hat": "A",
+     "gosterim": "kenar uzunlukları",
+     "yol": "u04-2-ve-3-boyutlu-uzayda-vektorler/k0083-ucgen-esitsizligi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0084",
+     "ad": "Çapraz çarpım (3B)",
+     "hat": "A",
+     "gosterim": "u×v dik vektör",
+     "yol": "u04-2-ve-3-boyutlu-uzayda-vektorler/k0084-capraz-carpim-3b",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0085",
+     "ad": "Çapraz çarpım: sağ el kuralı",
+     "hat": "A",
+     "gosterim": "yön gösterimi",
+     "yol": "u04-2-ve-3-boyutlu-uzayda-vektorler/k0085-capraz-carpim-sag-el-kurali",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0086",
+     "ad": "Çapraz çarpım: paralelkenar alanı",
+     "hat": "A",
+     "gosterim": "|u×v|",
+     "yol": "u04-2-ve-3-boyutlu-uzayda-vektorler/k0086-capraz-carpim-paralelkenar-alani",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0087",
+     "ad": "Üçlü skaler çarpım",
+     "hat": "A",
+     "gosterim": "paralelyüzlü hacmi",
+     "yol": "u04-2-ve-3-boyutlu-uzayda-vektorler/k0087-uclu-skaler-carpim",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0088",
+     "ad": "2B'de doğru denklemi (vektörel)",
+     "hat": "A",
+     "gosterim": "nokta ve yön vektörü",
+     "yol": "u04-2-ve-3-boyutlu-uzayda-vektorler/k0088-2b-de-dogru-denklemi-vektorel",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0089",
+     "ad": "2B'de doğru denklemi (normal)",
+     "hat": "A",
+     "gosterim": "normal vektör",
+     "yol": "u04-2-ve-3-boyutlu-uzayda-vektorler/k0089-2b-de-dogru-denklemi-normal",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0090",
+     "ad": "3B'de doğru denklemi (parametrik)",
+     "hat": "A",
+     "gosterim": "P₀ + t·d",
+     "yol": "u04-2-ve-3-boyutlu-uzayda-vektorler/k0090-3b-de-dogru-denklemi-parametrik",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0091",
+     "ad": "3B'de düzlem denklemi",
+     "hat": "A",
+     "gosterim": "normal vektör ve nokta",
+     "yol": "u04-2-ve-3-boyutlu-uzayda-vektorler/k0091-3b-de-duzlem-denklemi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0092",
+     "ad": "Nokta–düzlem uzaklığı",
+     "hat": "A",
+     "gosterim": "izdüşüm ile uzaklık",
+     "yol": "u04-2-ve-3-boyutlu-uzayda-vektorler/k0092-nokta-duzlem-uzakligi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0093",
+     "ad": "Nokta–doğru uzaklığı",
+     "hat": "A",
+     "gosterim": "dik ayağı",
+     "yol": "u04-2-ve-3-boyutlu-uzayda-vektorler/k0093-nokta-dogru-uzakligi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0094",
+     "ad": "İki düzlemin arakesiti",
+     "hat": "A",
+     "gosterim": "doğru",
+     "yol": "u04-2-ve-3-boyutlu-uzayda-vektorler/k0094-iki-duzlemin-arakesiti",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0095",
+     "ad": "Doğrular arası konum",
+     "hat": "A",
+     "gosterim": "kesişen, paralel, çarpık",
+     "yol": "u04-2-ve-3-boyutlu-uzayda-vektorler/k0095-dogrular-arasi-konum",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0096",
+     "ad": "İki düzlem arası açı",
+     "hat": "A",
+     "gosterim": "normaller arası açı",
+     "yol": "u04-2-ve-3-boyutlu-uzayda-vektorler/k0096-iki-duzlem-arasi-aci",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0097",
+     "ad": "Analitik geometri: küre ve silindir",
+     "hat": "A",
+     "gosterim": "yüzey denklemleri",
+     "yol": "u04-2-ve-3-boyutlu-uzayda-vektorler/k0097-analitik-geometri-kure-ve-silindir",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0098",
+     "ad": "Pusula ve harita",
+     "hat": "B",
+     "gosterim": "yön vektörü metaforu",
+     "yol": "u04-2-ve-3-boyutlu-uzayda-vektorler/k0098-pusula-ve-harita",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0099",
+     "ad": "Rüzgârda uçan uçak",
+     "hat": "B",
+     "gosterim": "bileşke hız vektörü",
+     "yol": "u04-2-ve-3-boyutlu-uzayda-vektorler/k0099-ruzg-rda-ucan-ucak",
+     "beklenen": 3,
+     "gorseller": []
+    }
+   ]
+  },
+  {
+   "no": 5,
+   "ad": "Öklid vektör uzayı ve n boyutlu uzay",
+   "klasor": "u05-oklid-vektor-uzayi-ve-n-boyutlu-uzay",
+   "kavramlar": [
+    {
+     "id": "k0100",
+     "ad": "Rⁿ uzayı",
+     "hat": "A",
+     "gosterim": "R², R³ ve genelleme",
+     "yol": "u05-oklid-vektor-uzayi-ve-n-boyutlu-uzay/k0100-r-uzayi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0101",
+     "ad": "Rⁿ'de toplama ve skaler çarpım",
+     "hat": "A",
+     "gosterim": "tanım",
+     "yol": "u05-oklid-vektor-uzayi-ve-n-boyutlu-uzay/k0101-r-de-toplama-ve-skaler-carpim",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0102",
+     "ad": "Rⁿ'de nokta çarpım",
+     "hat": "A",
+     "gosterim": "genelleme",
+     "yol": "u05-oklid-vektor-uzayi-ve-n-boyutlu-uzay/k0102-r-de-nokta-carpim",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0103",
+     "ad": "Rⁿ'de norm ve uzaklık",
+     "hat": "A",
+     "gosterim": "n boyutlu formüller",
+     "yol": "u05-oklid-vektor-uzayi-ve-n-boyutlu-uzay/k0103-r-de-norm-ve-uzaklik",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0104",
+     "ad": "Doğrusal dönüşüm olarak matris",
+     "hat": "A",
+     "gosterim": "Rⁿ → Rᵐ",
+     "yol": "u05-oklid-vektor-uzayi-ve-n-boyutlu-uzay/k0104-dogrusal-donusum-olarak-matris",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0105",
+     "ad": "Doğrusal birleşim (lineer kombinasyon)",
+     "hat": "A",
+     "gosterim": "iki vektörle üretilen düzlem",
+     "yol": "u05-oklid-vektor-uzayi-ve-n-boyutlu-uzay/k0105-dogrusal-birlesim-lineer-kombinasyon",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0106",
+     "ad": "Doğrusal bağımsızlık",
+     "hat": "A",
+     "gosterim": "iki ve üç vektör örneği",
+     "yol": "u05-oklid-vektor-uzayi-ve-n-boyutlu-uzay/k0106-dogrusal-bagimsizlik",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0107",
+     "ad": "Doğrusal bağımlılık",
+     "hat": "A",
+     "gosterim": "aynı doğru üstünde vektörler",
+     "yol": "u05-oklid-vektor-uzayi-ve-n-boyutlu-uzay/k0107-dogrusal-bagimlilik",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0108",
+     "ad": "Vektör uzayı aksiyomları",
+     "hat": "A",
+     "gosterim": "liste",
+     "yol": "u05-oklid-vektor-uzayi-ve-n-boyutlu-uzay/k0108-vektor-uzayi-aksiyomlari",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0109",
+     "ad": "Alt uzay",
+     "hat": "A",
+     "gosterim": "orijinden geçen doğru/düzlem",
+     "yol": "u05-oklid-vektor-uzayi-ve-n-boyutlu-uzay/k0109-alt-uzay",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0110",
+     "ad": "Alt uzay olmayan örnek",
+     "hat": "A",
+     "gosterim": "orijini içermeyen düzlem",
+     "yol": "u05-oklid-vektor-uzayi-ve-n-boyutlu-uzay/k0110-alt-uzay-olmayan-ornek",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0111",
+     "ad": "Yayılma (span)",
+     "hat": "A",
+     "gosterim": "iki vektörün gerdiği düzlem",
+     "yol": "u05-oklid-vektor-uzayi-ve-n-boyutlu-uzay/k0111-yayilma-span",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0112",
+     "ad": "Baz",
+     "hat": "A",
+     "gosterim": "R²'de farklı baz çiftleri",
+     "yol": "u05-oklid-vektor-uzayi-ve-n-boyutlu-uzay/k0112-baz",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0113",
+     "ad": "Boyut",
+     "hat": "A",
+     "gosterim": "baz sayısı",
+     "yol": "u05-oklid-vektor-uzayi-ve-n-boyutlu-uzay/k0113-boyut",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0114",
+     "ad": "Koordinatlar ve baz değişimi",
+     "hat": "A",
+     "gosterim": "aynı vektör iki bazda",
+     "yol": "u05-oklid-vektor-uzayi-ve-n-boyutlu-uzay/k0114-koordinatlar-ve-baz-degisimi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0115",
+     "ad": "Geçiş matrisi",
+     "hat": "A",
+     "gosterim": "bazlar arası dönüşüm",
+     "yol": "u05-oklid-vektor-uzayi-ve-n-boyutlu-uzay/k0115-gecis-matrisi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0116",
+     "ad": "Satır uzayı, sütun uzayı",
+     "hat": "A",
+     "gosterim": "uzay görseli",
+     "yol": "u05-oklid-vektor-uzayi-ve-n-boyutlu-uzay/k0116-satir-uzayi-sutun-uzayi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0117",
+     "ad": "Sıfır uzayı (null space)",
+     "hat": "A",
+     "gosterim": "Ax = 0 çözüm kümesi",
+     "yol": "u05-oklid-vektor-uzayi-ve-n-boyutlu-uzay/k0117-sifir-uzayi-null-space",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0118",
+     "ad": "Rank (kerte)",
+     "hat": "A",
+     "gosterim": "boyut sayısı",
+     "yol": "u05-oklid-vektor-uzayi-ve-n-boyutlu-uzay/k0118-rank-kerte",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0119",
+     "ad": "Rank–nullity teoremi",
+     "hat": "A",
+     "gosterim": "rank + nullity = n",
+     "yol": "u05-oklid-vektor-uzayi-ve-n-boyutlu-uzay/k0119-rank-nullity-teoremi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0120",
+     "ad": "Dört temel altuzay",
+     "hat": "A",
+     "gosterim": "satır, sütun, null, sol null uzay",
+     "yol": "u05-oklid-vektor-uzayi-ve-n-boyutlu-uzay/k0120-dort-temel-altuzay",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0121",
+     "ad": "Dik tümleyen",
+     "hat": "A",
+     "gosterim": "W⊥",
+     "yol": "u05-oklid-vektor-uzayi-ve-n-boyutlu-uzay/k0121-dik-tumleyen",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0122",
+     "ad": "Fonksiyon uzayları",
+     "hat": "A",
+     "gosterim": "polinom uzayı P₂",
+     "yol": "u05-oklid-vektor-uzayi-ve-n-boyutlu-uzay/k0122-fonksiyon-uzaylari",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0123",
+     "ad": "Kapı ve oda: yön ve boyut",
+     "hat": "B",
+     "gosterim": "boyut metaforu",
+     "yol": "u05-oklid-vektor-uzayi-ve-n-boyutlu-uzay/k0123-kapi-ve-oda-yon-ve-boyut",
+     "beklenen": 3,
+     "gorseller": []
+    }
+   ]
+  },
+  {
+   "no": 6,
+   "ad": "İç çarpım uzayları",
+   "klasor": "u06-ic-carpim-uzaylari",
+   "kavramlar": [
+    {
+     "id": "k0124",
+     "ad": "İç çarpım aksiyomları",
+     "hat": "A",
+     "gosterim": "simetri, doğrusallık, pozitiflik",
+     "yol": "u06-ic-carpim-uzaylari/k0124-ic-carpim-aksiyomlari",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0125",
+     "ad": "Genel iç çarpım örnekleri",
+     "hat": "A",
+     "gosterim": "ağırlıklı iç çarpım",
+     "yol": "u06-ic-carpim-uzaylari/k0125-genel-ic-carpim-ornekleri",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0126",
+     "ad": "İç çarpım ile norm ve açı",
+     "hat": "A",
+     "gosterim": "genelleştirilmiş",
+     "yol": "u06-ic-carpim-uzaylari/k0126-ic-carpim-ile-norm-ve-aci",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0127",
+     "ad": "Ortogonal (dik) kümeler",
+     "hat": "A",
+     "gosterim": "birbirine dik vektör çifti",
+     "yol": "u06-ic-carpim-uzaylari/k0127-ortogonal-dik-kumeler",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0128",
+     "ad": "Ortonormal küme",
+     "hat": "A",
+     "gosterim": "birim ve dik",
+     "yol": "u06-ic-carpim-uzaylari/k0128-ortonormal-kume",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0129",
+     "ad": "Ortonormal bazın avantajı",
+     "hat": "A",
+     "gosterim": "kolay koordinat bulma",
+     "yol": "u06-ic-carpim-uzaylari/k0129-ortonormal-bazin-avantaji",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0130",
+     "ad": "Gram–Schmidt süreci",
+     "hat": "A",
+     "gosterim": "adım adım dikleştirme",
+     "yol": "u06-ic-carpim-uzaylari/k0130-gram-schmidt-sureci",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0131",
+     "ad": "QR ayrışımı",
+     "hat": "A",
+     "gosterim": "Q ve R matrisleri",
+     "yol": "u06-ic-carpim-uzaylari/k0131-qr-ayrisimi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0132",
+     "ad": "Ortogonal izdüşüm",
+     "hat": "A",
+     "gosterim": "alt uzaya projeksiyon",
+     "yol": "u06-ic-carpim-uzaylari/k0132-ortogonal-izdusum",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0133",
+     "ad": "En iyi yaklaşım teoremi",
+     "hat": "A",
+     "gosterim": "en kısa uzaklık",
+     "yol": "u06-ic-carpim-uzaylari/k0133-en-iyi-yaklasim-teoremi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0134",
+     "ad": "En küçük kareler",
+     "hat": "A",
+     "gosterim": "veriye doğru uydurma",
+     "yol": "u06-ic-carpim-uzaylari/k0134-en-kucuk-kareler",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0135",
+     "ad": "Normal denklemler",
+     "hat": "A",
+     "gosterim": "AᵀAx = Aᵀb",
+     "yol": "u06-ic-carpim-uzaylari/k0135-normal-denklemler",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0136",
+     "ad": "Doğru uydurma örneği",
+     "hat": "A",
+     "gosterim": "noktalar ve en uygun doğru",
+     "yol": "u06-ic-carpim-uzaylari/k0136-dogru-uydurma-ornegi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0137",
+     "ad": "Ortogonal matris",
+     "hat": "A",
+     "gosterim": "sütunlar ortonormal, uzunluğu korur",
+     "yol": "u06-ic-carpim-uzaylari/k0137-ortogonal-matris",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0138",
+     "ad": "Fourier serisi (iç çarpım uzayı)",
+     "hat": "A",
+     "gosterim": "sinüs bazları",
+     "yol": "u06-ic-carpim-uzaylari/k0138-fourier-serisi-ic-carpim-uzayi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0139",
+     "ad": "Metrik (uzaklık) uzayı",
+     "hat": "A",
+     "gosterim": "farklı uzaklık tanımları",
+     "yol": "u06-ic-carpim-uzaylari/k0139-metrik-uzaklik-uzayi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0140",
+     "ad": "Gölge ve ışık",
+     "hat": "B",
+     "gosterim": "izdüşüm metaforu",
+     "yol": "u06-ic-carpim-uzaylari/k0140-golge-ve-isik",
+     "beklenen": 3,
+     "gorseller": []
+    }
+   ]
+  },
+  {
+   "no": 7,
+   "ad": "Özdeğerler ve özvektörler",
+   "klasor": "u07-ozdegerler-ve-ozvektorler",
+   "kavramlar": [
+    {
+     "id": "k0141",
+     "ad": "Özdeğer-özvektör tanımı",
+     "hat": "A",
+     "gosterim": "Ax = λx, vektör sadece uzar",
+     "yol": "u07-ozdegerler-ve-ozvektorler/k0141-ozdeger-ozvektor-tanimi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0142",
+     "ad": "Özvektör geometrisi (2B)",
+     "hat": "A",
+     "gosterim": "yön değiştirmeyen vektörler",
+     "yol": "u07-ozdegerler-ve-ozvektorler/k0142-ozvektor-geometrisi-2b",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0143",
+     "ad": "Karakteristik denklem",
+     "hat": "A",
+     "gosterim": "det(A − λI) = 0",
+     "yol": "u07-ozdegerler-ve-ozvektorler/k0143-karakteristik-denklem",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0144",
+     "ad": "Karakteristik polinom",
+     "hat": "A",
+     "gosterim": "derece ve kökler",
+     "yol": "u07-ozdegerler-ve-ozvektorler/k0144-karakteristik-polinom",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0145",
+     "ad": "Özdeğer bulma adımları",
+     "hat": "A",
+     "gosterim": "2×2 örnek",
+     "yol": "u07-ozdegerler-ve-ozvektorler/k0145-ozdeger-bulma-adimlari",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0146",
+     "ad": "Özvektör bulma",
+     "hat": "A",
+     "gosterim": "(A − λI)x = 0",
+     "yol": "u07-ozdegerler-ve-ozvektorler/k0146-ozvektor-bulma",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0147",
+     "ad": "Özuzay",
+     "hat": "A",
+     "gosterim": "özvektör düzlemi/doğrusu",
+     "yol": "u07-ozdegerler-ve-ozvektorler/k0147-ozuzay",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0148",
+     "ad": "Cebirsel ve geometrik katlılık",
+     "hat": "A",
+     "gosterim": "karşılaştırma",
+     "yol": "u07-ozdegerler-ve-ozvektorler/k0148-cebirsel-ve-geometrik-katlilik",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0149",
+     "ad": "Özdeğerlerin özellikleri",
+     "hat": "A",
+     "gosterim": "iz = Σλ, det = Πλ",
+     "yol": "u07-ozdegerler-ve-ozvektorler/k0149-ozdegerlerin-ozellikleri",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0150",
+     "ad": "Köşegenleştirme",
+     "hat": "A",
+     "gosterim": "A = PDP⁻¹",
+     "yol": "u07-ozdegerler-ve-ozvektorler/k0150-kosegenlestirme",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0151",
+     "ad": "Köşegenleştirilebilirlik koşulu",
+     "hat": "A",
+     "gosterim": "yeterli bağımsız özvektör",
+     "yol": "u07-ozdegerler-ve-ozvektorler/k0151-kosegenlestirilebilirlik-kosulu",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0152",
+     "ad": "Köşegenleştirmenin matris kuvvetine uygulaması",
+     "hat": "A",
+     "gosterim": "Aⁿ = PDⁿP⁻¹",
+     "yol": "u07-ozdegerler-ve-ozvektorler/k0152-kosegenlestirmenin-matris-kuvvetine-uygu",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0153",
+     "ad": "Simetrik matrisler",
+     "hat": "A",
+     "gosterim": "gerçek özdeğerler, dik özvektörler",
+     "yol": "u07-ozdegerler-ve-ozvektorler/k0153-simetrik-matrisler",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0154",
+     "ad": "Ortogonal köşegenleştirme",
+     "hat": "A",
+     "gosterim": "A = QDQᵀ",
+     "yol": "u07-ozdegerler-ve-ozvektorler/k0154-ortogonal-kosegenlestirme",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0155",
+     "ad": "Spektral teorem",
+     "hat": "A",
+     "gosterim": "özdeğer ayrışımı",
+     "yol": "u07-ozdegerler-ve-ozvektorler/k0155-spektral-teorem",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0156",
+     "ad": "Karmaşık özdeğerler",
+     "hat": "A",
+     "gosterim": "dönme dönüşümü",
+     "yol": "u07-ozdegerler-ve-ozvektorler/k0156-karmasik-ozdegerler",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0157",
+     "ad": "Özdeğerler ve kararlılık",
+     "hat": "A",
+     "gosterim": "diferansiyel denklem sistemi",
+     "yol": "u07-ozdegerler-ve-ozvektorler/k0157-ozdegerler-ve-kararlilik",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0158",
+     "ad": "Markov zincirleri sınır durum",
+     "hat": "A",
+     "gosterim": "baskın özvektör",
+     "yol": "u07-ozdegerler-ve-ozvektorler/k0158-markov-zincirleri-sinir-durum",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0159",
+     "ad": "Elipsin eksenleri (ikinci dereceden form)",
+     "hat": "A",
+     "gosterim": "özvektör yönleri",
+     "yol": "u07-ozdegerler-ve-ozvektorler/k0159-elipsin-eksenleri-ikinci-dereceden-form",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0160",
+     "ad": "Kuadratik formlar",
+     "hat": "A",
+     "gosterim": "pozitif tanımlı yüzey",
+     "yol": "u07-ozdegerler-ve-ozvektorler/k0160-kuadratik-formlar",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0161",
+     "ad": "Güç yöntemi",
+     "hat": "A",
+     "gosterim": "yinelemeli yaklaşım",
+     "yol": "u07-ozdegerler-ve-ozvektorler/k0161-guc-yontemi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0162",
+     "ad": "Cayley–Hamilton teoremi",
+     "hat": "A",
+     "gosterim": "polinom",
+     "yol": "u07-ozdegerler-ve-ozvektorler/k0162-cayley-hamilton-teoremi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0163",
+     "ad": "Özdeğer uygulaması: titreşim modları",
+     "hat": "A",
+     "gosterim": "kütle-yay",
+     "yol": "u07-ozdegerler-ve-ozvektorler/k0163-ozdeger-uygulamasi-titresim-modlari",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0164",
+     "ad": "Özdeğer uygulaması: PCA",
+     "hat": "A",
+     "gosterim": "veri bulutunda ana eksenler",
+     "yol": "u07-ozdegerler-ve-ozvektorler/k0164-ozdeger-uygulamasi-pca",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0165",
+     "ad": "Dönen disk / eksen",
+     "hat": "B",
+     "gosterim": "dönüş ekseni metaforu",
+     "yol": "u07-ozdegerler-ve-ozvektorler/k0165-donen-disk-eksen",
+     "beklenen": 3,
+     "gorseller": []
+    }
+   ]
+  },
+  {
+   "no": 8,
+   "ad": "Doğrusal dönüşümler",
+   "klasor": "u08-dogrusal-donusumler",
+   "kavramlar": [
+    {
+     "id": "k0166",
+     "ad": "Dönüşüm tanımı",
+     "hat": "A",
+     "gosterim": "girdi uzayı → çıktı uzayı",
+     "yol": "u08-dogrusal-donusumler/k0166-donusum-tanimi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0167",
+     "ad": "Doğrusallık koşulu",
+     "hat": "A",
+     "gosterim": "toplama ve ölçekleme korunur",
+     "yol": "u08-dogrusal-donusumler/k0167-dogrusallik-kosulu",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0168",
+     "ad": "Standart matris",
+     "hat": "A",
+     "gosterim": "dönüşümün matris gösterimi",
+     "yol": "u08-dogrusal-donusumler/k0168-standart-matris",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0169",
+     "ad": "Birim kare üzerinde dönüşüm",
+     "hat": "A",
+     "gosterim": "R² ızgara değişimi",
+     "yol": "u08-dogrusal-donusumler/k0169-birim-kare-uzerinde-donusum",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0170",
+     "ad": "Yansıma (x ekseni, y ekseni, y=x)",
+     "hat": "A",
+     "gosterim": "ızgara ve şekil",
+     "yol": "u08-dogrusal-donusumler/k0170-yansima-x-ekseni-y-ekseni-y-x",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0171",
+     "ad": "Dönme matrisi",
+     "hat": "A",
+     "gosterim": "θ açısıyla dönüş",
+     "yol": "u08-dogrusal-donusumler/k0171-donme-matrisi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0172",
+     "ad": "Ölçekleme",
+     "hat": "A",
+     "gosterim": "genişleme/daralma",
+     "yol": "u08-dogrusal-donusumler/k0172-olcekleme",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0173",
+     "ad": "Kayma (shear)",
+     "hat": "A",
+     "gosterim": "yatay, düşey",
+     "yol": "u08-dogrusal-donusumler/k0173-kayma-shear",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0174",
+     "ad": "Dik izdüşüm dönüşümü",
+     "hat": "A",
+     "gosterim": "düzleme ya da doğruya",
+     "yol": "u08-dogrusal-donusumler/k0174-dik-izdusum-donusumu",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0175",
+     "ad": "R³'te temel dönüşümler",
+     "hat": "A",
+     "gosterim": "x, y, z eksenleri etrafında dönme",
+     "yol": "u08-dogrusal-donusumler/k0175-r-te-temel-donusumler",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0176",
+     "ad": "Bileşke dönüşüm",
+     "hat": "A",
+     "gosterim": "iki dönüşümün çarpımı",
+     "yol": "u08-dogrusal-donusumler/k0176-bileske-donusum",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0177",
+     "ad": "Bileşke sırası",
+     "hat": "A",
+     "gosterim": "AB ≠ BA geometrik fark",
+     "yol": "u08-dogrusal-donusumler/k0177-bileske-sirasi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0178",
+     "ad": "Çekirdek (kernel)",
+     "hat": "A",
+     "gosterim": "sıfıra giden vektörler",
+     "yol": "u08-dogrusal-donusumler/k0178-cekirdek-kernel",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0179",
+     "ad": "Görüntü (image)",
+     "hat": "A",
+     "gosterim": "dönüşüm sonrası küme",
+     "yol": "u08-dogrusal-donusumler/k0179-goruntu-image",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0180",
+     "ad": "Birebir (injective) ve örten (surjective)",
+     "hat": "A",
+     "gosterim": "kümeler arası eşleşme",
+     "yol": "u08-dogrusal-donusumler/k0180-birebir-injective-ve-orten-surjective",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0181",
+     "ad": "Çekirdek–görüntü boyut teoremi",
+     "hat": "A",
+     "gosterim": "nullity + rank = n",
+     "yol": "u08-dogrusal-donusumler/k0181-cekirdek-goruntu-boyut-teoremi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0182",
+     "ad": "Ters dönüşüm",
+     "hat": "A",
+     "gosterim": "geri alma",
+     "yol": "u08-dogrusal-donusumler/k0182-ters-donusum",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0183",
+     "ad": "Ters dönüşümün matrisi",
+     "hat": "A",
+     "gosterim": "A⁻¹ ile ters çevirme",
+     "yol": "u08-dogrusal-donusumler/k0183-ters-donusumun-matrisi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0184",
+     "ad": "Determinant ve alan ölçeklemesi",
+     "hat": "A",
+     "gosterim": "birim karenin görüntüsü",
+     "yol": "u08-dogrusal-donusumler/k0184-determinant-ve-alan-olceklemesi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0185",
+     "ad": "Baz değişimi ve benzerlik",
+     "hat": "A",
+     "gosterim": "P⁻¹AP",
+     "yol": "u08-dogrusal-donusumler/k0185-baz-degisimi-ve-benzerlik",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0186",
+     "ad": "Benzer matrisler",
+     "hat": "A",
+     "gosterim": "aynı dönüşüm farklı bazda",
+     "yol": "u08-dogrusal-donusumler/k0186-benzer-matrisler",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0187",
+     "ad": "Homojen koordinatlar",
+     "hat": "A",
+     "gosterim": "öteleme ve dönmenin birleşimi",
+     "yol": "u08-dogrusal-donusumler/k0187-homojen-koordinatlar",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0188",
+     "ad": "Bilgisayar grafiğinde dönüşümler",
+     "hat": "A",
+     "gosterim": "şekil dönüşümleri",
+     "yol": "u08-dogrusal-donusumler/k0188-bilgisayar-grafiginde-donusumler",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0189",
+     "ad": "Robot kolu dönüşümleri",
+     "hat": "A",
+     "gosterim": "eklem açıları",
+     "yol": "u08-dogrusal-donusumler/k0189-robot-kolu-donusumleri",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0190",
+     "ad": "Görüntü işleme dönüşümü",
+     "hat": "A",
+     "gosterim": "ızgara bozulması",
+     "yol": "u08-dogrusal-donusumler/k0190-goruntu-isleme-donusumu",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0191",
+     "ad": "Aynadaki yansıma",
+     "hat": "B",
+     "gosterim": "yansıma metaforu",
+     "yol": "u08-dogrusal-donusumler/k0191-aynadaki-yansima",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0192",
+     "ad": "Gölge oyunu",
+     "hat": "B",
+     "gosterim": "izdüşüm metaforu",
+     "yol": "u08-dogrusal-donusumler/k0192-golge-oyunu",
+     "beklenen": 3,
+     "gorseller": []
+    }
+   ]
+  }
+ ]
+}
