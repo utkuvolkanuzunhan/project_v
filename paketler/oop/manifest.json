@@ -2,10 +2,10 @@
  "ders": "oop",
  "ad": "Object-Oriented Programming",
  "dersKodu": "505002372016",
- "surum": 2,
+ "surum": 3,
  "kavramSayisi": 145,
  "beklenenGorsel": 171,
- "mevcutGorsel": 17,
+ "mevcutGorsel": 27,
  "uniteler": [
   {
    "no": 1,
@@ -1025,6 +1025,14 @@
        "genislik": 1024,
        "yukseklik": 1024,
        "aday": "oop-k0094-010"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "4409743468d9354c071b250643b135013cc123e3cace0c71b8796cabce34472e",
+       "boyut": 23148,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "oop-k0094-011"
       }
      ]
     },
@@ -1035,7 +1043,32 @@
      "gosterim": "sınıf ağacı",
      "yol": "u05-kalitim/k0095-arac-hiyerarsisi-arac-araba-motosiklet",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "8c9341d93259c18af1976e74c11bc881aac02fabd0f5049169e4bdd35024109c",
+       "boyut": 31924,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "oop-k0095-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "a8d5b1a1ccdc67c8a4faf244edccb0e336fc7a049158b4f1c6648c7402c4793c",
+       "boyut": 29438,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "oop-k0095-008"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "f57dfea23ea4eda4e1167f09b1de3f1c6b51bfe98cc4a0429e291089edc906ea",
+       "boyut": 26600,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "oop-k0095-007"
+      }
+     ]
     }
    ]
   },
@@ -1186,7 +1219,32 @@
      "gosterim": "aynı düğme farklı cihaz",
      "yol": "u06-cok-bicimlilik/k0111-evrensel-uzaktan-kumanda",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "55d4dc48d75fe1a9aa312f2aac4d46c498ea8ffd8f4daa5c8d2c067b7cafd71e",
+       "boyut": 13854,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "oop-k0111-003"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "9b4c675728c8ae8d3990c3e1fc98db1c96da0a80f4d9778331bb7321867e061b",
+       "boyut": 11400,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "oop-k0111-004"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "94f537d3e86f09da39cd12c310d2e4cefa044030f8d258c8a6d391397dd6a28d",
+       "boyut": 17122,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "oop-k0111-006"
+      }
+     ]
     },
     {
      "id": "k0112",
@@ -1195,7 +1253,32 @@
      "gosterim": "çok biçimlilik metaforu",
      "yol": "u06-cok-bicimlilik/k0112-orkestra-ayni-nota-farkli-calgi",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "ae80aa03dadc4298f46d1add22517a7f129d2011f3d3584ad913d9951dfa3b5c",
+       "boyut": 53804,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "oop-k0112-004"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "95b45f4af515361745899f4851d5c6814159c273622f42726511feb432cf287e",
+       "boyut": 30358,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "oop-k0112-012"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "e6c725a993286de4535d3df686bbf213550e63323986481334979620178113a6",
+       "boyut": 37484,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "oop-k0112-010"
+      }
+     ]
     }
    ]
   },
