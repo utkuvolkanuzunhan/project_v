@@ -2,10 +2,10 @@
  "ders": "digital",
  "ad": "Digital Systems",
  "dersKodu": "505002122015",
- "surum": 1,
+ "surum": 2,
  "kavramSayisi": 213,
  "beklenenGorsel": 253,
- "mevcutGorsel": 5,
+ "mevcutGorsel": 15,
  "uniteler": [
   {
    "no": 1,
@@ -364,6 +364,14 @@
        "genislik": 1024,
        "yukseklik": 1024,
        "aday": "digital-k0034-008"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "612c63a0da373cc3262e42ac6b3b9a6abb39a135f302c14f9b68b047387fd5bb",
+       "boyut": 52306,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "digital-k0034-002"
       }
      ]
     }
@@ -552,7 +560,32 @@
      "gosterim": "7 segment gösterge",
      "yol": "u03-kombinasyonel-devreler/k0054-sayisal-saat-ekrani",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "378adbfbb9daa6fe729f1386721e39aa0f5a9cbf9b177af5b55c82eb9cc62826",
+       "boyut": 41158,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "digital-k0054-005"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "17a819b705c1a727f76f74b84b573431625799885a4755826882926c0897f750",
+       "boyut": 50166,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "digital-k0054-010"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "e9038063e13d05249f33f70c2d46beed40a7950900f4a6da28ddf8096aba4a0b",
+       "boyut": 52978,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "digital-k0054-012"
+      }
+     ]
     },
     {
      "id": "k0055",
@@ -561,7 +594,32 @@
      "gosterim": "öncelikli kodlayıcı metaforu",
      "yol": "u03-kombinasyonel-devreler/k0055-asansor-kat-dugmeleri",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "7d004599bea2914845d65d5382b7a9cefd86143d26ed6ba77e8100252060e97b",
+       "boyut": 44144,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "digital-k0055-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "489529c818a4a38aaccdf17de73516e8181fe6c372957af16f3b4297b3854650",
+       "boyut": 51872,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "digital-k0055-007"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "2465e633a7e49dca77448d6bd965b109bb84cd96004084fa05d6d59f24d03782",
+       "boyut": 30734,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "digital-k0055-012"
+      }
+     ]
     }
    ]
   },
@@ -694,7 +752,32 @@
      "gosterim": "latch metaforu (kilit)",
      "yol": "u04-ardisil-devreler-tutucu-flip-flop/k0069-sarkac-ve-mandal",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "f8b442531b9c17628f512e7e9743f8a39b2918779a3cfc0d41e254ab109a47f1",
+       "boyut": 50312,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "digital-k0069-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "22437fe5b5dbeb963eff224d6485a2c66cd11444d5b71f4515134012f4b82ad6",
+       "boyut": 81616,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "digital-k0069-010"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "42ec770c5f26b18a40942bc315811ea86b301040c22ed01a1bb2e6f5d15755d2",
+       "boyut": 51848,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "digital-k0069-007"
+      }
+     ]
     },
     {
      "id": "k0070",
