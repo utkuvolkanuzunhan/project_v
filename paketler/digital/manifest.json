@@ -2,10 +2,10 @@
  "ders": "digital",
  "ad": "Digital Systems",
  "dersKodu": "505002122015",
- "surum": 4,
+ "surum": 5,
  "kavramSayisi": 213,
  "beklenenGorsel": 253,
- "mevcutGorsel": 35,
+ "mevcutGorsel": 45,
  "uniteler": [
   {
    "no": 1,
@@ -1423,6 +1423,14 @@
        "genislik": 1024,
        "yukseklik": 1024,
        "aday": "digital-k0120-012"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "910536be519138025b50147778cbfaab37c8edb2598e45f33a78a904b7a0cd79",
+       "boyut": 76520,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "digital-k0120-011"
       }
      ]
     }
@@ -1548,7 +1556,32 @@
      "gosterim": "sıralı işlem metaforu",
      "yol": "u08-siralama-ve-kontrol-asm/k0133-montaj-hatti",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "fcb17817ba8006f46378350a7074190b8179f894d5e6d693fb5c7acd3e957bd7",
+       "boyut": 118590,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "digital-k0133-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "00e4e2ccbe4fccdfaebef2f365291d24e96d069cef469bcefbf5f52d7a6a6432",
+       "boyut": 117296,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "digital-k0133-009"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "22954674efc49f03ec6332595374c981c39accd70ad238a8ca9c5e7f9ff2045e",
+       "boyut": 68676,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "digital-k0133-011"
+      }
+     ]
     }
    ]
   },
@@ -1699,7 +1732,32 @@
      "gosterim": "CPU ve bellek modülleri",
      "yol": "u09-basit-bilgisayar-ve-mikroprogramli-kontr/k0149-sanal-bilgisayar-blok-sahnesi",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "4c9b3c7453984b8552ac7dc97c172b7cf1ec3b422ba9c6038baf16b75b0bb350",
+       "boyut": 90644,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "digital-k0149-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "4feaacb9f1338e6e77ed0628ce2ede4a473909b7f5397b3e5f02e09bad450b7b",
+       "boyut": 95480,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "digital-k0149-012"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "1c0ef02f1d0c43308e551aa60339d01eaec1bfb2bf127b74e91a1ad57ccd8e16",
+       "boyut": 86780,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "digital-k0149-010"
+      }
+     ]
     }
    ]
   },
@@ -1904,7 +1962,32 @@
      "gosterim": "LIFO yığın",
      "yol": "u10-komut-seti-mimarisi-isa/k0171-yigin-tabak-metaforu",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "870a29bcced6fe721b41e64abb83cfab6e6b42ac0dfcb530e2a8afd28659c024",
+       "boyut": 49436,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "digital-k0171-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "b0fa0db7ef4365497892b6187c4ee42917e9f4872c43fdc5c99afe3a45ae8c81",
+       "boyut": 52424,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "digital-k0171-004"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "1d86dda5a8b6a90c21edd7800cecabdd2c4283238f59549be48068c8e8a44843",
+       "boyut": 52828,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "digital-k0171-002"
+      }
+     ]
     },
     {
      "id": "k0172",
