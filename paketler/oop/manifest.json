@@ -1,0 +1,1431 @@
+{
+ "ders": "oop",
+ "ad": "Object-Oriented Programming",
+ "dersKodu": "505002372016",
+ "surum": 1,
+ "kavramSayisi": 145,
+ "beklenenGorsel": 171,
+ "mevcutGorsel": 7,
+ "uniteler": [
+  {
+   "no": 1,
+   "ad": "C'nin ileri konuları",
+   "klasor": "u01-c-nin-ileri-konulari",
+   "kavramlar": [
+    {
+     "id": "k0001",
+     "ad": "Program yapısı ve derleme zinciri",
+     "hat": "A",
+     "gosterim": "kaynak → önişlemci → derleyici → bağlayıcı → çalıştırılabilir",
+     "yol": "u01-c-nin-ileri-konulari/k0001-program-yapisi-ve-derleme-zinciri",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0002",
+     "ad": "Önişlemci (#include, #define)",
+     "hat": "A",
+     "gosterim": "metin yerleştirme",
+     "yol": "u01-c-nin-ileri-konulari/k0002-onislemci-include-define",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0003",
+     "ad": "Değişken bellek modeli",
+     "hat": "A",
+     "gosterim": "adres, değer, tür kutuları",
+     "yol": "u01-c-nin-ileri-konulari/k0003-degisken-bellek-modeli",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0004",
+     "ad": "Veri türleri ve boyutları",
+     "hat": "A",
+     "gosterim": "char, int, float, double çubukları",
+     "yol": "u01-c-nin-ileri-konulari/k0004-veri-turleri-ve-boyutlari",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0005",
+     "ad": "İşaretçi (pointer) kavramı",
+     "hat": "A",
+     "gosterim": "adres kutusu → hedef kutu",
+     "yol": "u01-c-nin-ileri-konulari/k0005-isaretci-pointer-kavrami",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0006",
+     "ad": "İşaretçi aritmetiği",
+     "hat": "A",
+     "gosterim": "dizide p+1 ilerlemesi",
+     "yol": "u01-c-nin-ileri-konulari/k0006-isaretci-aritmetigi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0007",
+     "ad": "İşaretçi ve dizi ilişkisi",
+     "hat": "A",
+     "gosterim": "a[i] = *(a+i)",
+     "yol": "u01-c-nin-ileri-konulari/k0007-isaretci-ve-dizi-iliskisi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0008",
+     "ad": "İşaretçi işaretçisi",
+     "hat": "A",
+     "gosterim": "iki seviyeli ok",
+     "yol": "u01-c-nin-ileri-konulari/k0008-isaretci-isaretcisi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0009",
+     "ad": "Fonksiyon çağrı yığını (stack frame)",
+     "hat": "A",
+     "gosterim": "çağrı sırasında yığın kareleri",
+     "yol": "u01-c-nin-ileri-konulari/k0009-fonksiyon-cagri-yigini-stack-frame",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0010",
+     "ad": "Değer ile ve işaretçi ile geçirme",
+     "hat": "A",
+     "gosterim": "kopya ve orijinal",
+     "yol": "u01-c-nin-ileri-konulari/k0010-deger-ile-ve-isaretci-ile-gecirme",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0011",
+     "ad": "Dinamik bellek: malloc ve free",
+     "hat": "A",
+     "gosterim": "heap blokları",
+     "yol": "u01-c-nin-ileri-konulari/k0011-dinamik-bellek-malloc-ve-free",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0012",
+     "ad": "Bellek sızıntısı",
+     "hat": "A",
+     "gosterim": "serbest bırakılmayan blok",
+     "yol": "u01-c-nin-ileri-konulari/k0012-bellek-sizintisi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0013",
+     "ad": "Askıda işaretçi",
+     "hat": "A",
+     "gosterim": "silinmiş hedefe işaret",
+     "yol": "u01-c-nin-ileri-konulari/k0013-askida-isaretci",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0014",
+     "ad": "Dizi ve çok boyutlu dizi bellek yerleşimi",
+     "hat": "A",
+     "gosterim": "satır öncelikli sıra",
+     "yol": "u01-c-nin-ileri-konulari/k0014-dizi-ve-cok-boyutlu-dizi-bellek-yerlesim",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0015",
+     "ad": "Karakter dizisi (C-string)",
+     "hat": "A",
+     "gosterim": "karakterler ve '\\0'",
+     "yol": "u01-c-nin-ileri-konulari/k0015-karakter-dizisi-c-string",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0016",
+     "ad": "struct bellek yerleşimi",
+     "hat": "A",
+     "gosterim": "alanlar ve dolgu (padding)",
+     "yol": "u01-c-nin-ileri-konulari/k0016-struct-bellek-yerlesimi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0017",
+     "ad": "union",
+     "hat": "A",
+     "gosterim": "ortak bellek alanı",
+     "yol": "u01-c-nin-ileri-konulari/k0017-union",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0018",
+     "ad": "enum ve bit alanları",
+     "hat": "A",
+     "gosterim": "bit bölmeleri",
+     "yol": "u01-c-nin-ileri-konulari/k0018-enum-ve-bit-alanlari",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0019",
+     "ad": "Dosya işleme (C)",
+     "hat": "A",
+     "gosterim": "program ve dosya akışı",
+     "yol": "u01-c-nin-ileri-konulari/k0019-dosya-isleme-c",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0020",
+     "ad": "Fonksiyon işaretçisi",
+     "hat": "A",
+     "gosterim": "işlev tablosu",
+     "yol": "u01-c-nin-ileri-konulari/k0020-fonksiyon-isaretcisi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0021",
+     "ad": "Bağlı liste",
+     "hat": "A",
+     "gosterim": "düğümler ve işaretçiler",
+     "yol": "u01-c-nin-ileri-konulari/k0021-bagli-liste",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0022",
+     "ad": "Yığın ve kuyruk veri yapıları",
+     "hat": "A",
+     "gosterim": "LIFO ve FIFO",
+     "yol": "u01-c-nin-ileri-konulari/k0022-yigin-ve-kuyruk-veri-yapilari",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0023",
+     "ad": "İkili ağaç",
+     "hat": "A",
+     "gosterim": "düğüm yapısı",
+     "yol": "u01-c-nin-ileri-konulari/k0023-ikili-agac",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0024",
+     "ad": "Mahalle ve posta adresi",
+     "hat": "B",
+     "gosterim": "işaretçi metaforu",
+     "yol": "u01-c-nin-ileri-konulari/k0024-mahalle-ve-posta-adresi",
+     "beklenen": 3,
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "265b553e757e09c69b2a78b5816b915a893631260763dc4c7e9ac227ece3f010",
+       "boyut": 17448,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "oop-k0024-007"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "cc2332771b10812913971115bba94a325b59db589db1e1313a828ea612956f2e",
+       "boyut": 23844,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "oop-k0024-010"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "598a79774eb2e96b38371d1d0ac5c3d8b0bf422ff682b7c0c03d83f64c45922e",
+       "boyut": 18246,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "oop-k0024-009"
+      }
+     ]
+    },
+    {
+     "id": "k0025",
+     "ad": "Tabak yığını",
+     "hat": "B",
+     "gosterim": "stack metaforu",
+     "yol": "u01-c-nin-ileri-konulari/k0025-tabak-yigini",
+     "beklenen": 3,
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "66eb02b857099b3e77f4b3fb1d5fc5c4c5157911a76daa2271d380133e6d2baa",
+       "boyut": 32602,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "oop-k0025-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "26407bade78987c1bbd0cf06e802601351eee383e76829ca13cf012290cfa380",
+       "boyut": 24526,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "oop-k0025-007"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "480ec91ff61dfc483f262724bd916e4b195d78b5be350a9297c6cc66ebea0e98",
+       "boyut": 31580,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "oop-k0025-002"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "no": 2,
+   "ad": "C'den C++'a geçiş",
+   "klasor": "u02-c-den-c-a-gecis",
+   "kavramlar": [
+    {
+     "id": "k0026",
+     "ad": "C++ giriş/çıkış akışı",
+     "hat": "A",
+     "gosterim": "cin, cout ve akış okları",
+     "yol": "u02-c-den-c-a-gecis/k0026-c-giris-cikis-akisi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0027",
+     "ad": "Referanslar",
+     "hat": "A",
+     "gosterim": "takma ad olarak değişken",
+     "yol": "u02-c-den-c-a-gecis/k0027-referanslar",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0028",
+     "ad": "Referans ve işaretçi karşılaştırma",
+     "hat": "A",
+     "gosterim": "iki ok ile gösterim",
+     "yol": "u02-c-den-c-a-gecis/k0028-referans-ve-isaretci-karsilastirma",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0029",
+     "ad": "const doğruluğu",
+     "hat": "A",
+     "gosterim": "değişmez hedef",
+     "yol": "u02-c-den-c-a-gecis/k0029-const-dogrulugu",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0030",
+     "ad": "Fonksiyon aşırı yükleme",
+     "hat": "A",
+     "gosterim": "aynı ad farklı imza",
+     "yol": "u02-c-den-c-a-gecis/k0030-fonksiyon-asiri-yukleme",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0031",
+     "ad": "Varsayılan argümanlar",
+     "hat": "A",
+     "gosterim": "çağrıda eksik parametre",
+     "yol": "u02-c-den-c-a-gecis/k0031-varsayilan-argumanlar",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0032",
+     "ad": "Satır içi (inline) fonksiyonlar",
+     "hat": "A",
+     "gosterim": "çağrı yerine kod yerleşimi",
+     "yol": "u02-c-den-c-a-gecis/k0032-satir-ici-inline-fonksiyonlar",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0033",
+     "ad": "Şablonlar (fonksiyon)",
+     "hat": "A",
+     "gosterim": "tür parametresi",
+     "yol": "u02-c-den-c-a-gecis/k0033-sablonlar-fonksiyon",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0034",
+     "ad": "Ad alanları (namespace)",
+     "hat": "A",
+     "gosterim": "çakışmayı önleme",
+     "yol": "u02-c-den-c-a-gecis/k0034-ad-alanlari-namespace",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0035",
+     "ad": "new ve delete",
+     "hat": "A",
+     "gosterim": "dinamik nesne oluşturma",
+     "yol": "u02-c-den-c-a-gecis/k0035-new-ve-delete",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0036",
+     "ad": "Akıllı işaretçiler (unique_ptr, shared_ptr)",
+     "hat": "A",
+     "gosterim": "sahiplik okları",
+     "yol": "u02-c-den-c-a-gecis/k0036-akilli-isaretciler-unique-ptr-shared-ptr",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0037",
+     "ad": "Başvuru sayımı (shared_ptr)",
+     "hat": "A",
+     "gosterim": "sayaç ve nesne",
+     "yol": "u02-c-den-c-a-gecis/k0037-basvuru-sayimi-shared-ptr",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0038",
+     "ad": "Çeviri ofisi",
+     "hat": "B",
+     "gosterim": "C'den C++'a çeviri metaforu",
+     "yol": "u02-c-den-c-a-gecis/k0038-ceviri-ofisi",
+     "beklenen": 3,
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "5f2512c468a93c14fa2f7a8894f9ec0b2d40f9537c8e36df309c6ef328285119",
+       "boyut": 18866,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "oop-k0038-001"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "no": 3,
+   "ad": "Sınıflar ve veri soyutlama",
+   "klasor": "u03-siniflar-ve-veri-soyutlama",
+   "kavramlar": [
+    {
+     "id": "k0039",
+     "ad": "Sınıf ve nesne kavramı",
+     "hat": "A",
+     "gosterim": "kalıp ve örnekler",
+     "yol": "u03-siniflar-ve-veri-soyutlama/k0039-sinif-ve-nesne-kavrami",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0040",
+     "ad": "Sınıf yapısı",
+     "hat": "A",
+     "gosterim": "veri üyeleri, üye fonksiyonlar",
+     "yol": "u03-siniflar-ve-veri-soyutlama/k0040-sinif-yapisi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0041",
+     "ad": "Erişim belirleyicileri",
+     "hat": "A",
+     "gosterim": "public, private, protected görünürlük",
+     "yol": "u03-siniflar-ve-veri-soyutlama/k0041-erisim-belirleyicileri",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0042",
+     "ad": "Kapsülleme",
+     "hat": "A",
+     "gosterim": "iç veriler dış dünyadan gizli",
+     "yol": "u03-siniflar-ve-veri-soyutlama/k0042-kapsulleme",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0043",
+     "ad": "Veri soyutlama",
+     "hat": "A",
+     "gosterim": "arayüz ve gerçekleme ayrımı",
+     "yol": "u03-siniflar-ve-veri-soyutlama/k0043-veri-soyutlama",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0044",
+     "ad": "Yapıcı (constructor)",
+     "hat": "A",
+     "gosterim": "nesne yaşam başlangıcı",
+     "yol": "u03-siniflar-ve-veri-soyutlama/k0044-yapici-constructor",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0045",
+     "ad": "Yıkıcı (destructor)",
+     "hat": "A",
+     "gosterim": "nesne yaşam sonu",
+     "yol": "u03-siniflar-ve-veri-soyutlama/k0045-yikici-destructor",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0046",
+     "ad": "Nesne yaşam döngüsü",
+     "hat": "A",
+     "gosterim": "oluşturma, kullanım, yok etme",
+     "yol": "u03-siniflar-ve-veri-soyutlama/k0046-nesne-yasam-dongusu",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0047",
+     "ad": "Üye ilklendirme listesi",
+     "hat": "A",
+     "gosterim": "sıra",
+     "yol": "u03-siniflar-ve-veri-soyutlama/k0047-uye-ilklendirme-listesi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0048",
+     "ad": "this işaretçisi",
+     "hat": "A",
+     "gosterim": "nesne kendini gösterir",
+     "yol": "u03-siniflar-ve-veri-soyutlama/k0048-this-isaretcisi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0049",
+     "ad": "Sınıf bellek yerleşimi",
+     "hat": "A",
+     "gosterim": "nesne alanları",
+     "yol": "u03-siniflar-ve-veri-soyutlama/k0049-sinif-bellek-yerlesimi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0050",
+     "ad": "Statik üyeler",
+     "hat": "A",
+     "gosterim": "tüm nesneler için ortak veri",
+     "yol": "u03-siniflar-ve-veri-soyutlama/k0050-statik-uyeler",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0051",
+     "ad": "Sabit üye fonksiyonlar",
+     "hat": "A",
+     "gosterim": "const nesne",
+     "yol": "u03-siniflar-ve-veri-soyutlama/k0051-sabit-uye-fonksiyonlar",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0052",
+     "ad": "friend fonksiyon ve sınıf",
+     "hat": "A",
+     "gosterim": "arkadaş erişimi",
+     "yol": "u03-siniflar-ve-veri-soyutlama/k0052-friend-fonksiyon-ve-sinif",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0053",
+     "ad": "Kopya yapıcı",
+     "hat": "A",
+     "gosterim": "nesne kopyalama",
+     "yol": "u03-siniflar-ve-veri-soyutlama/k0053-kopya-yapici",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0054",
+     "ad": "Sığ ve derin kopya",
+     "hat": "A",
+     "gosterim": "işaretçi paylaşımı vs ayrı bellek",
+     "yol": "u03-siniflar-ve-veri-soyutlama/k0054-sig-ve-derin-kopya",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0055",
+     "ad": "Atama operatörü",
+     "hat": "A",
+     "gosterim": "nesne ataması",
+     "yol": "u03-siniflar-ve-veri-soyutlama/k0055-atama-operatoru",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0056",
+     "ad": "Nesne dizisi",
+     "hat": "A",
+     "gosterim": "bellek yerleşimi",
+     "yol": "u03-siniflar-ve-veri-soyutlama/k0056-nesne-dizisi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0057",
+     "ad": "Bileşim (composition)",
+     "hat": "A",
+     "gosterim": "\"has-a\" ilişkisi",
+     "yol": "u03-siniflar-ve-veri-soyutlama/k0057-bilesim-composition",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0058",
+     "ad": "Toplama (aggregation)",
+     "hat": "A",
+     "gosterim": "zayıf sahiplik",
+     "yol": "u03-siniflar-ve-veri-soyutlama/k0058-toplama-aggregation",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0059",
+     "ad": "UML sınıf diyagramı",
+     "hat": "A",
+     "gosterim": "sınıf kutusu: ad, alanlar, işlevler",
+     "yol": "u03-siniflar-ve-veri-soyutlama/k0059-uml-sinif-diyagrami",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0060",
+     "ad": "UML ilişkileri",
+     "hat": "A",
+     "gosterim": "ilişki, bileşim, toplama, kalıtım okları",
+     "yol": "u03-siniflar-ve-veri-soyutlama/k0060-uml-iliskileri",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0061",
+     "ad": "Başlık ve kaynak dosya ayrımı",
+     "hat": "A",
+     "gosterim": ".h ve .cpp",
+     "yol": "u03-siniflar-ve-veri-soyutlama/k0061-baslik-ve-kaynak-dosya-ayrimi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0062",
+     "ad": "Önişlemci korumaları (include guard)",
+     "hat": "A",
+     "gosterim": "tekrarlı eklemeyi önler",
+     "yol": "u03-siniflar-ve-veri-soyutlama/k0062-onislemci-korumalari-include-guard",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0063",
+     "ad": "Kurabiye kalıbı ve kurabiyeler",
+     "hat": "B",
+     "gosterim": "sınıf = kalıp",
+     "yol": "u03-siniflar-ve-veri-soyutlama/k0063-kurabiye-kalibi-ve-kurabiyeler",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0064",
+     "ad": "Araba kullanma: direksiyon ve motor",
+     "hat": "B",
+     "gosterim": "arayüz ve gizli gerçekleme",
+     "yol": "u03-siniflar-ve-veri-soyutlama/k0064-araba-kullanma-direksiyon-ve-motor",
+     "beklenen": 3,
+     "gorseller": []
+    }
+   ]
+  },
+  {
+   "no": 4,
+   "ad": "Operatör aşırı yükleme",
+   "klasor": "u04-operator-asiri-yukleme",
+   "kavramlar": [
+    {
+     "id": "k0065",
+     "ad": "Operatör aşırı yükleme mantığı",
+     "hat": "A",
+     "gosterim": "+ işareti farklı türlerde",
+     "yol": "u04-operator-asiri-yukleme/k0065-operator-asiri-yukleme-mantigi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0066",
+     "ad": "Aşırı yüklenebilen operatörler",
+     "hat": "A",
+     "gosterim": "liste, yüklenemeyenler",
+     "yol": "u04-operator-asiri-yukleme/k0066-asiri-yuklenebilen-operatorler",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0067",
+     "ad": "Üye ve arkadaş fonksiyon olarak yükleme",
+     "hat": "A",
+     "gosterim": "iki yöntemin farkı",
+     "yol": "u04-operator-asiri-yukleme/k0067-uye-ve-arkadas-fonksiyon-olarak-yukleme",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0068",
+     "ad": "İkili operatör yükleme",
+     "hat": "A",
+     "gosterim": "a + b, çağrı akışı",
+     "yol": "u04-operator-asiri-yukleme/k0068-ikili-operator-yukleme",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0069",
+     "ad": "Birli operatör yükleme",
+     "hat": "A",
+     "gosterim": "++, −−, !",
+     "yol": "u04-operator-asiri-yukleme/k0069-birli-operator-yukleme",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0070",
+     "ad": "Önek ve sonek ++",
+     "hat": "A",
+     "gosterim": "iki farklı imza",
+     "yol": "u04-operator-asiri-yukleme/k0070-onek-ve-sonek",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0071",
+     "ad": "Akış operatörleri (<<, >>)",
+     "hat": "A",
+     "gosterim": "cout << nesne",
+     "yol": "u04-operator-asiri-yukleme/k0071-akis-operatorleri",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0072",
+     "ad": "İndeks operatörü []",
+     "hat": "A",
+     "gosterim": "dizi benzeri erişim",
+     "yol": "u04-operator-asiri-yukleme/k0072-indeks-operatoru",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0073",
+     "ad": "Fonksiyon çağrı operatörü ()",
+     "hat": "A",
+     "gosterim": "functor",
+     "yol": "u04-operator-asiri-yukleme/k0073-fonksiyon-cagri-operatoru",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0074",
+     "ad": "Atama ve eşitlik operatörü",
+     "hat": "A",
+     "gosterim": "= ve ==",
+     "yol": "u04-operator-asiri-yukleme/k0074-atama-ve-esitlik-operatoru",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0075",
+     "ad": "Tür dönüşüm operatörleri",
+     "hat": "A",
+     "gosterim": "kullanıcı tanımlı dönüşüm",
+     "yol": "u04-operator-asiri-yukleme/k0075-tur-donusum-operatorleri",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0076",
+     "ad": "Karmaşık sayı sınıfı örneği",
+     "hat": "A",
+     "gosterim": "a + bi işlemleri",
+     "yol": "u04-operator-asiri-yukleme/k0076-karmasik-sayi-sinifi-ornegi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0077",
+     "ad": "Dizi sınıfı örneği",
+     "hat": "A",
+     "gosterim": "bellek, indeks kontrolü",
+     "yol": "u04-operator-asiri-yukleme/k0077-dizi-sinifi-ornegi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0078",
+     "ad": "Farklı dillerde aynı sembol",
+     "hat": "B",
+     "gosterim": "operatör anlamı bağlama göre değişir",
+     "yol": "u04-operator-asiri-yukleme/k0078-farkli-dillerde-ayni-sembol",
+     "beklenen": 3,
+     "gorseller": []
+    }
+   ]
+  },
+  {
+   "no": 5,
+   "ad": "Kalıtım",
+   "klasor": "u05-kalitim",
+   "kavramlar": [
+    {
+     "id": "k0079",
+     "ad": "Kalıtım kavramı",
+     "hat": "A",
+     "gosterim": "temel sınıf ve türemiş sınıf",
+     "yol": "u05-kalitim/k0079-kalitim-kavrami",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0080",
+     "ad": "UML'de kalıtım",
+     "hat": "A",
+     "gosterim": "boş uçlu ok",
+     "yol": "u05-kalitim/k0080-uml-de-kalitim",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0081",
+     "ad": "\"is-a\" ilişkisi",
+     "hat": "A",
+     "gosterim": "Köpek is-a Hayvan",
+     "yol": "u05-kalitim/k0081-is-a-iliskisi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0082",
+     "ad": "public, protected, private kalıtım",
+     "hat": "A",
+     "gosterim": "görünürlük tablosu",
+     "yol": "u05-kalitim/k0082-public-protected-private-kalitim",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0083",
+     "ad": "Üye erişimi kalıtımda",
+     "hat": "A",
+     "gosterim": "türemiş sınıfta hangi üyeler erişilir",
+     "yol": "u05-kalitim/k0083-uye-erisimi-kalitimda",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0084",
+     "ad": "Yapıcı ve yıkıcı çağrı sırası",
+     "hat": "A",
+     "gosterim": "temel → türemiş, ters yıkım",
+     "yol": "u05-kalitim/k0084-yapici-ve-yikici-cagri-sirasi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0085",
+     "ad": "Temel sınıf yapıcısını çağırma",
+     "hat": "A",
+     "gosterim": "ilklendirme listesi",
+     "yol": "u05-kalitim/k0085-temel-sinif-yapicisini-cagirma",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0086",
+     "ad": "Fonksiyon gizleme ve geçersiz kılma",
+     "hat": "A",
+     "gosterim": "aynı ad iki seviyede",
+     "yol": "u05-kalitim/k0086-fonksiyon-gizleme-ve-gecersiz-kilma",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0087",
+     "ad": "Çoklu kalıtım",
+     "hat": "A",
+     "gosterim": "iki temel sınıf",
+     "yol": "u05-kalitim/k0087-coklu-kalitim",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0088",
+     "ad": "Elmas problemi",
+     "hat": "A",
+     "gosterim": "A ← B, C ← D",
+     "yol": "u05-kalitim/k0088-elmas-problemi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0089",
+     "ad": "Sanal kalıtım",
+     "hat": "A",
+     "gosterim": "tek A kopyası",
+     "yol": "u05-kalitim/k0089-sanal-kalitim",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0090",
+     "ad": "Nesnenin bellek yerleşimi (kalıtımda)",
+     "hat": "A",
+     "gosterim": "temel + türemiş alanları",
+     "yol": "u05-kalitim/k0090-nesnenin-bellek-yerlesimi-kalitimda",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0091",
+     "ad": "Sınıf hiyerarşisi örneği",
+     "hat": "A",
+     "gosterim": "şekiller (Shape → Circle, Rectangle)",
+     "yol": "u05-kalitim/k0091-sinif-hiyerarsisi-ornegi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0092",
+     "ad": "Çalışan hiyerarşisi örneği",
+     "hat": "A",
+     "gosterim": "Employee → Manager, Engineer",
+     "yol": "u05-kalitim/k0092-calisan-hiyerarsisi-ornegi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0093",
+     "ad": "Kalıtım ve kompozisyon karşılaştırma",
+     "hat": "A",
+     "gosterim": "\"is-a\" ve \"has-a\"",
+     "yol": "u05-kalitim/k0093-kalitim-ve-kompozisyon-karsilastirma",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0094",
+     "ad": "Aile ağacı",
+     "hat": "B",
+     "gosterim": "kalıtım metaforu",
+     "yol": "u05-kalitim/k0094-aile-agaci",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0095",
+     "ad": "Araç hiyerarşisi (araç, araba, motosiklet)",
+     "hat": "B",
+     "gosterim": "sınıf ağacı",
+     "yol": "u05-kalitim/k0095-arac-hiyerarsisi-arac-araba-motosiklet",
+     "beklenen": 3,
+     "gorseller": []
+    }
+   ]
+  },
+  {
+   "no": 6,
+   "ad": "Çok biçimlilik",
+   "klasor": "u06-cok-bicimlilik",
+   "kavramlar": [
+    {
+     "id": "k0096",
+     "ad": "Çok biçimlilik kavramı",
+     "hat": "A",
+     "gosterim": "tek arayüz çok davranış",
+     "yol": "u06-cok-bicimlilik/k0096-cok-bicimlilik-kavrami",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0097",
+     "ad": "Sanal fonksiyonlar",
+     "hat": "A",
+     "gosterim": "virtual anahtar sözcüğü",
+     "yol": "u06-cok-bicimlilik/k0097-sanal-fonksiyonlar",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0098",
+     "ad": "Statik ve dinamik bağlama",
+     "hat": "A",
+     "gosterim": "derleme zamanı ve çalışma zamanı",
+     "yol": "u06-cok-bicimlilik/k0098-statik-ve-dinamik-baglama",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0099",
+     "ad": "Sanal fonksiyon tablosu (vtable)",
+     "hat": "A",
+     "gosterim": "nesne → vptr → tablo",
+     "yol": "u06-cok-bicimlilik/k0099-sanal-fonksiyon-tablosu-vtable",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0100",
+     "ad": "Temel sınıf işaretçisi türemiş nesneyi gösterir",
+     "hat": "A",
+     "gosterim": "işaretçi ok",
+     "yol": "u06-cok-bicimlilik/k0100-temel-sinif-isaretcisi-turemis-nesneyi-g",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0101",
+     "ad": "Nesne dilimleme (slicing)",
+     "hat": "A",
+     "gosterim": "türemiş kısım kaybı",
+     "yol": "u06-cok-bicimlilik/k0101-nesne-dilimleme-slicing",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0102",
+     "ad": "Soyut sınıf",
+     "hat": "A",
+     "gosterim": "örneklenemez",
+     "yol": "u06-cok-bicimlilik/k0102-soyut-sinif",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0103",
+     "ad": "Saf sanal fonksiyon",
+     "hat": "A",
+     "gosterim": "= 0",
+     "yol": "u06-cok-bicimlilik/k0103-saf-sanal-fonksiyon",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0104",
+     "ad": "Arayüz sınıfı",
+     "hat": "A",
+     "gosterim": "yalnız saf sanal fonksiyonlar",
+     "yol": "u06-cok-bicimlilik/k0104-arayuz-sinifi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0105",
+     "ad": "Sanal yıkıcı",
+     "hat": "A",
+     "gosterim": "silinme sırası",
+     "yol": "u06-cok-bicimlilik/k0105-sanal-yikici",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0106",
+     "ad": "override ve final",
+     "hat": "A",
+     "gosterim": "geçersiz kılma kontrolü",
+     "yol": "u06-cok-bicimlilik/k0106-override-ve-final",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0107",
+     "ad": "Çok biçimli koleksiyon",
+     "hat": "A",
+     "gosterim": "vector<Shape*>",
+     "yol": "u06-cok-bicimlilik/k0107-cok-bicimli-koleksiyon",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0108",
+     "ad": "Çok biçimlilikle şekiller örneği",
+     "hat": "A",
+     "gosterim": "farklı Area() hesapları",
+     "yol": "u06-cok-bicimlilik/k0108-cok-bicimlilikle-sekiller-ornegi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0109",
+     "ad": "dynamic_cast ve RTTI",
+     "hat": "A",
+     "gosterim": "tür sorgulama",
+     "yol": "u06-cok-bicimlilik/k0109-dynamic-cast-ve-rtti",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0110",
+     "ad": "Tasarım örüntüsü: strateji",
+     "hat": "A",
+     "gosterim": "arayüz ve gerçeklemeler",
+     "yol": "u06-cok-bicimlilik/k0110-tasarim-oruntusu-strateji",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0111",
+     "ad": "Evrensel uzaktan kumanda",
+     "hat": "B",
+     "gosterim": "aynı düğme farklı cihaz",
+     "yol": "u06-cok-bicimlilik/k0111-evrensel-uzaktan-kumanda",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0112",
+     "ad": "Orkestra: aynı nota, farklı çalgı",
+     "hat": "B",
+     "gosterim": "çok biçimlilik metaforu",
+     "yol": "u06-cok-bicimlilik/k0112-orkestra-ayni-nota-farkli-calgi",
+     "beklenen": 3,
+     "gorseller": []
+    }
+   ]
+  },
+  {
+   "no": 7,
+   "ad": "Dizgi, G/Ç akışları, hata yakalama, dosyalar",
+   "klasor": "u07-dizgi-g-c-akislari-hata-yakalama-dosyala",
+   "kavramlar": [
+    {
+     "id": "k0113",
+     "ad": "string sınıfı",
+     "hat": "A",
+     "gosterim": "karakter dizisi yönetimi",
+     "yol": "u07-dizgi-g-c-akislari-hata-yakalama-dosyala/k0113-string-sinifi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0114",
+     "ad": "string işlemleri",
+     "hat": "A",
+     "gosterim": "birleştirme, alt dizge, arama",
+     "yol": "u07-dizgi-g-c-akislari-hata-yakalama-dosyala/k0114-string-islemleri",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0115",
+     "ad": "G/Ç akış sınıf hiyerarşisi",
+     "hat": "A",
+     "gosterim": "ios → istream/ostream → iostream, fstream",
+     "yol": "u07-dizgi-g-c-akislari-hata-yakalama-dosyala/k0115-g-c-akis-sinif-hiyerarsisi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0116",
+     "ad": "Akış durum bayrakları",
+     "hat": "A",
+     "gosterim": "good, eof, fail, bad",
+     "yol": "u07-dizgi-g-c-akislari-hata-yakalama-dosyala/k0116-akis-durum-bayraklari",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0117",
+     "ad": "Biçimlendirilmiş G/Ç",
+     "hat": "A",
+     "gosterim": "genişlik, hassasiyet, taban",
+     "yol": "u07-dizgi-g-c-akislari-hata-yakalama-dosyala/k0117-bicimlendirilmis-g-c",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0118",
+     "ad": "Dosya akışı (fstream)",
+     "hat": "A",
+     "gosterim": "program ↔ dosya",
+     "yol": "u07-dizgi-g-c-akislari-hata-yakalama-dosyala/k0118-dosya-akisi-fstream",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0119",
+     "ad": "Metin ve ikili dosya",
+     "hat": "A",
+     "gosterim": "iki yazım biçimi",
+     "yol": "u07-dizgi-g-c-akislari-hata-yakalama-dosyala/k0119-metin-ve-ikili-dosya",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0120",
+     "ad": "Sıralı ve rastgele erişim",
+     "hat": "A",
+     "gosterim": "okuma konumu işaretçisi",
+     "yol": "u07-dizgi-g-c-akislari-hata-yakalama-dosyala/k0120-sirali-ve-rastgele-erisim",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0121",
+     "ad": "Dosya işleme örneği",
+     "hat": "A",
+     "gosterim": "kayıtların yazılması ve okunması",
+     "yol": "u07-dizgi-g-c-akislari-hata-yakalama-dosyala/k0121-dosya-isleme-ornegi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0122",
+     "ad": "Dizge akışları (stringstream)",
+     "hat": "A",
+     "gosterim": "bellekte akış",
+     "yol": "u07-dizgi-g-c-akislari-hata-yakalama-dosyala/k0122-dizge-akislari-stringstream",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0123",
+     "ad": "İstisna (exception) fırlatma",
+     "hat": "A",
+     "gosterim": "try, throw, catch akışı",
+     "yol": "u07-dizgi-g-c-akislari-hata-yakalama-dosyala/k0123-istisna-exception-firlatma",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0124",
+     "ad": "İstisna işleme akışı",
+     "hat": "A",
+     "gosterim": "yığın çözülmesi (stack unwinding)",
+     "yol": "u07-dizgi-g-c-akislari-hata-yakalama-dosyala/k0124-istisna-isleme-akisi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0125",
+     "ad": "İstisna sınıf hiyerarşisi",
+     "hat": "A",
+     "gosterim": "std::exception ve türevleri",
+     "yol": "u07-dizgi-g-c-akislari-hata-yakalama-dosyala/k0125-istisna-sinif-hiyerarsisi",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0126",
+     "ad": "Birden çok catch bloğu",
+     "hat": "A",
+     "gosterim": "sıra ve eşleştirme",
+     "yol": "u07-dizgi-g-c-akislari-hata-yakalama-dosyala/k0126-birden-cok-catch-blogu",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0127",
+     "ad": "İstisna güvenliği ve RAII",
+     "hat": "A",
+     "gosterim": "kaynak yönetimi",
+     "yol": "u07-dizgi-g-c-akislari-hata-yakalama-dosyala/k0127-istisna-guvenligi-ve-raii",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0128",
+     "ad": "Kaynak sızıntısı ve RAII",
+     "hat": "A",
+     "gosterim": "yıkıcı ile otomatik temizlik",
+     "yol": "u07-dizgi-g-c-akislari-hata-yakalama-dosyala/k0128-kaynak-sizintisi-ve-raii",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0129",
+     "ad": "STL: vector, list, map",
+     "hat": "A",
+     "gosterim": "bellek yerleşimleri",
+     "yol": "u07-dizgi-g-c-akislari-hata-yakalama-dosyala/k0129-stl-vector-list-map",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0130",
+     "ad": "STL: yineleyici (iterator)",
+     "hat": "A",
+     "gosterim": "konteyner üzerinde gezinti",
+     "yol": "u07-dizgi-g-c-akislari-hata-yakalama-dosyala/k0130-stl-yineleyici-iterator",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0131",
+     "ad": "STL algoritmaları",
+     "hat": "A",
+     "gosterim": "sort, find akışı",
+     "yol": "u07-dizgi-g-c-akislari-hata-yakalama-dosyala/k0131-stl-algoritmalari",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0132",
+     "ad": "Boru hattı ve su akışı",
+     "hat": "B",
+     "gosterim": "akış metaforu",
+     "yol": "u07-dizgi-g-c-akislari-hata-yakalama-dosyala/k0132-boru-hatti-ve-su-akisi",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0133",
+     "ad": "Depo ve fiş kutuları",
+     "hat": "B",
+     "gosterim": "dosya metaforu",
+     "yol": "u07-dizgi-g-c-akislari-hata-yakalama-dosyala/k0133-depo-ve-fis-kutulari",
+     "beklenen": 3,
+     "gorseller": []
+    }
+   ]
+  },
+  {
+   "no": 8,
+   "ad": "ATM vaka çalışması",
+   "klasor": "u08-atm-vaka-calismasi",
+   "kavramlar": [
+    {
+     "id": "k0134",
+     "ad": "Gereksinimler ve kullanım senaryoları",
+     "hat": "A",
+     "gosterim": "aktörler ve vaka diyagramı",
+     "yol": "u08-atm-vaka-calismasi/k0134-gereksinimler-ve-kullanim-senaryolari",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0135",
+     "ad": "UML kullanım durumu diyagramı",
+     "hat": "A",
+     "gosterim": "müşteri, ATM, banka",
+     "yol": "u08-atm-vaka-calismasi/k0135-uml-kullanim-durumu-diyagrami",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0136",
+     "ad": "Sınıf diyagramı (ATM)",
+     "hat": "A",
+     "gosterim": "ATM, Screen, Keypad, CashDispenser, BankDatabase",
+     "yol": "u08-atm-vaka-calismasi/k0136-sinif-diyagrami-atm",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0137",
+     "ad": "Etkinlik diyagramı",
+     "hat": "A",
+     "gosterim": "oturum açma akışı",
+     "yol": "u08-atm-vaka-calismasi/k0137-etkinlik-diyagrami",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0138",
+     "ad": "Durum diyagramı (ATM)",
+     "hat": "A",
+     "gosterim": "kart bekleniyor, doğrulama, işlem, bitiş",
+     "yol": "u08-atm-vaka-calismasi/k0138-durum-diyagrami-atm",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0139",
+     "ad": "Sıra diyagramı (para çekme)",
+     "hat": "A",
+     "gosterim": "nesneler arası mesajlar",
+     "yol": "u08-atm-vaka-calismasi/k0139-sira-diyagrami-para-cekme",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0140",
+     "ad": "İşbirliği diyagramı",
+     "hat": "A",
+     "gosterim": "nesneler arası bağlantılar",
+     "yol": "u08-atm-vaka-calismasi/k0140-isbirligi-diyagrami",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0141",
+     "ad": "Bileşen diyagramı",
+     "hat": "A",
+     "gosterim": "modüller",
+     "yol": "u08-atm-vaka-calismasi/k0141-bilesen-diyagrami",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0142",
+     "ad": "Hesap sınıfları ve ilişkiler",
+     "hat": "A",
+     "gosterim": "Account, Transaction, BalanceInquiry, Withdrawal, Deposit",
+     "yol": "u08-atm-vaka-calismasi/k0142-hesap-siniflari-ve-iliskiler",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0143",
+     "ad": "Para çekme senaryosu adımları",
+     "hat": "A",
+     "gosterim": "doğrulama → seçim → dağıtım",
+     "yol": "u08-atm-vaka-calismasi/k0143-para-cekme-senaryosu-adimlari",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0144",
+     "ad": "Hata durumları",
+     "hat": "A",
+     "gosterim": "yetersiz bakiye, geçersiz PIN",
+     "yol": "u08-atm-vaka-calismasi/k0144-hata-durumlari",
+     "beklenen": 1,
+     "gorseller": []
+    },
+    {
+     "id": "k0145",
+     "ad": "ATM makinesi",
+     "hat": "B",
+     "gosterim": "gerçek ATM sahnesi",
+     "yol": "u08-atm-vaka-calismasi/k0145-atm-makinesi",
+     "beklenen": 3,
+     "gorseller": []
+    }
+   ]
+  }
+ ]
+}
