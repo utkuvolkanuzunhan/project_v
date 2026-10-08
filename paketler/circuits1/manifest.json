@@ -2,10 +2,10 @@
  "ders": "circuits1",
  "ad": "Circuit Analysis 1",
  "dersKodu": "505002352024",
- "surum": 6,
+ "surum": 7,
  "kavramSayisi": 173,
  "beklenenGorsel": 217,
- "mevcutGorsel": 51,
+ "mevcutGorsel": 61,
  "uniteler": [
   {
    "no": 1,
@@ -100,7 +100,32 @@
      "gosterim": "gerilim = basınç, akım = debi",
      "yol": "u01-devre-degiskenleri/k0010-su-borusu-benzetmesi",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "416034224717b50752d12e41dbd9ade543b2b756562fc46fbda80192c4e35b8a",
+       "boyut": 46544,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "circuits1-k0010-002"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "fcf484b69388a79cdea734fa996f51e417af815231501e8455f7f93d139f12ab",
+       "boyut": 66548,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "circuits1-k0010-013"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "5d3af9f74efd27b077aedc52e8cd3584293faa9c0c7c357339df2bca54cf8612",
+       "boyut": 113000,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "circuits1-k0010-019"
+      }
+     ]
     },
     {
      "id": "k0011",
@@ -1904,7 +1929,32 @@
      "gosterim": "sinüs dalga sahnesi",
      "yol": "u09-sinuzoidal-kararli-durum/k0157-prizdeki-alternatif-gerilim",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "df2fd9030b3926dcb96984e7faac813794e26cd40e936e04a9599d63cb851cd0",
+       "boyut": 35076,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "circuits1-k0157-006"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "f15f6788fdfaf8e8d38f93a73ff3f12777ab29f1e2c89cf3b4b7163898777f60",
+       "boyut": 33012,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "circuits1-k0157-012"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "f70dbc41a12a3e9011285a0d1bb25f90d5684b6fcf0c5aa23c560ef623142771",
+       "boyut": 29640,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "circuits1-k0157-010"
+      }
+     ]
     },
     {
      "id": "k0158",
@@ -1913,7 +1963,32 @@
      "gosterim": "sinüs ve kare dalga",
      "yol": "u09-sinuzoidal-kararli-durum/k0158-osiloskop-ekrani",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "128ee8000d2fd121017292469c337d342d02ba002e8bcc3b53d7c806f79b458c",
+       "boyut": 71226,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "circuits1-k0158-004"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "34ca47c74e9efd63047b4229db9da79aa7765c0468aa20cb0d6fe33a890d7bd9",
+       "boyut": 68722,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "circuits1-k0158-007"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "b241a08056547bbf80b76a20b1c99bea59eb7e94a08317d834302bb2fbefb1fb",
+       "boyut": 59820,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "circuits1-k0158-010"
+      }
+     ]
     }
    ]
   },
@@ -2046,7 +2121,16 @@
      "gosterim": "multimetre, breadboard, güç kaynağı",
      "yol": "u10-laboratuvar-ve-olcme/k0172-laboratuvar-masasi",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "651d2be38a000576d4e01d082868dda670941f14d0e199d5a3d5513b7751d4eb",
+       "boyut": 51802,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "circuits1-k0172-001"
+      }
+     ]
     },
     {
      "id": "k0173",
