@@ -2,10 +2,10 @@
  "ders": "linalg",
  "ad": "Linear Algebra",
  "dersKodu": "LAG2052023",
- "surum": 1,
+ "surum": 2,
  "kavramSayisi": 192,
  "beklenenGorsel": 212,
- "mevcutGorsel": 5,
+ "mevcutGorsel": 15,
  "uniteler": [
   {
    "no": 1,
@@ -490,6 +490,14 @@
        "genislik": 1024,
        "yukseklik": 1024,
        "aday": "linalg-k0048-008"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "59d7c364bbeb315012e6d11ee54e457dd08495234532283804fe1071ae5a996a",
+       "boyut": 34894,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "linalg-k0048-005"
       }
      ]
     }
@@ -651,7 +659,32 @@
      "gosterim": "paralelkenar alanı metaforu",
      "yol": "u03-determinantlar/k0065-zemin-dosemesi-alani",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "08a1beaaab18e136c4fc996aaf7903c6f8b8ce32d6664f6e1b852799e5a9098e",
+       "boyut": 36962,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "linalg-k0065-005"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "664085940fd9e3b66b2edc02aa3cd7a8ae530a51cf898c8a47f29ff4cf5fa536",
+       "boyut": 40704,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "linalg-k0065-010"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "ca277d3c29f613af16473b46aa5719b6a37a116c3ea932245c0b4962b42707e0",
+       "boyut": 40754,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "linalg-k0065-012"
+      }
+     ]
     }
    ]
   },
@@ -955,7 +988,32 @@
      "gosterim": "yön vektörü metaforu",
      "yol": "u04-2-ve-3-boyutlu-uzayda-vektorler/k0098-pusula-ve-harita",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "9ea3d16576d73ba569325b954b87d3539f4f3879a88a060a4bd05ef7a7316ff3",
+       "boyut": 32826,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "linalg-k0098-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "0919301dee9f6bcbb59cb0b1e49af63b4c7f46418eb7cc2515d38d8f8833c0a1",
+       "boyut": 26998,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "linalg-k0098-003"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "802c838acfb847c960c7e500b7a0a321a2d99a723fd8ec6295eeb49bc2c3165a",
+       "boyut": 43808,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "linalg-k0098-002"
+      }
+     ]
     },
     {
      "id": "k0099",
@@ -964,7 +1022,32 @@
      "gosterim": "bileşke hız vektörü",
      "yol": "u04-2-ve-3-boyutlu-uzayda-vektorler/k0099-ruzg-rda-ucan-ucak",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "503ca2ae13ef7c3a965a4081736b82d3c1b9a571c26f4c2d0f0911ecf1aeba24",
+       "boyut": 18784,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "linalg-k0099-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "c2df4b69a3aca11cf52e9f1b165cb0a5409d5501b8ed3b86bfc9770f971fb69a",
+       "boyut": 24854,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "linalg-k0099-003"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "399e78cc88b1c1b495aaeceb2780d467bacdcc99f3b59de429907a7a19894590",
+       "boyut": 22930,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "linalg-k0099-002"
+      }
+     ]
     }
    ]
   },
