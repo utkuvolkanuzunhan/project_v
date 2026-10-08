@@ -2,10 +2,10 @@
  "ders": "materials",
  "ad": "Electronic Materials and Device Physics",
  "dersKodu": "505002242023",
- "surum": 6,
+ "surum": 7,
  "kavramSayisi": 191,
  "beklenenGorsel": 231,
- "mevcutGorsel": 55,
+ "mevcutGorsel": 58,
  "uniteler": [
   {
    "no": 1,
@@ -2251,7 +2251,32 @@
      "gosterim": "milyarlarca transistör",
      "yol": "u10-alan-etkili-transistorler-fet/k0191-islemci-yongasi",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "b0c6cace5776d9348de53cec996a46ea80865aade4caa80718036bf30fae2da4",
+       "boyut": 64806,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "materials-k0191-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "cb1d3abbb207f80c3c619f6d22bd71dc69acda411e8267f5eb8a2afb9a5fa67a",
+       "boyut": 46270,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "materials-k0191-010"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "5efbe39baf540bc7a999d9592b5f69dd33abdc88157a204ed9c10dfcb505f9c4",
+       "boyut": 39656,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "materials-k0191-004"
+      }
+     ]
     }
    ]
   }
