@@ -2,10 +2,10 @@
  "ders": "digital",
  "ad": "Digital Systems",
  "dersKodu": "505002122015",
- "surum": 5,
+ "surum": 6,
  "kavramSayisi": 213,
  "beklenenGorsel": 253,
- "mevcutGorsel": 45,
+ "mevcutGorsel": 55,
  "uniteler": [
   {
    "no": 1,
@@ -1996,7 +1996,32 @@
      "gosterim": "adresleme kipleri",
      "yol": "u10-komut-seti-mimarisi-isa/k0172-posta-kutulari-ve-adresler",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "e2afb99a055b72457ad9a764243adb8c9eac705189c6a99606407eee41e1735a",
+       "boyut": 32142,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "digital-k0172-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "884a9241698eb6bff8c8b7dcf0a8cb5c3aa92ab98345a193e720628517151e8a",
+       "boyut": 55202,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "digital-k0172-004"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "331fd5321ede66f72d01fe44668995547fab0fc4816d84bf9f83c0c50fa85492",
+       "boyut": 36890,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "digital-k0172-003"
+      }
+     ]
     }
    ]
   },
@@ -2192,7 +2217,32 @@
      "gosterim": "bellek hiyerarşisi metaforu",
      "yol": "u11-cpu-giris-cikis-bellek-sistemleri/k0193-kutuphane-raf-masa-el",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "d29d07b48db448a5d3d5751637c1306efa7dbd74e1fa07de8ae530beecbb3e27",
+       "boyut": 76356,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "digital-k0193-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "9f48731a9edf5a41abb146dcf38d2e776638f76204b31c25efda63b6e08a1ecb",
+       "boyut": 98904,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "digital-k0193-004"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "4b1cea64baec901d80a4d64cfa5b276eaf9ef01387888a6b9d1acf78b7827b34",
+       "boyut": 72048,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "digital-k0193-002"
+      }
+     ]
     },
     {
      "id": "k0194",
@@ -2201,7 +2251,32 @@
      "gosterim": "boru hattı metaforu",
      "yol": "u11-cpu-giris-cikis-bellek-sistemleri/k0194-montaj-hatti-boru-hatti",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "1b8970bbf77aaf8ce84c206d5d22d77af5e98a3b73b12caa73738c7afae7b894",
+       "boyut": 55916,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "digital-k0194-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "6d1c01876d3f2961187ef3e22387e6d9a45b0717a3774a6bda8a43b9e72fe25b",
+       "boyut": 114360,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "digital-k0194-005"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "9a3891f592c55e0593865a0fbd18544c652ad2bb4c584c77148edd595df6773b",
+       "boyut": 114414,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "digital-k0194-006"
+      }
+     ]
     }
    ]
   },
@@ -2370,7 +2445,16 @@
      "gosterim": "gerçek kart sahnesi",
      "yol": "u12-vhdl-ve-fpga/k0212-fpga-gelistirme-karti",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "8836f58c6249bac4f129b8941c7e8ead6ac0fb7d6354b3327f2c0cd17df3ed99",
+       "boyut": 65478,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "digital-k0212-001"
+      }
+     ]
     },
     {
      "id": "k0213",
