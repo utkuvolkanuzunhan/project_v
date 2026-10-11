@@ -2,10 +2,10 @@
  "ders": "gida_kimyasi",
  "ad": "Food Chemistry I",
  "dersKodu": "-",
- "surum": 2,
+ "surum": 3,
  "kavramSayisi": 12,
  "beklenenGorsel": 36,
- "mevcutGorsel": 13,
+ "mevcutGorsel": 23,
  "uniteler": [
   {
    "no": 1,
@@ -170,6 +170,14 @@
        "genislik": 768,
        "yukseklik": 768,
        "aday": "gida_kimyasi-k0005-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "c02be4e9be9daf0ed38aaeb39a8bac96fa7f8dec061b25f982f8319ce198e40d",
+       "boyut": 68706,
+       "genislik": 768,
+       "yukseklik": 768,
+       "aday": "gida_kimyasi-k0005-020"
       }
      ]
     },
@@ -180,7 +188,32 @@
      "gosterim": "şeker ısınınca karamel olur",
      "yol": "u02-karbonhidratlar/k0006-karamelizasyon",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "c5c2e31ab3d7ffc834a4aee0a289fc898cdd3474f5ab9103f1d67cabc5bd7bd7",
+       "boyut": 45174,
+       "genislik": 768,
+       "yukseklik": 768,
+       "aday": "gida_kimyasi-k0006-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "3fd35edcb2be672575566a0ccb6fe03ce01397ac1f24807929797587c50cccdc",
+       "boyut": 29760,
+       "genislik": 768,
+       "yukseklik": 768,
+       "aday": "gida_kimyasi-k0006-002"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "3afca25bbdb244030907ab060a19286597e2cfa02889865f8f50f851e29755e7",
+       "boyut": 37172,
+       "genislik": 768,
+       "yukseklik": 768,
+       "aday": "gida_kimyasi-k0006-012"
+      }
+     ]
     },
     {
      "id": "k0007",
@@ -189,7 +222,32 @@
      "gosterim": "nişasta ısınca koyulaşır",
      "yol": "u02-karbonhidratlar/k0007-nisasta-jellesmesi",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "57cb8153f0b0aac4a781f530258fe9ce0b6f5cb225ec3c8e83050b847c8aeb39",
+       "boyut": 50958,
+       "genislik": 768,
+       "yukseklik": 768,
+       "aday": "gida_kimyasi-k0007-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "973c9830041e2b8559043d0caf50c28006198ac606e81ac2db7474e880fd22ad",
+       "boyut": 44494,
+       "genislik": 768,
+       "yukseklik": 768,
+       "aday": "gida_kimyasi-k0007-011"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "ac0f8cbfc2e75e1405c88155db52b3e5c25b1b7fdf5d39062a9f7a83f928bc48",
+       "boyut": 39620,
+       "genislik": 768,
+       "yukseklik": 768,
+       "aday": "gida_kimyasi-k0007-005"
+      }
+     ]
     },
     {
      "id": "k0008",
@@ -198,7 +256,32 @@
      "gosterim": "reçel jel olur",
      "yol": "u02-karbonhidratlar/k0008-pektin-ve-jel",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "bf45f5458223e8329fc28982cc3f43248b5e6787183f1abae150245e2c6354fa",
+       "boyut": 98192,
+       "genislik": 768,
+       "yukseklik": 768,
+       "aday": "gida_kimyasi-k0008-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "e094f842cd7ebcb38251d2ae1cc38286e00616d9d6dfdebabfc2d73e686d68d5",
+       "boyut": 105448,
+       "genislik": 768,
+       "yukseklik": 768,
+       "aday": "gida_kimyasi-k0008-002"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "165dea38934e2f30f73c8138f3b64ccaffb8a274e72dbbff15eed0af2d1b3db8",
+       "boyut": 141916,
+       "genislik": 768,
+       "yukseklik": 768,
+       "aday": "gida_kimyasi-k0008-006"
+      }
+     ]
     }
    ]
   },
