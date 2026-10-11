@@ -2,10 +2,10 @@
  "ders": "gida_kimyasi",
  "ad": "Food Chemistry I",
  "dersKodu": "-",
- "surum": 5,
+ "surum": 1,
  "kavramSayisi": 12,
  "beklenenGorsel": 36,
- "mevcutGorsel": 35,
+ "mevcutGorsel": 3,
  "uniteler": [
   {
    "no": 1,
@@ -22,27 +22,27 @@
      "gorseller": [
       {
        "dosya": "b1.webp",
-       "sha256": "dc6d6469d6e2dd2e128210159953007077e2fdca8950a67b4a63e8cf6588a026",
-       "boyut": 51180,
-       "genislik": 1024,
-       "yukseklik": 1024,
+       "sha256": "050ee977c21f7fdd90b51eacae96f3f7e510d17a2b081708b9f18b20b6e17d7b",
+       "boyut": 15002,
+       "genislik": 768,
+       "yukseklik": 768,
        "aday": "gida_kimyasi-k0001-001"
       },
       {
        "dosya": "b2.webp",
-       "sha256": "290b07496578c1527b895b5c9017c7618d7470fd6dd44649ca5bb25df099671c",
-       "boyut": 56796,
-       "genislik": 1024,
-       "yukseklik": 1024,
+       "sha256": "2ee5afc654032e6099fed1186ff493d7f66688e1b403db108612a02272cd77fe",
+       "boyut": 15676,
+       "genislik": 768,
+       "yukseklik": 768,
        "aday": "gida_kimyasi-k0001-002"
       },
       {
        "dosya": "b3.webp",
-       "sha256": "e58fa11d99074cf9aaf4e5fd218f256829d7c998a8616bf961e27351ac73a62a",
-       "boyut": 57750,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "gida_kimyasi-k0001-003"
+       "sha256": "5e76955e18d7f971d467369b4ac7dbb4d6f0982169d79fdf68958e2b313b95c3",
+       "boyut": 15352,
+       "genislik": 768,
+       "yukseklik": 768,
+       "aday": "gida_kimyasi-k0001-005"
       }
      ]
     },
@@ -53,32 +53,7 @@
      "gosterim": "kuru ürün uzun dayanır",
      "yol": "u01-su/k0002-su-aktivitesi-ve-kuru-gida",
      "beklenen": 3,
-     "gorseller": [
-      {
-       "dosya": "b1.webp",
-       "sha256": "061be8893d09331c16ae64e12c0b6d27d806e1d961efbc87e8013378fadbc4d7",
-       "boyut": 92920,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "gida_kimyasi-k0002-001"
-      },
-      {
-       "dosya": "b2.webp",
-       "sha256": "a2a5f801cc7d6430f38b34cbed44b1a5725df6c3cdb5d23abc0f753d9c2da3ea",
-       "boyut": 106690,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "gida_kimyasi-k0002-002"
-      },
-      {
-       "dosya": "b3.webp",
-       "sha256": "73d7394c342518947e0c4d962b0795a1b6ced53262cc166bac070b2ca9886730",
-       "boyut": 100972,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "gida_kimyasi-k0002-003"
-      }
-     ]
+     "gorseller": []
     },
     {
      "id": "k0003",
@@ -87,32 +62,7 @@
      "gosterim": "tuz topaklanır",
      "yol": "u01-su/k0003-nem-cekme-higroskopik",
      "beklenen": 3,
-     "gorseller": [
-      {
-       "dosya": "b1.webp",
-       "sha256": "678ab24459990d400339add9bdb01cb9ff26d63df1da6ec35aeb065947ea7536",
-       "boyut": 70446,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "gida_kimyasi-k0003-001"
-      },
-      {
-       "dosya": "b2.webp",
-       "sha256": "f51517e4e2cbab38139ae68e6f6ec1beff3de7dd32f00f20767290e3400eab43",
-       "boyut": 82866,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "gida_kimyasi-k0003-003"
-      },
-      {
-       "dosya": "b3.webp",
-       "sha256": "7e93cbb3cf55c946a8a3045e3d4a786fb69bb4f25d41898775701079bb0a6f2c",
-       "boyut": 79784,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "gida_kimyasi-k0003-006"
-      }
-     ]
+     "gorseller": []
     }
    ]
   },
@@ -128,32 +78,7 @@
      "gosterim": "şeker kristal yapısı",
      "yol": "u02-karbonhidratlar/k0004-seker-kristalleri",
      "beklenen": 3,
-     "gorseller": [
-      {
-       "dosya": "b1.webp",
-       "sha256": "201e9baaec9050b369b61fd541862bd82ef4772b48f3ddd8b32a8e217165c354",
-       "boyut": 52320,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "gida_kimyasi-k0004-001"
-      },
-      {
-       "dosya": "b2.webp",
-       "sha256": "493bfb9daf2d0c225d760e1ea3d95107e8a1fd0ff41dc48f2a9f1fa5b6e29676",
-       "boyut": 50978,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "gida_kimyasi-k0004-002"
-      },
-      {
-       "dosya": "b3.webp",
-       "sha256": "c8da769a5ca29b6442b10b87489dff2f7958ac1dc4e7cde7f0287c34d38373fe",
-       "boyut": 58622,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "gida_kimyasi-k0004-003"
-      }
-     ]
+     "gorseller": []
     },
     {
      "id": "k0005",
@@ -162,24 +87,7 @@
      "gosterim": "ekmek kabuğu kahverengileşir",
      "yol": "u02-karbonhidratlar/k0005-maillard-kizarmasi",
      "beklenen": 3,
-     "gorseller": [
-      {
-       "dosya": "b1.webp",
-       "sha256": "276c3a32bf8e17542e88e7938769964f425ada2ab17581ce8191ab7e620a4118",
-       "boyut": 87752,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "gida_kimyasi-k0005-001"
-      },
-      {
-       "dosya": "b2.webp",
-       "sha256": "2305b16054fb0e10a193534d2ad5c2b21b8fa7562995bd8751f6a8237063dbb7",
-       "boyut": 107262,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "gida_kimyasi-k0005-011"
-      }
-     ]
+     "gorseller": []
     },
     {
      "id": "k0006",
@@ -188,32 +96,7 @@
      "gosterim": "şeker ısınınca karamel olur",
      "yol": "u02-karbonhidratlar/k0006-karamelizasyon",
      "beklenen": 3,
-     "gorseller": [
-      {
-       "dosya": "b1.webp",
-       "sha256": "cad567c953ae10b77623c2fb041acb7cca4732fd6ca605342747518977dcdfb4",
-       "boyut": 57622,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "gida_kimyasi-k0006-001"
-      },
-      {
-       "dosya": "b2.webp",
-       "sha256": "98f44cdc16c76b413c09af53605f878c8e2c8f8847387b137951cb5ded943561",
-       "boyut": 60302,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "gida_kimyasi-k0006-020"
-      },
-      {
-       "dosya": "b3.webp",
-       "sha256": "179bbfc8031d21d082cddae824fa393d7c7f632a3434cefa9e9cb89f9828bb61",
-       "boyut": 70178,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "gida_kimyasi-k0006-002"
-      }
-     ]
+     "gorseller": []
     },
     {
      "id": "k0007",
@@ -222,32 +105,7 @@
      "gosterim": "nişasta ısınca koyulaşır",
      "yol": "u02-karbonhidratlar/k0007-nisasta-jellesmesi",
      "beklenen": 3,
-     "gorseller": [
-      {
-       "dosya": "b1.webp",
-       "sha256": "84e87e014017e38a29968de27ad90999b96813703220cf05ae5f43526ef61aa3",
-       "boyut": 83994,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "gida_kimyasi-k0007-004"
-      },
-      {
-       "dosya": "b2.webp",
-       "sha256": "dadd9585b9ae763b0980f0698fcf69de6b2ac8e19b8d48b914c3b57bc9525b73",
-       "boyut": 73792,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "gida_kimyasi-k0007-008"
-      },
-      {
-       "dosya": "b3.webp",
-       "sha256": "353174dfb095eaad228ddf6ff339bd6b02d00c2b2f84067227377ec45ad7c9f9",
-       "boyut": 101962,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "gida_kimyasi-k0007-007"
-      }
-     ]
+     "gorseller": []
     },
     {
      "id": "k0008",
@@ -256,32 +114,7 @@
      "gosterim": "reçel jel olur",
      "yol": "u02-karbonhidratlar/k0008-pektin-ve-jel",
      "beklenen": 3,
-     "gorseller": [
-      {
-       "dosya": "b1.webp",
-       "sha256": "d1cdf9228dcaec5cc65de05410eb25a794b95e421559ae2673d298b3be3508be",
-       "boyut": 109322,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "gida_kimyasi-k0008-001"
-      },
-      {
-       "dosya": "b2.webp",
-       "sha256": "587856fc2bab8e13a28c6b20bc2f2a3a9250ba8e90bcac68dcad9ab4e02f7422",
-       "boyut": 115730,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "gida_kimyasi-k0008-009"
-      },
-      {
-       "dosya": "b3.webp",
-       "sha256": "b57580a6c4320c0fc9bf7c1f603b15f4f17ab114e93c6be31860a5b6b56aaec2",
-       "boyut": 82190,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "gida_kimyasi-k0008-002"
-      }
-     ]
+     "gorseller": []
     }
    ]
   },
@@ -297,32 +130,7 @@
      "gosterim": "farklı yağ türleri",
      "yol": "u03-lipitler-ve-proteinler/k0009-yaglar-ve-yag-asitleri",
      "beklenen": 3,
-     "gorseller": [
-      {
-       "dosya": "b1.webp",
-       "sha256": "2df045c296df2a861a5bb400b75a0ad01748c99904dd7e9cf2706f33756d1441",
-       "boyut": 69824,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "gida_kimyasi-k0009-001"
-      },
-      {
-       "dosya": "b2.webp",
-       "sha256": "4fdd92798e87772ae986c1288afe6d85173c08cc6de24fce9324399a7a4b33bc",
-       "boyut": 83500,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "gida_kimyasi-k0009-003"
-      },
-      {
-       "dosya": "b3.webp",
-       "sha256": "1c3194f7a937b0a82987e5a4a26dd11d53e01aa66e110c1e2b54258f3cb83526",
-       "boyut": 63436,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "gida_kimyasi-k0009-019"
-      }
-     ]
+     "gorseller": []
     },
     {
      "id": "k0010",
@@ -331,32 +139,7 @@
      "gosterim": "acılaşma ve bozulma",
      "yol": "u03-lipitler-ve-proteinler/k0010-yag-oksidasyonu",
      "beklenen": 3,
-     "gorseller": [
-      {
-       "dosya": "b1.webp",
-       "sha256": "fbbc2abebb51258817b0c24f38e4869d3966c91ef5eb06adf8ac2285797c812e",
-       "boyut": 92380,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "gida_kimyasi-k0010-001"
-      },
-      {
-       "dosya": "b2.webp",
-       "sha256": "f38a2dd4cc9e6658e397d2fdfa02abf74579d8446465fbb7b12ba5410ac6dac3",
-       "boyut": 79258,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "gida_kimyasi-k0010-006"
-      },
-      {
-       "dosya": "b3.webp",
-       "sha256": "9dbd979926fe07aacdb95b7c0d13697f95fe9cd05c80e2518f04dd180486e6e2",
-       "boyut": 61906,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "gida_kimyasi-k0010-002"
-      }
-     ]
+     "gorseller": []
     },
     {
      "id": "k0011",
@@ -365,32 +148,7 @@
      "gosterim": "yumurta beyazı pişince katılaşır",
      "yol": "u03-lipitler-ve-proteinler/k0011-protein-denaturasyonu",
      "beklenen": 3,
-     "gorseller": [
-      {
-       "dosya": "b1.webp",
-       "sha256": "b235e2763b04ecda5ac4c80c13a25e05331d17521cbf7d92981a1088b2fe144c",
-       "boyut": 56680,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "gida_kimyasi-k0011-001"
-      },
-      {
-       "dosya": "b2.webp",
-       "sha256": "1b2527fdc276c614890627bd675f0110c4e9c6e5e418d6d8558f59f149cbf37c",
-       "boyut": 92382,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "gida_kimyasi-k0011-016"
-      },
-      {
-       "dosya": "b3.webp",
-       "sha256": "af3fd053f9cce13761993157fbfc0329c8c205d360974b6a67e1b4020b68c8d8",
-       "boyut": 72736,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "gida_kimyasi-k0011-004"
-      }
-     ]
+     "gorseller": []
     },
     {
      "id": "k0012",
@@ -399,32 +157,7 @@
      "gosterim": "asitle süt pıhtılaşır",
      "yol": "u03-lipitler-ve-proteinler/k0012-sut-kesilmesi-kazein",
      "beklenen": 3,
-     "gorseller": [
-      {
-       "dosya": "b1.webp",
-       "sha256": "8bcb3bf1459177d4b331c356c9f719abca0d6ad4c62c54f07b2bf08751e68001",
-       "boyut": 53572,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "gida_kimyasi-k0012-001"
-      },
-      {
-       "dosya": "b2.webp",
-       "sha256": "6e9caf96185fa13bb3ac01e5c016ca7913bd233559564e097d4647cec9ad5340",
-       "boyut": 55514,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "gida_kimyasi-k0012-002"
-      },
-      {
-       "dosya": "b3.webp",
-       "sha256": "1dd404a703a857c65bc95b2105d397ad8a1fe856a9e8bd8eb5cf78480bbb905c",
-       "boyut": 44524,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "gida_kimyasi-k0012-005"
-      }
-     ]
+     "gorseller": []
     }
    ]
   }
