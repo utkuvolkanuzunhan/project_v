@@ -2,10 +2,10 @@
  "ders": "kutle_enerji",
  "ad": "Material and Energy Balances",
  "dersKodu": "-",
- "surum": 2,
+ "surum": 3,
  "kavramSayisi": 10,
  "beklenenGorsel": 30,
- "mevcutGorsel": 12,
+ "mevcutGorsel": 22,
  "uniteler": [
   {
    "no": 1,
@@ -162,7 +162,32 @@
      "gosterim": "sıvı damlacıkları toz olur",
      "yol": "u02-kutle-denkligi/k0005-puskurtmeli-kurutma",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "cfa24618940ac53ceae755b03a259d1737b21179b0d5f48a8968da99da663697",
+       "boyut": 29702,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "kutle_enerji-k0005-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "7d52ad89ad6b4a34aac9f04763d1e26401c83f33a532ff213b339fd0649cdb00",
+       "boyut": 32916,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "kutle_enerji-k0005-004"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "def3a26863168cdfd247c811eab06225d780373089dbf424d1255de38d72d38d",
+       "boyut": 40786,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "kutle_enerji-k0005-003"
+      }
+     ]
     },
     {
      "id": "k0006",
@@ -171,7 +196,32 @@
      "gosterim": "ürünün bir kısmı geri döner",
      "yol": "u02-kutle-denkligi/k0006-geri-dongulu-proses-hatti",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "4b2c6e6510a1c7451409d6fa4c521467e04b28e9528dd182095d4cb49e1cf9c2",
+       "boyut": 119504,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "kutle_enerji-k0006-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "0dbcb0ef3b2c40a43cbe5656226c0175ab26528651ca38e7ac207e28d54011c3",
+       "boyut": 146722,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "kutle_enerji-k0006-007"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "f42c005427e1fddd3344f8d4536dc215e1e2390025890c50415435afca170627",
+       "boyut": 93954,
+       "genislik": 768,
+       "yukseklik": 768,
+       "aday": "kutle_enerji-k0006-020"
+      }
+     ]
     },
     {
      "id": "k0007",
@@ -180,7 +230,32 @@
      "gosterim": "şeker alkole dönüşür",
      "yol": "u02-kutle-denkligi/k0007-fermentasyon-tanki",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "2b4578d9057c36557766664ecb1b650930edc873a26b027775550d26121a7594",
+       "boyut": 70782,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "kutle_enerji-k0007-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "9837f95e62f0e0ab858cee73cfe60984a85c8266915cd4825bc3d5979dd9eaf1",
+       "boyut": 62770,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "kutle_enerji-k0007-004"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "26b566369c485a08e3a9ad6c34ae702613d9c28b283672d4935f6b73b9381db9",
+       "boyut": 87018,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "kutle_enerji-k0007-002"
+      }
+     ]
     }
    ]
   },
@@ -196,7 +271,16 @@
      "gosterim": "buhar ürünü ısıtır",
      "yol": "u03-enerji-denkligi/k0008-buharla-isitma-isi-degistirici",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "12153c6484eb6e8481f2accfc7137c51fd96771f543333dbff0fecf1dc3fe089",
+       "boyut": 158078,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "kutle_enerji-k0008-002"
+      }
+     ]
     },
     {
      "id": "k0009",
