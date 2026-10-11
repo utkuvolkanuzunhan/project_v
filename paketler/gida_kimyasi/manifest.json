@@ -1,0 +1,174 @@
+{
+ "ders": "gida_kimyasi",
+ "ad": "Food Chemistry I",
+ "dersKodu": "-",
+ "surum": 1,
+ "kavramSayisi": 12,
+ "beklenenGorsel": 36,
+ "mevcutGorsel": 4,
+ "uniteler": [
+  {
+   "no": 1,
+   "ad": "Su",
+   "klasor": "u01-su",
+   "kavramlar": [
+    {
+     "id": "k0001",
+     "ad": "Su ve hidrojen bağı",
+     "hat": "B",
+     "gosterim": "su damlası ve buz kristalleri",
+     "yol": "u01-su/k0001-su-ve-hidrojen-bagi",
+     "beklenen": 3,
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "dc6d6469d6e2dd2e128210159953007077e2fdca8950a67b4a63e8cf6588a026",
+       "boyut": 51180,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "gida_kimyasi-k0001-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "290b07496578c1527b895b5c9017c7618d7470fd6dd44649ca5bb25df099671c",
+       "boyut": 56796,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "gida_kimyasi-k0001-002"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "e58fa11d99074cf9aaf4e5fd218f256829d7c998a8616bf961e27351ac73a62a",
+       "boyut": 57750,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "gida_kimyasi-k0001-003"
+      }
+     ]
+    },
+    {
+     "id": "k0002",
+     "ad": "Su aktivitesi ve kuru gıda",
+     "hat": "B",
+     "gosterim": "kuru ürün uzun dayanır",
+     "yol": "u01-su/k0002-su-aktivitesi-ve-kuru-gida",
+     "beklenen": 3,
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "061be8893d09331c16ae64e12c0b6d27d806e1d961efbc87e8013378fadbc4d7",
+       "boyut": 92920,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "gida_kimyasi-k0002-001"
+      }
+     ]
+    },
+    {
+     "id": "k0003",
+     "ad": "Nem çekme (higroskopik)",
+     "hat": "B",
+     "gosterim": "tuz topaklanır",
+     "yol": "u01-su/k0003-nem-cekme-higroskopik",
+     "beklenen": 3,
+     "gorseller": []
+    }
+   ]
+  },
+  {
+   "no": 2,
+   "ad": "Karbonhidratlar",
+   "klasor": "u02-karbonhidratlar",
+   "kavramlar": [
+    {
+     "id": "k0004",
+     "ad": "Şeker kristalleri",
+     "hat": "B",
+     "gosterim": "şeker kristal yapısı",
+     "yol": "u02-karbonhidratlar/k0004-seker-kristalleri",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0005",
+     "ad": "Maillard kızarması",
+     "hat": "B",
+     "gosterim": "ekmek kabuğu kahverengileşir",
+     "yol": "u02-karbonhidratlar/k0005-maillard-kizarmasi",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0006",
+     "ad": "Karamelizasyon",
+     "hat": "B",
+     "gosterim": "şeker ısınınca karamel olur",
+     "yol": "u02-karbonhidratlar/k0006-karamelizasyon",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0007",
+     "ad": "Nişasta jelleşmesi",
+     "hat": "B",
+     "gosterim": "nişasta ısınca koyulaşır",
+     "yol": "u02-karbonhidratlar/k0007-nisasta-jellesmesi",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0008",
+     "ad": "Pektin ve jel",
+     "hat": "B",
+     "gosterim": "reçel jel olur",
+     "yol": "u02-karbonhidratlar/k0008-pektin-ve-jel",
+     "beklenen": 3,
+     "gorseller": []
+    }
+   ]
+  },
+  {
+   "no": 3,
+   "ad": "Lipitler ve proteinler",
+   "klasor": "u03-lipitler-ve-proteinler",
+   "kavramlar": [
+    {
+     "id": "k0009",
+     "ad": "Yağlar ve yağ asitleri",
+     "hat": "B",
+     "gosterim": "farklı yağ türleri",
+     "yol": "u03-lipitler-ve-proteinler/k0009-yaglar-ve-yag-asitleri",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0010",
+     "ad": "Yağ oksidasyonu",
+     "hat": "B",
+     "gosterim": "acılaşma ve bozulma",
+     "yol": "u03-lipitler-ve-proteinler/k0010-yag-oksidasyonu",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0011",
+     "ad": "Protein denatürasyonu",
+     "hat": "B",
+     "gosterim": "yumurta beyazı pişince katılaşır",
+     "yol": "u03-lipitler-ve-proteinler/k0011-protein-denaturasyonu",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0012",
+     "ad": "Süt kesilmesi (kazein)",
+     "hat": "B",
+     "gosterim": "asitle süt pıhtılaşır",
+     "yol": "u03-lipitler-ve-proteinler/k0012-sut-kesilmesi-kazein",
+     "beklenen": 3,
+     "gorseller": []
+    }
+   ]
+  }
+ ]
+}
