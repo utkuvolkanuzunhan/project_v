@@ -2,10 +2,10 @@
  "ders": "malzeme_bilimi",
  "ad": "Material Science",
  "dersKodu": "-",
- "surum": 1,
+ "surum": 2,
  "kavramSayisi": 12,
  "beklenenGorsel": 36,
- "mevcutGorsel": 2,
+ "mevcutGorsel": 12,
  "uniteler": [
   {
    "no": 1,
@@ -35,6 +35,14 @@
        "genislik": 768,
        "yukseklik": 768,
        "aday": "malzeme_bilimi-k0001-006"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "d2a796090f342ac6d423dacbe687f24a719ca23486622ad962a3132f5549d876",
+       "boyut": 30916,
+       "genislik": 768,
+       "yukseklik": 768,
+       "aday": "malzeme_bilimi-k0001-004"
       }
      ]
     },
@@ -45,7 +53,32 @@
      "gosterim": "numune uzar ve kopar",
      "yol": "u01-yapi-ve-ozellik/k0002-metalin-cekme-testi",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "f7445174124cbf078b2d55618b4e8b32f024e28fde2a83cb6b4b47c221572dde",
+       "boyut": 37036,
+       "genislik": 768,
+       "yukseklik": 768,
+       "aday": "malzeme_bilimi-k0002-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "5ba7bd6e985f826eb915226276cf531c718aa1ca9bbc50257eb6963c0e11a402",
+       "boyut": 29274,
+       "genislik": 768,
+       "yukseklik": 768,
+       "aday": "malzeme_bilimi-k0002-004"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "1d4493c849092b46e6f55f982e898ab9ad86b1d3b55d657e4339589aab6eb4f3",
+       "boyut": 27236,
+       "genislik": 768,
+       "yukseklik": 768,
+       "aday": "malzeme_bilimi-k0002-006"
+      }
+     ]
     },
     {
      "id": "k0003",
@@ -54,7 +87,24 @@
      "gosterim": "sıcak çayda metal kaşık",
      "yol": "u01-yapi-ve-ozellik/k0003-isil-iletim",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "2aee12209cf44a81ba063a55782e37d5663be35ce29f65ae37ce111abd26dd52",
+       "boyut": 39244,
+       "genislik": 768,
+       "yukseklik": 768,
+       "aday": "malzeme_bilimi-k0003-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "10c304247aceca69fcd173a819dfe3e15c5125c52c0ce6ac9b84781be3e67c1a",
+       "boyut": 40484,
+       "genislik": 768,
+       "yukseklik": 768,
+       "aday": "malzeme_bilimi-k0003-011"
+      }
+     ]
     },
     {
      "id": "k0004",
@@ -63,7 +113,32 @@
      "gosterim": "çay suda yayılır",
      "yol": "u01-yapi-ve-ozellik/k0004-difuzyon",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "2b6a6e6d0e11e7ba26cfa21cd7b6615e67a52ce942a13e51c19cabc4a5f46568",
+       "boyut": 20846,
+       "genislik": 768,
+       "yukseklik": 768,
+       "aday": "malzeme_bilimi-k0004-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "0b5d9dfe87026845f53428b5653f86adfde19625d54dded00dd4b9c42585b268",
+       "boyut": 35718,
+       "genislik": 768,
+       "yukseklik": 768,
+       "aday": "malzeme_bilimi-k0004-012"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "ad3e505815e1bc1f36e8d2ef417dfd9add709ccea4596280c0d772b65bbbe6f1",
+       "boyut": 44104,
+       "genislik": 768,
+       "yukseklik": 768,
+       "aday": "malzeme_bilimi-k0004-010"
+      }
+     ]
     },
     {
      "id": "k0005",
@@ -72,7 +147,16 @@
      "gosterim": "paslanan metal",
      "yol": "u01-yapi-ve-ozellik/k0005-korozyon",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "b7b268edd4df05aee3ebe5b2ed92c773b969b96b7e1110177afabae6a8633c58",
+       "boyut": 108948,
+       "genislik": 768,
+       "yukseklik": 768,
+       "aday": "malzeme_bilimi-k0005-001"
+      }
+     ]
     },
     {
      "id": "k0006",
