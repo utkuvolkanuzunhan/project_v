@@ -2,10 +2,10 @@
  "ders": "istatistik",
  "ad": "Statistics",
  "dersKodu": "-",
- "surum": 1,
+ "surum": 2,
  "kavramSayisi": 3,
  "beklenenGorsel": 9,
- "mevcutGorsel": 1,
+ "mevcutGorsel": 9,
  "uniteler": [
   {
    "no": 1,
@@ -27,6 +27,22 @@
        "genislik": 768,
        "yukseklik": 768,
        "aday": "istatistik-k0001-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "eacb173f2e9b74770dbdeed8eae5006fc27846f224deccaa4c64c378bcf8e987",
+       "boyut": 126956,
+       "genislik": 768,
+       "yukseklik": 768,
+       "aday": "istatistik-k0001-006"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "6abb5531c2baac6ef27686690aa5141f020e98d41345a26e17de77500d9ed673",
+       "boyut": 116212,
+       "genislik": 768,
+       "yukseklik": 768,
+       "aday": "istatistik-k0001-002"
       }
      ]
     },
@@ -37,7 +53,32 @@
      "gosterim": "elmalar boyutlarına göre sıralanır",
      "yol": "u01-ornekleme-ve-kalite/k0002-dagilim-ve-boyut-siralama",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "ef88b34f74754068769b20b711298000b92898bb48e3e1bba9af6b5999549bf5",
+       "boyut": 123366,
+       "genislik": 768,
+       "yukseklik": 768,
+       "aday": "istatistik-k0002-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "dd5639059addd98475f0d3433c16e1abf0348af733aec083ed7425da290aaef1",
+       "boyut": 130070,
+       "genislik": 768,
+       "yukseklik": 768,
+       "aday": "istatistik-k0002-009"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "097471f56115415d7695fbbef9c5f332d2ed65a18351bf59d24eb50ee0b227ff",
+       "boyut": 109368,
+       "genislik": 768,
+       "yukseklik": 768,
+       "aday": "istatistik-k0002-002"
+      }
+     ]
     },
     {
      "id": "k0003",
@@ -46,7 +87,32 @@
      "gosterim": "bantta ürün kontrolü",
      "yol": "u01-ornekleme-ve-kalite/k0003-kalite-kontrol-hatti",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "c12481c657d3eec57f5586431e979006049c3cc6cb849cce2646262af38045f2",
+       "boyut": 102760,
+       "genislik": 768,
+       "yukseklik": 768,
+       "aday": "istatistik-k0003-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "e8b7d0c77bd13d6e57f4259d4cbeada4efc2207418d4b4a393a7424e2839933f",
+       "boyut": 109676,
+       "genislik": 768,
+       "yukseklik": 768,
+       "aday": "istatistik-k0003-003"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "d4b75a329631821b656b89017461499f56af832a7e7904728ccf48896e92fbe0",
+       "boyut": 103012,
+       "genislik": 768,
+       "yukseklik": 768,
+       "aday": "istatistik-k0003-004"
+      }
+     ]
     }
    ]
   }
