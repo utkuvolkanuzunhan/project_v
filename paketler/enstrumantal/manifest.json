@@ -1,0 +1,190 @@
+{
+ "ders": "enstrumantal",
+ "ad": "Instrumental Food Analysis",
+ "dersKodu": "-",
+ "surum": 1,
+ "kavramSayisi": 13,
+ "beklenenGorsel": 39,
+ "mevcutGorsel": 4,
+ "uniteler": [
+  {
+   "no": 1,
+   "ad": "Örnekleme ve doğruluk",
+   "klasor": "u01-ornekleme-ve-dogruluk",
+   "kavramlar": [
+    {
+     "id": "k0001",
+     "ad": "Numune hazırlama (öğütme ve tartım)",
+     "hat": "B",
+     "gosterim": "numune tartılır ve öğütülür",
+     "yol": "u01-ornekleme-ve-dogruluk/k0001-numune-hazirlama-ogutme-ve-tartim",
+     "beklenen": 3,
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "e7f5e5dec837cf3437a7fba2e808e68a67b9d33623e2f3310d0baa0e1277f9a7",
+       "boyut": 59784,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "enstrumantal-k0001-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "7d9851766257c6639bce097d2ef79cac791b59ddb1f26c20be98523641fa9df7",
+       "boyut": 63934,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "enstrumantal-k0001-002"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "78a4f188a503c8bcc0ae6fab54d3102ded317c044f81fbab5f25eb2f5dd93192",
+       "boyut": 78602,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "enstrumantal-k0001-004"
+      }
+     ]
+    },
+    {
+     "id": "k0002",
+     "ad": "Doğruluk ve kesinlik",
+     "hat": "B",
+     "gosterim": "hedefte ok kümesi",
+     "yol": "u01-ornekleme-ve-dogruluk/k0002-dogruluk-ve-kesinlik",
+     "beklenen": 3,
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "470ad41c8dd8faf8abc01eb7653789a227ac41250f5c395a7ef49ed7006f3e9b",
+       "boyut": 99716,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "enstrumantal-k0002-001"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "no": 2,
+   "ad": "Spektroskopi",
+   "klasor": "u02-spektroskopi",
+   "kavramlar": [
+    {
+     "id": "k0003",
+     "ad": "UV-Vis spektrofotometre",
+     "hat": "B",
+     "gosterim": "ışık küvetten geçer",
+     "yol": "u02-spektroskopi/k0003-uv-vis-spektrofotometre",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0004",
+     "ad": "Seyreltme serisi ve Beer-Lambert",
+     "hat": "B",
+     "gosterim": "derişim arttıkça renk koyulaşır",
+     "yol": "u02-spektroskopi/k0004-seyreltme-serisi-ve-beer-lambert",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0005",
+     "ad": "Atomik absorpsiyon spektrometresi",
+     "hat": "B",
+     "gosterim": "alevde element çizgisi",
+     "yol": "u02-spektroskopi/k0005-atomik-absorpsiyon-spektrometresi",
+     "beklenen": 3,
+     "gorseller": []
+    }
+   ]
+  },
+  {
+   "no": 3,
+   "ad": "Kromatografi",
+   "klasor": "u03-kromatografi",
+   "kavramlar": [
+    {
+     "id": "k0006",
+     "ad": "HPLC cihazı",
+     "hat": "B",
+     "gosterim": "sıvı kolonda ayrılır",
+     "yol": "u03-kromatografi/k0006-hplc-cihazi",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0007",
+     "ad": "Gaz kromatografi",
+     "hat": "B",
+     "gosterim": "gaz kolondan geçer",
+     "yol": "u03-kromatografi/k0007-gaz-kromatografi",
+     "beklenen": 3,
+     "gorseller": []
+    }
+   ]
+  },
+  {
+   "no": 4,
+   "ad": "Elektrokimyasal ve diğer yöntemler",
+   "klasor": "u04-elektrokimyasal-ve-diger-yontemler",
+   "kavramlar": [
+    {
+     "id": "k0008",
+     "ad": "Titrasyon düzeneği",
+     "hat": "B",
+     "gosterim": "büretten damla damla ekleme",
+     "yol": "u04-elektrokimyasal-ve-diger-yontemler/k0008-titrasyon-duzenegi",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0009",
+     "ad": "pH metre",
+     "hat": "B",
+     "gosterim": "elektrot çözeltide",
+     "yol": "u04-elektrokimyasal-ve-diger-yontemler/k0009-ph-metre",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0010",
+     "ad": "Refraktometre (Brix)",
+     "hat": "B",
+     "gosterim": "meyve suyu damlası",
+     "yol": "u04-elektrokimyasal-ve-diger-yontemler/k0010-refraktometre-brix",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0011",
+     "ad": "Renk ölçümü (kolorimetre)",
+     "hat": "B",
+     "gosterim": "meyve yüzeyinde ölçüm",
+     "yol": "u04-elektrokimyasal-ve-diger-yontemler/k0011-renk-olcumu-kolorimetre",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0012",
+     "ad": "Tekstür analizörü",
+     "hat": "B",
+     "gosterim": "prob ürüne basar",
+     "yol": "u04-elektrokimyasal-ve-diger-yontemler/k0012-tekstur-analizoru",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0013",
+     "ad": "Jel elektroforezi",
+     "hat": "B",
+     "gosterim": "bantlar jelde ayrılır",
+     "yol": "u04-elektrokimyasal-ve-diger-yontemler/k0013-jel-elektroforezi",
+     "beklenen": 3,
+     "gorseller": []
+    }
+   ]
+  }
+ ]
+}

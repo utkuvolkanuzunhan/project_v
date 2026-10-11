@@ -2,10 +2,10 @@
  "ders": "ekonomi",
  "ad": "Economics",
  "dersKodu": "-",
- "surum": 1,
+ "surum": 2,
  "kavramSayisi": 6,
  "beklenenGorsel": 18,
- "mevcutGorsel": 10,
+ "mevcutGorsel": 16,
  "uniteler": [
   {
    "no": 1,
@@ -129,6 +129,22 @@
        "genislik": 1024,
        "yukseklik": 1024,
        "aday": "ekonomi-k0004-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "1d156c4b82edc67e46881e6b01042ff607f94d07ba59d54ddccaa073031ddf2e",
+       "boyut": 53038,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "ekonomi-k0004-012"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "147857224ed97832bcbb72f0454c600904b267e54a73bc5db9a47f772a99ac3e",
+       "boyut": 52436,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "ekonomi-k0004-009"
       }
      ]
     },
@@ -139,7 +155,16 @@
      "gosterim": "alışveriş sepeti",
      "yol": "u01-piyasa/k0005-enflasyon-ve-alisveris",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "30fe544647f88b4350bdb7e96c52e3c1ee519f5854fa643d576a42fe33201575",
+       "boyut": 143692,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "ekonomi-k0005-004"
+      }
+     ]
     },
     {
      "id": "k0006",
@@ -148,7 +173,32 @@
      "gosterim": "yeni ekipman satın alma",
      "yol": "u01-piyasa/k0006-yatirim-ve-ekipman",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "e5c1d58728b39efdbf67cfdc9a2a2bc5d31946656e16ff2b674e5c75f095b3b9",
+       "boyut": 142442,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "ekonomi-k0006-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "8aff2efd57e0f0963944c472ce6b351d8dfc4f05c613063f03a018c3790a4fe9",
+       "boyut": 140112,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "ekonomi-k0006-004"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "5f4e16ec6ccb1e2b72ce929055e44cf49ce1c3f935aa4fcbfc90169402cf489b",
+       "boyut": 129914,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "ekonomi-k0006-002"
+      }
+     ]
     }
    ]
   }
