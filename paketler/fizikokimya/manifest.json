@@ -2,10 +2,10 @@
  "ders": "fizikokimya",
  "ad": "Physical Chemistry",
  "dersKodu": "-",
- "surum": 2,
+ "surum": 3,
  "kavramSayisi": 8,
  "beklenenGorsel": 24,
- "mevcutGorsel": 18,
+ "mevcutGorsel": 24,
  "uniteler": [
   {
    "no": 1,
@@ -230,7 +230,32 @@
      "gosterim": "limon pili",
      "yol": "u02-cozeltiler-ve-yuzey/k0007-elektrokimyasal-pil",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "ba36823ea84578b145ad8dd75462fbf7fb14ef98f7e41bc61436aa162006b26b",
+       "boyut": 52592,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "fizikokimya-k0007-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "f93ae0a890bf1090c12dda7c8b270b8b2363b79166ad966bba2abf0f44d63c6c",
+       "boyut": 46042,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "fizikokimya-k0007-005"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "33be3355f8135fc2c1ddce46d88b312262bd8f6b0eeca56961aa404fe0f61f7e",
+       "boyut": 47742,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "fizikokimya-k0007-003"
+      }
+     ]
     },
     {
      "id": "k0008",
@@ -239,7 +264,32 @@
      "gosterim": "filtre kömürü",
      "yol": "u02-cozeltiler-ve-yuzey/k0008-adsorpsiyon-aktif-karbon",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "b0c9584a5f581f31c81c1e185cc7d7c1185fb2f36b6507d2e9678740b11b8fee",
+       "boyut": 67188,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "fizikokimya-k0008-007"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "24cb8ba3a65fb5fa5294baf70fcbdd38c0daa7e1cdffe4d8f1e7811ad7b1bb72",
+       "boyut": 69878,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "fizikokimya-k0008-017"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "d1e94498c80b7a1702894b1e6714e2bd10e7c2fbdf64ad3302f233c19b0538e1",
+       "boyut": 57052,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "fizikokimya-k0008-010"
+      }
+     ]
     }
    ]
   }
