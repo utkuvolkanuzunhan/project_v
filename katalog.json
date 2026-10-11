@@ -54,6 +54,87 @@
    "gorselSayisi": 30,
    "boyutMB": 0.7,
    "manifest": "paketler/linalg/manifest.json"
+  },
+  {
+   "id": "kutle_enerji",
+   "ad": "Material and Energy Balances",
+   "dersKodu": "-",
+   "kavramSayisi": 10,
+   "gorselSayisi": 24,
+   "boyutMB": 1.9,
+   "manifest": "paketler/kutle_enerji/manifest.json"
+  },
+  {
+   "id": "enstrumantal",
+   "ad": "Instrumental Food Analysis",
+   "dersKodu": "-",
+   "kavramSayisi": 13,
+   "gorselSayisi": 36,
+   "boyutMB": 2.5,
+   "manifest": "paketler/enstrumantal/manifest.json"
+  },
+  {
+   "id": "kinetik",
+   "ad": "Reaction Kinetics",
+   "dersKodu": "-",
+   "kavramSayisi": 7,
+   "gorselSayisi": 19,
+   "boyutMB": 1.4,
+   "manifest": "paketler/kinetik/manifest.json"
+  },
+  {
+   "id": "gida_kimyasi",
+   "ad": "Food Chemistry I",
+   "dersKodu": "-",
+   "kavramSayisi": 12,
+   "gorselSayisi": 35,
+   "boyutMB": 2.6,
+   "manifest": "paketler/gida_kimyasi/manifest.json"
+  },
+  {
+   "id": "ekonomi",
+   "ad": "Economics",
+   "dersKodu": "-",
+   "kavramSayisi": 6,
+   "gorselSayisi": 16,
+   "boyutMB": 2.4,
+   "manifest": "paketler/ekonomi/manifest.json"
+  },
+  {
+   "id": "istatistik",
+   "ad": "Statistics",
+   "dersKodu": "-",
+   "kavramSayisi": 3,
+   "gorselSayisi": 9,
+   "boyutMB": 1.0,
+   "manifest": "paketler/istatistik/manifest.json"
+  },
+  {
+   "id": "fizikokimya",
+   "ad": "Physical Chemistry",
+   "dersKodu": "-",
+   "kavramSayisi": 8,
+   "gorselSayisi": 24,
+   "boyutMB": 1.5,
+   "manifest": "paketler/fizikokimya/manifest.json"
+  },
+  {
+   "id": "teknik_ingilizce",
+   "ad": "Technical English I",
+   "dersKodu": "-",
+   "kavramSayisi": 3,
+   "gorselSayisi": 9,
+   "boyutMB": 0.6,
+   "manifest": "paketler/teknik_ingilizce/manifest.json"
+  },
+  {
+   "id": "malzeme_bilimi",
+   "ad": "Material Science",
+   "dersKodu": "-",
+   "kavramSayisi": 12,
+   "gorselSayisi": 36,
+   "boyutMB": 2.3,
+   "manifest": "paketler/malzeme_bilimi/manifest.json"
   }
  ]
 }
