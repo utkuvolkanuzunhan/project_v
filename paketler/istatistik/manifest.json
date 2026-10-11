@@ -1,0 +1,120 @@
+{
+ "ders": "istatistik",
+ "ad": "Statistics",
+ "dersKodu": "-",
+ "surum": 1,
+ "kavramSayisi": 3,
+ "beklenenGorsel": 9,
+ "mevcutGorsel": 9,
+ "uniteler": [
+  {
+   "no": 1,
+   "ad": "Örnekleme ve kalite",
+   "klasor": "u01-ornekleme-ve-kalite",
+   "kavramlar": [
+    {
+     "id": "k0001",
+     "ad": "Örnekleme",
+     "hat": "B",
+     "gosterim": "çuvaldan örnek alma",
+     "yol": "u01-ornekleme-ve-kalite/k0001-ornekleme",
+     "beklenen": 3,
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "d81308ed47cb90fd521c9117c2ce3764cf2c3705fa0891935bf59d56806ffe64",
+       "boyut": 105012,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "istatistik-k0001-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "cdca3e55a831d74aa094d57b695957f7b40722bc24650d3e169353440d6ea707",
+       "boyut": 104558,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "istatistik-k0001-005"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "173f8013954143b3a094d391a6e7ddc1acfa5de492ac5855df2161dfe9d3fa8b",
+       "boyut": 104740,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "istatistik-k0001-004"
+      }
+     ]
+    },
+    {
+     "id": "k0002",
+     "ad": "Dağılım ve boyut sıralama",
+     "hat": "B",
+     "gosterim": "elmalar boyutlarına göre sıralanır",
+     "yol": "u01-ornekleme-ve-kalite/k0002-dagilim-ve-boyut-siralama",
+     "beklenen": 3,
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "6de28017b9103c3c5c78fa97c9bf5d4d3f5cfc898d5bc6a1666c4a1d7400cb1a",
+       "boyut": 113850,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "istatistik-k0002-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "c1b75d2fdd51a5c0e705ed3715b13a5cc9438dd52b96f3bd2df8f531f675af0d",
+       "boyut": 131082,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "istatistik-k0002-007"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "1b4abef897878f7240359e83c3d09a841bb486844df8130edb3b393cd2c7bafc",
+       "boyut": 132090,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "istatistik-k0002-002"
+      }
+     ]
+    },
+    {
+     "id": "k0003",
+     "ad": "Kalite kontrol hattı",
+     "hat": "B",
+     "gosterim": "bantta ürün kontrolü",
+     "yol": "u01-ornekleme-ve-kalite/k0003-kalite-kontrol-hatti",
+     "beklenen": 3,
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "a0197675ad623096b2e3ade2dcbe891b150d1b135bd1e4522e9cd0a49a422275",
+       "boyut": 111566,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "istatistik-k0003-002"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "8334d22ab452d4e243a4f2c2b43e76f6d3689d98b9008556b3d29b5257cebe06",
+       "boyut": 107822,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "istatistik-k0003-006"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "d772f115a010b4963811b49432a3032268e787e2f37afdeb9b3419dc453cc9bf",
+       "boyut": 116968,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "istatistik-k0003-003"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
