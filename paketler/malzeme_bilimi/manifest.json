@@ -1,0 +1,192 @@
+{
+ "ders": "malzeme_bilimi",
+ "ad": "Material Science",
+ "dersKodu": "-",
+ "surum": 1,
+ "kavramSayisi": 12,
+ "beklenenGorsel": 36,
+ "mevcutGorsel": 7,
+ "uniteler": [
+  {
+   "no": 1,
+   "ad": "Yapı ve özellik",
+   "klasor": "u01-yapi-ve-ozellik",
+   "kavramlar": [
+    {
+     "id": "k0001",
+     "ad": "Kristal yapı",
+     "hat": "B",
+     "gosterim": "kristal ve düzenli yüzey",
+     "yol": "u01-yapi-ve-ozellik/k0001-kristal-yapi",
+     "beklenen": 3,
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "9f5104d129aa614eb345b1003699b0caf8b8b4a42edfb93e717eb45a5793716d",
+       "boyut": 68844,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "malzeme_bilimi-k0001-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "d65ce5c569a1b63d9c6c7b30d4b312346fd2ff3c53d8916ceca00770178ba5f8",
+       "boyut": 71768,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "malzeme_bilimi-k0001-005"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "8111c740e9700d855903252baec20d4ab772f1f1868cd258e2bc27874fcab534",
+       "boyut": 47908,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "malzeme_bilimi-k0001-006"
+      }
+     ]
+    },
+    {
+     "id": "k0002",
+     "ad": "Metalin çekme testi",
+     "hat": "B",
+     "gosterim": "numune uzar ve kopar",
+     "yol": "u01-yapi-ve-ozellik/k0002-metalin-cekme-testi",
+     "beklenen": 3,
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "059087e2b1c35e59f5c36f4d7e585c192a8c81972a78dbdc9b53384eba828c48",
+       "boyut": 67618,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "malzeme_bilimi-k0002-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "700dfb18ef6227ebfd83e0df9d89fddcd51cd58894478e8d7b9ba7e81a3625cb",
+       "boyut": 80968,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "malzeme_bilimi-k0002-003"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "9a96ee837259f3d27666acc82541e02739dbf868d8b12170da96f46a9c31bef0",
+       "boyut": 99148,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "malzeme_bilimi-k0002-004"
+      }
+     ]
+    },
+    {
+     "id": "k0003",
+     "ad": "Isıl iletim",
+     "hat": "B",
+     "gosterim": "sıcak çayda metal kaşık",
+     "yol": "u01-yapi-ve-ozellik/k0003-isil-iletim",
+     "beklenen": 3,
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "153c0be68b9db7427ffa196ccaf366112253e68c15068734045d413f7212ac3f",
+       "boyut": 59712,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "malzeme_bilimi-k0003-001"
+      }
+     ]
+    },
+    {
+     "id": "k0004",
+     "ad": "Difüzyon",
+     "hat": "B",
+     "gosterim": "çay suda yayılır",
+     "yol": "u01-yapi-ve-ozellik/k0004-difuzyon",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0005",
+     "ad": "Korozyon",
+     "hat": "B",
+     "gosterim": "paslanan metal",
+     "yol": "u01-yapi-ve-ozellik/k0005-korozyon",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0006",
+     "ad": "Yorulma (tekrarlı bükme)",
+     "hat": "B",
+     "gosterim": "tel kırılır",
+     "yol": "u01-yapi-ve-ozellik/k0006-yorulma-tekrarli-bukme",
+     "beklenen": 3,
+     "gorseller": []
+    }
+   ]
+  },
+  {
+   "no": 2,
+   "ad": "Ambalaj malzemeleri",
+   "klasor": "u02-ambalaj-malzemeleri",
+   "kavramlar": [
+    {
+     "id": "k0007",
+     "ad": "Polimer film",
+     "hat": "B",
+     "gosterim": "plastik ambalaj filmi",
+     "yol": "u02-ambalaj-malzemeleri/k0007-polimer-film",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0008",
+     "ad": "Cam ve cam geçişi",
+     "hat": "B",
+     "gosterim": "cam şişeler",
+     "yol": "u02-ambalaj-malzemeleri/k0008-cam-ve-cam-gecisi",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0009",
+     "ad": "Seramik",
+     "hat": "B",
+     "gosterim": "seramik kap",
+     "yol": "u02-ambalaj-malzemeleri/k0009-seramik",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0010",
+     "ad": "Çok katlı ambalaj (kompozit)",
+     "hat": "B",
+     "gosterim": "karton kutu katmanları",
+     "yol": "u02-ambalaj-malzemeleri/k0010-cok-katli-ambalaj-kompozit",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0011",
+     "ad": "Paslanmaz çelik",
+     "hat": "B",
+     "gosterim": "gıda tankı yüzeyi",
+     "yol": "u02-ambalaj-malzemeleri/k0011-paslanmaz-celik",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0012",
+     "ad": "Alüminyum folyo ve kutu",
+     "hat": "B",
+     "gosterim": "metal ambalaj",
+     "yol": "u02-ambalaj-malzemeleri/k0012-aluminyum-folyo-ve-kutu",
+     "beklenen": 3,
+     "gorseller": []
+    }
+   ]
+  }
+ ]
+}
