@@ -2,10 +2,10 @@
  "ders": "gida_kimyasi",
  "ad": "Food Chemistry I",
  "dersKodu": "-",
- "surum": 4,
+ "surum": 5,
  "kavramSayisi": 12,
  "beklenenGorsel": 36,
- "mevcutGorsel": 34,
+ "mevcutGorsel": 35,
  "uniteler": [
   {
    "no": 1,
@@ -415,6 +415,14 @@
        "genislik": 1024,
        "yukseklik": 1024,
        "aday": "gida_kimyasi-k0012-002"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "1dd404a703a857c65bc95b2105d397ad8a1fe856a9e8bd8eb5cf78480bbb905c",
+       "boyut": 44524,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "gida_kimyasi-k0012-005"
       }
      ]
     }
