@@ -2,10 +2,10 @@
  "ders": "kutle_enerji",
  "ad": "Material and Energy Balances",
  "dersKodu": "-",
- "surum": 3,
+ "surum": 4,
  "kavramSayisi": 10,
  "beklenenGorsel": 30,
- "mevcutGorsel": 22,
+ "mevcutGorsel": 30,
  "uniteler": [
   {
    "no": 1,
@@ -279,6 +279,22 @@
        "genislik": 1024,
        "yukseklik": 1024,
        "aday": "kutle_enerji-k0008-002"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "e76f07a3be269a42cbdade1ccd1b8dde306d7bf493d5591f43692a2f8f5cc737",
+       "boyut": 156294,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "kutle_enerji-k0008-003"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "285f6de2fe9e7b68773328a8f6298e0909aa82ff7dad579d09c58e3f014b3765",
+       "boyut": 155032,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "kutle_enerji-k0008-004"
       }
      ]
     },
@@ -289,7 +305,32 @@
      "gosterim": "sıcak hava gıdayı kurutur",
      "yol": "u03-enerji-denkligi/k0009-tepsili-kurutucu",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "21ed098df453bfad97f7068cfb7798d0996f43fc212745293254dd791c59000c",
+       "boyut": 125454,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "kutle_enerji-k0009-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "6fef0132191f2a1797d075924a078da272b07e8971510235c2b246e17badad14",
+       "boyut": 181456,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "kutle_enerji-k0009-003"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "1d4d69abee431c991d5f7c65201bb9f83f7c90823ad5d22a7ad4f950298eedfa",
+       "boyut": 213058,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "kutle_enerji-k0009-002"
+      }
+     ]
     },
     {
      "id": "k0010",
@@ -298,7 +339,32 @@
      "gosterim": "tank dolarken derişim değişir",
      "yol": "u03-enerji-denkligi/k0010-tanki-doldurma-ve-seyreltme",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "1e1c8bc9d06edef2eab7c1c0ad2a9b0c30c485557415b66beb08af0e75de8e68",
+       "boyut": 22260,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "kutle_enerji-k0010-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "39e7a926fe711bc210dcc8475ddb5037885ad5db0adb3e420a3a375a732975da",
+       "boyut": 26008,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "kutle_enerji-k0010-004"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "f082cddc4993836175176f73414f85eb8a80babbf1c0a115fff282fc5e24188d",
+       "boyut": 21342,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "kutle_enerji-k0010-002"
+      }
+     ]
     }
    ]
   }

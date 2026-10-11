@@ -2,10 +2,10 @@
  "ders": "malzeme_bilimi",
  "ad": "Material Science",
  "dersKodu": "-",
- "surum": 4,
+ "surum": 1,
  "kavramSayisi": 12,
  "beklenenGorsel": 36,
- "mevcutGorsel": 36,
+ "mevcutGorsel": 2,
  "uniteler": [
   {
    "no": 1,
@@ -22,26 +22,18 @@
      "gorseller": [
       {
        "dosya": "b1.webp",
-       "sha256": "9f5104d129aa614eb345b1003699b0caf8b8b4a42edfb93e717eb45a5793716d",
-       "boyut": 68844,
-       "genislik": 1024,
-       "yukseklik": 1024,
+       "sha256": "62dc9f9537d8cfb7a8a11d7d35b91ef16342bc7da80f139185760d3ea1d73726",
+       "boyut": 23744,
+       "genislik": 768,
+       "yukseklik": 768,
        "aday": "malzeme_bilimi-k0001-001"
       },
       {
        "dosya": "b2.webp",
-       "sha256": "d65ce5c569a1b63d9c6c7b30d4b312346fd2ff3c53d8916ceca00770178ba5f8",
-       "boyut": 71768,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "malzeme_bilimi-k0001-005"
-      },
-      {
-       "dosya": "b3.webp",
-       "sha256": "8111c740e9700d855903252baec20d4ab772f1f1868cd258e2bc27874fcab534",
-       "boyut": 47908,
-       "genislik": 1024,
-       "yukseklik": 1024,
+       "sha256": "fac7a6aa23988be13835440ab189fc564e80804647980c6b557615d7724a68e5",
+       "boyut": 27518,
+       "genislik": 768,
+       "yukseklik": 768,
        "aday": "malzeme_bilimi-k0001-006"
       }
      ]
@@ -53,32 +45,7 @@
      "gosterim": "numune uzar ve kopar",
      "yol": "u01-yapi-ve-ozellik/k0002-metalin-cekme-testi",
      "beklenen": 3,
-     "gorseller": [
-      {
-       "dosya": "b1.webp",
-       "sha256": "059087e2b1c35e59f5c36f4d7e585c192a8c81972a78dbdc9b53384eba828c48",
-       "boyut": 67618,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "malzeme_bilimi-k0002-001"
-      },
-      {
-       "dosya": "b2.webp",
-       "sha256": "700dfb18ef6227ebfd83e0df9d89fddcd51cd58894478e8d7b9ba7e81a3625cb",
-       "boyut": 80968,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "malzeme_bilimi-k0002-003"
-      },
-      {
-       "dosya": "b3.webp",
-       "sha256": "9a96ee837259f3d27666acc82541e02739dbf868d8b12170da96f46a9c31bef0",
-       "boyut": 99148,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "malzeme_bilimi-k0002-004"
-      }
-     ]
+     "gorseller": []
     },
     {
      "id": "k0003",
@@ -87,32 +54,7 @@
      "gosterim": "sıcak çayda metal kaşık",
      "yol": "u01-yapi-ve-ozellik/k0003-isil-iletim",
      "beklenen": 3,
-     "gorseller": [
-      {
-       "dosya": "b1.webp",
-       "sha256": "153c0be68b9db7427ffa196ccaf366112253e68c15068734045d413f7212ac3f",
-       "boyut": 59712,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "malzeme_bilimi-k0003-001"
-      },
-      {
-       "dosya": "b2.webp",
-       "sha256": "2f9eff8ab9bee99f491166362c915f1f5d722440b277d78358f6b539f6ce59ee",
-       "boyut": 57588,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "malzeme_bilimi-k0003-004"
-      },
-      {
-       "dosya": "b3.webp",
-       "sha256": "c149b6860d2daac5e3bfa96a441cc4e20c72810e71e66f3809363a86e2ffb728",
-       "boyut": 45806,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "malzeme_bilimi-k0003-002"
-      }
-     ]
+     "gorseller": []
     },
     {
      "id": "k0004",
@@ -121,32 +63,7 @@
      "gosterim": "çay suda yayılır",
      "yol": "u01-yapi-ve-ozellik/k0004-difuzyon",
      "beklenen": 3,
-     "gorseller": [
-      {
-       "dosya": "b1.webp",
-       "sha256": "bad803a7374c839b956c0f22007159305fe2807c8167e095319c42599b92cf7a",
-       "boyut": 41678,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "malzeme_bilimi-k0004-001"
-      },
-      {
-       "dosya": "b2.webp",
-       "sha256": "f9c5411f15f45447d9c37f354d68da21d6a906bddf8eb1db7740524d48dd7e95",
-       "boyut": 50030,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "malzeme_bilimi-k0004-005"
-      },
-      {
-       "dosya": "b3.webp",
-       "sha256": "9adacca893fe18f1e6bba90ce2174155e729a7cb2213be24e9f63b30838cd504",
-       "boyut": 47958,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "malzeme_bilimi-k0004-006"
-      }
-     ]
+     "gorseller": []
     },
     {
      "id": "k0005",
@@ -155,32 +72,7 @@
      "gosterim": "paslanan metal",
      "yol": "u01-yapi-ve-ozellik/k0005-korozyon",
      "beklenen": 3,
-     "gorseller": [
-      {
-       "dosya": "b1.webp",
-       "sha256": "15a143b70ca05b9aa06e5da7f7391b43f6736ee1da3b537d58871528e6f9b533",
-       "boyut": 53354,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "malzeme_bilimi-k0005-001"
-      },
-      {
-       "dosya": "b2.webp",
-       "sha256": "e9864517d51cd30c8810d90e4a0ae63f6f7e9299d159d4bb57f4dfac2db3699e",
-       "boyut": 62614,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "malzeme_bilimi-k0005-006"
-      },
-      {
-       "dosya": "b3.webp",
-       "sha256": "c5523c34a7567fcac11fe9fbac0ab402f8670df9a7a867186028d2e89853cd2f",
-       "boyut": 53158,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "malzeme_bilimi-k0005-003"
-      }
-     ]
+     "gorseller": []
     },
     {
      "id": "k0006",
@@ -189,32 +81,7 @@
      "gosterim": "tel kırılır",
      "yol": "u01-yapi-ve-ozellik/k0006-yorulma-tekrarli-bukme",
      "beklenen": 3,
-     "gorseller": [
-      {
-       "dosya": "b1.webp",
-       "sha256": "e43210731dcc1aacbbc08e13b5c99032387984ff60ca56ca32c5a1b98838640b",
-       "boyut": 46320,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "malzeme_bilimi-k0006-001"
-      },
-      {
-       "dosya": "b2.webp",
-       "sha256": "adf2559bea5a1200e51b5d533478dfd527afc842ed5876bd59f7096b8cdcb28c",
-       "boyut": 45616,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "malzeme_bilimi-k0006-003"
-      },
-      {
-       "dosya": "b3.webp",
-       "sha256": "6e2d48c575a77649504cc9d92cc6b4ed8ad861f621d16f297b6b7ffb5324d2e9",
-       "boyut": 44502,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "malzeme_bilimi-k0006-002"
-      }
-     ]
+     "gorseller": []
     }
    ]
   },
@@ -230,32 +97,7 @@
      "gosterim": "plastik ambalaj filmi",
      "yol": "u02-ambalaj-malzemeleri/k0007-polimer-film",
      "beklenen": 3,
-     "gorseller": [
-      {
-       "dosya": "b1.webp",
-       "sha256": "6ed1f629b699e15662fcda2874c25f0b75e09f9b7ee1a39bc28d857ff8f66b23",
-       "boyut": 56302,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "malzeme_bilimi-k0007-001"
-      },
-      {
-       "dosya": "b2.webp",
-       "sha256": "8b859470543740a7141c4f6b936a44fac4907760ab03370200c8a6898f2259d7",
-       "boyut": 64346,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "malzeme_bilimi-k0007-002"
-      },
-      {
-       "dosya": "b3.webp",
-       "sha256": "d6b97103903d6db87c3d52884e41b709aefcc726b8e95aab7c7b7f4a59d50795",
-       "boyut": 62742,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "malzeme_bilimi-k0007-003"
-      }
-     ]
+     "gorseller": []
     },
     {
      "id": "k0008",
@@ -264,32 +106,7 @@
      "gosterim": "cam şişeler",
      "yol": "u02-ambalaj-malzemeleri/k0008-cam-ve-cam-gecisi",
      "beklenen": 3,
-     "gorseller": [
-      {
-       "dosya": "b1.webp",
-       "sha256": "0a880474d1cd14af816ae7519c9581039f7c4d860a5f7eae629da263713a7813",
-       "boyut": 105404,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "malzeme_bilimi-k0008-001"
-      },
-      {
-       "dosya": "b2.webp",
-       "sha256": "f0529dfdf1444fa6ff00f26d45e0f10d9053c02f60db794f2771051bac12caf9",
-       "boyut": 118124,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "malzeme_bilimi-k0008-006"
-      },
-      {
-       "dosya": "b3.webp",
-       "sha256": "227a583bf58d0164560a421eb8487422cacc86ae726011c6accc6e02a899ee26",
-       "boyut": 110854,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "malzeme_bilimi-k0008-002"
-      }
-     ]
+     "gorseller": []
     },
     {
      "id": "k0009",
@@ -298,32 +115,7 @@
      "gosterim": "seramik kap",
      "yol": "u02-ambalaj-malzemeleri/k0009-seramik",
      "beklenen": 3,
-     "gorseller": [
-      {
-       "dosya": "b1.webp",
-       "sha256": "6ef2ec96e22c3780ef9edc168b7fc113ef9801ec207c305b4f098342a06abf23",
-       "boyut": 68032,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "malzeme_bilimi-k0009-001"
-      },
-      {
-       "dosya": "b2.webp",
-       "sha256": "fd0ca280b8295c81781a7e5a254bcae22d4a37c0dab071017c14e433c979c96c",
-       "boyut": 64016,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "malzeme_bilimi-k0009-003"
-      },
-      {
-       "dosya": "b3.webp",
-       "sha256": "538b4a550337f58051072c2a2c184b857640ead13ed8e7777a8181cf3b06bbd2",
-       "boyut": 51580,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "malzeme_bilimi-k0009-005"
-      }
-     ]
+     "gorseller": []
     },
     {
      "id": "k0010",
@@ -332,32 +124,7 @@
      "gosterim": "karton kutu katmanları",
      "yol": "u02-ambalaj-malzemeleri/k0010-cok-katli-ambalaj-kompozit",
      "beklenen": 3,
-     "gorseller": [
-      {
-       "dosya": "b1.webp",
-       "sha256": "4c2e37149e048abd8ebbd0727126b35e1f8047a4da67371f744b930b22ad24f3",
-       "boyut": 100410,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "malzeme_bilimi-k0010-004"
-      },
-      {
-       "dosya": "b2.webp",
-       "sha256": "3d2877d4f8c91abf8e61aa684e32711c79a5789b6d97fc50285bd794f072efc8",
-       "boyut": 77790,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "malzeme_bilimi-k0010-006"
-      },
-      {
-       "dosya": "b3.webp",
-       "sha256": "8a123bf5de54ece536d404d2489280458c83c3965236d1d5b46bd01672254237",
-       "boyut": 75582,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "malzeme_bilimi-k0010-005"
-      }
-     ]
+     "gorseller": []
     },
     {
      "id": "k0011",
@@ -366,32 +133,7 @@
      "gosterim": "gıda tankı yüzeyi",
      "yol": "u02-ambalaj-malzemeleri/k0011-paslanmaz-celik",
      "beklenen": 3,
-     "gorseller": [
-      {
-       "dosya": "b1.webp",
-       "sha256": "352f15ca801d2c455bae4870da9e053c206a8e339f05836a3816311f2706f889",
-       "boyut": 48562,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "malzeme_bilimi-k0011-001"
-      },
-      {
-       "dosya": "b2.webp",
-       "sha256": "c8834254408fb099d53dfa67a1dc0617140aaa50fa67278b5bb7946055a97e12",
-       "boyut": 82890,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "malzeme_bilimi-k0011-005"
-      },
-      {
-       "dosya": "b3.webp",
-       "sha256": "c62e2d2260b1a5d0d24593df041fe93c34537d9668eda67383a99ce5dbd03816",
-       "boyut": 55156,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "malzeme_bilimi-k0011-004"
-      }
-     ]
+     "gorseller": []
     },
     {
      "id": "k0012",
@@ -400,32 +142,7 @@
      "gosterim": "metal ambalaj",
      "yol": "u02-ambalaj-malzemeleri/k0012-aluminyum-folyo-ve-kutu",
      "beklenen": 3,
-     "gorseller": [
-      {
-       "dosya": "b1.webp",
-       "sha256": "96e72adf6c4892a6733f6455b441a01c347bc03b06660c55b1f7be43d56a1047",
-       "boyut": 56180,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "malzeme_bilimi-k0012-001"
-      },
-      {
-       "dosya": "b2.webp",
-       "sha256": "dc76409d5d857390dc82a012833705a7c085bc5ff26e058bb10d795f4c12d6c0",
-       "boyut": 47144,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "malzeme_bilimi-k0012-004"
-      },
-      {
-       "dosya": "b3.webp",
-       "sha256": "a1f5b84690a50d3dfb546f943bcb7098e6b68491c6ef367832d0c4d42d7a2c88",
-       "boyut": 52874,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "malzeme_bilimi-k0012-002"
-      }
-     ]
+     "gorseller": []
     }
    ]
   }
