@@ -2,10 +2,10 @@
  "ders": "kinetik",
  "ad": "Reaction Kinetics",
  "dersKodu": "-",
- "surum": 1,
+ "surum": 2,
  "kavramSayisi": 7,
  "beklenenGorsel": 21,
- "mevcutGorsel": 2,
+ "mevcutGorsel": 12,
  "uniteler": [
   {
    "no": 1,
@@ -35,6 +35,14 @@
        "genislik": 768,
        "yukseklik": 768,
        "aday": "kinetik-k0001-004"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "a4f187d69938156d854b38ce6c4b576a7264a17ce84f524ac25a85163ee84fc7",
+       "boyut": 29852,
+       "genislik": 768,
+       "yukseklik": 768,
+       "aday": "kinetik-k0001-005"
       }
      ]
     },
@@ -45,7 +53,32 @@
      "gosterim": "gıda sıcaklıkta bekletilir",
      "yol": "u01-hiz-ve-sicaklik/k0002-raf-omru-testi",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "db1f4cbb8cf7b8ac7600b2ac6c8d43acfc0dbf5df19a8bac59ccafc217f67c02",
+       "boyut": 88414,
+       "genislik": 768,
+       "yukseklik": 768,
+       "aday": "kinetik-k0002-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "7326a95388e2244b28a240928a758ffb4e51c4556b4d45f09f0b14f5edf3dd14",
+       "boyut": 82166,
+       "genislik": 768,
+       "yukseklik": 768,
+       "aday": "kinetik-k0002-005"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "d27c359ae0b62807b301b7c4b8abb4631a5b42dc11402485c6b88a9de511809b",
+       "boyut": 91420,
+       "genislik": 768,
+       "yukseklik": 768,
+       "aday": "kinetik-k0002-003"
+      }
+     ]
     }
    ]
   },
@@ -61,7 +94,32 @@
      "gosterim": "kesilen elma kararır",
      "yol": "u02-gidada-kinetik/k0003-enzimatik-esmerlesme",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "a47693e2b324097ad36c50e795f4ee6456e75e8b5b90d052801f60be079c0660",
+       "boyut": 37922,
+       "genislik": 768,
+       "yukseklik": 768,
+       "aday": "kinetik-k0003-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "a51a0676bacfa93571ef88e8fa4747297970a659456866189b2f51d8ced041c8",
+       "boyut": 37140,
+       "genislik": 768,
+       "yukseklik": 768,
+       "aday": "kinetik-k0003-010"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "d55dd9f0d2416c5138d5e6cd5c97586aacedcd6d12aa1c89ae4970c2c19eb616",
+       "boyut": 40532,
+       "genislik": 768,
+       "yukseklik": 768,
+       "aday": "kinetik-k0003-004"
+      }
+     ]
     },
     {
      "id": "k0004",
@@ -70,7 +128,32 @@
      "gosterim": "fermentasyonda gaz çıkar",
      "yol": "u02-gidada-kinetik/k0004-fermantasyon-kabarciklari",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "b4846d7f7f0d91415836f9ea9348ee0c99ba5ce9d6aa72b7aa336016e0585edd",
+       "boyut": 50040,
+       "genislik": 768,
+       "yukseklik": 768,
+       "aday": "kinetik-k0004-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "ce10c8e73ef2a291c313a94bb56967e7682784e15b52968637e7fe9c9a914e42",
+       "boyut": 80636,
+       "genislik": 768,
+       "yukseklik": 768,
+       "aday": "kinetik-k0004-003"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "2f7b736d8d10c5ccbe57e7a953c6961734635e1f934bfdff76888a806582d81b",
+       "boyut": 67864,
+       "genislik": 768,
+       "yukseklik": 768,
+       "aday": "kinetik-k0004-005"
+      }
+     ]
     },
     {
      "id": "k0005",
