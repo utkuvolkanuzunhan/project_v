@@ -2,10 +2,10 @@
  "ders": "malzeme_bilimi",
  "ad": "Material Science",
  "dersKodu": "-",
- "surum": 2,
+ "surum": 3,
  "kavramSayisi": 12,
  "beklenenGorsel": 36,
- "mevcutGorsel": 17,
+ "mevcutGorsel": 27,
  "uniteler": [
   {
    "no": 1,
@@ -205,6 +205,14 @@
        "genislik": 1024,
        "yukseklik": 1024,
        "aday": "malzeme_bilimi-k0006-003"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "6e2d48c575a77649504cc9d92cc6b4ed8ad861f621d16f297b6b7ffb5324d2e9",
+       "boyut": 44502,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "malzeme_bilimi-k0006-002"
       }
      ]
     }
@@ -222,7 +230,32 @@
      "gosterim": "plastik ambalaj filmi",
      "yol": "u02-ambalaj-malzemeleri/k0007-polimer-film",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "6ed1f629b699e15662fcda2874c25f0b75e09f9b7ee1a39bc28d857ff8f66b23",
+       "boyut": 56302,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "malzeme_bilimi-k0007-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "8b859470543740a7141c4f6b936a44fac4907760ab03370200c8a6898f2259d7",
+       "boyut": 64346,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "malzeme_bilimi-k0007-002"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "d6b97103903d6db87c3d52884e41b709aefcc726b8e95aab7c7b7f4a59d50795",
+       "boyut": 62742,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "malzeme_bilimi-k0007-003"
+      }
+     ]
     },
     {
      "id": "k0008",
@@ -231,7 +264,32 @@
      "gosterim": "cam şişeler",
      "yol": "u02-ambalaj-malzemeleri/k0008-cam-ve-cam-gecisi",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "0a880474d1cd14af816ae7519c9581039f7c4d860a5f7eae629da263713a7813",
+       "boyut": 105404,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "malzeme_bilimi-k0008-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "f0529dfdf1444fa6ff00f26d45e0f10d9053c02f60db794f2771051bac12caf9",
+       "boyut": 118124,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "malzeme_bilimi-k0008-006"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "227a583bf58d0164560a421eb8487422cacc86ae726011c6accc6e02a899ee26",
+       "boyut": 110854,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "malzeme_bilimi-k0008-002"
+      }
+     ]
     },
     {
      "id": "k0009",
@@ -240,7 +298,32 @@
      "gosterim": "seramik kap",
      "yol": "u02-ambalaj-malzemeleri/k0009-seramik",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "6ef2ec96e22c3780ef9edc168b7fc113ef9801ec207c305b4f098342a06abf23",
+       "boyut": 68032,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "malzeme_bilimi-k0009-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "fd0ca280b8295c81781a7e5a254bcae22d4a37c0dab071017c14e433c979c96c",
+       "boyut": 64016,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "malzeme_bilimi-k0009-003"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "538b4a550337f58051072c2a2c184b857640ead13ed8e7777a8181cf3b06bbd2",
+       "boyut": 51580,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "malzeme_bilimi-k0009-005"
+      }
+     ]
     },
     {
      "id": "k0010",
