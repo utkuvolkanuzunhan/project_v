@@ -2,10 +2,10 @@
  "ders": "fizikokimya",
  "ad": "Physical Chemistry",
  "dersKodu": "-",
- "surum": 1,
+ "surum": 2,
  "kavramSayisi": 8,
  "beklenenGorsel": 24,
- "mevcutGorsel": 8,
+ "mevcutGorsel": 18,
  "uniteler": [
   {
    "no": 1,
@@ -103,6 +103,14 @@
        "genislik": 1024,
        "yukseklik": 1024,
        "aday": "fizikokimya-k0003-005"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "6a59cd1c996228a13ed41810f88aa734abfea161d0d67a28165328577e4c5cde",
+       "boyut": 80422,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "fizikokimya-k0003-006"
       }
      ]
     },
@@ -113,7 +121,32 @@
      "gosterim": "gaz çözünürlüğü",
      "yol": "u01-gazlar-ve-fazlar/k0004-karbondioksit-ve-gazli-icecek",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "18d6e3fca354354d128d823f73740b30e0464a5458f145d73ebcd980b92a212f",
+       "boyut": 75480,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "fizikokimya-k0004-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "c3f2e5f34274254207df58c60c772789ab34d0363bc3541fe4a3e26917f1b177",
+       "boyut": 67606,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "fizikokimya-k0004-002"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "669200e55dd6c52f8983661b14c4be69532c092ff530bb650fac71158d2bd728",
+       "boyut": 80366,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "fizikokimya-k0004-005"
+      }
+     ]
     }
    ]
   },
@@ -129,7 +162,32 @@
      "gosterim": "tuzlu buz",
      "yol": "u02-cozeltiler-ve-yuzey/k0005-donma-noktasi-alcalmasi",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "a3c5bd72a4b4481f309c5e4f5afe62aff2b0730a47da656d0b6199553aeaca56",
+       "boyut": 50158,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "fizikokimya-k0005-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "a3de9be6ed2bb504bde348872f7baa392fb419c100129e9a0cb6b61366c18901",
+       "boyut": 48946,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "fizikokimya-k0005-002"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "9846294df01a745e2496fa03556718a7a0cda25aab8c76a073a3a188de9967c2",
+       "boyut": 54618,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "fizikokimya-k0005-005"
+      }
+     ]
     },
     {
      "id": "k0006",
@@ -138,7 +196,32 @@
      "gosterim": "kuru üzüm suda şişer",
      "yol": "u02-cozeltiler-ve-yuzey/k0006-ozmoz",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "38318398a674644eb4056ff0959adf89d9b8347ac3761590024eef01f3ef8e5f",
+       "boyut": 82604,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "fizikokimya-k0006-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "4287bf39118f655adaf469e4efc51f2b6b689f3008f533fe58f3ecda8c02bedf",
+       "boyut": 70960,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "fizikokimya-k0006-004"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "829d8b1a27df26af665b113bb8b1cc90ed1a1ea4492fcbd3c9b86173dee70e44",
+       "boyut": 84798,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "fizikokimya-k0006-002"
+      }
+     ]
     },
     {
      "id": "k0007",
