@@ -1301,3 +1301,295 @@
 {"aday_id": "oop-k0063-020", "karar": "hata", "neden": "Claude: konu dışı / yanlış durum", "zaman": "2026-10-08T18:27:12"}
 {"aday_id": "oop-k0063-021", "karar": "hata", "neden": "Claude: konu dışı / yanlış durum", "zaman": "2026-10-08T18:27:12"}
 {"aday_id": "oop-k0063-022", "karar": "hata", "neden": "Claude: konu dışı / yanlış durum", "zaman": "2026-10-08T18:27:12"}
+{"aday_id": "kutle_enerji-k0008-001", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:42:47"}
+{"aday_id": "kutle_enerji-k0008-009", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:42:47"}
+{"aday_id": "kutle_enerji-k0008-019", "karar": "hata", "neden": "Claude: kalitesiz", "zaman": "2026-10-11T14:42:47"}
+{"aday_id": "kutle_enerji-k0008-020", "karar": "hata", "neden": "Claude: kalitesiz", "zaman": "2026-10-11T14:42:47"}
+{"aday_id": "enstrumantal-k0002-001", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:42:47"}
+{"aday_id": "enstrumantal-k0002-002", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:42:47"}
+{"aday_id": "enstrumantal-k0002-003", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:42:47"}
+{"aday_id": "enstrumantal-k0002-004", "karar": "hata", "neden": "Claude: bozuk yapı", "zaman": "2026-10-11T14:42:47"}
+{"aday_id": "enstrumantal-k0002-006", "karar": "hata", "neden": "Claude: bozuk yapı", "zaman": "2026-10-11T14:42:47"}
+{"aday_id": "enstrumantal-k0003-001", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:42:47"}
+{"aday_id": "enstrumantal-k0003-003", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:42:47"}
+{"aday_id": "enstrumantal-k0003-004", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:42:47"}
+{"aday_id": "enstrumantal-k0003-002", "karar": "hata", "neden": "Claude: bozuk yapı", "zaman": "2026-10-11T14:42:47"}
+{"aday_id": "enstrumantal-k0006-001", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:42:48"}
+{"aday_id": "enstrumantal-k0006-002", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:42:48"}
+{"aday_id": "enstrumantal-k0006-007", "karar": "hata", "neden": "Claude: kalitesiz", "zaman": "2026-10-11T14:42:48"}
+{"aday_id": "enstrumantal-k0006-008", "karar": "hata", "neden": "Claude: kalitesiz", "zaman": "2026-10-11T14:42:48"}
+{"aday_id": "enstrumantal-k0006-009", "karar": "hata", "neden": "Claude: kalitesiz", "zaman": "2026-10-11T14:42:48"}
+{"aday_id": "enstrumantal-k0007-001", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:42:48"}
+{"aday_id": "enstrumantal-k0007-002", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:42:48"}
+{"aday_id": "enstrumantal-k0007-003", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:42:48"}
+{"aday_id": "enstrumantal-k0007-004", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:42:48"}
+{"aday_id": "enstrumantal-k0007-006", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:42:48"}
+{"aday_id": "enstrumantal-k0007-005", "karar": "hata", "neden": "Claude: bozuk yapı", "zaman": "2026-10-11T14:42:48"}
+{"aday_id": "enstrumantal-k0009-004", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:42:48"}
+{"aday_id": "enstrumantal-k0009-001", "karar": "hata", "neden": "Claude: konu dışı / yanlış durum", "zaman": "2026-10-11T14:42:48"}
+{"aday_id": "enstrumantal-k0009-003", "karar": "hata", "neden": "Claude: konu dışı / yanlış durum", "zaman": "2026-10-11T14:42:48"}
+{"aday_id": "enstrumantal-k0010-004", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:42:49"}
+{"aday_id": "enstrumantal-k0010-001", "karar": "hata", "neden": "Claude: bozuk yapı", "zaman": "2026-10-11T14:42:49"}
+{"aday_id": "enstrumantal-k0010-002", "karar": "hata", "neden": "Claude: bozuk yapı", "zaman": "2026-10-11T14:42:49"}
+{"aday_id": "enstrumantal-k0010-003", "karar": "hata", "neden": "Claude: bozuk yapı", "zaman": "2026-10-11T14:42:49"}
+{"aday_id": "enstrumantal-k0010-005", "karar": "hata", "neden": "Claude: bozuk yapı", "zaman": "2026-10-11T14:42:49"}
+{"aday_id": "enstrumantal-k0010-006", "karar": "hata", "neden": "Claude: bozuk yapı", "zaman": "2026-10-11T14:42:49"}
+{"aday_id": "enstrumantal-k0011-003", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:42:49"}
+{"aday_id": "enstrumantal-k0011-001", "karar": "hata", "neden": "Claude: konu dışı / yanlış durum", "zaman": "2026-10-11T14:42:49"}
+{"aday_id": "enstrumantal-k0011-002", "karar": "hata", "neden": "Claude: konu dışı / yanlış durum", "zaman": "2026-10-11T14:42:49"}
+{"aday_id": "enstrumantal-k0011-006", "karar": "hata", "neden": "Claude: konu dışı / yanlış durum", "zaman": "2026-10-11T14:42:49"}
+{"aday_id": "enstrumantal-k0013-002", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:42:49"}
+{"aday_id": "enstrumantal-k0013-005", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:42:49"}
+{"aday_id": "enstrumantal-k0013-001", "karar": "hata", "neden": "Claude: konu dışı / yanlış durum", "zaman": "2026-10-11T14:42:49"}
+{"aday_id": "enstrumantal-k0013-003", "karar": "hata", "neden": "Claude: konu dışı / yanlış durum", "zaman": "2026-10-11T14:42:49"}
+{"aday_id": "enstrumantal-k0013-004", "karar": "hata", "neden": "Claude: konu dışı / yanlış durum", "zaman": "2026-10-11T14:42:49"}
+{"aday_id": "kinetik-k0002-001", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:42:49"}
+{"aday_id": "kinetik-k0002-002", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:42:49"}
+{"aday_id": "kinetik-k0002-004", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:42:49"}
+{"aday_id": "kinetik-k0002-006", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:42:49"}
+{"aday_id": "kinetik-k0002-003", "karar": "hata", "neden": "Claude: aynı konuda çok benzer", "zaman": "2026-10-11T14:42:49"}
+{"aday_id": "kinetik-k0005-003", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:42:50"}
+{"aday_id": "kinetik-k0005-004", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:42:50"}
+{"aday_id": "kinetik-k0005-001", "karar": "hata", "neden": "Claude: kalitesiz", "zaman": "2026-10-11T14:42:50"}
+{"aday_id": "kutle_enerji-k0001-002", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:01"}
+{"aday_id": "kutle_enerji-k0002-001", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:01"}
+{"aday_id": "kutle_enerji-k0002-010", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:01"}
+{"aday_id": "kutle_enerji-k0002-016", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:01"}
+{"aday_id": "kutle_enerji-k0003-001", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:01"}
+{"aday_id": "kutle_enerji-k0003-012", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:01"}
+{"aday_id": "kutle_enerji-k0004-001", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:01"}
+{"aday_id": "kutle_enerji-k0004-003", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:01"}
+{"aday_id": "kutle_enerji-k0004-007", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:01"}
+{"aday_id": "kutle_enerji-k0005-001", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:01"}
+{"aday_id": "kutle_enerji-k0005-006", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:01"}
+{"aday_id": "kutle_enerji-k0005-009", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:01"}
+{"aday_id": "kutle_enerji-k0006-001", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:01"}
+{"aday_id": "kutle_enerji-k0006-023", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:01"}
+{"aday_id": "kutle_enerji-k0007-001", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:02"}
+{"aday_id": "kutle_enerji-k0007-016", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:02"}
+{"aday_id": "kutle_enerji-k0008-001", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:02"}
+{"aday_id": "kutle_enerji-k0008-009", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:02"}
+{"aday_id": "kutle_enerji-k0008-019", "karar": "hata", "neden": "Claude: kalitesiz", "zaman": "2026-10-11T14:43:02"}
+{"aday_id": "kutle_enerji-k0008-020", "karar": "hata", "neden": "Claude: kalitesiz", "zaman": "2026-10-11T14:43:02"}
+{"aday_id": "kutle_enerji-k0009-001", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:02"}
+{"aday_id": "kutle_enerji-k0009-008", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:02"}
+{"aday_id": "kutle_enerji-k0010-002", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:02"}
+{"aday_id": "kutle_enerji-k0010-003", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:02"}
+{"aday_id": "kutle_enerji-k0010-004", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:02"}
+{"aday_id": "kutle_enerji-k0010-005", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:02"}
+{"aday_id": "enstrumantal-k0001-001", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:02"}
+{"aday_id": "enstrumantal-k0001-002", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:02"}
+{"aday_id": "enstrumantal-k0001-004", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:02"}
+{"aday_id": "enstrumantal-k0002-001", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:02"}
+{"aday_id": "enstrumantal-k0002-002", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:02"}
+{"aday_id": "enstrumantal-k0002-003", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:02"}
+{"aday_id": "enstrumantal-k0002-004", "karar": "hata", "neden": "Claude: bozuk yapı", "zaman": "2026-10-11T14:43:02"}
+{"aday_id": "enstrumantal-k0002-006", "karar": "hata", "neden": "Claude: bozuk yapı", "zaman": "2026-10-11T14:43:02"}
+{"aday_id": "enstrumantal-k0003-001", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:02"}
+{"aday_id": "enstrumantal-k0003-003", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:02"}
+{"aday_id": "enstrumantal-k0003-004", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:02"}
+{"aday_id": "enstrumantal-k0003-002", "karar": "hata", "neden": "Claude: bozuk yapı", "zaman": "2026-10-11T14:43:02"}
+{"aday_id": "enstrumantal-k0004-001", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:03"}
+{"aday_id": "enstrumantal-k0004-010", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:03"}
+{"aday_id": "enstrumantal-k0004-014", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:03"}
+{"aday_id": "enstrumantal-k0005-001", "karar": "hata", "neden": "Claude: konu dışı / yanlış durum", "zaman": "2026-10-11T14:43:03"}
+{"aday_id": "enstrumantal-k0005-005", "karar": "hata", "neden": "Claude: konu dışı / yanlış durum", "zaman": "2026-10-11T14:43:03"}
+{"aday_id": "enstrumantal-k0005-017", "karar": "hata", "neden": "Claude: konu dışı / yanlış durum", "zaman": "2026-10-11T14:43:03"}
+{"aday_id": "enstrumantal-k0006-001", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:03"}
+{"aday_id": "enstrumantal-k0006-002", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:03"}
+{"aday_id": "enstrumantal-k0006-007", "karar": "hata", "neden": "Claude: kalitesiz", "zaman": "2026-10-11T14:43:03"}
+{"aday_id": "enstrumantal-k0006-008", "karar": "hata", "neden": "Claude: kalitesiz", "zaman": "2026-10-11T14:43:03"}
+{"aday_id": "enstrumantal-k0006-009", "karar": "hata", "neden": "Claude: kalitesiz", "zaman": "2026-10-11T14:43:03"}
+{"aday_id": "enstrumantal-k0007-001", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:03"}
+{"aday_id": "enstrumantal-k0007-002", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:03"}
+{"aday_id": "enstrumantal-k0007-003", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:03"}
+{"aday_id": "enstrumantal-k0007-004", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:03"}
+{"aday_id": "enstrumantal-k0007-006", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:03"}
+{"aday_id": "enstrumantal-k0007-005", "karar": "hata", "neden": "Claude: bozuk yapı", "zaman": "2026-10-11T14:43:03"}
+{"aday_id": "enstrumantal-k0008-001", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:03"}
+{"aday_id": "enstrumantal-k0009-004", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:03"}
+{"aday_id": "enstrumantal-k0009-001", "karar": "hata", "neden": "Claude: konu dışı / yanlış durum", "zaman": "2026-10-11T14:43:03"}
+{"aday_id": "enstrumantal-k0009-003", "karar": "hata", "neden": "Claude: konu dışı / yanlış durum", "zaman": "2026-10-11T14:43:03"}
+{"aday_id": "enstrumantal-k0010-004", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:03"}
+{"aday_id": "enstrumantal-k0010-001", "karar": "hata", "neden": "Claude: bozuk yapı", "zaman": "2026-10-11T14:43:03"}
+{"aday_id": "enstrumantal-k0010-002", "karar": "hata", "neden": "Claude: bozuk yapı", "zaman": "2026-10-11T14:43:03"}
+{"aday_id": "enstrumantal-k0010-003", "karar": "hata", "neden": "Claude: bozuk yapı", "zaman": "2026-10-11T14:43:03"}
+{"aday_id": "enstrumantal-k0010-005", "karar": "hata", "neden": "Claude: bozuk yapı", "zaman": "2026-10-11T14:43:03"}
+{"aday_id": "enstrumantal-k0010-006", "karar": "hata", "neden": "Claude: bozuk yapı", "zaman": "2026-10-11T14:43:03"}
+{"aday_id": "enstrumantal-k0011-003", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:03"}
+{"aday_id": "enstrumantal-k0011-001", "karar": "hata", "neden": "Claude: konu dışı / yanlış durum", "zaman": "2026-10-11T14:43:03"}
+{"aday_id": "enstrumantal-k0011-002", "karar": "hata", "neden": "Claude: konu dışı / yanlış durum", "zaman": "2026-10-11T14:43:03"}
+{"aday_id": "enstrumantal-k0011-006", "karar": "hata", "neden": "Claude: konu dışı / yanlış durum", "zaman": "2026-10-11T14:43:03"}
+{"aday_id": "enstrumantal-k0012-001", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:04"}
+{"aday_id": "enstrumantal-k0012-008", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:04"}
+{"aday_id": "enstrumantal-k0012-010", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:04"}
+{"aday_id": "enstrumantal-k0013-002", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:04"}
+{"aday_id": "enstrumantal-k0013-005", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:04"}
+{"aday_id": "enstrumantal-k0013-001", "karar": "hata", "neden": "Claude: konu dışı / yanlış durum", "zaman": "2026-10-11T14:43:04"}
+{"aday_id": "enstrumantal-k0013-003", "karar": "hata", "neden": "Claude: konu dışı / yanlış durum", "zaman": "2026-10-11T14:43:04"}
+{"aday_id": "enstrumantal-k0013-004", "karar": "hata", "neden": "Claude: konu dışı / yanlış durum", "zaman": "2026-10-11T14:43:04"}
+{"aday_id": "kinetik-k0001-001", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:04"}
+{"aday_id": "kinetik-k0001-012", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:04"}
+{"aday_id": "kinetik-k0001-016", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:04"}
+{"aday_id": "kinetik-k0002-001", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:04"}
+{"aday_id": "kinetik-k0002-002", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:04"}
+{"aday_id": "kinetik-k0002-004", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:04"}
+{"aday_id": "kinetik-k0002-006", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:04"}
+{"aday_id": "kinetik-k0002-003", "karar": "hata", "neden": "Claude: aynı konuda çok benzer", "zaman": "2026-10-11T14:43:04"}
+{"aday_id": "kinetik-k0003-001", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:04"}
+{"aday_id": "kinetik-k0003-004", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:04"}
+{"aday_id": "kinetik-k0003-006", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:04"}
+{"aday_id": "kinetik-k0004-001", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:04"}
+{"aday_id": "kinetik-k0004-002", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:04"}
+{"aday_id": "kinetik-k0004-004", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:04"}
+{"aday_id": "kinetik-k0004-005", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:04"}
+{"aday_id": "kinetik-k0005-003", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:04"}
+{"aday_id": "kinetik-k0005-004", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:04"}
+{"aday_id": "kinetik-k0005-001", "karar": "hata", "neden": "Claude: kalitesiz", "zaman": "2026-10-11T14:43:04"}
+{"aday_id": "kinetik-k0006-001", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:04"}
+{"aday_id": "kinetik-k0006-002", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:04"}
+{"aday_id": "kinetik-k0006-003", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:04"}
+{"aday_id": "kinetik-k0006-005", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:04"}
+{"aday_id": "kinetik-k0007-001", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:31"}
+{"aday_id": "gida_kimyasi-k0001-001", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:31"}
+{"aday_id": "gida_kimyasi-k0001-002", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:31"}
+{"aday_id": "gida_kimyasi-k0001-003", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:31"}
+{"aday_id": "gida_kimyasi-k0001-006", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:31"}
+{"aday_id": "gida_kimyasi-k0002-001", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:31"}
+{"aday_id": "gida_kimyasi-k0002-002", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:31"}
+{"aday_id": "gida_kimyasi-k0002-003", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:31"}
+{"aday_id": "gida_kimyasi-k0002-005", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:31"}
+{"aday_id": "gida_kimyasi-k0003-001", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:31"}
+{"aday_id": "gida_kimyasi-k0003-003", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:31"}
+{"aday_id": "gida_kimyasi-k0003-004", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:31"}
+{"aday_id": "gida_kimyasi-k0003-006", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:31"}
+{"aday_id": "gida_kimyasi-k0003-005", "karar": "hata", "neden": "Claude: bozuk yapı", "zaman": "2026-10-11T14:43:31"}
+{"aday_id": "gida_kimyasi-k0004-001", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:31"}
+{"aday_id": "gida_kimyasi-k0004-002", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:31"}
+{"aday_id": "gida_kimyasi-k0004-003", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:31"}
+{"aday_id": "gida_kimyasi-k0005-001", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:32"}
+{"aday_id": "gida_kimyasi-k0005-011", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:32"}
+{"aday_id": "gida_kimyasi-k0006-001", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:32"}
+{"aday_id": "gida_kimyasi-k0006-002", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:32"}
+{"aday_id": "gida_kimyasi-k0007-004", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:32"}
+{"aday_id": "gida_kimyasi-k0007-007", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:32"}
+{"aday_id": "gida_kimyasi-k0007-008", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:32"}
+{"aday_id": "gida_kimyasi-k0007-001", "karar": "hata", "neden": "Claude: bozuk yapı", "zaman": "2026-10-11T14:43:32"}
+{"aday_id": "gida_kimyasi-k0008-001", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:32"}
+{"aday_id": "gida_kimyasi-k0008-002", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:32"}
+{"aday_id": "gida_kimyasi-k0008-009", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:32"}
+{"aday_id": "gida_kimyasi-k0009-001", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:32"}
+{"aday_id": "gida_kimyasi-k0009-003", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:32"}
+{"aday_id": "gida_kimyasi-k0010-001", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:32"}
+{"aday_id": "gida_kimyasi-k0010-002", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:32"}
+{"aday_id": "gida_kimyasi-k0010-003", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:32"}
+{"aday_id": "gida_kimyasi-k0010-004", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:32"}
+{"aday_id": "gida_kimyasi-k0010-006", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:32"}
+{"aday_id": "gida_kimyasi-k0010-005", "karar": "hata", "neden": "Claude: aynı konuda çok benzer", "zaman": "2026-10-11T14:43:32"}
+{"aday_id": "gida_kimyasi-k0011-001", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:32"}
+{"aday_id": "gida_kimyasi-k0011-004", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:32"}
+{"aday_id": "gida_kimyasi-k0012-001", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:33"}
+{"aday_id": "gida_kimyasi-k0012-002", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:33"}
+{"aday_id": "gida_kimyasi-k0012-005", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:33"}
+{"aday_id": "ekonomi-k0001-001", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:33"}
+{"aday_id": "ekonomi-k0001-002", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:33"}
+{"aday_id": "ekonomi-k0001-003", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:33"}
+{"aday_id": "ekonomi-k0001-004", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:33"}
+{"aday_id": "ekonomi-k0002-001", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:33"}
+{"aday_id": "ekonomi-k0002-008", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:33"}
+{"aday_id": "ekonomi-k0002-010", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:33"}
+{"aday_id": "ekonomi-k0002-011", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:33"}
+{"aday_id": "ekonomi-k0002-012", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:33"}
+{"aday_id": "ekonomi-k0003-001", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:33"}
+{"aday_id": "ekonomi-k0004-001", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T14:43:33"}
+{"aday_id": "ekonomi-k0003-007", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T16:03:12"}
+{"aday_id": "ekonomi-k0003-009", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T16:03:12"}
+{"aday_id": "ekonomi-k0003-010", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T16:03:12"}
+{"aday_id": "ekonomi-k0003-012", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T16:03:12"}
+{"aday_id": "ekonomi-k0003-008", "karar": "hata", "neden": "Claude: aynı konuda çok benzer", "zaman": "2026-10-11T16:03:12"}
+{"aday_id": "ekonomi-k0003-011", "karar": "hata", "neden": "Claude: aynı konuda çok benzer", "zaman": "2026-10-11T16:03:12"}
+{"aday_id": "ekonomi-k0004-009", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T16:03:13"}
+{"aday_id": "ekonomi-k0004-011", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T16:03:13"}
+{"aday_id": "ekonomi-k0004-012", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T16:03:13"}
+{"aday_id": "ekonomi-k0005-004", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T16:03:13"}
+{"aday_id": "ekonomi-k0005-001", "karar": "hata", "neden": "Claude: kalitesiz", "zaman": "2026-10-11T16:03:13"}
+{"aday_id": "ekonomi-k0005-003", "karar": "hata", "neden": "Claude: kalitesiz", "zaman": "2026-10-11T16:03:13"}
+{"aday_id": "ekonomi-k0006-001", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T16:03:13"}
+{"aday_id": "ekonomi-k0006-002", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T16:03:13"}
+{"aday_id": "ekonomi-k0006-003", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T16:03:13"}
+{"aday_id": "ekonomi-k0006-004", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T16:03:13"}
+{"aday_id": "ekonomi-k0006-005", "karar": "hata", "neden": "Claude: bozuk yapı", "zaman": "2026-10-11T16:03:13"}
+{"aday_id": "ekonomi-k0006-006", "karar": "hata", "neden": "Claude: bozuk yapı", "zaman": "2026-10-11T16:03:13"}
+{"aday_id": "enstrumantal-k0005-022", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T16:03:13"}
+{"aday_id": "enstrumantal-k0005-024", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T16:03:13"}
+{"aday_id": "enstrumantal-k0005-020", "karar": "hata", "neden": "Claude: konu dışı / yanlış durum", "zaman": "2026-10-11T16:03:13"}
+{"aday_id": "enstrumantal-k0006-011", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T16:03:13"}
+{"aday_id": "enstrumantal-k0006-012", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T16:03:13"}
+{"aday_id": "enstrumantal-k0006-010", "karar": "hata", "neden": "Claude: bozuk yapı", "zaman": "2026-10-11T16:03:13"}
+{"aday_id": "enstrumantal-k0009-010", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T16:03:13"}
+{"aday_id": "enstrumantal-k0009-011", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T16:03:13"}
+{"aday_id": "enstrumantal-k0009-007", "karar": "hata", "neden": "Claude: konu dışı / yanlış durum", "zaman": "2026-10-11T16:03:13"}
+{"aday_id": "enstrumantal-k0009-009", "karar": "hata", "neden": "Claude: konu dışı / yanlış durum", "zaman": "2026-10-11T16:03:13"}
+{"aday_id": "enstrumantal-k0010-009", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T16:03:13"}
+{"aday_id": "enstrumantal-k0010-017", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T16:03:13"}
+{"aday_id": "enstrumantal-k0010-007", "karar": "hata", "neden": "Claude: bozuk yapı", "zaman": "2026-10-11T16:03:13"}
+{"aday_id": "enstrumantal-k0010-008", "karar": "hata", "neden": "Claude: bozuk yapı", "zaman": "2026-10-11T16:03:13"}
+{"aday_id": "enstrumantal-k0010-010", "karar": "hata", "neden": "Claude: bozuk yapı", "zaman": "2026-10-11T16:03:13"}
+{"aday_id": "enstrumantal-k0010-011", "karar": "hata", "neden": "Claude: bozuk yapı", "zaman": "2026-10-11T16:03:13"}
+{"aday_id": "enstrumantal-k0010-012", "karar": "hata", "neden": "Claude: bozuk yapı", "zaman": "2026-10-11T16:03:13"}
+{"aday_id": "enstrumantal-k0010-013", "karar": "hata", "neden": "Claude: bozuk yapı", "zaman": "2026-10-11T16:03:13"}
+{"aday_id": "enstrumantal-k0010-014", "karar": "hata", "neden": "Claude: bozuk yapı", "zaman": "2026-10-11T16:03:13"}
+{"aday_id": "enstrumantal-k0010-015", "karar": "hata", "neden": "Claude: bozuk yapı", "zaman": "2026-10-11T16:03:13"}
+{"aday_id": "enstrumantal-k0010-016", "karar": "hata", "neden": "Claude: konu dışı / yanlış durum", "zaman": "2026-10-11T16:03:13"}
+{"aday_id": "enstrumantal-k0010-018", "karar": "hata", "neden": "Claude: bozuk yapı", "zaman": "2026-10-11T16:03:13"}
+{"aday_id": "enstrumantal-k0011-010", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T16:03:13"}
+{"aday_id": "enstrumantal-k0011-011", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T16:03:13"}
+{"aday_id": "enstrumantal-k0011-012", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T16:03:13"}
+{"aday_id": "enstrumantal-k0011-007", "karar": "hata", "neden": "Claude: konu dışı / yanlış durum", "zaman": "2026-10-11T16:03:13"}
+{"aday_id": "enstrumantal-k0011-008", "karar": "hata", "neden": "Claude: konu dışı / yanlış durum", "zaman": "2026-10-11T16:03:13"}
+{"aday_id": "enstrumantal-k0013-007", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T16:03:13"}
+{"aday_id": "enstrumantal-k0013-008", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T16:03:13"}
+{"aday_id": "enstrumantal-k0013-009", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T16:03:13"}
+{"aday_id": "fizikokimya-k0001-001", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T16:03:13"}
+{"aday_id": "fizikokimya-k0001-002", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T16:03:13"}
+{"aday_id": "fizikokimya-k0001-004", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T16:03:13"}
+{"aday_id": "fizikokimya-k0001-006", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T16:03:13"}
+{"aday_id": "fizikokimya-k0001-003", "karar": "hata", "neden": "Claude: bozuk yapı", "zaman": "2026-10-11T16:03:13"}
+{"aday_id": "fizikokimya-k0002-001", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T16:03:14"}
+{"aday_id": "fizikokimya-k0002-003", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T16:03:14"}
+{"aday_id": "fizikokimya-k0002-005", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T16:03:14"}
+{"aday_id": "fizikokimya-k0002-006", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T16:03:14"}
+{"aday_id": "fizikokimya-k0003-001", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T16:03:14"}
+{"aday_id": "fizikokimya-k0003-003", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T16:03:14"}
+{"aday_id": "fizikokimya-k0003-005", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T16:03:14"}
+{"aday_id": "fizikokimya-k0003-006", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T16:03:14"}
+{"aday_id": "fizikokimya-k0003-002", "karar": "hata", "neden": "Claude: aynı konuda çok benzer", "zaman": "2026-10-11T16:03:14"}
+{"aday_id": "fizikokimya-k0003-004", "karar": "hata", "neden": "Claude: aynı konuda çok benzer", "zaman": "2026-10-11T16:03:14"}
+{"aday_id": "gida_kimyasi-k0006-019", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T16:03:14"}
+{"aday_id": "gida_kimyasi-k0006-020", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T16:03:14"}
+{"aday_id": "gida_kimyasi-k0006-021", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T16:03:14"}
+{"aday_id": "gida_kimyasi-k0009-019", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T16:03:14"}
+{"aday_id": "gida_kimyasi-k0011-016", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T16:03:14"}
+{"aday_id": "gida_kimyasi-k0011-017", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T16:03:14"}
+{"aday_id": "istatistik-k0001-001", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T16:03:14"}
+{"aday_id": "istatistik-k0001-002", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T16:03:14"}
+{"aday_id": "istatistik-k0001-004", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T16:03:14"}
+{"aday_id": "istatistik-k0001-005", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T16:03:14"}
+{"aday_id": "istatistik-k0002-001", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T16:03:14"}
+{"aday_id": "istatistik-k0002-002", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T16:03:14"}
+{"aday_id": "istatistik-k0003-002", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T16:03:14"}
+{"aday_id": "istatistik-k0003-003", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T16:03:14"}
+{"aday_id": "istatistik-k0003-004", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T16:03:14"}
+{"aday_id": "istatistik-k0003-005", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T16:03:14"}
+{"aday_id": "istatistik-k0003-006", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T16:03:14"}
+{"aday_id": "istatistik-k0003-001", "karar": "hata", "neden": "Claude: aynı konuda çok benzer", "zaman": "2026-10-11T16:03:14"}
+{"aday_id": "kinetik-k0005-007", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T16:03:14"}
+{"aday_id": "kinetik-k0005-008", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T16:03:14"}
+{"aday_id": "kinetik-k0005-009", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T16:03:14"}
+{"aday_id": "kutle_enerji-k0008-022", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T16:03:14"}
+{"aday_id": "kutle_enerji-k0008-023", "karar": "kusursuz", "neden": "Claude kontrolü", "zaman": "2026-10-11T16:03:14"}
+{"aday_id": "materials-k0153-022", "karar": "hata", "neden": "Claude: konu dışı / yanlış durum", "zaman": "2026-10-11T16:03:14"}
+{"aday_id": "materials-k0153-023", "karar": "hata", "neden": "Claude: konu dışı / yanlış durum", "zaman": "2026-10-11T16:03:14"}
+{"aday_id": "materials-k0153-025", "karar": "hata", "neden": "Claude: konu dışı / yanlış durum", "zaman": "2026-10-11T16:03:14"}
+{"aday_id": "materials-k0153-026", "karar": "hata", "neden": "Claude: konu dışı / yanlış durum", "zaman": "2026-10-11T16:03:14"}
+{"aday_id": "materials-k0153-027", "karar": "hata", "neden": "Claude: konu dışı / yanlış durum", "zaman": "2026-10-11T16:03:14"}
