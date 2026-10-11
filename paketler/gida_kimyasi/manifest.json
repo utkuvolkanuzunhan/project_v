@@ -2,10 +2,10 @@
  "ders": "gida_kimyasi",
  "ad": "Food Chemistry I",
  "dersKodu": "-",
- "surum": 1,
+ "surum": 2,
  "kavramSayisi": 12,
  "beklenenGorsel": 36,
- "mevcutGorsel": 4,
+ "mevcutGorsel": 14,
  "uniteler": [
   {
    "no": 1,
@@ -61,6 +61,22 @@
        "genislik": 1024,
        "yukseklik": 1024,
        "aday": "gida_kimyasi-k0002-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "a2a5f801cc7d6430f38b34cbed44b1a5725df6c3cdb5d23abc0f753d9c2da3ea",
+       "boyut": 106690,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "gida_kimyasi-k0002-002"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "73d7394c342518947e0c4d962b0795a1b6ced53262cc166bac070b2ca9886730",
+       "boyut": 100972,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "gida_kimyasi-k0002-003"
       }
      ]
     },
@@ -71,7 +87,32 @@
      "gosterim": "tuz topaklanır",
      "yol": "u01-su/k0003-nem-cekme-higroskopik",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "678ab24459990d400339add9bdb01cb9ff26d63df1da6ec35aeb065947ea7536",
+       "boyut": 70446,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "gida_kimyasi-k0003-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "f51517e4e2cbab38139ae68e6f6ec1beff3de7dd32f00f20767290e3400eab43",
+       "boyut": 82866,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "gida_kimyasi-k0003-003"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "7e93cbb3cf55c946a8a3045e3d4a786fb69bb4f25d41898775701079bb0a6f2c",
+       "boyut": 79784,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "gida_kimyasi-k0003-006"
+      }
+     ]
     }
    ]
   },
@@ -87,7 +128,32 @@
      "gosterim": "şeker kristal yapısı",
      "yol": "u02-karbonhidratlar/k0004-seker-kristalleri",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "201e9baaec9050b369b61fd541862bd82ef4772b48f3ddd8b32a8e217165c354",
+       "boyut": 52320,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "gida_kimyasi-k0004-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "493bfb9daf2d0c225d760e1ea3d95107e8a1fd0ff41dc48f2a9f1fa5b6e29676",
+       "boyut": 50978,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "gida_kimyasi-k0004-002"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "c8da769a5ca29b6442b10b87489dff2f7958ac1dc4e7cde7f0287c34d38373fe",
+       "boyut": 58622,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "gida_kimyasi-k0004-003"
+      }
+     ]
     },
     {
      "id": "k0005",
@@ -96,7 +162,24 @@
      "gosterim": "ekmek kabuğu kahverengileşir",
      "yol": "u02-karbonhidratlar/k0005-maillard-kizarmasi",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "276c3a32bf8e17542e88e7938769964f425ada2ab17581ce8191ab7e620a4118",
+       "boyut": 87752,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "gida_kimyasi-k0005-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "2305b16054fb0e10a193534d2ad5c2b21b8fa7562995bd8751f6a8237063dbb7",
+       "boyut": 107262,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "gida_kimyasi-k0005-011"
+      }
+     ]
     },
     {
      "id": "k0006",
