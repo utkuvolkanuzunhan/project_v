@@ -2,10 +2,10 @@
  "ders": "malzeme_bilimi",
  "ad": "Material Science",
  "dersKodu": "-",
- "surum": 3,
+ "surum": 4,
  "kavramSayisi": 12,
  "beklenenGorsel": 36,
- "mevcutGorsel": 27,
+ "mevcutGorsel": 36,
  "uniteler": [
   {
    "no": 1,
@@ -332,7 +332,32 @@
      "gosterim": "karton kutu katmanları",
      "yol": "u02-ambalaj-malzemeleri/k0010-cok-katli-ambalaj-kompozit",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "4c2e37149e048abd8ebbd0727126b35e1f8047a4da67371f744b930b22ad24f3",
+       "boyut": 100410,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "malzeme_bilimi-k0010-004"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "3d2877d4f8c91abf8e61aa684e32711c79a5789b6d97fc50285bd794f072efc8",
+       "boyut": 77790,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "malzeme_bilimi-k0010-006"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "8a123bf5de54ece536d404d2489280458c83c3965236d1d5b46bd01672254237",
+       "boyut": 75582,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "malzeme_bilimi-k0010-005"
+      }
+     ]
     },
     {
      "id": "k0011",
@@ -341,7 +366,32 @@
      "gosterim": "gıda tankı yüzeyi",
      "yol": "u02-ambalaj-malzemeleri/k0011-paslanmaz-celik",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "352f15ca801d2c455bae4870da9e053c206a8e339f05836a3816311f2706f889",
+       "boyut": 48562,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "malzeme_bilimi-k0011-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "c8834254408fb099d53dfa67a1dc0617140aaa50fa67278b5bb7946055a97e12",
+       "boyut": 82890,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "malzeme_bilimi-k0011-005"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "c62e2d2260b1a5d0d24593df041fe93c34537d9668eda67383a99ce5dbd03816",
+       "boyut": 55156,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "malzeme_bilimi-k0011-004"
+      }
+     ]
     },
     {
      "id": "k0012",
@@ -350,7 +400,32 @@
      "gosterim": "metal ambalaj",
      "yol": "u02-ambalaj-malzemeleri/k0012-aluminyum-folyo-ve-kutu",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "96e72adf6c4892a6733f6455b441a01c347bc03b06660c55b1f7be43d56a1047",
+       "boyut": 56180,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "malzeme_bilimi-k0012-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "dc76409d5d857390dc82a012833705a7c085bc5ff26e058bb10d795f4c12d6c0",
+       "boyut": 47144,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "malzeme_bilimi-k0012-004"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "a1f5b84690a50d3dfb546f943bcb7098e6b68491c6ef367832d0c4d42d7a2c88",
+       "boyut": 52874,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "malzeme_bilimi-k0012-002"
+      }
+     ]
     }
    ]
   }
