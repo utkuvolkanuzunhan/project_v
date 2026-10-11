@@ -2,10 +2,10 @@
  "ders": "kinetik",
  "ad": "Reaction Kinetics",
  "dersKodu": "-",
- "surum": 1,
+ "surum": 2,
  "kavramSayisi": 7,
  "beklenenGorsel": 21,
- "mevcutGorsel": 10,
+ "mevcutGorsel": 19,
  "uniteler": [
   {
    "no": 1,
@@ -136,6 +136,22 @@
        "genislik": 1024,
        "yukseklik": 1024,
        "aday": "kinetik-k0004-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "9f76758f162810d5e82888596548716379d06240461b0c905e8997a5523d5b83",
+       "boyut": 48270,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "kinetik-k0004-004"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "8d72f2b52e266aaa74faac8fb2c15af6e310201a6af47456a0dd912393704943",
+       "boyut": 59002,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "kinetik-k0004-002"
       }
      ]
     },
@@ -146,7 +162,32 @@
      "gosterim": "yüksek sıcaklıkta mikrop ölümü",
      "yol": "u02-gidada-kinetik/k0005-sterilizasyon-otoklav-retort",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "9df96b346a5f6682dc6e9d78b8b302982e577618334890aabe1887b0b6175b75",
+       "boyut": 102430,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "kinetik-k0005-003"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "93fda2850f589a2869d9dc1f89d137e761621a5fc7dc3cce215f8b32e55b382c",
+       "boyut": 92398,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "kinetik-k0005-008"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "a6f71f84086a7515829d8ef785665ff7a7e92f1976211990cc7ad0ae7a958836",
+       "boyut": 94154,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "kinetik-k0005-007"
+      }
+     ]
     },
     {
      "id": "k0006",
@@ -155,7 +196,32 @@
      "gosterim": "koloniler çoğalır",
      "yol": "u02-gidada-kinetik/k0006-mikrobiyal-buyume",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "726b66e0adcf6ae4cc854a6045d1dae587388aeaa42a4bf943f28db4503deef4",
+       "boyut": 60362,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "kinetik-k0006-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "987c8a88c12b72bf918d0e96f34940d552b2eab5aaf9b9191595e6eed18b4d27",
+       "boyut": 62208,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "kinetik-k0006-003"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "6b8de50359552759f9fa94b8ae3659ad5d8a3a0ab97a3a2d2d2cce81da3dd256",
+       "boyut": 56316,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "kinetik-k0006-005"
+      }
+     ]
     },
     {
      "id": "k0007",
@@ -164,7 +230,16 @@
      "gosterim": "tankta sürekli karıştırma",
      "yol": "u02-gidada-kinetik/k0007-karistirmali-reaktor",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "c14665c63ac490a9971d2dfa1d7ec03a00217294c7ab1d37c858975d9f3f7b79",
+       "boyut": 82526,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "kinetik-k0007-001"
+      }
+     ]
     }
    ]
   }

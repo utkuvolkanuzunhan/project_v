@@ -1,0 +1,131 @@
+{
+ "ders": "kutle_enerji",
+ "ad": "Material and Energy Balances",
+ "dersKodu": "-",
+ "surum": 1,
+ "kavramSayisi": 10,
+ "beklenenGorsel": 30,
+ "mevcutGorsel": 1,
+ "uniteler": [
+  {
+   "no": 1,
+   "ad": "Birimler ve proses değişkenleri",
+   "klasor": "u01-birimler-ve-proses-degiskenleri",
+   "kavramlar": [
+    {
+     "id": "k0001",
+     "ad": "Laboratuvar ölçü kapları ve birim dönüşümü",
+     "hat": "B",
+     "gosterim": "beher, mezür ve terazi",
+     "yol": "u01-birimler-ve-proses-degiskenleri/k0001-laboratuvar-olcu-kaplari-ve-birim-donusu",
+     "beklenen": 3,
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "f8f8448df80b99c32ce0617bb640cbaf8b3c0d2727a6508d08a678cca72d080f",
+       "boyut": 55586,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "kutle_enerji-k0001-002"
+      }
+     ]
+    },
+    {
+     "id": "k0002",
+     "ad": "Debi ve akış ölçümü",
+     "hat": "B",
+     "gosterim": "borudaki debimetre",
+     "yol": "u01-birimler-ve-proses-degiskenleri/k0002-debi-ve-akis-olcumu",
+     "beklenen": 3,
+     "gorseller": []
+    }
+   ]
+  },
+  {
+   "no": 2,
+   "ad": "Kütle denkliği",
+   "klasor": "u02-kutle-denkligi",
+   "kavramlar": [
+    {
+     "id": "k0003",
+     "ad": "Meyve suyu konsantrasyonu (evaporatör)",
+     "hat": "B",
+     "gosterim": "buharlaştırıcıda su uzaklaşır",
+     "yol": "u02-kutle-denkligi/k0003-meyve-suyu-konsantrasyonu-evaporator",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0004",
+     "ad": "Süt standardizasyonu ve karışım tankı",
+     "hat": "B",
+     "gosterim": "karışımda yağ oranı ayarlanır",
+     "yol": "u02-kutle-denkligi/k0004-sut-standardizasyonu-ve-karisim-tanki",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0005",
+     "ad": "Püskürtmeli kurutma",
+     "hat": "B",
+     "gosterim": "sıvı damlacıkları toz olur",
+     "yol": "u02-kutle-denkligi/k0005-puskurtmeli-kurutma",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0006",
+     "ad": "Geri döngülü proses hattı",
+     "hat": "B",
+     "gosterim": "ürünün bir kısmı geri döner",
+     "yol": "u02-kutle-denkligi/k0006-geri-dongulu-proses-hatti",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0007",
+     "ad": "Fermentasyon tankı",
+     "hat": "B",
+     "gosterim": "şeker alkole dönüşür",
+     "yol": "u02-kutle-denkligi/k0007-fermentasyon-tanki",
+     "beklenen": 3,
+     "gorseller": []
+    }
+   ]
+  },
+  {
+   "no": 3,
+   "ad": "Enerji denkliği",
+   "klasor": "u03-enerji-denkligi",
+   "kavramlar": [
+    {
+     "id": "k0008",
+     "ad": "Buharla ısıtma (ısı değiştirici)",
+     "hat": "B",
+     "gosterim": "buhar ürünü ısıtır",
+     "yol": "u03-enerji-denkligi/k0008-buharla-isitma-isi-degistirici",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0009",
+     "ad": "Tepsili kurutucu",
+     "hat": "B",
+     "gosterim": "sıcak hava gıdayı kurutur",
+     "yol": "u03-enerji-denkligi/k0009-tepsili-kurutucu",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0010",
+     "ad": "Tankı doldurma ve seyreltme",
+     "hat": "B",
+     "gosterim": "tank dolarken derişim değişir",
+     "yol": "u03-enerji-denkligi/k0010-tanki-doldurma-ve-seyreltme",
+     "beklenen": 3,
+     "gorseller": []
+    }
+   ]
+  }
+ ]
+}
