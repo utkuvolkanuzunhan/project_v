@@ -2,10 +2,10 @@
  "ders": "enstrumantal",
  "ad": "Instrumental Food Analysis",
  "dersKodu": "-",
- "surum": 3,
+ "surum": 4,
  "kavramSayisi": 13,
  "beklenenGorsel": 39,
- "mevcutGorsel": 24,
+ "mevcutGorsel": 34,
  "uniteler": [
   {
    "no": 1,
@@ -322,7 +322,32 @@
      "gosterim": "meyve suyu damlası",
      "yol": "u04-elektrokimyasal-ve-diger-yontemler/k0010-refraktometre-brix",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "f71f389ee9d51bc4d15cb31f7bee3ab1b9957ca31f67406e417e7e433755b93a",
+       "boyut": 52162,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "enstrumantal-k0010-004"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "499ce6baebaf096dcbaee7ddf50a794add727e30ce4918f7cffc2b8227a0983c",
+       "boyut": 72754,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "enstrumantal-k0010-009"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "e0f53158cffc740acbd95a4da7db136be61d0fd2e5849ea61664211631573f48",
+       "boyut": 55526,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "enstrumantal-k0010-017"
+      }
+     ]
     },
     {
      "id": "k0011",
@@ -331,7 +356,32 @@
      "gosterim": "meyve yüzeyinde ölçüm",
      "yol": "u04-elektrokimyasal-ve-diger-yontemler/k0011-renk-olcumu-kolorimetre",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "4c1e8f43bb67b65f9072c3feaf0e1adf30df4944cb45c2354abd3581c0e642fd",
+       "boyut": 55948,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "enstrumantal-k0011-003"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "8673974788f1771c64d56bbcaac97c29deb8d4c570c0f0541ac7005eeef1c98b",
+       "boyut": 55160,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "enstrumantal-k0011-012"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "ff25ac661205d75e2806ebc2f2c5064cecf7b03af93d8494a9e4e58e57c08b47",
+       "boyut": 63286,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "enstrumantal-k0011-010"
+      }
+     ]
     },
     {
      "id": "k0012",
@@ -340,7 +390,32 @@
      "gosterim": "prob ürüne basar",
      "yol": "u04-elektrokimyasal-ve-diger-yontemler/k0012-tekstur-analizoru",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "8f42808ceb1a9147c189f5bb795a1d7773142cfd677cd9debdb28194cbf13bd9",
+       "boyut": 63994,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "enstrumantal-k0012-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "b23d29bc6482cbbd50a957e615492e5b6b77dd79b358ef0ad74c8d18afdc294a",
+       "boyut": 90588,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "enstrumantal-k0012-008"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "77b5603512574502740877b45d3977df244e1be38b819ffdd70521c50de8d8af",
+       "boyut": 69540,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "enstrumantal-k0012-010"
+      }
+     ]
     },
     {
      "id": "k0013",
@@ -349,7 +424,16 @@
      "gosterim": "bantlar jelde ayrılır",
      "yol": "u04-elektrokimyasal-ve-diger-yontemler/k0013-jel-elektroforezi",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "b0d5bda74c9e6f1bcf64686d2c9aeb7cc6b031b877930be0d3ef63ff02c75af0",
+       "boyut": 60556,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "enstrumantal-k0013-002"
+      }
+     ]
     }
    ]
   }
