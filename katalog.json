@@ -60,8 +60,8 @@
    "ad": "Material and Energy Balances",
    "dersKodu": "-",
    "kavramSayisi": 10,
-   "gorselSayisi": 24,
-   "boyutMB": 1.9,
+   "gorselSayisi": 30,
+   "boyutMB": 2.7,
    "manifest": "paketler/kutle_enerji/manifest.json"
   },
   {
@@ -69,8 +69,8 @@
    "ad": "Instrumental Food Analysis",
    "dersKodu": "-",
    "kavramSayisi": 13,
-   "gorselSayisi": 36,
-   "boyutMB": 2.5,
+   "gorselSayisi": 38,
+   "boyutMB": 2.2,
    "manifest": "paketler/enstrumantal/manifest.json"
   },
   {
@@ -78,8 +78,8 @@
    "ad": "Reaction Kinetics",
    "dersKodu": "-",
    "kavramSayisi": 7,
-   "gorselSayisi": 19,
-   "boyutMB": 1.4,
+   "gorselSayisi": 20,
+   "boyutMB": 1.0,
    "manifest": "paketler/kinetik/manifest.json"
   },
   {
@@ -87,8 +87,8 @@
    "ad": "Food Chemistry I",
    "dersKodu": "-",
    "kavramSayisi": 12,
-   "gorselSayisi": 35,
-   "boyutMB": 2.6,
+   "gorselSayisi": 32,
+   "boyutMB": 1.9,
    "manifest": "paketler/gida_kimyasi/manifest.json"
   },
   {
@@ -97,7 +97,7 @@
    "dersKodu": "-",
    "kavramSayisi": 6,
    "gorselSayisi": 16,
-   "boyutMB": 2.4,
+   "boyutMB": 1.9,
    "manifest": "paketler/ekonomi/manifest.json"
   },
   {
@@ -106,7 +106,7 @@
    "dersKodu": "-",
    "kavramSayisi": 3,
    "gorselSayisi": 9,
-   "boyutMB": 1.0,
+   "boyutMB": 1.1,
    "manifest": "paketler/istatistik/manifest.json"
   },
   {
@@ -114,8 +114,8 @@
    "ad": "Physical Chemistry",
    "dersKodu": "-",
    "kavramSayisi": 8,
-   "gorselSayisi": 24,
-   "boyutMB": 1.5,
+   "gorselSayisi": 23,
+   "boyutMB": 1.3,
    "manifest": "paketler/fizikokimya/manifest.json"
   },
   {
@@ -123,8 +123,8 @@
    "ad": "Technical English I",
    "dersKodu": "-",
    "kavramSayisi": 3,
-   "gorselSayisi": 9,
-   "boyutMB": 0.6,
+   "gorselSayisi": 6,
+   "boyutMB": 0.5,
    "manifest": "paketler/teknik_ingilizce/manifest.json"
   },
   {
@@ -132,8 +132,8 @@
    "ad": "Material Science",
    "dersKodu": "-",
    "kavramSayisi": 12,
-   "gorselSayisi": 36,
-   "boyutMB": 2.3,
+   "gorselSayisi": 34,
+   "boyutMB": 2.0,
    "manifest": "paketler/malzeme_bilimi/manifest.json"
   }
  ]
