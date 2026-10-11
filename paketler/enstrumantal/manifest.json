@@ -2,10 +2,10 @@
  "ders": "enstrumantal",
  "ad": "Instrumental Food Analysis",
  "dersKodu": "-",
- "surum": 4,
+ "surum": 5,
  "kavramSayisi": 13,
  "beklenenGorsel": 39,
- "mevcutGorsel": 34,
+ "mevcutGorsel": 38,
  "uniteler": [
   {
    "no": 1,
@@ -422,6 +422,14 @@
        "genislik": 768,
        "yukseklik": 768,
        "aday": "enstrumantal-k0012-004"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "a9bce4b064f71281bf4b5d8314492bad972e4e2bf25585784ec491f12a5580b7",
+       "boyut": 17196,
+       "genislik": 768,
+       "yukseklik": 768,
+       "aday": "enstrumantal-k0012-006"
       }
      ]
     },
@@ -432,7 +440,32 @@
      "gosterim": "bantlar jelde ayrılır",
      "yol": "u04-elektrokimyasal-ve-diger-yontemler/k0013-jel-elektroforezi",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "b8270d2948d6c71e8346572afed62947b51837c32396191e138671fd349caa6c",
+       "boyut": 23248,
+       "genislik": 768,
+       "yukseklik": 768,
+       "aday": "enstrumantal-k0013-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "8d8808ebd128ce49cafe036ea0e2805c2152e299587acdeba7849e9c47df6079",
+       "boyut": 19824,
+       "genislik": 768,
+       "yukseklik": 768,
+       "aday": "enstrumantal-k0013-003"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "ce435aa4068844ca2f9d3e4ae7cc73d5edb3ee213bf8aa7604a6bc81c5d92855",
+       "boyut": 25842,
+       "genislik": 768,
+       "yukseklik": 768,
+       "aday": "enstrumantal-k0013-006"
+      }
+     ]
     }
    ]
   }
