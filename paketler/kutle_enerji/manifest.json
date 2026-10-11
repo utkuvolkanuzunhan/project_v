@@ -2,10 +2,10 @@
  "ders": "kutle_enerji",
  "ad": "Material and Energy Balances",
  "dersKodu": "-",
- "surum": 4,
+ "surum": 1,
  "kavramSayisi": 10,
  "beklenenGorsel": 30,
- "mevcutGorsel": 24,
+ "mevcutGorsel": 2,
  "uniteler": [
   {
    "no": 1,
@@ -22,11 +22,19 @@
      "gorseller": [
       {
        "dosya": "b1.webp",
-       "sha256": "f8f8448df80b99c32ce0617bb640cbaf8b3c0d2727a6508d08a678cca72d080f",
-       "boyut": 55586,
+       "sha256": "083eea1a52d9f11103ff9da9aa8ebd89ead78e291fea9942769d5f2dbd3b9b94",
+       "boyut": 53984,
        "genislik": 1024,
        "yukseklik": 1024,
        "aday": "kutle_enerji-k0001-002"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "a04107bd79e20b4664166b47a5d19bc25885d5eb6f94bee5d81bb70f657b8255",
+       "boyut": 25478,
+       "genislik": 768,
+       "yukseklik": 768,
+       "aday": "kutle_enerji-k0001-018"
       }
      ]
     },
@@ -37,32 +45,7 @@
      "gosterim": "borudaki debimetre",
      "yol": "u01-birimler-ve-proses-degiskenleri/k0002-debi-ve-akis-olcumu",
      "beklenen": 3,
-     "gorseller": [
-      {
-       "dosya": "b1.webp",
-       "sha256": "bb711c6535f83992f5c04cf76abfe57b96f8e9aa5fedc611d48a462a64951214",
-       "boyut": 55746,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "kutle_enerji-k0002-001"
-      },
-      {
-       "dosya": "b2.webp",
-       "sha256": "29c28b361746415702f2ea894d6f895b34d0f8fdd89c0166afaba0ef04e92d88",
-       "boyut": 52456,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "kutle_enerji-k0002-016"
-      },
-      {
-       "dosya": "b3.webp",
-       "sha256": "3cfd771acce9d2a0a567503dc970b44c68c812b5bd07eccb76037ff46ac1cea7",
-       "boyut": 59626,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "kutle_enerji-k0002-010"
-      }
-     ]
+     "gorseller": []
     }
    ]
   },
@@ -78,24 +61,7 @@
      "gosterim": "buharlaştırıcıda su uzaklaşır",
      "yol": "u02-kutle-denkligi/k0003-meyve-suyu-konsantrasyonu-evaporator",
      "beklenen": 3,
-     "gorseller": [
-      {
-       "dosya": "b1.webp",
-       "sha256": "5a551ac1e9cccb5f5c05fa1ca8e71943ef9bca5a490c978639fba7314f1627a8",
-       "boyut": 118756,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "kutle_enerji-k0003-001"
-      },
-      {
-       "dosya": "b2.webp",
-       "sha256": "516d4f0231f68b241aa76cb8ea7753285ad4d43bb6be9e1748bd633533e56fc7",
-       "boyut": 93210,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "kutle_enerji-k0003-012"
-      }
-     ]
+     "gorseller": []
     },
     {
      "id": "k0004",
@@ -104,32 +70,7 @@
      "gosterim": "karışımda yağ oranı ayarlanır",
      "yol": "u02-kutle-denkligi/k0004-sut-standardizasyonu-ve-karisim-tanki",
      "beklenen": 3,
-     "gorseller": [
-      {
-       "dosya": "b1.webp",
-       "sha256": "d42349c64059b235b10cad88e64439625c16de35db29218c81863a5c2a95bb1a",
-       "boyut": 67856,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "kutle_enerji-k0004-001"
-      },
-      {
-       "dosya": "b2.webp",
-       "sha256": "84c1cdbaf0f1141c609ab64b80acd58370eef5a48da6aaba6ca312dc8b1f0376",
-       "boyut": 87238,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "kutle_enerji-k0004-007"
-      },
-      {
-       "dosya": "b3.webp",
-       "sha256": "e00a31f761ce30c298344fa0ad693377abd14f2d2cd6ed8955fe73a72452aa90",
-       "boyut": 63148,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "kutle_enerji-k0004-003"
-      }
-     ]
+     "gorseller": []
     },
     {
      "id": "k0005",
@@ -138,32 +79,7 @@
      "gosterim": "sıvı damlacıkları toz olur",
      "yol": "u02-kutle-denkligi/k0005-puskurtmeli-kurutma",
      "beklenen": 3,
-     "gorseller": [
-      {
-       "dosya": "b1.webp",
-       "sha256": "d4111c5c7b0be8a2289ed4ff25695a6ee02a0f14b5d30070e0a0dd39e8840259",
-       "boyut": 87092,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "kutle_enerji-k0005-001"
-      },
-      {
-       "dosya": "b2.webp",
-       "sha256": "22b658b8f39e04957e968ab86a76699909c1e93cc7eef84f6c6084a61c9766f1",
-       "boyut": 74544,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "kutle_enerji-k0005-006"
-      },
-      {
-       "dosya": "b3.webp",
-       "sha256": "30240519ae9e302d755095885e104d7904f34ef48f1a73a96cb4b6e4223a733b",
-       "boyut": 85630,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "kutle_enerji-k0005-009"
-      }
-     ]
+     "gorseller": []
     },
     {
      "id": "k0006",
@@ -172,24 +88,7 @@
      "gosterim": "ürünün bir kısmı geri döner",
      "yol": "u02-kutle-denkligi/k0006-geri-dongulu-proses-hatti",
      "beklenen": 3,
-     "gorseller": [
-      {
-       "dosya": "b1.webp",
-       "sha256": "5cda75034b70ec453c18f3f7fc6e47fa49cbe5dd763dca0c23044f7aaaa3a73c",
-       "boyut": 105400,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "kutle_enerji-k0006-001"
-      },
-      {
-       "dosya": "b2.webp",
-       "sha256": "65971069f816d5096455af3a58054b32e682b59496a0abb207d52a5f8473cf43",
-       "boyut": 102452,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "kutle_enerji-k0006-023"
-      }
-     ]
+     "gorseller": []
     },
     {
      "id": "k0007",
@@ -198,24 +97,7 @@
      "gosterim": "şeker alkole dönüşür",
      "yol": "u02-kutle-denkligi/k0007-fermentasyon-tanki",
      "beklenen": 3,
-     "gorseller": [
-      {
-       "dosya": "b1.webp",
-       "sha256": "295846348ea8e26ec3b12abf1b1d52dcd1e361d5c0f546168c00aa8fb523162a",
-       "boyut": 104324,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "kutle_enerji-k0007-001"
-      },
-      {
-       "dosya": "b2.webp",
-       "sha256": "1ee3e718f9eae846bb0d745311850c53dd6963e8130f6dacfaa8088db5904731",
-       "boyut": 90374,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "kutle_enerji-k0007-016"
-      }
-     ]
+     "gorseller": []
     }
    ]
   },
@@ -231,32 +113,7 @@
      "gosterim": "buhar ürünü ısıtır",
      "yol": "u03-enerji-denkligi/k0008-buharla-isitma-isi-degistirici",
      "beklenen": 3,
-     "gorseller": [
-      {
-       "dosya": "b1.webp",
-       "sha256": "aeebb3916589fc4a39790f5ebf3dfced23f8374ffa7b3b3ace0de538f677a982",
-       "boyut": 80334,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "kutle_enerji-k0008-001"
-      },
-      {
-       "dosya": "b2.webp",
-       "sha256": "7b24cfdc4b337d13fa98403dfd54d0ec90bd7ea894dbca533ed6ab6d689d31e1",
-       "boyut": 112860,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "kutle_enerji-k0008-009"
-      },
-      {
-       "dosya": "b3.webp",
-       "sha256": "a237058f587376b7c25df3079f467e73ee5a941c2c6c98aa6259ab7f06922480",
-       "boyut": 83130,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "kutle_enerji-k0008-022"
-      }
-     ]
+     "gorseller": []
     },
     {
      "id": "k0009",
@@ -265,24 +122,7 @@
      "gosterim": "sıcak hava gıdayı kurutur",
      "yol": "u03-enerji-denkligi/k0009-tepsili-kurutucu",
      "beklenen": 3,
-     "gorseller": [
-      {
-       "dosya": "b1.webp",
-       "sha256": "5a530dddc8454d6ff45254d4e2909a6857b97ae436abf75adb2ca82ca2ad145a",
-       "boyut": 77718,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "kutle_enerji-k0009-001"
-      },
-      {
-       "dosya": "b2.webp",
-       "sha256": "e94e69f27a31e424de7bed3be4e4dadda403e2ce601cebf2d4049f43d2278868",
-       "boyut": 79096,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "kutle_enerji-k0009-008"
-      }
-     ]
+     "gorseller": []
     },
     {
      "id": "k0010",
@@ -291,32 +131,7 @@
      "gosterim": "tank dolarken derişim değişir",
      "yol": "u03-enerji-denkligi/k0010-tanki-doldurma-ve-seyreltme",
      "beklenen": 3,
-     "gorseller": [
-      {
-       "dosya": "b1.webp",
-       "sha256": "cde1d8ef9728c74e523a7cb9a6998a3a17edf937eeff26c75a3ebf010e991c47",
-       "boyut": 64816,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "kutle_enerji-k0010-002"
-      },
-      {
-       "dosya": "b2.webp",
-       "sha256": "deb38d4932aa30a15052eb9f355bce328f737091a6ea5270a3684c37d02f90ca",
-       "boyut": 64936,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "kutle_enerji-k0010-003"
-      },
-      {
-       "dosya": "b3.webp",
-       "sha256": "8a6a4d880f728d8df9732b6f83775567df9a58211503c4c84545953964558369",
-       "boyut": 70566,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "kutle_enerji-k0010-005"
-      }
-     ]
+     "gorseller": []
     }
    ]
   }
