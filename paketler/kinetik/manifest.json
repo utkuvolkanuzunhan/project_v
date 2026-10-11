@@ -1,0 +1,172 @@
+{
+ "ders": "kinetik",
+ "ad": "Reaction Kinetics",
+ "dersKodu": "-",
+ "surum": 1,
+ "kavramSayisi": 7,
+ "beklenenGorsel": 21,
+ "mevcutGorsel": 10,
+ "uniteler": [
+  {
+   "no": 1,
+   "ad": "Hız ve sıcaklık",
+   "klasor": "u01-hiz-ve-sicaklik",
+   "kavramlar": [
+    {
+     "id": "k0001",
+     "ad": "Sıcaklığın etkisi",
+     "hat": "B",
+     "gosterim": "ısıtılan çözeltide reaksiyon hızlanır",
+     "yol": "u01-hiz-ve-sicaklik/k0001-sicakligin-etkisi",
+     "beklenen": 3,
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "1f4fee408726e20c098f52b9be7a336a3a3b0a73185c73116fc2a6f2aa292d67",
+       "boyut": 57260,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "kinetik-k0001-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "8d83b66d423286ab7614868864c62df81d2d91c001d75fb20145348980440581",
+       "boyut": 58284,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "kinetik-k0001-016"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "1737703cc4b192b46e9c7eddc51a0f8d372aab164a52fca28d252c0015e8216b",
+       "boyut": 72190,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "kinetik-k0001-012"
+      }
+     ]
+    },
+    {
+     "id": "k0002",
+     "ad": "Raf ömrü testi",
+     "hat": "B",
+     "gosterim": "gıda sıcaklıkta bekletilir",
+     "yol": "u01-hiz-ve-sicaklik/k0002-raf-omru-testi",
+     "beklenen": 3,
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "318bc313f6c008cc89d0faa4e575dbfaa4476f3014e836aee48b2c508dc69dbe",
+       "boyut": 129284,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "kinetik-k0002-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "c465d065cb82bbc84f170a75fe8444cd221df7796cd157b96f3040af3eb9fdc2",
+       "boyut": 107862,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "kinetik-k0002-006"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "1c2b7ea5dbe7865396ee084d59cf734c592265e3b4165a00fcba1ae294ddff58",
+       "boyut": 116588,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "kinetik-k0002-004"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "no": 2,
+   "ad": "Gıdada kinetik",
+   "klasor": "u02-gidada-kinetik",
+   "kavramlar": [
+    {
+     "id": "k0003",
+     "ad": "Enzimatik esmerleşme",
+     "hat": "B",
+     "gosterim": "kesilen elma kararır",
+     "yol": "u02-gidada-kinetik/k0003-enzimatik-esmerlesme",
+     "beklenen": 3,
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "cab6c4f75b64ec038b142a352735be53c1bcd45018ee876020cdead158f9f407",
+       "boyut": 65692,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "kinetik-k0003-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "b935e4ef20d4dc4bc5f80f9ed348c28129cd93855aefdab8db251897b231d8e9",
+       "boyut": 66110,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "kinetik-k0003-004"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "3fa851afc48f1fb4a327ebdb2fd57397619dc5fbaf9e51314855a161d67ff15e",
+       "boyut": 57012,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "kinetik-k0003-006"
+      }
+     ]
+    },
+    {
+     "id": "k0004",
+     "ad": "Fermantasyon kabarcıkları",
+     "hat": "B",
+     "gosterim": "fermentasyonda gaz çıkar",
+     "yol": "u02-gidada-kinetik/k0004-fermantasyon-kabarciklari",
+     "beklenen": 3,
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "186ae5bd4f28b36b84b2bce2f979110001659b9f90afc2317014b7bef532389a",
+       "boyut": 49888,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "kinetik-k0004-001"
+      }
+     ]
+    },
+    {
+     "id": "k0005",
+     "ad": "Sterilizasyon (otoklav/retort)",
+     "hat": "B",
+     "gosterim": "yüksek sıcaklıkta mikrop ölümü",
+     "yol": "u02-gidada-kinetik/k0005-sterilizasyon-otoklav-retort",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0006",
+     "ad": "Mikrobiyal büyüme",
+     "hat": "B",
+     "gosterim": "koloniler çoğalır",
+     "yol": "u02-gidada-kinetik/k0006-mikrobiyal-buyume",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0007",
+     "ad": "Karıştırmalı reaktör",
+     "hat": "B",
+     "gosterim": "tankta sürekli karıştırma",
+     "yol": "u02-gidada-kinetik/k0007-karistirmali-reaktor",
+     "beklenen": 3,
+     "gorseller": []
+    }
+   ]
+  }
+ ]
+}
