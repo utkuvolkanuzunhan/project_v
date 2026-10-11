@@ -2,10 +2,10 @@
  "ders": "teknik_ingilizce",
  "ad": "Technical English I",
  "dersKodu": "-",
- "surum": 2,
+ "surum": 1,
  "kavramSayisi": 3,
  "beklenenGorsel": 9,
- "mevcutGorsel": 9,
+ "mevcutGorsel": 6,
  "uniteler": [
   {
    "no": 1,
@@ -22,27 +22,11 @@
      "gorseller": [
       {
        "dosya": "b1.webp",
-       "sha256": "8d33a7b3071fe9908ec6d817766a81b7d019124e0616f7a00d4f86b237c3033d",
-       "boyut": 65022,
-       "genislik": 1024,
-       "yukseklik": 1024,
+       "sha256": "b164ffc2dc4e3fd25e0ef0b66e014fe9dd1e0ff4ba3629705bee4943d63ec814",
+       "boyut": 14518,
+       "genislik": 768,
+       "yukseklik": 768,
        "aday": "teknik_ingilizce-k0001-001"
-      },
-      {
-       "dosya": "b2.webp",
-       "sha256": "ca108630125bb2a1e898a37d1e9f43977930ea13ba22cbfde3a00a7391783cbb",
-       "boyut": 72976,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "teknik_ingilizce-k0001-009"
-      },
-      {
-       "dosya": "b3.webp",
-       "sha256": "8527d1f3f9d3c31b21bf17d0dac1ace8e4e2949b785cfc5bc168bba01044a7fa",
-       "boyut": 78862,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "teknik_ingilizce-k0001-004"
       }
      ]
     },
@@ -56,27 +40,27 @@
      "gorseller": [
       {
        "dosya": "b1.webp",
-       "sha256": "fd88cc6c84875db47bcee10063ca31636166b19df8fd1e3ff817da60c0c37b38",
-       "boyut": 49824,
-       "genislik": 1024,
-       "yukseklik": 1024,
+       "sha256": "0c64b61ce940dbba3ab05feb9f0c827a19558224381ee343e56c0464994b10d1",
+       "boyut": 95720,
+       "genislik": 768,
+       "yukseklik": 768,
        "aday": "teknik_ingilizce-k0002-001"
       },
       {
        "dosya": "b2.webp",
-       "sha256": "e147613720cce3a1dc393289bab380e7816d0aa3bb31f0968d5f1d7304ea0d88",
-       "boyut": 63274,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "teknik_ingilizce-k0002-008"
+       "sha256": "0196ea66be46dc1f4025b0b75836c1f227e02d9c97dd236587f5cc2895e79a9a",
+       "boyut": 118058,
+       "genislik": 768,
+       "yukseklik": 768,
+       "aday": "teknik_ingilizce-k0002-004"
       },
       {
        "dosya": "b3.webp",
-       "sha256": "7a323d545f6c0f269ba168b293e612f920334a16566c35256106411639ffa0f0",
-       "boyut": 51088,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "teknik_ingilizce-k0002-004"
+       "sha256": "182968f8da164e5cd1865f1b73b302c2d03fc068cc4fa434d9737ba76fb89cd9",
+       "boyut": 104896,
+       "genislik": 768,
+       "yukseklik": 768,
+       "aday": "teknik_ingilizce-k0002-002"
       }
      ]
     },
@@ -90,27 +74,19 @@
      "gorseller": [
       {
        "dosya": "b1.webp",
-       "sha256": "9117baec22724c0e78568365502efea11da69683ab5054aebf61f96ff3d98442",
-       "boyut": 76088,
-       "genislik": 1024,
-       "yukseklik": 1024,
+       "sha256": "a4820beb1c8556098587beb7b1185abf99e931f04d7405312719f607595cca39",
+       "boyut": 61052,
+       "genislik": 768,
+       "yukseklik": 768,
        "aday": "teknik_ingilizce-k0003-001"
       },
       {
        "dosya": "b2.webp",
-       "sha256": "743ee0847f0b256a2cd6dc0a93a5283a1c74b56437d88d9a4c218376e8fe4dce",
-       "boyut": 52930,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "teknik_ingilizce-k0003-005"
-      },
-      {
-       "dosya": "b3.webp",
-       "sha256": "c7350c1cd134be9242fe4309b7b7d8ed7bb9398b4d1eab5d89701ec7ccd6bb1f",
-       "boyut": 82352,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "teknik_ingilizce-k0003-002"
+       "sha256": "95d0e0f101105f8883626c0027a8d8fce5c77d656b7c49f11c9c6a396bf2b419",
+       "boyut": 94476,
+       "genislik": 768,
+       "yukseklik": 768,
+       "aday": "teknik_ingilizce-k0003-007"
       }
      ]
     }

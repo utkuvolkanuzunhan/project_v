@@ -2,10 +2,10 @@
  "ders": "malzeme_bilimi",
  "ad": "Material Science",
  "dersKodu": "-",
- "surum": 4,
+ "surum": 5,
  "kavramSayisi": 12,
  "beklenenGorsel": 36,
- "mevcutGorsel": 32,
+ "mevcutGorsel": 34,
  "uniteler": [
   {
    "no": 1,
@@ -392,6 +392,22 @@
        "genislik": 768,
        "yukseklik": 768,
        "aday": "malzeme_bilimi-k0012-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "4af6a020b291c5a5401954010ad29bc0a0339349a86f8f5fe2d11c52cefb0be8",
+       "boyut": 147108,
+       "genislik": 768,
+       "yukseklik": 768,
+       "aday": "malzeme_bilimi-k0012-003"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "7f16fd910694df16cb01fb48d1a0a4e8cc06cdfdd39d5548911f782f0a59699b",
+       "boyut": 139958,
+       "genislik": 768,
+       "yukseklik": 768,
+       "aday": "malzeme_bilimi-k0012-006"
       }
      ]
     }
