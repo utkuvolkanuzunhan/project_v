@@ -2,10 +2,10 @@
  "ders": "kutle_enerji",
  "ad": "Material and Energy Balances",
  "dersKodu": "-",
- "surum": 1,
+ "surum": 2,
  "kavramSayisi": 10,
  "beklenenGorsel": 30,
- "mevcutGorsel": 2,
+ "mevcutGorsel": 12,
  "uniteler": [
   {
    "no": 1,
@@ -35,6 +35,14 @@
        "genislik": 768,
        "yukseklik": 768,
        "aday": "kutle_enerji-k0001-018"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "488993f2078367886c01f6d592d5c78f34271f7ec83dfb1b0fc3cc5cef0d68b5",
+       "boyut": 47228,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "kutle_enerji-k0001-007"
       }
      ]
     },
@@ -45,7 +53,32 @@
      "gosterim": "borudaki debimetre",
      "yol": "u01-birimler-ve-proses-degiskenleri/k0002-debi-ve-akis-olcumu",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "95016087bb7e79f00a5827ea8394eacb9fc1391677bcaa6c9ff992367af9a9a3",
+       "boyut": 78446,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "kutle_enerji-k0002-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "cd441f02030a25848ac04a83531398ed128c65136d779d52c202a2261b9c4982",
+       "boyut": 78008,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "kutle_enerji-k0002-003"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "1bc56e1fb969102f628683e53025aaab9cfa9093f30f8d05ed7b6f3e4e794cb0",
+       "boyut": 84316,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "kutle_enerji-k0002-005"
+      }
+     ]
     }
    ]
   },
@@ -61,7 +94,32 @@
      "gosterim": "buharlaştırıcıda su uzaklaşır",
      "yol": "u02-kutle-denkligi/k0003-meyve-suyu-konsantrasyonu-evaporator",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "27c7796b76617232a568bb117507adf06898bd655badb39768b6186807df6641",
+       "boyut": 144750,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "kutle_enerji-k0003-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "7f07001714311c493fc89e226570f205ad7dfbbaecaf0a48dd58e8ec2e3a647d",
+       "boyut": 177622,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "kutle_enerji-k0003-017"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "76f750b89904d46d9ec8a80dcb8aad11093e67e2539574ef3e9a7a5e23ecea87",
+       "boyut": 160216,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "kutle_enerji-k0003-015"
+      }
+     ]
     },
     {
      "id": "k0004",
@@ -70,7 +128,32 @@
      "gosterim": "karışımda yağ oranı ayarlanır",
      "yol": "u02-kutle-denkligi/k0004-sut-standardizasyonu-ve-karisim-tanki",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "59cfd0d26b04ef4cae6d563e619fd172ee15ad4371d217779343cf202f3d6a0b",
+       "boyut": 25442,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "kutle_enerji-k0004-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "cc9246739885578e88b4603d6d250cbfe86be683fe5818146f1a5a6d011afb4e",
+       "boyut": 23240,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "kutle_enerji-k0004-002"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "78d02f10e7864c51f94f125208a56a1b67959c37a3a83760f64ac009fb988518",
+       "boyut": 28464,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "kutle_enerji-k0004-004"
+      }
+     ]
     },
     {
      "id": "k0005",
