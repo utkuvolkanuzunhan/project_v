@@ -18,13 +18,65 @@
   "oop": {
     "stil": "Flat minimal vector illustration, rich saturated colors, strong contrast, clean simple shapes, white background",
     "ek": "no text, no letters, no numbers, no watermark",
-    "varyantlar": ["centered composition", "wide composition with simple background shapes", "close-up of the main subject",
-                   "warm color palette", "cool color palette", "bold outlines", "isometric viewpoint", "side view"]
+    "varyantlar": [
+      "centered composition",
+      "wide composition with simple background shapes",
+      "close-up of the main subject",
+      "warm color palette",
+      "cool color palette",
+      "bold outlines",
+      "isometric viewpoint",
+      "side view"
+    ]
   },
   "linalg": {
     "stil": "Abstract minimal geometric vector illustration, bold clean lines, strong contrast, soft gradient background",
     "ek": "no text, no letters, no numbers, no watermark",
-    "varyantlar": ["centered composition", "wide composition", "close-up of the main subject",
-                   "warm color palette", "cool color palette", "isometric viewpoint", "side view", "top-down view"]
+    "varyantlar": [
+      "centered composition",
+      "wide composition",
+      "close-up of the main subject",
+      "warm color palette",
+      "cool color palette",
+      "isometric viewpoint",
+      "side view",
+      "top-down view"
+    ]
+  },
+  "kutle_enerji": {
+    "stil": "Calm realistic photograph, natural light, sharp focus, clean uncluttered composition, food engineering laboratory or food plant setting",
+    "ek": "no text, no letters, no numbers, no printed markings, no logos, no watermark, no people unless required"
+  },
+  "enstrumantal": {
+    "stil": "Calm realistic photograph, natural light, sharp focus, clean uncluttered composition, food engineering laboratory or food plant setting",
+    "ek": "no text, no letters, no numbers, no printed markings, no logos, no watermark, no people unless required"
+  },
+  "kinetik": {
+    "stil": "Calm realistic photograph, natural light, sharp focus, clean uncluttered composition, food engineering laboratory or food plant setting",
+    "ek": "no text, no letters, no numbers, no printed markings, no logos, no watermark, no people unless required"
+  },
+  "gida_kimyasi": {
+    "stil": "Calm realistic photograph, natural light, sharp focus, clean uncluttered composition, food engineering laboratory or food plant setting",
+    "ek": "no text, no letters, no numbers, no printed markings, no logos, no watermark, no people unless required"
+  },
+  "ekonomi": {
+    "stil": "Calm realistic photograph, natural light, sharp focus, clean uncluttered composition, food engineering laboratory or food plant setting",
+    "ek": "no text, no letters, no numbers, no printed markings, no logos, no watermark, no people unless required"
+  },
+  "istatistik": {
+    "stil": "Calm realistic photograph, natural light, sharp focus, clean uncluttered composition, food engineering laboratory or food plant setting",
+    "ek": "no text, no letters, no numbers, no printed markings, no logos, no watermark, no people unless required"
+  },
+  "fizikokimya": {
+    "stil": "Calm realistic photograph, natural light, sharp focus, clean uncluttered composition, food engineering laboratory or food plant setting",
+    "ek": "no text, no letters, no numbers, no printed markings, no logos, no watermark, no people unless required"
+  },
+  "teknik_ingilizce": {
+    "stil": "Calm realistic photograph, natural light, sharp focus, clean uncluttered composition, food engineering laboratory or food plant setting",
+    "ek": "no text, no letters, no numbers, no printed markings, no logos, no watermark, no people unless required"
+  },
+  "malzeme_bilimi": {
+    "stil": "Calm realistic photograph, natural light, sharp focus, clean uncluttered composition, food engineering laboratory or food plant setting",
+    "ek": "no text, no letters, no numbers, no printed markings, no logos, no watermark, no people unless required"
   }
 }
