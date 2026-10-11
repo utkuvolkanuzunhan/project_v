@@ -2,10 +2,10 @@
  "ders": "gida_kimyasi",
  "ad": "Food Chemistry I",
  "dersKodu": "-",
- "surum": 3,
+ "surum": 4,
  "kavramSayisi": 12,
  "beklenenGorsel": 36,
- "mevcutGorsel": 24,
+ "mevcutGorsel": 34,
  "uniteler": [
   {
    "no": 1,
@@ -305,6 +305,22 @@
        "genislik": 1024,
        "yukseklik": 1024,
        "aday": "gida_kimyasi-k0009-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "4fdd92798e87772ae986c1288afe6d85173c08cc6de24fce9324399a7a4b33bc",
+       "boyut": 83500,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "gida_kimyasi-k0009-003"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "1c3194f7a937b0a82987e5a4a26dd11d53e01aa66e110c1e2b54258f3cb83526",
+       "boyut": 63436,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "gida_kimyasi-k0009-019"
       }
      ]
     },
@@ -315,7 +331,32 @@
      "gosterim": "acılaşma ve bozulma",
      "yol": "u03-lipitler-ve-proteinler/k0010-yag-oksidasyonu",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "fbbc2abebb51258817b0c24f38e4869d3966c91ef5eb06adf8ac2285797c812e",
+       "boyut": 92380,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "gida_kimyasi-k0010-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "f38a2dd4cc9e6658e397d2fdfa02abf74579d8446465fbb7b12ba5410ac6dac3",
+       "boyut": 79258,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "gida_kimyasi-k0010-006"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "9dbd979926fe07aacdb95b7c0d13697f95fe9cd05c80e2518f04dd180486e6e2",
+       "boyut": 61906,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "gida_kimyasi-k0010-002"
+      }
+     ]
     },
     {
      "id": "k0011",
@@ -324,7 +365,32 @@
      "gosterim": "yumurta beyazı pişince katılaşır",
      "yol": "u03-lipitler-ve-proteinler/k0011-protein-denaturasyonu",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "b235e2763b04ecda5ac4c80c13a25e05331d17521cbf7d92981a1088b2fe144c",
+       "boyut": 56680,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "gida_kimyasi-k0011-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "1b2527fdc276c614890627bd675f0110c4e9c6e5e418d6d8558f59f149cbf37c",
+       "boyut": 92382,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "gida_kimyasi-k0011-016"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "af3fd053f9cce13761993157fbfc0329c8c205d360974b6a67e1b4020b68c8d8",
+       "boyut": 72736,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "gida_kimyasi-k0011-004"
+      }
+     ]
     },
     {
      "id": "k0012",
@@ -333,7 +399,24 @@
      "gosterim": "asitle süt pıhtılaşır",
      "yol": "u03-lipitler-ve-proteinler/k0012-sut-kesilmesi-kazein",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "8bcb3bf1459177d4b331c356c9f719abca0d6ad4c62c54f07b2bf08751e68001",
+       "boyut": 53572,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "gida_kimyasi-k0012-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "6e9caf96185fa13bb3ac01e5c016ca7913bd233559564e097d4647cec9ad5340",
+       "boyut": 55514,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "gida_kimyasi-k0012-002"
+      }
+     ]
     }
    ]
   }
