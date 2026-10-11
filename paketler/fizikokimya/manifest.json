@@ -2,10 +2,10 @@
  "ders": "fizikokimya",
  "ad": "Physical Chemistry",
  "dersKodu": "-",
- "surum": 3,
+ "surum": 1,
  "kavramSayisi": 8,
  "beklenenGorsel": 24,
- "mevcutGorsel": 24,
+ "mevcutGorsel": 6,
  "uniteler": [
   {
    "no": 1,
@@ -22,26 +22,26 @@
      "gorseller": [
       {
        "dosya": "b1.webp",
-       "sha256": "2f3548e248e70a888f28123f704a9c55a035d492fadb1b83249bfc02e9a73ff9",
-       "boyut": 42118,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "fizikokimya-k0001-001"
-      },
-      {
-       "dosya": "b2.webp",
-       "sha256": "dbfb40fe51daca66596eae743ea551f9bbe1e44fe249729a7eddc42fdbaa91d5",
-       "boyut": 46292,
-       "genislik": 1024,
-       "yukseklik": 1024,
+       "sha256": "1ea571f3434a7995a6bbbee5316296a498a94dd45a1011cd6f7eb37bfd673d0b",
+       "boyut": 18540,
+       "genislik": 768,
+       "yukseklik": 768,
        "aday": "fizikokimya-k0001-002"
       },
       {
+       "dosya": "b2.webp",
+       "sha256": "3bda23edd2592246d317a0be1776990e6d77731001354ff931d137873d2da688",
+       "boyut": 15328,
+       "genislik": 768,
+       "yukseklik": 768,
+       "aday": "fizikokimya-k0001-006"
+      },
+      {
        "dosya": "b3.webp",
-       "sha256": "935fc8bf3dda7a75318bea8fce564d2597b18fc2ef932dc8921b392ef57773e8",
-       "boyut": 37748,
-       "genislik": 1024,
-       "yukseklik": 1024,
+       "sha256": "1341cb138b41ed833eb4ecc415e6952b72c86c11da3bb73e5840563d24abdd96",
+       "boyut": 17620,
+       "genislik": 768,
+       "yukseklik": 768,
        "aday": "fizikokimya-k0001-004"
       }
      ]
@@ -56,27 +56,19 @@
      "gorseller": [
       {
        "dosya": "b1.webp",
-       "sha256": "2af678466d78f08aaa4113b2b624bf970f09fb165666cf47033c2230148d8f93",
-       "boyut": 71134,
-       "genislik": 1024,
-       "yukseklik": 1024,
+       "sha256": "ca73f1d44eac3134b2187ca0890f0ca59b2e32deabbb01324ff4c013c8944970",
+       "boyut": 63602,
+       "genislik": 768,
+       "yukseklik": 768,
        "aday": "fizikokimya-k0002-001"
       },
       {
        "dosya": "b2.webp",
-       "sha256": "56eaefb883cf529e3afbdc97d0714b4e25580ff5606248990f8aeade21371572",
-       "boyut": 85058,
-       "genislik": 1024,
-       "yukseklik": 1024,
+       "sha256": "cb7c88d8c7ed4bf0039b00a18431ee253cb3fea4ca947ce8a2d9c1abc74b480e",
+       "boyut": 54318,
+       "genislik": 768,
+       "yukseklik": 768,
        "aday": "fizikokimya-k0002-005"
-      },
-      {
-       "dosya": "b3.webp",
-       "sha256": "afe48cf180a2bb7b17862de69cb7e70f2c246e20b05eab020f49a1e1ae7cc19f",
-       "boyut": 77676,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "fizikokimya-k0002-003"
       }
      ]
     },
@@ -90,27 +82,11 @@
      "gorseller": [
       {
        "dosya": "b1.webp",
-       "sha256": "4c3b26fc90d1a27dd1c3f3d69e4f1a606a607a5bc9511a321bcd63fd5aec5702",
-       "boyut": 79888,
-       "genislik": 1024,
-       "yukseklik": 1024,
+       "sha256": "b9e47f0c6f8cfc5a972649f0cc1c30f35338523bc9af7f7ad77d4da4ba9918ce",
+       "boyut": 38284,
+       "genislik": 768,
+       "yukseklik": 768,
        "aday": "fizikokimya-k0003-001"
-      },
-      {
-       "dosya": "b2.webp",
-       "sha256": "538d6d3cf6f12bd3725b2c4d333a23487edd873942f70b3b4adfa25cf2741a48",
-       "boyut": 50966,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "fizikokimya-k0003-005"
-      },
-      {
-       "dosya": "b3.webp",
-       "sha256": "6a59cd1c996228a13ed41810f88aa734abfea161d0d67a28165328577e4c5cde",
-       "boyut": 80422,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "fizikokimya-k0003-006"
       }
      ]
     },
@@ -121,32 +97,7 @@
      "gosterim": "gaz çözünürlüğü",
      "yol": "u01-gazlar-ve-fazlar/k0004-karbondioksit-ve-gazli-icecek",
      "beklenen": 3,
-     "gorseller": [
-      {
-       "dosya": "b1.webp",
-       "sha256": "18d6e3fca354354d128d823f73740b30e0464a5458f145d73ebcd980b92a212f",
-       "boyut": 75480,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "fizikokimya-k0004-001"
-      },
-      {
-       "dosya": "b2.webp",
-       "sha256": "c3f2e5f34274254207df58c60c772789ab34d0363bc3541fe4a3e26917f1b177",
-       "boyut": 67606,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "fizikokimya-k0004-002"
-      },
-      {
-       "dosya": "b3.webp",
-       "sha256": "669200e55dd6c52f8983661b14c4be69532c092ff530bb650fac71158d2bd728",
-       "boyut": 80366,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "fizikokimya-k0004-005"
-      }
-     ]
+     "gorseller": []
     }
    ]
   },
@@ -162,32 +113,7 @@
      "gosterim": "tuzlu buz",
      "yol": "u02-cozeltiler-ve-yuzey/k0005-donma-noktasi-alcalmasi",
      "beklenen": 3,
-     "gorseller": [
-      {
-       "dosya": "b1.webp",
-       "sha256": "a3c5bd72a4b4481f309c5e4f5afe62aff2b0730a47da656d0b6199553aeaca56",
-       "boyut": 50158,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "fizikokimya-k0005-001"
-      },
-      {
-       "dosya": "b2.webp",
-       "sha256": "a3de9be6ed2bb504bde348872f7baa392fb419c100129e9a0cb6b61366c18901",
-       "boyut": 48946,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "fizikokimya-k0005-002"
-      },
-      {
-       "dosya": "b3.webp",
-       "sha256": "9846294df01a745e2496fa03556718a7a0cda25aab8c76a073a3a188de9967c2",
-       "boyut": 54618,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "fizikokimya-k0005-005"
-      }
-     ]
+     "gorseller": []
     },
     {
      "id": "k0006",
@@ -196,32 +122,7 @@
      "gosterim": "kuru üzüm suda şişer",
      "yol": "u02-cozeltiler-ve-yuzey/k0006-ozmoz",
      "beklenen": 3,
-     "gorseller": [
-      {
-       "dosya": "b1.webp",
-       "sha256": "38318398a674644eb4056ff0959adf89d9b8347ac3761590024eef01f3ef8e5f",
-       "boyut": 82604,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "fizikokimya-k0006-001"
-      },
-      {
-       "dosya": "b2.webp",
-       "sha256": "4287bf39118f655adaf469e4efc51f2b6b689f3008f533fe58f3ecda8c02bedf",
-       "boyut": 70960,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "fizikokimya-k0006-004"
-      },
-      {
-       "dosya": "b3.webp",
-       "sha256": "829d8b1a27df26af665b113bb8b1cc90ed1a1ea4492fcbd3c9b86173dee70e44",
-       "boyut": 84798,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "fizikokimya-k0006-002"
-      }
-     ]
+     "gorseller": []
     },
     {
      "id": "k0007",
@@ -230,32 +131,7 @@
      "gosterim": "limon pili",
      "yol": "u02-cozeltiler-ve-yuzey/k0007-elektrokimyasal-pil",
      "beklenen": 3,
-     "gorseller": [
-      {
-       "dosya": "b1.webp",
-       "sha256": "ba36823ea84578b145ad8dd75462fbf7fb14ef98f7e41bc61436aa162006b26b",
-       "boyut": 52592,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "fizikokimya-k0007-001"
-      },
-      {
-       "dosya": "b2.webp",
-       "sha256": "f93ae0a890bf1090c12dda7c8b270b8b2363b79166ad966bba2abf0f44d63c6c",
-       "boyut": 46042,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "fizikokimya-k0007-005"
-      },
-      {
-       "dosya": "b3.webp",
-       "sha256": "33be3355f8135fc2c1ddce46d88b312262bd8f6b0eeca56961aa404fe0f61f7e",
-       "boyut": 47742,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "fizikokimya-k0007-003"
-      }
-     ]
+     "gorseller": []
     },
     {
      "id": "k0008",
@@ -264,32 +140,7 @@
      "gosterim": "filtre kömürü",
      "yol": "u02-cozeltiler-ve-yuzey/k0008-adsorpsiyon-aktif-karbon",
      "beklenen": 3,
-     "gorseller": [
-      {
-       "dosya": "b1.webp",
-       "sha256": "b0c9584a5f581f31c81c1e185cc7d7c1185fb2f36b6507d2e9678740b11b8fee",
-       "boyut": 67188,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "fizikokimya-k0008-007"
-      },
-      {
-       "dosya": "b2.webp",
-       "sha256": "24cb8ba3a65fb5fa5294baf70fcbdd38c0daa7e1cdffe4d8f1e7811ad7b1bb72",
-       "boyut": 69878,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "fizikokimya-k0008-017"
-      },
-      {
-       "dosya": "b3.webp",
-       "sha256": "d1e94498c80b7a1702894b1e6714e2bd10e7c2fbdf64ad3302f233c19b0538e1",
-       "boyut": 57052,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "fizikokimya-k0008-010"
-      }
-     ]
+     "gorseller": []
     }
    ]
   }
