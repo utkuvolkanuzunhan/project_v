@@ -1,0 +1,54 @@
+{
+ "ders": "teknik_ingilizce",
+ "ad": "Technical English I",
+ "dersKodu": "-",
+ "surum": 1,
+ "kavramSayisi": 3,
+ "beklenenGorsel": 9,
+ "mevcutGorsel": 1,
+ "uniteler": [
+  {
+   "no": 1,
+   "ad": "Teknik sözcük",
+   "klasor": "u01-teknik-sozcuk",
+   "kavramlar": [
+    {
+     "id": "k0001",
+     "ad": "Laboratuvar cam malzemeleri",
+     "hat": "B",
+     "gosterim": "beher, erlen, mezür",
+     "yol": "u01-teknik-sozcuk/k0001-laboratuvar-cam-malzemeleri",
+     "beklenen": 3,
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "8d33a7b3071fe9908ec6d817766a81b7d019124e0616f7a00d4f86b237c3033d",
+       "boyut": 65022,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "teknik_ingilizce-k0001-001"
+      }
+     ]
+    },
+    {
+     "id": "k0002",
+     "ad": "Kişisel koruyucu ekipman",
+     "hat": "B",
+     "gosterim": "gözlük, eldiven, önlük",
+     "yol": "u01-teknik-sozcuk/k0002-kisisel-koruyucu-ekipman",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0003",
+     "ad": "Gıda üretim hattı ekipmanı",
+     "hat": "B",
+     "gosterim": "tank, pompa, vana",
+     "yol": "u01-teknik-sozcuk/k0003-gida-uretim-hatti-ekipmani",
+     "beklenen": 3,
+     "gorseller": []
+    }
+   ]
+  }
+ ]
+}
