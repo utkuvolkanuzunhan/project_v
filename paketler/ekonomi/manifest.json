@@ -1,0 +1,156 @@
+{
+ "ders": "ekonomi",
+ "ad": "Economics",
+ "dersKodu": "-",
+ "surum": 1,
+ "kavramSayisi": 6,
+ "beklenenGorsel": 18,
+ "mevcutGorsel": 10,
+ "uniteler": [
+  {
+   "no": 1,
+   "ad": "Piyasa",
+   "klasor": "u01-piyasa",
+   "kavramlar": [
+    {
+     "id": "k0001",
+     "ad": "Arz ve talep",
+     "hat": "B",
+     "gosterim": "pazar tezgâhı",
+     "yol": "u01-piyasa/k0001-arz-ve-talep",
+     "beklenen": 3,
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "6790deedf939dabeeed2e10f7dd6c44e74914078ba16639c5d5785c7e7295361",
+       "boyut": 219880,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "ekonomi-k0001-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "1e14e05ff21809ad053438552b6de2300a14906e7ce8477e50ce4f365eaa314b",
+       "boyut": 195150,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "ekonomi-k0001-002"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "d3dba5ba899bd18ef3e57f46cf92bef66b5b3a52223f1597b0ba0efd2b36f50f",
+       "boyut": 197928,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "ekonomi-k0001-004"
+      }
+     ]
+    },
+    {
+     "id": "k0002",
+     "ad": "Tekel ve rekabet",
+     "hat": "B",
+     "gosterim": "tek tezgâh ve çok tezgâh",
+     "yol": "u01-piyasa/k0002-tekel-ve-rekabet",
+     "beklenen": 3,
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "c16190486843add9b6a9be71313674f6560765272fbe6d5911df66f31f97b14a",
+       "boyut": 181504,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "ekonomi-k0002-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "434ee2c8709d42a69107878bb50e23b4cae0a6d1329dfd331e96750eab209e93",
+       "boyut": 258284,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "ekonomi-k0002-011"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "2c8247cbca050270983c2ccf097a38b26ce776ef6a0832ab52d519ed551fc6ed",
+       "boyut": 228338,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "ekonomi-k0002-012"
+      }
+     ]
+    },
+    {
+     "id": "k0003",
+     "ad": "Üretim ve maliyet",
+     "hat": "B",
+     "gosterim": "fabrika üretim hattı",
+     "yol": "u01-piyasa/k0003-uretim-ve-maliyet",
+     "beklenen": 3,
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "2171a2eaee5694f48a150e25eb2703a817e47d591d675edf93a44f2fd02450da",
+       "boyut": 114858,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "ekonomi-k0003-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "38cb7306d1d68b3f42fb3e542ea8ac4fee8a16cc9073bc633a8ab9daf1087d7f",
+       "boyut": 136004,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "ekonomi-k0003-010"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "b3bf17071008e9cf307a81580cc005fe147c1b8dddfa954902cc8a3bd7dc5d51",
+       "boyut": 129760,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "ekonomi-k0003-009"
+      }
+     ]
+    },
+    {
+     "id": "k0004",
+     "ad": "Paranın zaman değeri",
+     "hat": "B",
+     "gosterim": "tasarruf kumbarası",
+     "yol": "u01-piyasa/k0004-paranin-zaman-degeri",
+     "beklenen": 3,
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "edd9fbed5d67859a5d86fe769cee4fa758c56a15911a71e6cdd2bba37445bbfc",
+       "boyut": 45890,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "ekonomi-k0004-001"
+      }
+     ]
+    },
+    {
+     "id": "k0005",
+     "ad": "Enflasyon ve alışveriş",
+     "hat": "B",
+     "gosterim": "alışveriş sepeti",
+     "yol": "u01-piyasa/k0005-enflasyon-ve-alisveris",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0006",
+     "ad": "Yatırım ve ekipman",
+     "hat": "B",
+     "gosterim": "yeni ekipman satın alma",
+     "yol": "u01-piyasa/k0006-yatirim-ve-ekipman",
+     "beklenen": 3,
+     "gorseller": []
+    }
+   ]
+  }
+ ]
+}
