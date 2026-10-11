@@ -2,10 +2,10 @@
  "ders": "enstrumantal",
  "ad": "Instrumental Food Analysis",
  "dersKodu": "-",
- "surum": 3,
+ "surum": 4,
  "kavramSayisi": 13,
  "beklenenGorsel": 39,
- "mevcutGorsel": 24,
+ "mevcutGorsel": 34,
  "uniteler": [
   {
    "no": 1,
@@ -312,6 +312,22 @@
        "genislik": 768,
        "yukseklik": 768,
        "aday": "enstrumantal-k0009-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "a631ea0e62039cb16352499fcbe1808338c4aebc919118bc8d05e5aa1cff0b36",
+       "boyut": 41838,
+       "genislik": 768,
+       "yukseklik": 768,
+       "aday": "enstrumantal-k0009-005"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "8cbe06841fd9dda1d1899be75780cabe291853f49ceb1b31a611259a44149d7a",
+       "boyut": 35348,
+       "genislik": 768,
+       "yukseklik": 768,
+       "aday": "enstrumantal-k0009-002"
       }
      ]
     },
@@ -322,7 +338,32 @@
      "gosterim": "meyve suyu damlası",
      "yol": "u04-elektrokimyasal-ve-diger-yontemler/k0010-refraktometre-brix",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "44940ca14766bdfadfb50312cf2eda1647c863feb2f28d4277f8ee8a6aa5ef43",
+       "boyut": 64240,
+       "genislik": 768,
+       "yukseklik": 768,
+       "aday": "enstrumantal-k0010-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "9e6fdd9168d5edac02e0f7e42619e05fc6fefacfd8d7deb63d24c5b3145dd7d7",
+       "boyut": 56452,
+       "genislik": 768,
+       "yukseklik": 768,
+       "aday": "enstrumantal-k0010-005"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "a5a776aa201cb77a896b643912bc0072920cd7542c056ec8f7618feea9178291",
+       "boyut": 61284,
+       "genislik": 768,
+       "yukseklik": 768,
+       "aday": "enstrumantal-k0010-003"
+      }
+     ]
     },
     {
      "id": "k0011",
@@ -331,7 +372,32 @@
      "gosterim": "meyve yüzeyinde ölçüm",
      "yol": "u04-elektrokimyasal-ve-diger-yontemler/k0011-renk-olcumu-kolorimetre",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "f2026b7f1d961a4dccc63bd74c2a84cabba0c38240fff3b7062786b51bdb47c7",
+       "boyut": 50658,
+       "genislik": 768,
+       "yukseklik": 768,
+       "aday": "enstrumantal-k0011-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "9c91639d8a951f82846b066a386dc3692e1e47c8bdde1ceac5f9d0d30b5e887a",
+       "boyut": 41530,
+       "genislik": 768,
+       "yukseklik": 768,
+       "aday": "enstrumantal-k0011-003"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "9ec64934283064a262123bf191e85b8603e2fa0e288c3c824b31bdf1bbd07081",
+       "boyut": 37680,
+       "genislik": 768,
+       "yukseklik": 768,
+       "aday": "enstrumantal-k0011-005"
+      }
+     ]
     },
     {
      "id": "k0012",
@@ -340,7 +406,24 @@
      "gosterim": "prob ürüne basar",
      "yol": "u04-elektrokimyasal-ve-diger-yontemler/k0012-tekstur-analizoru",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "7d47672677b6a3ad647082caef3f7cb5a6ce85f1bb733fb0ba38d5a490473609",
+       "boyut": 10994,
+       "genislik": 768,
+       "yukseklik": 768,
+       "aday": "enstrumantal-k0012-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "52ec0a2ca212085ffe76512e0e4380651878e876b313b20db9e4d95d24be23f2",
+       "boyut": 16824,
+       "genislik": 768,
+       "yukseklik": 768,
+       "aday": "enstrumantal-k0012-004"
+      }
+     ]
     },
     {
      "id": "k0013",
