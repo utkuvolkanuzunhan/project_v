@@ -2,10 +2,10 @@
  "ders": "malzeme_bilimi",
  "ad": "Material Science",
  "dersKodu": "-",
- "surum": 1,
+ "surum": 2,
  "kavramSayisi": 12,
  "beklenenGorsel": 36,
- "mevcutGorsel": 7,
+ "mevcutGorsel": 17,
  "uniteler": [
   {
    "no": 1,
@@ -95,6 +95,22 @@
        "genislik": 1024,
        "yukseklik": 1024,
        "aday": "malzeme_bilimi-k0003-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "2f9eff8ab9bee99f491166362c915f1f5d722440b277d78358f6b539f6ce59ee",
+       "boyut": 57588,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "malzeme_bilimi-k0003-004"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "c149b6860d2daac5e3bfa96a441cc4e20c72810e71e66f3809363a86e2ffb728",
+       "boyut": 45806,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "malzeme_bilimi-k0003-002"
       }
      ]
     },
@@ -105,7 +121,32 @@
      "gosterim": "çay suda yayılır",
      "yol": "u01-yapi-ve-ozellik/k0004-difuzyon",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "bad803a7374c839b956c0f22007159305fe2807c8167e095319c42599b92cf7a",
+       "boyut": 41678,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "malzeme_bilimi-k0004-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "f9c5411f15f45447d9c37f354d68da21d6a906bddf8eb1db7740524d48dd7e95",
+       "boyut": 50030,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "malzeme_bilimi-k0004-005"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "9adacca893fe18f1e6bba90ce2174155e729a7cb2213be24e9f63b30838cd504",
+       "boyut": 47958,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "malzeme_bilimi-k0004-006"
+      }
+     ]
     },
     {
      "id": "k0005",
@@ -114,7 +155,32 @@
      "gosterim": "paslanan metal",
      "yol": "u01-yapi-ve-ozellik/k0005-korozyon",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "15a143b70ca05b9aa06e5da7f7391b43f6736ee1da3b537d58871528e6f9b533",
+       "boyut": 53354,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "malzeme_bilimi-k0005-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "e9864517d51cd30c8810d90e4a0ae63f6f7e9299d159d4bb57f4dfac2db3699e",
+       "boyut": 62614,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "malzeme_bilimi-k0005-006"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "c5523c34a7567fcac11fe9fbac0ab402f8670df9a7a867186028d2e89853cd2f",
+       "boyut": 53158,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "malzeme_bilimi-k0005-003"
+      }
+     ]
     },
     {
      "id": "k0006",
@@ -123,7 +189,24 @@
      "gosterim": "tel kırılır",
      "yol": "u01-yapi-ve-ozellik/k0006-yorulma-tekrarli-bukme",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "e43210731dcc1aacbbc08e13b5c99032387984ff60ca56ca32c5a1b98838640b",
+       "boyut": 46320,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "malzeme_bilimi-k0006-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "adf2559bea5a1200e51b5d533478dfd527afc842ed5876bd59f7096b8cdcb28c",
+       "boyut": 45616,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "malzeme_bilimi-k0006-003"
+      }
+     ]
     }
    ]
   },
