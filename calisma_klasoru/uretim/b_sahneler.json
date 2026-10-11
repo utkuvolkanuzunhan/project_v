@@ -408,5 +408,245 @@
   "k0192": {
    "sahne": "a paper cutout of a bird in front of a lamp casting its shadow on a wall"
   }
+ },
+ "kutle_enerji": {
+  "k0001": {
+   "sahne": "a row of laboratory glass beakers and a graduated cylinder with colored liquid next to a digital laboratory balance, on a clean bench"
+  },
+  "k0002": {
+   "sahne": "a stainless steel food-grade pipe with a round flow meter installed on it, in a clean processing plant"
+  },
+  "k0003": {
+   "sahne": "a stainless steel falling-film evaporator for fruit juice concentration in a food processing plant, tall cylindrical vessel with pipes"
+  },
+  "k0004": {
+   "sahne": "a large stainless steel mixing tank with an agitator and a sight glass filled with white milk in a dairy plant"
+  },
+  "k0005": {
+   "sahne": "a tall stainless steel spray dryer tower with a cyclone separator and white milk powder collecting at the bottom"
+  },
+  "k0006": {
+   "sahne": "a food processing line with stainless steel pipes forming a loop and a pump, tanks connected by pipes, clean industrial plant"
+  },
+  "k0007": {
+   "sahne": "a stainless steel fermentation tank with a glass viewing port showing bubbling golden liquid, brewery interior"
+  },
+  "k0008": {
+   "sahne": "a stainless steel plate heat exchanger with steam pipes and insulated pipes in a food plant, a little steam rising"
+  },
+  "k0009": {
+   "sahne": "slices of apple and carrot dried on metal trays inside an open food dehydrator cabinet with warm air"
+  },
+  "k0010": {
+   "sahne": "a transparent laboratory tank with colored dye being poured and slowly mixing in water, stirring paddle visible"
+  }
+ },
+ "enstrumantal": {
+  "k0001": {
+   "sahne": "a laboratory analytical balance weighing a powdered food sample in a small dish next to a spoon and a coffee grinder style lab mill"
+  },
+  "k0002": {
+   "sahne": "an archery target with several arrows tightly clustered together near but off the center, outdoor, soft light"
+  },
+  "k0003": {
+   "sahne": "a benchtop UV-Vis spectrophotometer with its lid open and a small cuvette with colored solution in the sample holder"
+  },
+  "k0004": {
+   "sahne": "a row of test tubes with a colored liquid in increasing concentration from pale to deep color, in a rack, laboratory bench"
+  },
+  "k0005": {
+   "sahne": "an atomic absorption spectrometer on a laboratory bench with a burner head and sample tray"
+  },
+  "k0006": {
+   "sahne": "an HPLC liquid chromatography system with a column, solvent bottles on top and an autosampler, in a modern lab"
+  },
+  "k0007": {
+   "sahne": "a gas chromatograph oven with the door open showing a coiled capillary column, laboratory"
+  },
+  "k0008": {
+   "sahne": "a burette on a stand dropping liquid into a conical flask with pink solution on a white tile, laboratory titration"
+  },
+  "k0009": {
+   "sahne": "a pH meter with its glass electrode dipped in a beaker of juice on a laboratory bench"
+  },
+  "k0010": {
+   "sahne": "a handheld refractometer with a drop of orange juice on its prism, close-up, held in a hand"
+  },
+  "k0011": {
+   "sahne": "a handheld colorimeter pressed against the surface of a red tomato, close-up"
+  },
+  "k0012": {
+   "sahne": "a texture analyzer with a cylindrical probe pressing into a slice of bread on a platform, laboratory"
+  },
+  "k0013": {
+   "sahne": "a gel electrophoresis chamber with a gel and glowing colored bands, laboratory bench"
+  }
+ },
+ "kinetik": {
+  "k0001": {
+   "sahne": "a glass beaker of colored liquid on a hot plate with a thermometer, small bubbles forming, laboratory"
+  },
+  "k0002": {
+   "sahne": "rows of packaged food samples stored inside an open laboratory incubator chamber on shelves"
+  },
+  "k0003": {
+   "sahne": "cut apple halves turning brown on a white plate, close-up, one fresh and one browned"
+  },
+  "k0004": {
+   "sahne": "a glass fermentation jar with an airlock and bubbling cloudy liquid, kitchen counter, close-up"
+  },
+  "k0005": {
+   "sahne": "a stainless steel retort autoclave with its round door open and cans on trays inside, food plant"
+  },
+  "k0006": {
+   "sahne": "a petri dish with many round bacterial colonies growing on agar, close-up, laboratory"
+  },
+  "k0007": {
+   "sahne": "a stainless steel stirred tank reactor with an agitator motor on top and pipes, pilot plant"
+  }
+ },
+ "gida_kimyasi": {
+  "k0001": {
+   "sahne": "a macro photograph of water droplets on a green leaf next to small ice crystals"
+  },
+  "k0002": {
+   "sahne": "a glass jar of dried apricots and raisins next to fresh fruit on a wooden table"
+  },
+  "k0003": {
+   "sahne": "a salt shaker with clumped wet salt next to dry salt in a bowl, close-up"
+  },
+  "k0004": {
+   "sahne": "macro photograph of large rock sugar crystals on a dark surface"
+  },
+  "k0005": {
+   "sahne": "a freshly baked loaf of bread with a golden brown crust, sliced, close-up"
+  },
+  "k0006": {
+   "sahne": "sugar being caramelized to golden amber syrup in a stainless steel pan, close-up"
+  },
+  "k0007": {
+   "sahne": "a pot of white starch pudding thickening with a whisk, close-up from above"
+  },
+  "k0008": {
+   "sahne": "a jar of strawberry jam with a spoon lifting a thick gel, rustic table"
+  },
+  "k0009": {
+   "sahne": "three clear glass bottles of olive oil, sunflower oil and a jar of solid butter on a table"
+  },
+  "k0010": {
+   "sahne": "old yellow nuts and a bowl of dark cooking oil beside fresh nuts, close-up, side by side"
+  },
+  "k0011": {
+   "sahne": "a raw egg and a fried egg with a cooked white next to each other in a pan, close-up"
+  },
+  "k0012": {
+   "sahne": "curdled milk separating into white curds and yellow whey in a glass bowl, close-up"
+  }
+ },
+ "ekonomi": {
+  "k0001": {
+   "sahne": "a busy farmers market stall with crates of fresh vegetables and customers choosing, daytime"
+  },
+  "k0002": {
+   "sahne": "a long row of many competing market stalls selling fruit under colorful awnings"
+  },
+  "k0003": {
+   "sahne": "a modern food factory production line with conveyor belts and packaged products, wide shot"
+  },
+  "k0004": {
+   "sahne": "a ceramic piggy bank with coins stacked beside it on a table, soft light"
+  },
+  "k0005": {
+   "sahne": "a shopping basket full of groceries in a supermarket aisle"
+  },
+  "k0006": {
+   "sahne": "a new stainless steel industrial machine being installed in a food factory with workers, wide shot"
+  }
+ },
+ "istatistik": {
+  "k0001": {
+   "sahne": "a hand scooping a sample of wheat grains from an open sack with a metal sampling probe"
+  },
+  "k0002": {
+   "sahne": "apples sorted by size into several wooden crates on a packing house floor, wide shot"
+  },
+  "k0003": {
+   "sahne": "a quality inspection station on a food conveyor line with workers checking packaged products"
+  }
+ },
+ "fizikokimya": {
+  "k0001": {
+   "sahne": "a laboratory glass syringe with a plunger sealed with air next to an inflated balloon on a bench"
+  },
+  "k0002": {
+   "sahne": "a glass pot of boiling water with large bubbles and steam rising, close-up"
+  },
+  "k0003": {
+   "sahne": "ice cubes melting into water in a glass bowl, macro photograph"
+  },
+  "k0004": {
+   "sahne": "a carbonated drink being poured into a glass with many rising bubbles, close-up"
+  },
+  "k0005": {
+   "sahne": "coarse salt scattered over ice cubes in a bowl, close-up"
+  },
+  "k0006": {
+   "sahne": "dried raisins soaked in a glass of water, some swollen, close-up from the side"
+  },
+  "k0007": {
+   "sahne": "a lemon battery with copper and zinc electrodes and a small LED connected, on a table"
+  },
+  "k0008": {
+   "sahne": "a handful of black granular activated carbon in a hand, next to a water filter cartridge"
+  }
+ },
+ "teknik_ingilizce": {
+  "k0001": {
+   "sahne": "a collection of laboratory glassware on a bench: beaker, Erlenmeyer flask, graduated cylinder, test tubes in a rack, volumetric flask"
+  },
+  "k0002": {
+   "sahne": "a laboratory safety goggles, nitrile gloves and a white lab coat laid out on a clean bench"
+  },
+  "k0003": {
+   "sahne": "a stainless steel food plant corner with a tank, a centrifugal pump and valves on pipes"
+  }
+ },
+ "malzeme_bilimi": {
+  "k0001": {
+   "sahne": "a cluster of clear salt crystals with sharp cubic shapes, macro photograph on a dark background"
+  },
+  "k0002": {
+   "sahne": "a universal testing machine with a metal specimen clamped between grips, laboratory"
+  },
+  "k0003": {
+   "sahne": "a metal spoon resting in a cup of hot tea with steam, close-up"
+  },
+  "k0004": {
+   "sahne": "a tea bag in a clear glass of hot water with brown color spreading, close-up"
+  },
+  "k0005": {
+   "sahne": "rusty iron surface with orange corrosion next to clean steel, close-up"
+  },
+  "k0006": {
+   "sahne": "a paperclip wire bent back and forth until broken into two pieces, macro photograph"
+  },
+  "k0007": {
+   "sahne": "a roll of transparent plastic packaging film being unwound in a packaging plant"
+  },
+  "k0008": {
+   "sahne": "rows of clear and green glass bottles on a production line, factory"
+  },
+  "k0009": {
+   "sahne": "a white ceramic bowl and a glazed ceramic cup on a wooden table, soft light"
+  },
+  "k0010": {
+   "sahne": "a cut open beverage carton showing its layered cross section next to an intact carton"
+  },
+  "k0011": {
+   "sahne": "a polished stainless steel food processing tank surface reflecting light, close-up"
+  },
+  "k0012": {
+   "sahne": "aluminium beverage cans and a roll of aluminium foil on a table, soft light"
+  }
  }
 }
