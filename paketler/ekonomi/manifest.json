@@ -2,10 +2,10 @@
  "ders": "ekonomi",
  "ad": "Economics",
  "dersKodu": "-",
- "surum": 2,
+ "surum": 1,
  "kavramSayisi": 6,
  "beklenenGorsel": 18,
- "mevcutGorsel": 16,
+ "mevcutGorsel": 10,
  "uniteler": [
   {
    "no": 1,
@@ -22,26 +22,26 @@
      "gorseller": [
       {
        "dosya": "b1.webp",
-       "sha256": "6790deedf939dabeeed2e10f7dd6c44e74914078ba16639c5d5785c7e7295361",
-       "boyut": 219880,
-       "genislik": 1024,
-       "yukseklik": 1024,
+       "sha256": "fe31e66113adbe5cc2622eabd6b8e7af1adfc39882244f26ab3f3489ab99128b",
+       "boyut": 174160,
+       "genislik": 768,
+       "yukseklik": 768,
        "aday": "ekonomi-k0001-001"
       },
       {
        "dosya": "b2.webp",
-       "sha256": "1e14e05ff21809ad053438552b6de2300a14906e7ce8477e50ce4f365eaa314b",
-       "boyut": 195150,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "ekonomi-k0001-002"
+       "sha256": "760537bfe6346e6c416aa2a3c8949aa53cedb60bbfd8188ece11fe64f2228662",
+       "boyut": 137746,
+       "genislik": 768,
+       "yukseklik": 768,
+       "aday": "ekonomi-k0001-005"
       },
       {
        "dosya": "b3.webp",
-       "sha256": "d3dba5ba899bd18ef3e57f46cf92bef66b5b3a52223f1597b0ba0efd2b36f50f",
-       "boyut": 197928,
-       "genislik": 1024,
-       "yukseklik": 1024,
+       "sha256": "5e8783fe4bd07c854c176304214883b210d838af6ee16f58ddbb45a69aca209a",
+       "boyut": 147592,
+       "genislik": 768,
+       "yukseklik": 768,
        "aday": "ekonomi-k0001-004"
       }
      ]
@@ -56,27 +56,27 @@
      "gorseller": [
       {
        "dosya": "b1.webp",
-       "sha256": "c16190486843add9b6a9be71313674f6560765272fbe6d5911df66f31f97b14a",
-       "boyut": 181504,
-       "genislik": 1024,
-       "yukseklik": 1024,
+       "sha256": "8d6f79683b8daf3ab58fc9ed72eeebc328ca38ab209318b8faac1e4f33d57903",
+       "boyut": 132548,
+       "genislik": 768,
+       "yukseklik": 768,
        "aday": "ekonomi-k0002-001"
       },
       {
        "dosya": "b2.webp",
-       "sha256": "434ee2c8709d42a69107878bb50e23b4cae0a6d1329dfd331e96750eab209e93",
-       "boyut": 258284,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "ekonomi-k0002-011"
+       "sha256": "71373f2ffbd88b237c3bbb080ccde722559287cea63ddc6792b00199525aab71",
+       "boyut": 134506,
+       "genislik": 768,
+       "yukseklik": 768,
+       "aday": "ekonomi-k0002-003"
       },
       {
        "dosya": "b3.webp",
-       "sha256": "2c8247cbca050270983c2ccf097a38b26ce776ef6a0832ab52d519ed551fc6ed",
-       "boyut": 228338,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "ekonomi-k0002-012"
+       "sha256": "77b6bc9a1ff1a7cc5b2ff44f8c66487b5de93b4dc571838efad231e18efcb923",
+       "boyut": 136230,
+       "genislik": 768,
+       "yukseklik": 768,
+       "aday": "ekonomi-k0002-005"
       }
      ]
     },
@@ -90,27 +90,27 @@
      "gorseller": [
       {
        "dosya": "b1.webp",
-       "sha256": "2171a2eaee5694f48a150e25eb2703a817e47d591d675edf93a44f2fd02450da",
-       "boyut": 114858,
-       "genislik": 1024,
-       "yukseklik": 1024,
+       "sha256": "e06885e6c94d6668072287f10caa3d1c868241301014e562308024bbaf3256d1",
+       "boyut": 100214,
+       "genislik": 768,
+       "yukseklik": 768,
        "aday": "ekonomi-k0003-001"
       },
       {
        "dosya": "b2.webp",
-       "sha256": "38cb7306d1d68b3f42fb3e542ea8ac4fee8a16cc9073bc633a8ab9daf1087d7f",
-       "boyut": 136004,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "ekonomi-k0003-010"
+       "sha256": "b6ffb8c8ee48312f544ef752ad273100e642fb8610fc848c000c247e09968fd1",
+       "boyut": 103354,
+       "genislik": 768,
+       "yukseklik": 768,
+       "aday": "ekonomi-k0003-003"
       },
       {
        "dosya": "b3.webp",
-       "sha256": "b3bf17071008e9cf307a81580cc005fe147c1b8dddfa954902cc8a3bd7dc5d51",
-       "boyut": 129760,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "ekonomi-k0003-009"
+       "sha256": "3b6424745f635cf2457780d9a79c5259341aec905e68700c1133e3261fae361a",
+       "boyut": 124176,
+       "genislik": 768,
+       "yukseklik": 768,
+       "aday": "ekonomi-k0003-004"
       }
      ]
     },
@@ -124,27 +124,11 @@
      "gorseller": [
       {
        "dosya": "b1.webp",
-       "sha256": "edd9fbed5d67859a5d86fe769cee4fa758c56a15911a71e6cdd2bba37445bbfc",
-       "boyut": 45890,
-       "genislik": 1024,
-       "yukseklik": 1024,
+       "sha256": "e76f01f1f65bb1594308150e1cda18e4133f4d7d00d8f9545ba69b670842ede8",
+       "boyut": 12352,
+       "genislik": 768,
+       "yukseklik": 768,
        "aday": "ekonomi-k0004-001"
-      },
-      {
-       "dosya": "b2.webp",
-       "sha256": "1d156c4b82edc67e46881e6b01042ff607f94d07ba59d54ddccaa073031ddf2e",
-       "boyut": 53038,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "ekonomi-k0004-012"
-      },
-      {
-       "dosya": "b3.webp",
-       "sha256": "147857224ed97832bcbb72f0454c600904b267e54a73bc5db9a47f772a99ac3e",
-       "boyut": 52436,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "ekonomi-k0004-009"
       }
      ]
     },
@@ -155,16 +139,7 @@
      "gosterim": "alışveriş sepeti",
      "yol": "u01-piyasa/k0005-enflasyon-ve-alisveris",
      "beklenen": 3,
-     "gorseller": [
-      {
-       "dosya": "b1.webp",
-       "sha256": "30fe544647f88b4350bdb7e96c52e3c1ee519f5854fa643d576a42fe33201575",
-       "boyut": 143692,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "ekonomi-k0005-004"
-      }
-     ]
+     "gorseller": []
     },
     {
      "id": "k0006",
@@ -173,32 +148,7 @@
      "gosterim": "yeni ekipman satın alma",
      "yol": "u01-piyasa/k0006-yatirim-ve-ekipman",
      "beklenen": 3,
-     "gorseller": [
-      {
-       "dosya": "b1.webp",
-       "sha256": "e5c1d58728b39efdbf67cfdc9a2a2bc5d31946656e16ff2b674e5c75f095b3b9",
-       "boyut": 142442,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "ekonomi-k0006-001"
-      },
-      {
-       "dosya": "b2.webp",
-       "sha256": "8aff2efd57e0f0963944c472ce6b351d8dfc4f05c613063f03a018c3790a4fe9",
-       "boyut": 140112,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "ekonomi-k0006-004"
-      },
-      {
-       "dosya": "b3.webp",
-       "sha256": "5f4e16ec6ccb1e2b72ce929055e44cf49ce1c3f935aa4fcbfc90169402cf489b",
-       "boyut": 129914,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "ekonomi-k0006-002"
-      }
-     ]
+     "gorseller": []
     }
    ]
   }
