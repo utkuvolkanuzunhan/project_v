@@ -2,10 +2,10 @@
  "ders": "gida_kimyasi",
  "ad": "Food Chemistry I",
  "dersKodu": "-",
- "surum": 2,
+ "surum": 3,
  "kavramSayisi": 12,
  "beklenenGorsel": 36,
- "mevcutGorsel": 14,
+ "mevcutGorsel": 24,
  "uniteler": [
   {
    "no": 1,
@@ -188,7 +188,32 @@
      "gosterim": "şeker ısınınca karamel olur",
      "yol": "u02-karbonhidratlar/k0006-karamelizasyon",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "cad567c953ae10b77623c2fb041acb7cca4732fd6ca605342747518977dcdfb4",
+       "boyut": 57622,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "gida_kimyasi-k0006-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "98f44cdc16c76b413c09af53605f878c8e2c8f8847387b137951cb5ded943561",
+       "boyut": 60302,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "gida_kimyasi-k0006-020"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "179bbfc8031d21d082cddae824fa393d7c7f632a3434cefa9e9cb89f9828bb61",
+       "boyut": 70178,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "gida_kimyasi-k0006-002"
+      }
+     ]
     },
     {
      "id": "k0007",
@@ -197,7 +222,32 @@
      "gosterim": "nişasta ısınca koyulaşır",
      "yol": "u02-karbonhidratlar/k0007-nisasta-jellesmesi",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "84e87e014017e38a29968de27ad90999b96813703220cf05ae5f43526ef61aa3",
+       "boyut": 83994,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "gida_kimyasi-k0007-004"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "dadd9585b9ae763b0980f0698fcf69de6b2ac8e19b8d48b914c3b57bc9525b73",
+       "boyut": 73792,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "gida_kimyasi-k0007-008"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "353174dfb095eaad228ddf6ff339bd6b02d00c2b2f84067227377ec45ad7c9f9",
+       "boyut": 101962,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "gida_kimyasi-k0007-007"
+      }
+     ]
     },
     {
      "id": "k0008",
@@ -206,7 +256,32 @@
      "gosterim": "reçel jel olur",
      "yol": "u02-karbonhidratlar/k0008-pektin-ve-jel",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "d1cdf9228dcaec5cc65de05410eb25a794b95e421559ae2673d298b3be3508be",
+       "boyut": 109322,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "gida_kimyasi-k0008-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "587856fc2bab8e13a28c6b20bc2f2a3a9250ba8e90bcac68dcad9ab4e02f7422",
+       "boyut": 115730,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "gida_kimyasi-k0008-009"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "b57580a6c4320c0fc9bf7c1f603b15f4f17ab114e93c6be31860a5b6b56aaec2",
+       "boyut": 82190,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "gida_kimyasi-k0008-002"
+      }
+     ]
     }
    ]
   },
@@ -222,7 +297,16 @@
      "gosterim": "farklı yağ türleri",
      "yol": "u03-lipitler-ve-proteinler/k0009-yaglar-ve-yag-asitleri",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "2df045c296df2a861a5bb400b75a0ad01748c99904dd7e9cf2706f33756d1441",
+       "boyut": 69824,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "gida_kimyasi-k0009-001"
+      }
+     ]
     },
     {
      "id": "k0010",
