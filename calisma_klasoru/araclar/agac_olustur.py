@@ -25,6 +25,16 @@ DERSLER = [
     ("04_electronic_materials.md", "materials", "Electronic Materials and Device Physics", "505002242023"),
     ("05_oop_cpp.md", "oop", "Object-Oriented Programming", "505002372016"),
     ("06_linear_algebra.md", "linalg", "Linear Algebra", "LAG2052023"),
+    # gıda mühendisliği (11 Ekim 2026): dosyalar araclar/gida_kur.py md ile üretilir
+    ("16_kutle_enerji.md", "kutle_enerji", "Material and Energy Balances", "-"),
+    ("17_enstrumantal.md", "enstrumantal", "Instrumental Food Analysis", "-"),
+    ("18_kinetik.md", "kinetik", "Reaction Kinetics", "-"),
+    ("19_gida_kimyasi.md", "gida_kimyasi", "Food Chemistry I", "-"),
+    ("20_ekonomi.md", "ekonomi", "Economics", "-"),
+    ("21_istatistik.md", "istatistik", "Statistics", "-"),
+    ("22_fizikokimya.md", "fizikokimya", "Physical Chemistry", "-"),
+    ("23_teknik_ingilizce.md", "teknik_ingilizce", "Technical English I", "-"),
+    ("24_malzeme_bilimi.md", "malzeme_bilimi", "Material Science", "-"),
 ]
 
 # B kavramı başına üretilecek görsel sayısı (kullanıcı kararı, 7 Ekim 2026)
