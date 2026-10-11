@@ -2,10 +2,10 @@
  "ders": "enstrumantal",
  "ad": "Instrumental Food Analysis",
  "dersKodu": "-",
- "surum": 5,
+ "surum": 1,
  "kavramSayisi": 13,
  "beklenenGorsel": 39,
- "mevcutGorsel": 36,
+ "mevcutGorsel": 4,
  "uniteler": [
   {
    "no": 1,
@@ -22,27 +22,27 @@
      "gorseller": [
       {
        "dosya": "b1.webp",
-       "sha256": "e7f5e5dec837cf3437a7fba2e808e68a67b9d33623e2f3310d0baa0e1277f9a7",
-       "boyut": 59784,
+       "sha256": "843506d370c06d6e713c6d4aa44029befe7a0d63d006eb415c1a6a62a5086ea8",
+       "boyut": 239134,
        "genislik": 1024,
        "yukseklik": 1024,
        "aday": "enstrumantal-k0001-001"
       },
       {
        "dosya": "b2.webp",
-       "sha256": "7d9851766257c6639bce097d2ef79cac791b59ddb1f26c20be98523641fa9df7",
-       "boyut": 63934,
+       "sha256": "90a7b244f6892f0e49edbb6c2f79d05d3eab08ebea2fb6c4d62b3715db72365e",
+       "boyut": 341940,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "enstrumantal-k0001-002"
+       "aday": "enstrumantal-k0001-005"
       },
       {
        "dosya": "b3.webp",
-       "sha256": "78a4f188a503c8bcc0ae6fab54d3102ded317c044f81fbab5f25eb2f5dd93192",
-       "boyut": 78602,
+       "sha256": "f2bf4d44de98aef2d8fd021d33a40afaafc58abdb06a1d534be0742a88f4a189",
+       "boyut": 289312,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "enstrumantal-k0001-004"
+       "aday": "enstrumantal-k0001-002"
       }
      ]
     },
@@ -56,27 +56,11 @@
      "gorseller": [
       {
        "dosya": "b1.webp",
-       "sha256": "470ad41c8dd8faf8abc01eb7653789a227ac41250f5c395a7ef49ed7006f3e9b",
-       "boyut": 99716,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "enstrumantal-k0002-001"
-      },
-      {
-       "dosya": "b2.webp",
-       "sha256": "d6eef4441f00ff7d90a6380b77f26b2123431eb51c57338cc00e535a17825b4c",
-       "boyut": 114560,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "enstrumantal-k0002-003"
-      },
-      {
-       "dosya": "b3.webp",
-       "sha256": "6827488924ca81f6a78b0a2e1f9b439021ccdcd3dcb4a601b69fde4dc8ad3a0d",
-       "boyut": 146236,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "enstrumantal-k0002-002"
+       "sha256": "0ce1d95f4ac932c78e71caacf1ca4922b790cfe91ad1f18b7aad8b8cd25fcfc6",
+       "boyut": 91198,
+       "genislik": 768,
+       "yukseklik": 768,
+       "aday": "enstrumantal-k0002-015"
       }
      ]
     }
@@ -94,32 +78,7 @@
      "gosterim": "ışık küvetten geçer",
      "yol": "u02-spektroskopi/k0003-uv-vis-spektrofotometre",
      "beklenen": 3,
-     "gorseller": [
-      {
-       "dosya": "b1.webp",
-       "sha256": "1e5822e27ff2ec2bcd9df0bd336e6aa68730b08828e0ddf75945e9f319d01d22",
-       "boyut": 61550,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "enstrumantal-k0003-001"
-      },
-      {
-       "dosya": "b2.webp",
-       "sha256": "85887299ba4dd5288a9741020358b7378e8457f0314265e443798c62b5423ed4",
-       "boyut": 49682,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "enstrumantal-k0003-004"
-      },
-      {
-       "dosya": "b3.webp",
-       "sha256": "8709d4bb472ca70c3b745820270266af1b7555badfcf8e032a96246aa0d32edf",
-       "boyut": 49264,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "enstrumantal-k0003-003"
-      }
-     ]
+     "gorseller": []
     },
     {
      "id": "k0004",
@@ -128,32 +87,7 @@
      "gosterim": "derişim arttıkça renk koyulaşır",
      "yol": "u02-spektroskopi/k0004-seyreltme-serisi-ve-beer-lambert",
      "beklenen": 3,
-     "gorseller": [
-      {
-       "dosya": "b1.webp",
-       "sha256": "d1da0bf90f0e09fe14b1d19aa2ae7a4e5a98b38e74482eff82cb2ed506cc096c",
-       "boyut": 68002,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "enstrumantal-k0004-001"
-      },
-      {
-       "dosya": "b2.webp",
-       "sha256": "08ed2272eb84c33212ac5305b26868512123fc02c9b47ec6273ae2a17ec0dd30",
-       "boyut": 53282,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "enstrumantal-k0004-010"
-      },
-      {
-       "dosya": "b3.webp",
-       "sha256": "6ab58d10212036f3d51fffda5e9f570eda405ff5bcaa0cbeec024379ca692585",
-       "boyut": 42750,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "enstrumantal-k0004-014"
-      }
-     ]
+     "gorseller": []
     },
     {
      "id": "k0005",
@@ -162,24 +96,7 @@
      "gosterim": "alevde element çizgisi",
      "yol": "u02-spektroskopi/k0005-atomik-absorpsiyon-spektrometresi",
      "beklenen": 3,
-     "gorseller": [
-      {
-       "dosya": "b1.webp",
-       "sha256": "26eb577ddd0e33e0a84eb0a2727110f8d5beaa6a38808fdb3e66fcc57ebe2faf",
-       "boyut": 67106,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "enstrumantal-k0005-022"
-      },
-      {
-       "dosya": "b2.webp",
-       "sha256": "a40c22687288f939645e98d81fb12fbaaf2aaad12fd62e57078619bba4bad6f3",
-       "boyut": 61500,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "enstrumantal-k0005-024"
-      }
-     ]
+     "gorseller": []
     }
    ]
   },
@@ -195,32 +112,7 @@
      "gosterim": "sıvı kolonda ayrılır",
      "yol": "u03-kromatografi/k0006-hplc-cihazi",
      "beklenen": 3,
-     "gorseller": [
-      {
-       "dosya": "b1.webp",
-       "sha256": "dc966f22729658df250be6b120d5c9bc87545cd7dab81b974c3f7b2043f99e36",
-       "boyut": 64926,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "enstrumantal-k0006-001"
-      },
-      {
-       "dosya": "b2.webp",
-       "sha256": "f6ca226e23f79e8098495c5347a9a62890d44e827b18ba36563ad6fed7730272",
-       "boyut": 74670,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "enstrumantal-k0006-002"
-      },
-      {
-       "dosya": "b3.webp",
-       "sha256": "ac2513d041a71a5b4d4ea2a57a470dd2fb90a659bc3018d53a27adbb715446ca",
-       "boyut": 79394,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "enstrumantal-k0006-012"
-      }
-     ]
+     "gorseller": []
     },
     {
      "id": "k0007",
@@ -229,32 +121,7 @@
      "gosterim": "gaz kolondan geçer",
      "yol": "u03-kromatografi/k0007-gaz-kromatografi",
      "beklenen": 3,
-     "gorseller": [
-      {
-       "dosya": "b1.webp",
-       "sha256": "443582721408ea7031717ea1ea388c18d7c86d7fa912ade3a13f2625fc52b48e",
-       "boyut": 71994,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "enstrumantal-k0007-001"
-      },
-      {
-       "dosya": "b2.webp",
-       "sha256": "87c492ee7f730c0d2efd2bd8879235c3e5d7c623084f463e416769a0ec1f0471",
-       "boyut": 80514,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "enstrumantal-k0007-006"
-      },
-      {
-       "dosya": "b3.webp",
-       "sha256": "ee397daadecf0e6f60d76cd8659459a74dda57e9d407505d40aa9ec05e14c8eb",
-       "boyut": 75836,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "enstrumantal-k0007-004"
-      }
-     ]
+     "gorseller": []
     }
    ]
   },
@@ -270,16 +137,7 @@
      "gosterim": "büretten damla damla ekleme",
      "yol": "u04-elektrokimyasal-ve-diger-yontemler/k0008-titrasyon-duzenegi",
      "beklenen": 3,
-     "gorseller": [
-      {
-       "dosya": "b1.webp",
-       "sha256": "2693627cda65dd2e82ec2c8a0fbcc481c8beefd53fbb972b99a4ae2718200182",
-       "boyut": 54528,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "enstrumantal-k0008-001"
-      }
-     ]
+     "gorseller": []
     },
     {
      "id": "k0009",
@@ -288,32 +146,7 @@
      "gosterim": "elektrot çözeltide",
      "yol": "u04-elektrokimyasal-ve-diger-yontemler/k0009-ph-metre",
      "beklenen": 3,
-     "gorseller": [
-      {
-       "dosya": "b1.webp",
-       "sha256": "7798d07c7d9d9bea25721977c501041094e1f88c5922e3cc2534d44de0788090",
-       "boyut": 59726,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "enstrumantal-k0009-004"
-      },
-      {
-       "dosya": "b2.webp",
-       "sha256": "0a21c46f2b8675e85768d88b8e48f1d5b6e7d0a5db819accd3e553139c31c0ca",
-       "boyut": 63096,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "enstrumantal-k0009-010"
-      },
-      {
-       "dosya": "b3.webp",
-       "sha256": "35785fcf4940b4479a1f594b9fa3548bcaa75e6298022d007f5f472a1db9c01a",
-       "boyut": 53472,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "enstrumantal-k0009-011"
-      }
-     ]
+     "gorseller": []
     },
     {
      "id": "k0010",
@@ -322,32 +155,7 @@
      "gosterim": "meyve suyu damlası",
      "yol": "u04-elektrokimyasal-ve-diger-yontemler/k0010-refraktometre-brix",
      "beklenen": 3,
-     "gorseller": [
-      {
-       "dosya": "b1.webp",
-       "sha256": "f71f389ee9d51bc4d15cb31f7bee3ab1b9957ca31f67406e417e7e433755b93a",
-       "boyut": 52162,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "enstrumantal-k0010-004"
-      },
-      {
-       "dosya": "b2.webp",
-       "sha256": "499ce6baebaf096dcbaee7ddf50a794add727e30ce4918f7cffc2b8227a0983c",
-       "boyut": 72754,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "enstrumantal-k0010-009"
-      },
-      {
-       "dosya": "b3.webp",
-       "sha256": "e0f53158cffc740acbd95a4da7db136be61d0fd2e5849ea61664211631573f48",
-       "boyut": 55526,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "enstrumantal-k0010-017"
-      }
-     ]
+     "gorseller": []
     },
     {
      "id": "k0011",
@@ -356,32 +164,7 @@
      "gosterim": "meyve yüzeyinde ölçüm",
      "yol": "u04-elektrokimyasal-ve-diger-yontemler/k0011-renk-olcumu-kolorimetre",
      "beklenen": 3,
-     "gorseller": [
-      {
-       "dosya": "b1.webp",
-       "sha256": "4c1e8f43bb67b65f9072c3feaf0e1adf30df4944cb45c2354abd3581c0e642fd",
-       "boyut": 55948,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "enstrumantal-k0011-003"
-      },
-      {
-       "dosya": "b2.webp",
-       "sha256": "8673974788f1771c64d56bbcaac97c29deb8d4c570c0f0541ac7005eeef1c98b",
-       "boyut": 55160,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "enstrumantal-k0011-012"
-      },
-      {
-       "dosya": "b3.webp",
-       "sha256": "ff25ac661205d75e2806ebc2f2c5064cecf7b03af93d8494a9e4e58e57c08b47",
-       "boyut": 63286,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "enstrumantal-k0011-010"
-      }
-     ]
+     "gorseller": []
     },
     {
      "id": "k0012",
@@ -390,32 +173,7 @@
      "gosterim": "prob ürüne basar",
      "yol": "u04-elektrokimyasal-ve-diger-yontemler/k0012-tekstur-analizoru",
      "beklenen": 3,
-     "gorseller": [
-      {
-       "dosya": "b1.webp",
-       "sha256": "8f42808ceb1a9147c189f5bb795a1d7773142cfd677cd9debdb28194cbf13bd9",
-       "boyut": 63994,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "enstrumantal-k0012-001"
-      },
-      {
-       "dosya": "b2.webp",
-       "sha256": "b23d29bc6482cbbd50a957e615492e5b6b77dd79b358ef0ad74c8d18afdc294a",
-       "boyut": 90588,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "enstrumantal-k0012-008"
-      },
-      {
-       "dosya": "b3.webp",
-       "sha256": "77b5603512574502740877b45d3977df244e1be38b819ffdd70521c50de8d8af",
-       "boyut": 69540,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "enstrumantal-k0012-010"
-      }
-     ]
+     "gorseller": []
     },
     {
      "id": "k0013",
@@ -424,32 +182,7 @@
      "gosterim": "bantlar jelde ayrılır",
      "yol": "u04-elektrokimyasal-ve-diger-yontemler/k0013-jel-elektroforezi",
      "beklenen": 3,
-     "gorseller": [
-      {
-       "dosya": "b1.webp",
-       "sha256": "b0d5bda74c9e6f1bcf64686d2c9aeb7cc6b031b877930be0d3ef63ff02c75af0",
-       "boyut": 60556,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "enstrumantal-k0013-002"
-      },
-      {
-       "dosya": "b2.webp",
-       "sha256": "67ae396b0184ac92aeb98e888002081088856ccd8fda6385a6a1bffc5b2eb454",
-       "boyut": 53986,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "enstrumantal-k0013-007"
-      },
-      {
-       "dosya": "b3.webp",
-       "sha256": "ac48473a78db49a4f3c6721ac1a32c687cba7fb74ce86dfe84591c5d7828c6bb",
-       "boyut": 67624,
-       "genislik": 1024,
-       "yukseklik": 1024,
-       "aday": "enstrumantal-k0013-008"
-      }
-     ]
+     "gorseller": []
     }
    ]
   }
