@@ -2,10 +2,10 @@
  "ders": "enstrumantal",
  "ad": "Instrumental Food Analysis",
  "dersKodu": "-",
- "surum": 1,
+ "surum": 2,
  "kavramSayisi": 13,
  "beklenenGorsel": 39,
- "mevcutGorsel": 4,
+ "mevcutGorsel": 14,
  "uniteler": [
   {
    "no": 1,
@@ -61,6 +61,22 @@
        "genislik": 1024,
        "yukseklik": 1024,
        "aday": "enstrumantal-k0002-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "d6eef4441f00ff7d90a6380b77f26b2123431eb51c57338cc00e535a17825b4c",
+       "boyut": 114560,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "enstrumantal-k0002-003"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "6827488924ca81f6a78b0a2e1f9b439021ccdcd3dcb4a601b69fde4dc8ad3a0d",
+       "boyut": 146236,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "enstrumantal-k0002-002"
       }
      ]
     }
@@ -78,7 +94,32 @@
      "gosterim": "ışık küvetten geçer",
      "yol": "u02-spektroskopi/k0003-uv-vis-spektrofotometre",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "1e5822e27ff2ec2bcd9df0bd336e6aa68730b08828e0ddf75945e9f319d01d22",
+       "boyut": 61550,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "enstrumantal-k0003-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "85887299ba4dd5288a9741020358b7378e8457f0314265e443798c62b5423ed4",
+       "boyut": 49682,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "enstrumantal-k0003-004"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "8709d4bb472ca70c3b745820270266af1b7555badfcf8e032a96246aa0d32edf",
+       "boyut": 49264,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "enstrumantal-k0003-003"
+      }
+     ]
     },
     {
      "id": "k0004",
@@ -87,7 +128,32 @@
      "gosterim": "derişim arttıkça renk koyulaşır",
      "yol": "u02-spektroskopi/k0004-seyreltme-serisi-ve-beer-lambert",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "d1da0bf90f0e09fe14b1d19aa2ae7a4e5a98b38e74482eff82cb2ed506cc096c",
+       "boyut": 68002,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "enstrumantal-k0004-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "08ed2272eb84c33212ac5305b26868512123fc02c9b47ec6273ae2a17ec0dd30",
+       "boyut": 53282,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "enstrumantal-k0004-010"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "6ab58d10212036f3d51fffda5e9f570eda405ff5bcaa0cbeec024379ca692585",
+       "boyut": 42750,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "enstrumantal-k0004-014"
+      }
+     ]
     },
     {
      "id": "k0005",
@@ -96,7 +162,24 @@
      "gosterim": "alevde element çizgisi",
      "yol": "u02-spektroskopi/k0005-atomik-absorpsiyon-spektrometresi",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "26eb577ddd0e33e0a84eb0a2727110f8d5beaa6a38808fdb3e66fcc57ebe2faf",
+       "boyut": 67106,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "enstrumantal-k0005-022"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "a40c22687288f939645e98d81fb12fbaaf2aaad12fd62e57078619bba4bad6f3",
+       "boyut": 61500,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "enstrumantal-k0005-024"
+      }
+     ]
     }
    ]
   },
