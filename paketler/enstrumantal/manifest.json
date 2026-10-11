@@ -2,10 +2,10 @@
  "ders": "enstrumantal",
  "ad": "Instrumental Food Analysis",
  "dersKodu": "-",
- "surum": 2,
+ "surum": 3,
  "kavramSayisi": 13,
  "beklenenGorsel": 39,
- "mevcutGorsel": 14,
+ "mevcutGorsel": 24,
  "uniteler": [
   {
    "no": 1,
@@ -195,7 +195,32 @@
      "gosterim": "sıvı kolonda ayrılır",
      "yol": "u03-kromatografi/k0006-hplc-cihazi",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "254160c4088545a05749dd321631b54ae4bfa79a11f8b787f2e6ff48d83cb809",
+       "boyut": 17800,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "enstrumantal-k0006-002"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "9088f74e02bd8248d06dff87cc3537672f391f4a4d723d43b7035425d2553ce7",
+       "boyut": 30856,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "enstrumantal-k0006-004"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "7d057c1749efbf6e53c072c9da498b420552c12aff0efc73f12a49f0bf72f900",
+       "boyut": 35244,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "enstrumantal-k0006-006"
+      }
+     ]
     },
     {
      "id": "k0007",
@@ -204,7 +229,32 @@
      "gosterim": "gaz kolondan geçer",
      "yol": "u03-kromatografi/k0007-gaz-kromatografi",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "c4aa8bc102dda44a642d1f064a9c94945308774d5c0fdb9499d34a6584805f93",
+       "boyut": 51266,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "enstrumantal-k0007-004"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "3ef6eafd845d2bc72a6d8597eec38b0ceae77e5ed0cc4373b0d517feac8b4105",
+       "boyut": 45700,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "enstrumantal-k0007-005"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "5888be9cfc11443cce17598764debdb67bcd819bb1036cdfc424298b3ea8cc4c",
+       "boyut": 35478,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "enstrumantal-k0007-006"
+      }
+     ]
     }
    ]
   },
@@ -220,7 +270,32 @@
      "gosterim": "büretten damla damla ekleme",
      "yol": "u04-elektrokimyasal-ve-diger-yontemler/k0008-titrasyon-duzenegi",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "e375c9d8adfe1b6bbf5ab2d461f8f374a1b0a0c395b524d178a32a3f334cbfe7",
+       "boyut": 23186,
+       "genislik": 768,
+       "yukseklik": 768,
+       "aday": "enstrumantal-k0008-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "cc669dec099531fea89d4d620e608c579d6123762a9ebd98981a7918e1fb0a1b",
+       "boyut": 23392,
+       "genislik": 768,
+       "yukseklik": 768,
+       "aday": "enstrumantal-k0008-005"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "6f2b9ec12cfb07d9a083ce575aa1bc08a7fca1d1b7709036aaee0b09b4df6018",
+       "boyut": 22224,
+       "genislik": 768,
+       "yukseklik": 768,
+       "aday": "enstrumantal-k0008-004"
+      }
+     ]
     },
     {
      "id": "k0009",
@@ -229,7 +304,16 @@
      "gosterim": "elektrot çözeltide",
      "yol": "u04-elektrokimyasal-ve-diger-yontemler/k0009-ph-metre",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "71c4f89d6e9407dcdd39cea594252aa43d180a73266243b0b5508e0eb2c6ec33",
+       "boyut": 37248,
+       "genislik": 768,
+       "yukseklik": 768,
+       "aday": "enstrumantal-k0009-001"
+      }
+     ]
     },
     {
      "id": "k0010",
