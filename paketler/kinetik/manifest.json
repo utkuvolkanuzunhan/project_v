@@ -2,10 +2,10 @@
  "ders": "kinetik",
  "ad": "Reaction Kinetics",
  "dersKodu": "-",
- "surum": 2,
+ "surum": 3,
  "kavramSayisi": 7,
  "beklenenGorsel": 21,
- "mevcutGorsel": 12,
+ "mevcutGorsel": 20,
  "uniteler": [
   {
    "no": 1,
@@ -162,7 +162,32 @@
      "gosterim": "yüksek sıcaklıkta mikrop ölümü",
      "yol": "u02-gidada-kinetik/k0005-sterilizasyon-otoklav-retort",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "b6274722649cd1e9e472ca4aa0b4a6304043d941098118144a58a14ee9fdf365",
+       "boyut": 31132,
+       "genislik": 768,
+       "yukseklik": 768,
+       "aday": "kinetik-k0005-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "ffa910ee4ba09e9b26194bd120a09d1da4ffce8966aa0056892eec473857cb65",
+       "boyut": 25980,
+       "genislik": 768,
+       "yukseklik": 768,
+       "aday": "kinetik-k0005-002"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "889c0b12f1bcc79f2663f83b159e0dbd5f74354dd760d2c3fc13e2c20fe82529",
+       "boyut": 26246,
+       "genislik": 768,
+       "yukseklik": 768,
+       "aday": "kinetik-k0005-003"
+      }
+     ]
     },
     {
      "id": "k0006",
@@ -171,7 +196,32 @@
      "gosterim": "koloniler çoğalır",
      "yol": "u02-gidada-kinetik/k0006-mikrobiyal-buyume",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "f0a9fe391144bab74e1b77d37ca9c62a61776db10d8d019f065fad774dcf2210",
+       "boyut": 24538,
+       "genislik": 768,
+       "yukseklik": 768,
+       "aday": "kinetik-k0006-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "e5c7df40de78859d3e5c357626f7913847159b19f5e970c56e6af10caa3fa61d",
+       "boyut": 23462,
+       "genislik": 768,
+       "yukseklik": 768,
+       "aday": "kinetik-k0006-004"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "f6d02faa4d3b8a59c885784d9dafd694ae6c7217404674f97e367df7d99a618b",
+       "boyut": 21878,
+       "genislik": 768,
+       "yukseklik": 768,
+       "aday": "kinetik-k0006-005"
+      }
+     ]
     },
     {
      "id": "k0007",
@@ -180,7 +230,24 @@
      "gosterim": "tankta sürekli karıştırma",
      "yol": "u02-gidada-kinetik/k0007-karistirmali-reaktor",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "7547da72e77ae85dd0587cd71151ef911fbdd90d0d8a29e0613ff588ed00c486",
+       "boyut": 83388,
+       "genislik": 768,
+       "yukseklik": 768,
+       "aday": "kinetik-k0007-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "3958e3d3be0decb2d8c25317df20082ad241648b1aebfabf3822221073a5624c",
+       "boyut": 80762,
+       "genislik": 768,
+       "yukseklik": 768,
+       "aday": "kinetik-k0007-002"
+      }
+     ]
     }
    ]
   }
