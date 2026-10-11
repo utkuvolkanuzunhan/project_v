@@ -1,0 +1,164 @@
+{
+ "ders": "fizikokimya",
+ "ad": "Physical Chemistry",
+ "dersKodu": "-",
+ "surum": 1,
+ "kavramSayisi": 8,
+ "beklenenGorsel": 24,
+ "mevcutGorsel": 8,
+ "uniteler": [
+  {
+   "no": 1,
+   "ad": "Gazlar ve fazlar",
+   "klasor": "u01-gazlar-ve-fazlar",
+   "kavramlar": [
+    {
+     "id": "k0001",
+     "ad": "Gaz ve basınç",
+     "hat": "B",
+     "gosterim": "balon ve şırınga",
+     "yol": "u01-gazlar-ve-fazlar/k0001-gaz-ve-basinc",
+     "beklenen": 3,
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "2f3548e248e70a888f28123f704a9c55a035d492fadb1b83249bfc02e9a73ff9",
+       "boyut": 42118,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "fizikokimya-k0001-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "dbfb40fe51daca66596eae743ea551f9bbe1e44fe249729a7eddc42fdbaa91d5",
+       "boyut": 46292,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "fizikokimya-k0001-002"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "935fc8bf3dda7a75318bea8fce564d2597b18fc2ef932dc8921b392ef57773e8",
+       "boyut": 37748,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "fizikokimya-k0001-004"
+      }
+     ]
+    },
+    {
+     "id": "k0002",
+     "ad": "Kaynama ve buhar basıncı",
+     "hat": "B",
+     "gosterim": "kaynayan su",
+     "yol": "u01-gazlar-ve-fazlar/k0002-kaynama-ve-buhar-basinci",
+     "beklenen": 3,
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "2af678466d78f08aaa4113b2b624bf970f09fb165666cf47033c2230148d8f93",
+       "boyut": 71134,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "fizikokimya-k0002-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "56eaefb883cf529e3afbdc97d0714b4e25580ff5606248990f8aeade21371572",
+       "boyut": 85058,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "fizikokimya-k0002-005"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "afe48cf180a2bb7b17862de69cb7e70f2c246e20b05eab020f49a1e1ae7cc19f",
+       "boyut": 77676,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "fizikokimya-k0002-003"
+      }
+     ]
+    },
+    {
+     "id": "k0003",
+     "ad": "Faz değişimi",
+     "hat": "B",
+     "gosterim": "buz erir",
+     "yol": "u01-gazlar-ve-fazlar/k0003-faz-degisimi",
+     "beklenen": 3,
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "4c3b26fc90d1a27dd1c3f3d69e4f1a606a607a5bc9511a321bcd63fd5aec5702",
+       "boyut": 79888,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "fizikokimya-k0003-001"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "538d6d3cf6f12bd3725b2c4d333a23487edd873942f70b3b4adfa25cf2741a48",
+       "boyut": 50966,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "fizikokimya-k0003-005"
+      }
+     ]
+    },
+    {
+     "id": "k0004",
+     "ad": "Karbondioksit ve gazlı içecek",
+     "hat": "B",
+     "gosterim": "gaz çözünürlüğü",
+     "yol": "u01-gazlar-ve-fazlar/k0004-karbondioksit-ve-gazli-icecek",
+     "beklenen": 3,
+     "gorseller": []
+    }
+   ]
+  },
+  {
+   "no": 2,
+   "ad": "Çözeltiler ve yüzey",
+   "klasor": "u02-cozeltiler-ve-yuzey",
+   "kavramlar": [
+    {
+     "id": "k0005",
+     "ad": "Donma noktası alçalması",
+     "hat": "B",
+     "gosterim": "tuzlu buz",
+     "yol": "u02-cozeltiler-ve-yuzey/k0005-donma-noktasi-alcalmasi",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0006",
+     "ad": "Ozmoz",
+     "hat": "B",
+     "gosterim": "kuru üzüm suda şişer",
+     "yol": "u02-cozeltiler-ve-yuzey/k0006-ozmoz",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0007",
+     "ad": "Elektrokimyasal pil",
+     "hat": "B",
+     "gosterim": "limon pili",
+     "yol": "u02-cozeltiler-ve-yuzey/k0007-elektrokimyasal-pil",
+     "beklenen": 3,
+     "gorseller": []
+    },
+    {
+     "id": "k0008",
+     "ad": "Adsorpsiyon (aktif karbon)",
+     "hat": "B",
+     "gosterim": "filtre kömürü",
+     "yol": "u02-cozeltiler-ve-yuzey/k0008-adsorpsiyon-aktif-karbon",
+     "beklenen": 3,
+     "gorseller": []
+    }
+   ]
+  }
+ ]
+}
