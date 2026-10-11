@@ -2,10 +2,10 @@
  "ders": "kutle_enerji",
  "ad": "Material and Energy Balances",
  "dersKodu": "-",
- "surum": 3,
+ "surum": 4,
  "kavramSayisi": 10,
  "beklenenGorsel": 30,
- "mevcutGorsel": 21,
+ "mevcutGorsel": 24,
  "uniteler": [
   {
    "no": 1,
@@ -291,7 +291,32 @@
      "gosterim": "tank dolarken derişim değişir",
      "yol": "u03-enerji-denkligi/k0010-tanki-doldurma-ve-seyreltme",
      "beklenen": 3,
-     "gorseller": []
+     "gorseller": [
+      {
+       "dosya": "b1.webp",
+       "sha256": "cde1d8ef9728c74e523a7cb9a6998a3a17edf937eeff26c75a3ebf010e991c47",
+       "boyut": 64816,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "kutle_enerji-k0010-002"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "deb38d4932aa30a15052eb9f355bce328f737091a6ea5270a3684c37d02f90ca",
+       "boyut": 64936,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "kutle_enerji-k0010-003"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "8a6a4d880f728d8df9732b6f83775567df9a58211503c4c84545953964558369",
+       "boyut": 70566,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "kutle_enerji-k0010-005"
+      }
+     ]
     }
    ]
   }
