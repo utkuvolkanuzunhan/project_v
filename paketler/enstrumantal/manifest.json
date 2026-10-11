@@ -2,10 +2,10 @@
  "ders": "enstrumantal",
  "ad": "Instrumental Food Analysis",
  "dersKodu": "-",
- "surum": 4,
+ "surum": 5,
  "kavramSayisi": 13,
  "beklenenGorsel": 39,
- "mevcutGorsel": 34,
+ "mevcutGorsel": 36,
  "uniteler": [
   {
    "no": 1,
@@ -432,6 +432,22 @@
        "genislik": 1024,
        "yukseklik": 1024,
        "aday": "enstrumantal-k0013-002"
+      },
+      {
+       "dosya": "b2.webp",
+       "sha256": "67ae396b0184ac92aeb98e888002081088856ccd8fda6385a6a1bffc5b2eb454",
+       "boyut": 53986,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "enstrumantal-k0013-007"
+      },
+      {
+       "dosya": "b3.webp",
+       "sha256": "ac48473a78db49a4f3c6721ac1a32c687cba7fb74ce86dfe84591c5d7828c6bb",
+       "boyut": 67624,
+       "genislik": 1024,
+       "yukseklik": 1024,
+       "aday": "enstrumantal-k0013-008"
       }
      ]
     }
