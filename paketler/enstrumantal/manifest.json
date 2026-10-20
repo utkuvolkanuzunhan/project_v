@@ -26,7 +26,10 @@
        "boyut": 239134,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "enstrumantal-k0001-001"
+       "aday": "enstrumantal-k0001-001",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -34,7 +37,10 @@
        "boyut": 341940,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "enstrumantal-k0001-005"
+       "aday": "enstrumantal-k0001-005",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -42,7 +48,10 @@
        "boyut": 289312,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "enstrumantal-k0001-002"
+       "aday": "enstrumantal-k0001-002",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     },
@@ -60,7 +69,10 @@
        "boyut": 91198,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "enstrumantal-k0002-015"
+       "aday": "enstrumantal-k0002-015",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -68,7 +80,10 @@
        "boyut": 76930,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "enstrumantal-k0002-017"
+       "aday": "enstrumantal-k0002-017",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     }
@@ -93,7 +108,10 @@
        "boyut": 18088,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "enstrumantal-k0003-001"
+       "aday": "enstrumantal-k0003-001",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -101,7 +119,10 @@
        "boyut": 13698,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "enstrumantal-k0003-008"
+       "aday": "enstrumantal-k0003-008",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -109,7 +130,10 @@
        "boyut": 11298,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "enstrumantal-k0003-012"
+       "aday": "enstrumantal-k0003-012",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     },
@@ -127,7 +151,10 @@
        "boyut": 59480,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "enstrumantal-k0004-001"
+       "aday": "enstrumantal-k0004-001",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -135,7 +162,10 @@
        "boyut": 48038,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "enstrumantal-k0004-005"
+       "aday": "enstrumantal-k0004-005",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -143,7 +173,10 @@
        "boyut": 58216,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "enstrumantal-k0004-002"
+       "aday": "enstrumantal-k0004-002",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     },
@@ -161,7 +194,10 @@
        "boyut": 38054,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "enstrumantal-k0005-001"
+       "aday": "enstrumantal-k0005-001",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -169,7 +205,10 @@
        "boyut": 42550,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "enstrumantal-k0005-003"
+       "aday": "enstrumantal-k0005-003",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -177,7 +216,10 @@
        "boyut": 37640,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "enstrumantal-k0005-002"
+       "aday": "enstrumantal-k0005-002",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     }
@@ -202,7 +244,10 @@
        "boyut": 17800,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "enstrumantal-k0006-002"
+       "aday": "enstrumantal-k0006-002",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -210,7 +255,10 @@
        "boyut": 30856,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "enstrumantal-k0006-004"
+       "aday": "enstrumantal-k0006-004",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -218,7 +266,10 @@
        "boyut": 35244,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "enstrumantal-k0006-006"
+       "aday": "enstrumantal-k0006-006",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     },
@@ -236,7 +287,10 @@
        "boyut": 51266,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "enstrumantal-k0007-004"
+       "aday": "enstrumantal-k0007-004",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -244,7 +298,10 @@
        "boyut": 45700,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "enstrumantal-k0007-005"
+       "aday": "enstrumantal-k0007-005",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -252,7 +309,10 @@
        "boyut": 35478,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "enstrumantal-k0007-006"
+       "aday": "enstrumantal-k0007-006",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     }
@@ -277,7 +337,10 @@
        "boyut": 23186,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "enstrumantal-k0008-001"
+       "aday": "enstrumantal-k0008-001",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -285,7 +348,10 @@
        "boyut": 23392,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "enstrumantal-k0008-005"
+       "aday": "enstrumantal-k0008-005",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -293,7 +359,10 @@
        "boyut": 22224,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "enstrumantal-k0008-004"
+       "aday": "enstrumantal-k0008-004",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     },
@@ -311,7 +380,10 @@
        "boyut": 37248,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "enstrumantal-k0009-001"
+       "aday": "enstrumantal-k0009-001",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -319,7 +391,10 @@
        "boyut": 41838,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "enstrumantal-k0009-005"
+       "aday": "enstrumantal-k0009-005",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -327,7 +402,10 @@
        "boyut": 35348,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "enstrumantal-k0009-002"
+       "aday": "enstrumantal-k0009-002",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     },
@@ -345,7 +423,10 @@
        "boyut": 64240,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "enstrumantal-k0010-001"
+       "aday": "enstrumantal-k0010-001",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -353,7 +434,10 @@
        "boyut": 56452,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "enstrumantal-k0010-005"
+       "aday": "enstrumantal-k0010-005",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -361,7 +445,10 @@
        "boyut": 61284,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "enstrumantal-k0010-003"
+       "aday": "enstrumantal-k0010-003",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     },
@@ -379,7 +466,10 @@
        "boyut": 50658,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "enstrumantal-k0011-001"
+       "aday": "enstrumantal-k0011-001",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -387,7 +477,10 @@
        "boyut": 41530,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "enstrumantal-k0011-003"
+       "aday": "enstrumantal-k0011-003",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -395,7 +488,10 @@
        "boyut": 37680,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "enstrumantal-k0011-005"
+       "aday": "enstrumantal-k0011-005",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     },
@@ -413,7 +509,10 @@
        "boyut": 10994,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "enstrumantal-k0012-001"
+       "aday": "enstrumantal-k0012-001",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -421,7 +520,10 @@
        "boyut": 16824,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "enstrumantal-k0012-004"
+       "aday": "enstrumantal-k0012-004",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -429,7 +531,10 @@
        "boyut": 17196,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "enstrumantal-k0012-006"
+       "aday": "enstrumantal-k0012-006",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     },
@@ -447,7 +552,10 @@
        "boyut": 23248,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "enstrumantal-k0013-001"
+       "aday": "enstrumantal-k0013-001",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -455,7 +563,10 @@
        "boyut": 19824,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "enstrumantal-k0013-003"
+       "aday": "enstrumantal-k0013-003",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -463,7 +574,10 @@
        "boyut": 25842,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "enstrumantal-k0013-006"
+       "aday": "enstrumantal-k0013-006",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     }

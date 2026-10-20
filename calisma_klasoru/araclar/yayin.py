@@ -20,8 +20,8 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))  # gömülü Python bet
 import numpy as np  # noqa: E402
 from PIL import Image  # noqa: E402
 
-from ortak import (ADAYLAR_JSON, DEPO, DERSLER, GOMMELER, URETIM, hedef_al, json_oku, json_yaz,  # noqa: E402
-                   manifestler, son_kararlar)
+from ortak import (ADAYLAR_JSON, DEPO, DERSLER, GOMMELER, URETIM, gorsel_kaynak_alanlari,  # noqa: E402
+                   hedef_al, json_oku, json_yaz, manifestler, son_kararlar)
 
 YAYINLANANLAR = URETIM / "yayinlananlar.json"  # {aday_id: "paketler/.../b1.webp"}
 EN_COK_BAYT = 400 * 1024
@@ -135,7 +135,8 @@ def main():
                 continue
             gorulen_sha.add(sha)
             kv["gorseller"].append({"dosya": dosya_adi, "sha256": sha, "boyut": hedef.stat().st_size,
-                                    "genislik": boyut[0], "yukseklik": boyut[1], "aday": aid})
+                                    "genislik": boyut[0], "yukseklik": boyut[1], "aday": aid,
+                                    **gorsel_kaynak_alanlari()})
             yayin[aid] = str(hedef.relative_to(DEPO)).replace("\\", "/")
             degisen_dersler.add(d)
             grup_dosyalari.append(str(hedef.relative_to(DEPO)))

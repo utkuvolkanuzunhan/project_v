@@ -26,7 +26,10 @@
        "boyut": 53984,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "kutle_enerji-k0001-002"
+       "aday": "kutle_enerji-k0001-002",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -34,7 +37,10 @@
        "boyut": 25478,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "kutle_enerji-k0001-018"
+       "aday": "kutle_enerji-k0001-018",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -42,7 +48,10 @@
        "boyut": 47228,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "kutle_enerji-k0001-007"
+       "aday": "kutle_enerji-k0001-007",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     },
@@ -60,7 +69,10 @@
        "boyut": 78446,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "kutle_enerji-k0002-001"
+       "aday": "kutle_enerji-k0002-001",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -68,7 +80,10 @@
        "boyut": 78008,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "kutle_enerji-k0002-003"
+       "aday": "kutle_enerji-k0002-003",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -76,7 +91,10 @@
        "boyut": 84316,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "kutle_enerji-k0002-005"
+       "aday": "kutle_enerji-k0002-005",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     }
@@ -101,7 +119,10 @@
        "boyut": 144750,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "kutle_enerji-k0003-001"
+       "aday": "kutle_enerji-k0003-001",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -109,7 +130,10 @@
        "boyut": 177622,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "kutle_enerji-k0003-017"
+       "aday": "kutle_enerji-k0003-017",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -117,7 +141,10 @@
        "boyut": 160216,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "kutle_enerji-k0003-015"
+       "aday": "kutle_enerji-k0003-015",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     },
@@ -135,7 +162,10 @@
        "boyut": 25442,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "kutle_enerji-k0004-001"
+       "aday": "kutle_enerji-k0004-001",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -143,7 +173,10 @@
        "boyut": 23240,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "kutle_enerji-k0004-002"
+       "aday": "kutle_enerji-k0004-002",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -151,7 +184,10 @@
        "boyut": 28464,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "kutle_enerji-k0004-004"
+       "aday": "kutle_enerji-k0004-004",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     },
@@ -169,7 +205,10 @@
        "boyut": 29702,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "kutle_enerji-k0005-001"
+       "aday": "kutle_enerji-k0005-001",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -177,7 +216,10 @@
        "boyut": 32916,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "kutle_enerji-k0005-004"
+       "aday": "kutle_enerji-k0005-004",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -185,7 +227,10 @@
        "boyut": 40786,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "kutle_enerji-k0005-003"
+       "aday": "kutle_enerji-k0005-003",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     },
@@ -203,7 +248,10 @@
        "boyut": 119504,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "kutle_enerji-k0006-001"
+       "aday": "kutle_enerji-k0006-001",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -211,7 +259,10 @@
        "boyut": 146722,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "kutle_enerji-k0006-007"
+       "aday": "kutle_enerji-k0006-007",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -219,7 +270,10 @@
        "boyut": 93954,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "kutle_enerji-k0006-020"
+       "aday": "kutle_enerji-k0006-020",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     },
@@ -237,7 +291,10 @@
        "boyut": 70782,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "kutle_enerji-k0007-001"
+       "aday": "kutle_enerji-k0007-001",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -245,7 +302,10 @@
        "boyut": 62770,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "kutle_enerji-k0007-004"
+       "aday": "kutle_enerji-k0007-004",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -253,7 +313,10 @@
        "boyut": 87018,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "kutle_enerji-k0007-002"
+       "aday": "kutle_enerji-k0007-002",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     }
@@ -278,7 +341,10 @@
        "boyut": 158078,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "kutle_enerji-k0008-002"
+       "aday": "kutle_enerji-k0008-002",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -286,7 +352,10 @@
        "boyut": 156294,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "kutle_enerji-k0008-003"
+       "aday": "kutle_enerji-k0008-003",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -294,7 +363,10 @@
        "boyut": 155032,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "kutle_enerji-k0008-004"
+       "aday": "kutle_enerji-k0008-004",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     },
@@ -312,7 +384,10 @@
        "boyut": 125454,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "kutle_enerji-k0009-001"
+       "aday": "kutle_enerji-k0009-001",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -320,7 +395,10 @@
        "boyut": 181456,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "kutle_enerji-k0009-003"
+       "aday": "kutle_enerji-k0009-003",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -328,7 +406,10 @@
        "boyut": 213058,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "kutle_enerji-k0009-002"
+       "aday": "kutle_enerji-k0009-002",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     },
@@ -346,7 +427,10 @@
        "boyut": 22260,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "kutle_enerji-k0010-001"
+       "aday": "kutle_enerji-k0010-001",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -354,7 +438,10 @@
        "boyut": 26008,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "kutle_enerji-k0010-004"
+       "aday": "kutle_enerji-k0010-004",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -362,7 +449,10 @@
        "boyut": 21342,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "kutle_enerji-k0010-002"
+       "aday": "kutle_enerji-k0010-002",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     }

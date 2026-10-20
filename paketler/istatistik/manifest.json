@@ -26,7 +26,10 @@
        "boyut": 133174,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "istatistik-k0001-001"
+       "aday": "istatistik-k0001-001",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -34,7 +37,10 @@
        "boyut": 126956,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "istatistik-k0001-006"
+       "aday": "istatistik-k0001-006",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -42,7 +48,10 @@
        "boyut": 116212,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "istatistik-k0001-002"
+       "aday": "istatistik-k0001-002",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     },
@@ -60,7 +69,10 @@
        "boyut": 123366,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "istatistik-k0002-001"
+       "aday": "istatistik-k0002-001",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -68,7 +80,10 @@
        "boyut": 130070,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "istatistik-k0002-009"
+       "aday": "istatistik-k0002-009",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -76,7 +91,10 @@
        "boyut": 109368,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "istatistik-k0002-002"
+       "aday": "istatistik-k0002-002",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     },
@@ -94,7 +112,10 @@
        "boyut": 102760,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "istatistik-k0003-001"
+       "aday": "istatistik-k0003-001",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -102,7 +123,10 @@
        "boyut": 109676,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "istatistik-k0003-003"
+       "aday": "istatistik-k0003-003",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -110,7 +134,10 @@
        "boyut": 103012,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "istatistik-k0003-004"
+       "aday": "istatistik-k0003-004",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     }

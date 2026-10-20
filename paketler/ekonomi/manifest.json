@@ -26,7 +26,10 @@
        "boyut": 174160,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "ekonomi-k0001-001"
+       "aday": "ekonomi-k0001-001",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -34,7 +37,10 @@
        "boyut": 137746,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "ekonomi-k0001-005"
+       "aday": "ekonomi-k0001-005",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -42,7 +48,10 @@
        "boyut": 147592,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "ekonomi-k0001-004"
+       "aday": "ekonomi-k0001-004",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     },
@@ -60,7 +69,10 @@
        "boyut": 132548,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "ekonomi-k0002-001"
+       "aday": "ekonomi-k0002-001",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -68,7 +80,10 @@
        "boyut": 134506,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "ekonomi-k0002-003"
+       "aday": "ekonomi-k0002-003",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -76,7 +91,10 @@
        "boyut": 136230,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "ekonomi-k0002-005"
+       "aday": "ekonomi-k0002-005",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     },
@@ -94,7 +112,10 @@
        "boyut": 100214,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "ekonomi-k0003-001"
+       "aday": "ekonomi-k0003-001",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -102,7 +123,10 @@
        "boyut": 103354,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "ekonomi-k0003-003"
+       "aday": "ekonomi-k0003-003",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -110,7 +134,10 @@
        "boyut": 124176,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "ekonomi-k0003-004"
+       "aday": "ekonomi-k0003-004",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     },
@@ -128,7 +155,10 @@
        "boyut": 12352,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "ekonomi-k0004-001"
+       "aday": "ekonomi-k0004-001",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     },
@@ -146,7 +176,10 @@
        "boyut": 113456,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "ekonomi-k0005-007"
+       "aday": "ekonomi-k0005-007",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -154,7 +187,10 @@
        "boyut": 124278,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "ekonomi-k0005-008"
+       "aday": "ekonomi-k0005-008",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -162,7 +198,10 @@
        "boyut": 100654,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "ekonomi-k0005-013"
+       "aday": "ekonomi-k0005-013",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     },
@@ -180,7 +219,10 @@
        "boyut": 109364,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "ekonomi-k0006-001"
+       "aday": "ekonomi-k0006-001",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -188,7 +230,10 @@
        "boyut": 107102,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "ekonomi-k0006-006"
+       "aday": "ekonomi-k0006-006",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -196,7 +241,10 @@
        "boyut": 110344,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "ekonomi-k0006-004"
+       "aday": "ekonomi-k0006-004",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     }
