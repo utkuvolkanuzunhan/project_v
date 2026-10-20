@@ -26,7 +26,10 @@
        "boyut": 18540,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "fizikokimya-k0001-002"
+       "aday": "fizikokimya-k0001-002",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -34,7 +37,10 @@
        "boyut": 15328,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "fizikokimya-k0001-006"
+       "aday": "fizikokimya-k0001-006",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -42,7 +48,10 @@
        "boyut": 17620,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "fizikokimya-k0001-004"
+       "aday": "fizikokimya-k0001-004",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     },
@@ -60,7 +69,10 @@
        "boyut": 63602,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "fizikokimya-k0002-001"
+       "aday": "fizikokimya-k0002-001",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -68,7 +80,10 @@
        "boyut": 54318,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "fizikokimya-k0002-005"
+       "aday": "fizikokimya-k0002-005",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     },
@@ -86,7 +101,10 @@
        "boyut": 38284,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "fizikokimya-k0003-001"
+       "aday": "fizikokimya-k0003-001",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -94,7 +112,10 @@
        "boyut": 32708,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "fizikokimya-k0003-004"
+       "aday": "fizikokimya-k0003-004",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -102,7 +123,10 @@
        "boyut": 36264,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "fizikokimya-k0003-002"
+       "aday": "fizikokimya-k0003-002",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     },
@@ -120,7 +144,10 @@
        "boyut": 67032,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "fizikokimya-k0004-001"
+       "aday": "fizikokimya-k0004-001",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -128,7 +155,10 @@
        "boyut": 66724,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "fizikokimya-k0004-004"
+       "aday": "fizikokimya-k0004-004",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -136,7 +166,10 @@
        "boyut": 56286,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "fizikokimya-k0004-003"
+       "aday": "fizikokimya-k0004-003",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     }
@@ -161,7 +194,10 @@
        "boyut": 119002,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "fizikokimya-k0005-001"
+       "aday": "fizikokimya-k0005-001",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -169,7 +205,10 @@
        "boyut": 95172,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "fizikokimya-k0005-004"
+       "aday": "fizikokimya-k0005-004",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -177,7 +216,10 @@
        "boyut": 90012,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "fizikokimya-k0005-006"
+       "aday": "fizikokimya-k0005-006",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     },
@@ -195,7 +237,10 @@
        "boyut": 59608,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "fizikokimya-k0006-001"
+       "aday": "fizikokimya-k0006-001",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -203,7 +248,10 @@
        "boyut": 59870,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "fizikokimya-k0006-004"
+       "aday": "fizikokimya-k0006-004",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -211,7 +259,10 @@
        "boyut": 50996,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "fizikokimya-k0006-003"
+       "aday": "fizikokimya-k0006-003",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     },
@@ -229,7 +280,10 @@
        "boyut": 12810,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "fizikokimya-k0007-002"
+       "aday": "fizikokimya-k0007-002",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -237,7 +291,10 @@
        "boyut": 12736,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "fizikokimya-k0007-005"
+       "aday": "fizikokimya-k0007-005",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -245,7 +302,10 @@
        "boyut": 11572,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "fizikokimya-k0007-003"
+       "aday": "fizikokimya-k0007-003",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     },
@@ -263,7 +323,10 @@
        "boyut": 121690,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "fizikokimya-k0008-001"
+       "aday": "fizikokimya-k0008-001",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -271,7 +334,10 @@
        "boyut": 102198,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "fizikokimya-k0008-006"
+       "aday": "fizikokimya-k0008-006",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -279,7 +345,10 @@
        "boyut": 133124,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "fizikokimya-k0008-004"
+       "aday": "fizikokimya-k0008-004",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     }

@@ -19,6 +19,20 @@ DERSLER = ["physics1", "circuits1", "digital", "materials", "oop", "linalg",
            "kutle_enerji", "enstrumantal", "kinetik", "gida_kimyasi", "ekonomi", "istatistik",
            "fizikokimya", "teknik_ingilizce", "malzeme_bilimi"]  # son 9: gıda mühendisliği (11 Ekim 2026)
 HEDEF_ONAYLI = 3  # B kavramı başına onaylı görsel (kullanıcı kararı 8 Ekim 2026: "hedef 3, bazen 2 bile olabilir"; R.41)
+
+# Yayınlanan her görselin manifest kaydı kaynak, model ve lisans taşır (uygulama bunlardan
+# atıf ekranını kurar; lisansı boş kayıt kullanıcıya gösterilmez). B hattı görselleri
+# yerelde ComfyUI + FLUX.2 klein 4B (fp8) ile ÜRETİLİR; toplanmış fotoğraf yoktur.
+# Metin biçimi uygulamanın `lisansKisa` ayrıştırıcısına göre: "AI üretimi (<model>, <lisans>)".
+GORSEL_KAYNAK = "AI üretimi"
+GORSEL_MODEL = "FLUX.2 klein 4B"
+GORSEL_LISANS = "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
+
+
+def gorsel_kaynak_alanlari() -> dict:
+    return {"kaynak": GORSEL_KAYNAK, "model": GORSEL_MODEL, "lisans": GORSEL_LISANS}
+
+
 GOMMELER = URETIM / "gommeler.json"  # {aday_id: CLIP görsel gömmesi (768 sayı)}; benzerlik koruması ve "en farklı 3" seçimi
 BENZERLIK_ESIGI = 0.96  # aynı kavramda iki görselin CLIP kosinüs benzerliği bunu aşarsa "çok benzer"
 

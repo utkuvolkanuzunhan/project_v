@@ -26,7 +26,10 @@
        "boyut": 29368,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "kinetik-k0001-003"
+       "aday": "kinetik-k0001-003",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -34,7 +37,10 @@
        "boyut": 28708,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "kinetik-k0001-004"
+       "aday": "kinetik-k0001-004",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -42,7 +48,10 @@
        "boyut": 29852,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "kinetik-k0001-005"
+       "aday": "kinetik-k0001-005",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     },
@@ -60,7 +69,10 @@
        "boyut": 88414,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "kinetik-k0002-001"
+       "aday": "kinetik-k0002-001",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -68,7 +80,10 @@
        "boyut": 82166,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "kinetik-k0002-005"
+       "aday": "kinetik-k0002-005",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -76,7 +91,10 @@
        "boyut": 91420,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "kinetik-k0002-003"
+       "aday": "kinetik-k0002-003",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     }
@@ -101,7 +119,10 @@
        "boyut": 37922,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "kinetik-k0003-001"
+       "aday": "kinetik-k0003-001",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -109,7 +130,10 @@
        "boyut": 37140,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "kinetik-k0003-010"
+       "aday": "kinetik-k0003-010",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -117,7 +141,10 @@
        "boyut": 40532,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "kinetik-k0003-004"
+       "aday": "kinetik-k0003-004",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     },
@@ -135,7 +162,10 @@
        "boyut": 50040,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "kinetik-k0004-001"
+       "aday": "kinetik-k0004-001",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -143,7 +173,10 @@
        "boyut": 80636,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "kinetik-k0004-003"
+       "aday": "kinetik-k0004-003",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -151,7 +184,10 @@
        "boyut": 67864,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "kinetik-k0004-005"
+       "aday": "kinetik-k0004-005",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     },
@@ -169,7 +205,10 @@
        "boyut": 31132,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "kinetik-k0005-001"
+       "aday": "kinetik-k0005-001",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -177,7 +216,10 @@
        "boyut": 25980,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "kinetik-k0005-002"
+       "aday": "kinetik-k0005-002",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -185,7 +227,10 @@
        "boyut": 26246,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "kinetik-k0005-003"
+       "aday": "kinetik-k0005-003",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     },
@@ -203,7 +248,10 @@
        "boyut": 24538,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "kinetik-k0006-001"
+       "aday": "kinetik-k0006-001",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -211,7 +259,10 @@
        "boyut": 23462,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "kinetik-k0006-004"
+       "aday": "kinetik-k0006-004",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -219,7 +270,10 @@
        "boyut": 21878,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "kinetik-k0006-005"
+       "aday": "kinetik-k0006-005",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     },
@@ -237,7 +291,10 @@
        "boyut": 83388,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "kinetik-k0007-001"
+       "aday": "kinetik-k0007-001",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -245,7 +302,10 @@
        "boyut": 80762,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "kinetik-k0007-002"
+       "aday": "kinetik-k0007-002",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     }

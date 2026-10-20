@@ -26,7 +26,10 @@
        "boyut": 15002,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "gida_kimyasi-k0001-001"
+       "aday": "gida_kimyasi-k0001-001",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -34,7 +37,10 @@
        "boyut": 15676,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "gida_kimyasi-k0001-002"
+       "aday": "gida_kimyasi-k0001-002",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -42,7 +48,10 @@
        "boyut": 15352,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "gida_kimyasi-k0001-005"
+       "aday": "gida_kimyasi-k0001-005",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     },
@@ -60,7 +69,10 @@
        "boyut": 50862,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "gida_kimyasi-k0002-001"
+       "aday": "gida_kimyasi-k0002-001",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -68,7 +80,10 @@
        "boyut": 53426,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "gida_kimyasi-k0002-006"
+       "aday": "gida_kimyasi-k0002-006",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -76,7 +91,10 @@
        "boyut": 44844,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "gida_kimyasi-k0002-002"
+       "aday": "gida_kimyasi-k0002-002",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     },
@@ -94,7 +112,10 @@
        "boyut": 86266,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "gida_kimyasi-k0003-001"
+       "aday": "gida_kimyasi-k0003-001",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -102,7 +123,10 @@
        "boyut": 120878,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "gida_kimyasi-k0003-005"
+       "aday": "gida_kimyasi-k0003-005",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -110,7 +134,10 @@
        "boyut": 87320,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "gida_kimyasi-k0003-002"
+       "aday": "gida_kimyasi-k0003-002",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     }
@@ -135,7 +162,10 @@
        "boyut": 26962,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "gida_kimyasi-k0004-001"
+       "aday": "gida_kimyasi-k0004-001",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -143,7 +173,10 @@
        "boyut": 19348,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "gida_kimyasi-k0004-003"
+       "aday": "gida_kimyasi-k0004-003",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -151,7 +184,10 @@
        "boyut": 24084,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "gida_kimyasi-k0004-006"
+       "aday": "gida_kimyasi-k0004-006",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     },
@@ -169,7 +205,10 @@
        "boyut": 51500,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "gida_kimyasi-k0005-001"
+       "aday": "gida_kimyasi-k0005-001",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -177,7 +216,10 @@
        "boyut": 68706,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "gida_kimyasi-k0005-020"
+       "aday": "gida_kimyasi-k0005-020",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     },
@@ -195,7 +237,10 @@
        "boyut": 45174,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "gida_kimyasi-k0006-001"
+       "aday": "gida_kimyasi-k0006-001",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -203,7 +248,10 @@
        "boyut": 29760,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "gida_kimyasi-k0006-002"
+       "aday": "gida_kimyasi-k0006-002",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -211,7 +259,10 @@
        "boyut": 37172,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "gida_kimyasi-k0006-012"
+       "aday": "gida_kimyasi-k0006-012",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     },
@@ -229,7 +280,10 @@
        "boyut": 50958,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "gida_kimyasi-k0007-001"
+       "aday": "gida_kimyasi-k0007-001",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -237,7 +291,10 @@
        "boyut": 44494,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "gida_kimyasi-k0007-011"
+       "aday": "gida_kimyasi-k0007-011",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -245,7 +302,10 @@
        "boyut": 39620,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "gida_kimyasi-k0007-005"
+       "aday": "gida_kimyasi-k0007-005",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     },
@@ -263,7 +323,10 @@
        "boyut": 98192,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "gida_kimyasi-k0008-001"
+       "aday": "gida_kimyasi-k0008-001",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -271,7 +334,10 @@
        "boyut": 105448,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "gida_kimyasi-k0008-002"
+       "aday": "gida_kimyasi-k0008-002",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -279,7 +345,10 @@
        "boyut": 141916,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "gida_kimyasi-k0008-006"
+       "aday": "gida_kimyasi-k0008-006",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     }
@@ -304,7 +373,10 @@
        "boyut": 17774,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "gida_kimyasi-k0009-001"
+       "aday": "gida_kimyasi-k0009-001",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -312,7 +384,10 @@
        "boyut": 31820,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "gida_kimyasi-k0009-008"
+       "aday": "gida_kimyasi-k0009-008",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     },
@@ -330,7 +405,10 @@
        "boyut": 111166,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "gida_kimyasi-k0010-001"
+       "aday": "gida_kimyasi-k0010-001",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -338,7 +416,10 @@
        "boyut": 110830,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "gida_kimyasi-k0010-003"
+       "aday": "gida_kimyasi-k0010-003",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -346,7 +427,10 @@
        "boyut": 168694,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "gida_kimyasi-k0010-002"
+       "aday": "gida_kimyasi-k0010-002",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     },
@@ -364,7 +448,10 @@
        "boyut": 36490,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "gida_kimyasi-k0011-001"
+       "aday": "gida_kimyasi-k0011-001",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     },
@@ -382,7 +469,10 @@
        "boyut": 34676,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "gida_kimyasi-k0012-001"
+       "aday": "gida_kimyasi-k0012-001",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -390,7 +480,10 @@
        "boyut": 44382,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "gida_kimyasi-k0012-002"
+       "aday": "gida_kimyasi-k0012-002",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -398,7 +491,10 @@
        "boyut": 34382,
        "genislik": 768,
        "yukseklik": 768,
-       "aday": "gida_kimyasi-k0012-006"
+       "aday": "gida_kimyasi-k0012-006",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     }

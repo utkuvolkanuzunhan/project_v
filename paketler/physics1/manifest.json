@@ -213,7 +213,10 @@
        "boyut": 40682,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0021-001"
+       "aday": "physics1-k0021-001",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -221,7 +224,10 @@
        "boyut": 41856,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0021-012"
+       "aday": "physics1-k0021-012",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -229,7 +235,10 @@
        "boyut": 41058,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0021-010"
+       "aday": "physics1-k0021-010",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     },
@@ -247,7 +256,10 @@
        "boyut": 49454,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0022-002"
+       "aday": "physics1-k0022-002",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -255,7 +267,10 @@
        "boyut": 61084,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0022-003"
+       "aday": "physics1-k0022-003",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -263,7 +278,10 @@
        "boyut": 34622,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0022-012"
+       "aday": "physics1-k0022-012",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     }
@@ -396,7 +414,10 @@
        "boyut": 39298,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0035-002"
+       "aday": "physics1-k0035-002",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -404,7 +425,10 @@
        "boyut": 91552,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0035-003"
+       "aday": "physics1-k0035-003",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -412,7 +436,10 @@
        "boyut": 67098,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0035-005"
+       "aday": "physics1-k0035-005",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     },
@@ -430,7 +457,10 @@
        "boyut": 207086,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0036-013"
+       "aday": "physics1-k0036-013",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -438,7 +468,10 @@
        "boyut": 225338,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0036-024"
+       "aday": "physics1-k0036-024",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -446,7 +479,10 @@
        "boyut": 227880,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0036-020"
+       "aday": "physics1-k0036-020",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     }
@@ -597,7 +633,10 @@
        "boyut": 37208,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0051-001"
+       "aday": "physics1-k0051-001",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -605,7 +644,10 @@
        "boyut": 31058,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0051-007"
+       "aday": "physics1-k0051-007",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -613,7 +655,10 @@
        "boyut": 33996,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0051-002"
+       "aday": "physics1-k0051-002",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     },
@@ -631,7 +676,10 @@
        "boyut": 80654,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0052-001"
+       "aday": "physics1-k0052-001",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -639,7 +687,10 @@
        "boyut": 71546,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0052-012"
+       "aday": "physics1-k0052-012",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -647,7 +698,10 @@
        "boyut": 67070,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0052-003"
+       "aday": "physics1-k0052-003",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     }
@@ -789,7 +843,10 @@
        "boyut": 72050,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0066-002"
+       "aday": "physics1-k0066-002",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -797,7 +854,10 @@
        "boyut": 37430,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0066-012"
+       "aday": "physics1-k0066-012",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -805,7 +865,10 @@
        "boyut": 70294,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0066-003"
+       "aday": "physics1-k0066-003",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     },
@@ -823,7 +886,10 @@
        "boyut": 41302,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0067-001"
+       "aday": "physics1-k0067-001",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -831,7 +897,10 @@
        "boyut": 43244,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0067-003"
+       "aday": "physics1-k0067-003",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -839,7 +908,10 @@
        "boyut": 56372,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0067-006"
+       "aday": "physics1-k0067-006",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     }
@@ -963,7 +1035,10 @@
        "boyut": 96310,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0079-001"
+       "aday": "physics1-k0079-001",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -971,7 +1046,10 @@
        "boyut": 83536,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0079-012"
+       "aday": "physics1-k0079-012",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -979,7 +1057,10 @@
        "boyut": 48502,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0079-008"
+       "aday": "physics1-k0079-008",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     },
@@ -997,7 +1078,10 @@
        "boyut": 53648,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0080-001"
+       "aday": "physics1-k0080-001",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -1005,7 +1089,10 @@
        "boyut": 36044,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0080-025"
+       "aday": "physics1-k0080-025",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -1013,7 +1100,10 @@
        "boyut": 30532,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0080-021"
+       "aday": "physics1-k0080-021",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     }
@@ -1155,7 +1245,10 @@
        "boyut": 200754,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0094-004"
+       "aday": "physics1-k0094-004",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -1163,7 +1256,10 @@
        "boyut": 116682,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0094-006"
+       "aday": "physics1-k0094-006",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -1171,7 +1267,10 @@
        "boyut": 144556,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0094-012"
+       "aday": "physics1-k0094-012",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     },
@@ -1189,7 +1288,10 @@
        "boyut": 146166,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0095-001"
+       "aday": "physics1-k0095-001",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -1197,7 +1299,10 @@
        "boyut": 95410,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0095-010"
+       "aday": "physics1-k0095-010",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -1205,7 +1310,10 @@
        "boyut": 146510,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0095-005"
+       "aday": "physics1-k0095-005",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     },
@@ -1223,7 +1331,10 @@
        "boyut": 41486,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0096-001"
+       "aday": "physics1-k0096-001",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -1231,7 +1342,10 @@
        "boyut": 45360,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0096-013"
+       "aday": "physics1-k0096-013",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -1239,7 +1353,10 @@
        "boyut": 29118,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0096-024"
+       "aday": "physics1-k0096-024",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     }
@@ -1390,7 +1507,10 @@
        "boyut": 36344,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0111-001"
+       "aday": "physics1-k0111-001",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -1398,7 +1518,10 @@
        "boyut": 54704,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0111-006"
+       "aday": "physics1-k0111-006",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -1406,7 +1529,10 @@
        "boyut": 39028,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0111-003"
+       "aday": "physics1-k0111-003",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     },
@@ -1424,7 +1550,10 @@
        "boyut": 105314,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0112-001"
+       "aday": "physics1-k0112-001",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -1432,7 +1561,10 @@
        "boyut": 108842,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0112-011"
+       "aday": "physics1-k0112-011",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -1440,7 +1572,10 @@
        "boyut": 119276,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0112-007"
+       "aday": "physics1-k0112-007",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     },
@@ -1458,7 +1593,10 @@
        "boyut": 93514,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0113-003"
+       "aday": "physics1-k0113-003",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -1466,7 +1604,10 @@
        "boyut": 89052,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0113-015"
+       "aday": "physics1-k0113-015",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -1474,7 +1615,10 @@
        "boyut": 70310,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0113-011"
+       "aday": "physics1-k0113-011",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     }
@@ -1679,7 +1823,10 @@
        "boyut": 39160,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0134-002"
+       "aday": "physics1-k0134-002",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -1687,7 +1834,10 @@
        "boyut": 42588,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0134-005"
+       "aday": "physics1-k0134-005",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -1695,7 +1845,10 @@
        "boyut": 36884,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0134-012"
+       "aday": "physics1-k0134-012",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     },
@@ -1713,7 +1866,10 @@
        "boyut": 191876,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0135-016"
+       "aday": "physics1-k0135-016",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -1721,7 +1877,10 @@
        "boyut": 181722,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0135-018"
+       "aday": "physics1-k0135-018",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     },
@@ -1739,7 +1898,10 @@
        "boyut": 75362,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0136-002"
+       "aday": "physics1-k0136-002",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -1747,7 +1909,10 @@
        "boyut": 59532,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0136-011"
+       "aday": "physics1-k0136-011",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -1755,7 +1920,10 @@
        "boyut": 66310,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0136-012"
+       "aday": "physics1-k0136-012",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     }
@@ -1888,7 +2056,10 @@
        "boyut": 232934,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0149-003"
+       "aday": "physics1-k0149-003",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -1896,7 +2067,10 @@
        "boyut": 190390,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0149-010"
+       "aday": "physics1-k0149-010",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -1904,7 +2078,10 @@
        "boyut": 156000,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0149-004"
+       "aday": "physics1-k0149-004",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     },
@@ -1922,7 +2099,10 @@
        "boyut": 226406,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0150-001"
+       "aday": "physics1-k0150-001",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -1930,7 +2110,10 @@
        "boyut": 260236,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0150-007"
+       "aday": "physics1-k0150-007",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -1938,7 +2121,10 @@
        "boyut": 163934,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0150-014"
+       "aday": "physics1-k0150-014",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     }
@@ -2089,7 +2275,10 @@
        "boyut": 71050,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0165-001"
+       "aday": "physics1-k0165-001",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -2097,7 +2286,10 @@
        "boyut": 73096,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0165-008"
+       "aday": "physics1-k0165-008",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -2105,7 +2297,10 @@
        "boyut": 118232,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0165-009"
+       "aday": "physics1-k0165-009",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     },
@@ -2123,7 +2318,10 @@
        "boyut": 189020,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0166-001"
+       "aday": "physics1-k0166-001",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -2131,7 +2329,10 @@
        "boyut": 162006,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0166-004"
+       "aday": "physics1-k0166-004",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -2139,7 +2340,10 @@
        "boyut": 155480,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0166-010"
+       "aday": "physics1-k0166-010",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     },
@@ -2157,7 +2361,10 @@
        "boyut": 147738,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0167-001"
+       "aday": "physics1-k0167-001",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -2165,7 +2372,10 @@
        "boyut": 78750,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0167-012"
+       "aday": "physics1-k0167-012",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -2173,7 +2383,10 @@
        "boyut": 152960,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0167-009"
+       "aday": "physics1-k0167-009",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     }
@@ -2333,7 +2546,10 @@
        "boyut": 76580,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0183-001"
+       "aday": "physics1-k0183-001",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -2341,7 +2557,10 @@
        "boyut": 74772,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0183-006"
+       "aday": "physics1-k0183-006",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -2349,7 +2568,10 @@
        "boyut": 96052,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0183-002"
+       "aday": "physics1-k0183-002",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     },
@@ -2367,7 +2589,10 @@
        "boyut": 94926,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0184-007"
+       "aday": "physics1-k0184-007",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -2375,7 +2600,10 @@
        "boyut": 104116,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0184-010"
+       "aday": "physics1-k0184-010",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -2383,7 +2611,10 @@
        "boyut": 85314,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0184-012"
+       "aday": "physics1-k0184-012",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     },
@@ -2401,7 +2632,10 @@
        "boyut": 119100,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0185-006"
+       "aday": "physics1-k0185-006",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -2409,7 +2643,10 @@
        "boyut": 125406,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0185-007"
+       "aday": "physics1-k0185-007",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -2417,7 +2654,10 @@
        "boyut": 109208,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0185-009"
+       "aday": "physics1-k0185-009",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     }
@@ -2550,7 +2790,10 @@
        "boyut": 36516,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0198-001"
+       "aday": "physics1-k0198-001",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -2558,7 +2801,10 @@
        "boyut": 29092,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0198-002"
+       "aday": "physics1-k0198-002",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -2566,7 +2812,10 @@
        "boyut": 23196,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0198-011"
+       "aday": "physics1-k0198-011",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     },
@@ -2584,7 +2833,10 @@
        "boyut": 42538,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0199-005"
+       "aday": "physics1-k0199-005",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -2592,7 +2844,10 @@
        "boyut": 32362,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0199-009"
+       "aday": "physics1-k0199-009",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -2600,7 +2855,10 @@
        "boyut": 25314,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0199-012"
+       "aday": "physics1-k0199-012",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     }
@@ -2724,7 +2982,10 @@
        "boyut": 108046,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0211-003"
+       "aday": "physics1-k0211-003",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -2732,7 +2993,10 @@
        "boyut": 80904,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0211-009"
+       "aday": "physics1-k0211-009",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -2740,7 +3004,10 @@
        "boyut": 61048,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0211-006"
+       "aday": "physics1-k0211-006",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     },
@@ -2758,7 +3025,10 @@
        "boyut": 135866,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0212-003"
+       "aday": "physics1-k0212-003",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -2766,7 +3036,10 @@
        "boyut": 110180,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0212-008"
+       "aday": "physics1-k0212-008",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -2774,7 +3047,10 @@
        "boyut": 143528,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0212-006"
+       "aday": "physics1-k0212-006",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     },
@@ -2792,7 +3068,10 @@
        "boyut": 19408,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0213-003"
+       "aday": "physics1-k0213-003",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -2800,7 +3079,10 @@
        "boyut": 14022,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0213-007"
+       "aday": "physics1-k0213-007",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -2808,7 +3090,10 @@
        "boyut": 15760,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0213-004"
+       "aday": "physics1-k0213-004",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     }
@@ -2941,7 +3226,10 @@
        "boyut": 46784,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0226-001"
+       "aday": "physics1-k0226-001",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -2949,7 +3237,10 @@
        "boyut": 41448,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0226-007"
+       "aday": "physics1-k0226-007",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -2957,7 +3248,10 @@
        "boyut": 50342,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0226-005"
+       "aday": "physics1-k0226-005",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     },
@@ -2975,7 +3269,10 @@
        "boyut": 37638,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0227-001"
+       "aday": "physics1-k0227-001",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -2983,7 +3280,10 @@
        "boyut": 47052,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0227-004"
+       "aday": "physics1-k0227-004",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -2991,7 +3291,10 @@
        "boyut": 43798,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0227-009"
+       "aday": "physics1-k0227-009",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     },
@@ -3009,7 +3312,10 @@
        "boyut": 126806,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0228-004"
+       "aday": "physics1-k0228-004",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -3017,7 +3323,10 @@
        "boyut": 87092,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0228-008"
+       "aday": "physics1-k0228-008",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -3025,7 +3334,10 @@
        "boyut": 72750,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0228-007"
+       "aday": "physics1-k0228-007",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     }
@@ -3239,7 +3551,10 @@
        "boyut": 208356,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0250-002"
+       "aday": "physics1-k0250-002",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -3247,7 +3562,10 @@
        "boyut": 159868,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0250-012"
+       "aday": "physics1-k0250-012",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -3255,7 +3573,10 @@
        "boyut": 155086,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0250-007"
+       "aday": "physics1-k0250-007",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     },
@@ -3273,7 +3594,10 @@
        "boyut": 64006,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0251-001"
+       "aday": "physics1-k0251-001",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -3281,7 +3605,10 @@
        "boyut": 65106,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0251-012"
+       "aday": "physics1-k0251-012",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -3289,7 +3616,10 @@
        "boyut": 56926,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0251-009"
+       "aday": "physics1-k0251-009",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     },
@@ -3307,7 +3637,10 @@
        "boyut": 31602,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0252-002"
+       "aday": "physics1-k0252-002",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b2.webp",
@@ -3315,7 +3648,10 @@
        "boyut": 17978,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0252-011"
+       "aday": "physics1-k0252-011",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       },
       {
        "dosya": "b3.webp",
@@ -3323,7 +3659,10 @@
        "boyut": 20448,
        "genislik": 1024,
        "yukseklik": 1024,
-       "aday": "physics1-k0252-005"
+       "aday": "physics1-k0252-005",
+       "kaynak": "AI üretimi",
+       "model": "FLUX.2 klein 4B",
+       "lisans": "AI üretimi (FLUX.2 klein 4B, Apache-2.0)"
       }
      ]
     }
