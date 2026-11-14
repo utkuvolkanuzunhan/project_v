@@ -14,3 +14,12 @@ Bu depo iki şey tutar: (1) ******* uygulamasının indireceği ders görsel pak
 
 ## Dersler
 `physics1` Physics I · `circuits1` Circuit Analysis 1 · `digital` Digital Systems · `materials` Electronic Materials and Device Physics · `oop` Object-Oriented Programming · `linalg` Linear Algebra (Ege Üni. EEM, 2026-2027).
+
+## Mimari görünümü (zorunlu, Volkan 14 Kasım 2026)
+
+Bu depo, `volkan-merkez` deposundaki görsel arayüzle (klasör mahalle, dosya bina, ölçülen bağ yol) çizilir. **Her değişiklik bu görünüme uyar.**
+
+- Ayar: kökteki `mimari-ayar.json` (onay isteyen yollar, hattın akışları, katalogdaki paketler).
+- Yeni klasör, yeni araç, yeni onay isteyen dosya ya da bir akışın adımına dokunan değişiklik, ayarı **aynı değişiklikte** günceller.
+- Ölçüm (`volkan-merkez` içinden; bu depoya yazmaz): `python araclar/mimari_cikar.py <project_v yolu> --ozet`. Hata 0, kesilen dosya yok ve ayardaki her akışta `dogrulanmamis` 0 olmalı.
+- Kuralın tamamı: `volkan-merkez`, `mimari/06-arayuz-uyumu.md`.

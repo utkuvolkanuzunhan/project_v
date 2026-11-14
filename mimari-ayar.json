@@ -1,0 +1,51 @@
+{
+  "aciklama": "Görsel arayüz ayarı: volkan-merkez deposundaki araclar/mimari_cikar.py bu depoyu bu kurallarla okur ve mimarisini çizer. Kural: YAPI.md, 'Mimari görünümü'.",
+  "ad": "project_v",
+
+  "bekci": ["paketler/", "katalog.json", "mimari-ayar.json"],
+
+  "komutlar": [
+    { "desen": "calisma_klasoru/araclar/*.py", "komut": "python {yol}" }
+  ],
+
+  "gorunum": { "yukseklik": "satir", "taban": "giren", "renk": "durum" },
+
+  "akislar": [
+    {
+      "ad": "Aday görsel üretimi (B hattı)",
+      "aciklama": "Döngü adayları ComfyUI ile üretir, ucuz ön elemeden geçirir. Claude görsele bakmaz.",
+      "adimlar": [
+        { "dugum": "calisma_klasoru/araclar/uretim_dongusu.py", "not": "Kendi kendine çalışan döngü" },
+        { "dugum": "calisma_klasoru/araclar/uret.py", "not": "Toplu aday üretimi" },
+        { "dugum": "calisma_klasoru/araclar/otomatik_eleme.py", "not": "Görsele bakmadan sayısal ön eleme" },
+        { "dugum": "calisma_klasoru/araclar/ortak.py", "not": "Ortak yollar ve yardımcılar" }
+      ]
+    },
+    {
+      "ad": "İnceleme ve karar",
+      "aciklama": "Kullanıcı adayları tarayıcıda inceler; kararlar dosyaya yazılır, Claude yalnızca kısa raporu okur.",
+      "adimlar": [
+        { "dugum": "calisma_klasoru/araclar/inceleme_sunucu.py", "not": "Yerel inceleme sunucusu" },
+        { "dugum": "calisma_klasoru/araclar/ortak.py", "not": "Karar dosyalarının yolları" },
+        { "dugum": "calisma_klasoru/uretim/notlar.json", "not": "Kullanıcı notları" },
+        { "dugum": "calisma_klasoru/araclar/rapor.py", "not": "Kararların kısa özeti" }
+      ]
+    },
+    {
+      "ad": "Yayın",
+      "aciklama": "Onaylı görseller WebP, manifest ve katalog olarak depoya hazırlanır. Yayınlanmış paketler yalnızca bu hatla değişir.",
+      "adimlar": [
+        { "dugum": "calisma_klasoru/araclar/yayin.py", "not": "WebP + manifest + katalog, sonra commit" },
+        { "dugum": "katalog.json", "not": "Uygulamanın okuyacağı paket listesi" }
+      ]
+    }
+  ],
+
+  "kayitlar": [
+    {
+      "dosya": "katalog.json", "yol": "paketler", "tur": "paket", "mahalle": "Yayınlanan paketler",
+      "ad_alani": "id", "aciklama_alani": "ad",
+      "ozellikler": { "Kavram": "kavramSayisi", "Görsel": "gorselSayisi", "Boyut (MB)": "boyutMB", "Manifest": "manifest" }
+    }
+  ]
+}
