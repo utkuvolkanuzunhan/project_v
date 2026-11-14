@@ -1,0 +1,100 @@
+{
+ "surum": 1,
+ "bolum": "katalogjsonpaketler",
+ "dil": "tr",
+ "kayitlar": [
+  {
+   "kimlik": "r:katalog.json#paketler",
+   "tur": "birim",
+   "ozet": "6ff34a39748a",
+   "iskelet": "febbfa7556e9",
+   "baslik": "Ders paketi listesi",
+   "ne": {
+    "cok_basit": "Hangi derslerin hazır olduğunu gösteren liste: her ders için kısa ad, açıklama ve neleri taşıdığı yazılıdır.",
+    "basit": "Bu bölüm, katalogdaki ders listesidir. Her ders için bir kısa ad, ne olduğunu söyleyen İngilizce bir açıklama ve boyut, görsel, kavram ile içindekiler listesi gibi bilgiler yazılıdır.",
+    "normal": "Katalogun ders listesi bölümü, yayınlanabilecek her dersi bir kayıt olarak tutar. Kayıtta dersin kısa adı ve İngilizce açıklaması bulunur; ayrıca her kayıt aynı dört özelliği taşır: boyut megabayt olarak, görsel sayısı, kavram sayısı ve içindekiler dosyasının yeri. Yayın aracı hangi derslerin ne büyüklükte olduğunu buradan okur.",
+    "gelismis": "Bu bölüm, katalogdaki paketler listesidir ve her yayınlanabilir ders için bir kayıt tutar. Kayıt dersin kısa adını, tür olarak paket olduğunu ve İngilizce bir açıklamasını yazar. Her kayıt dört özellik taşır: büyüklük, görsel sayısı, kavram sayısı ve dersin kendi içindekiler dosyasının yeri. Böylece yayın aracı bir dersin içine bakmadan neye sahip olduğunu bilir.",
+    "detayli": "Bu bölüm katalogdaki paketler listesidir ve ders paketlerinin özet kaydını tutar. Her kayıtta dersin kısa adı, türü olarak paket, İngilizce bir açıklama ve ders özellikleri bulunur. Özellikler her kayıtta aynıdır: paketin megabayt büyüklüğü, içindeki görsel sayısı, kavram sayısı ve dersin kendi içindekiler dosyasının yeri. Yayın aracı bu listeyi okuyarak hangi derslerin yayınlanacağını ve her birinin ne kadar yer tutacağını dersin içine girmeden öğrenir. Böylece ders içeriği ile ders özeti ayrı yerlerde durur."
+   },
+   "mantik": {
+    "cok_basit": "Dersin içine girmeden hangi dersin ne kadar büyük olduğunu görmek için bu kısa liste tutulur.",
+    "basit": "Her dersin içine tek tek bakmak yavaştır. Liste kısa özeti bir yerde toplar, yayın aracı oradan okur.",
+    "normal": "Yayın aracının her dersin klasörüne girip boyut ve sayı saymasına gerek kalmasın diye özet bir yerde tutulur. Böylece hangi dersin yayınlanacağı hızlı bulunur. Dersin ayrıntısı ise ayrı kalır; liste yalnız oraya giden yeri gösterir.",
+    "gelismis": "Özet ile içerik ayrı tutulduğu için yayın aracı bir dersin bütün kayıtlarına dokunmadan yalnız küçük bir liste okur. Bu hem hızlıdır hem de içerikteki bir değişiklikten yayın kararını ayırır. Her kayıt aynı özellikleri taşıdığından araç her ders için aynı soruları sorabilir ve ders ekledikçe kodunu değiştirmez.",
+    "detayli": "Katalogdaki liste, özet bilgisini ders içeriğinden ayırmak için vardır. Yayın aracı hangi dersin yayınlanacağına ve ne kadar yer tutacağına karar verirken dersin bütün kayıtlarını açmak zorunda kalmaz; küçük bir listeyi okur. Her kayıt aynı dört özelliği aynı adlarla taşıdığı için araç her derse aynı soruları sorar ve yeni ders eklendiğinde kodunu değiştirmez. İçerik ise ders klasöründe kalır; liste yalnız oraya giden yeri gösterir, böylece iki taraf birbirinin değişimine bağımlı olmaz."
+   },
+   "nasil": {
+    "basit": "Yayın aracı listeyi baştan sona okur. Her ders için adını, büyüklüğünü ve içindekiler dosyasının yerini bulur. Yeni bir ders eklenince listeye yeni bir kayıt girer.",
+    "normal": "Yayın aracı önce listeyi okur ve her kayıttan dersin kısa adını ile büyüklüğünü alır. Dersin ayrıntısına gerektiğinde kayıttaki içindekiler yerinden ulaşır. Yeni bir ders hazır olduğunda listeye yeni bir kayıt girer; aynı dört özellik ona da yazılır. Eski kayıtlara dokunmak gerekmez.",
+    "gelismis": "Okuyucu, yani yayın aracı, listeyi sırayla gezer. Her kayıttan kısa adı, İngilizce açıklamayı ve dört özelliği alır: büyüklük, görsel sayısı, kavram sayısı ve içindekiler dosyasının yeri. Bu bilgiyle hangi dersin yayınlanacağına ve ne kadar yer tutacağına karar verir. Dersin tam içeriğine yalnız gerektiğinde, kayıttaki yerden ulaşır. Yeni bir ders eklenince listeye aynı biçimde bir kayıt girer ve mevcut kayıtların sırası ya da içeriği değişmez.",
+    "detayli": "Yayın aracı listeyi sırayla gezer ve her kaydı ders başına bir özet olarak okur. Kayıttan dersin kısa adı, İngilizce açıklaması ve dört özellik alınır. Büyüklük yayının ne kadar yer tutacağını, görsel ve kavram sayıları dersin kapsamını, içindekiler özelliği ise dersin kendi içindekiler dosyasının yerini bildirir. Araç hangi dersleri yayınlayacağına ve her biri için ne kadar boyut ayıracağına bu özetle karar verir. Dersin ayrıntısı gerektiğinde içindekiler özelliğinin gösterdiği yerden okunur; yani katalog yalnız özeti tutar, içerik ayrı durur. Yeni ders eklendiğinde listeye aynı dört özellikle yeni bir kayıt girer, böylece okuyucu kodunu değiştirmeye gerek kalmaz."
+   },
+   "detay": {
+    "girdiler": [
+     "Her ders için kısa ad, paket türü ve İngilizce açıklama listeye yazılır.",
+     "Büyüklük, görsel sayısı, kavram sayısı ve içindekiler yeri her kayıt için girilir."
+    ],
+    "ciktilar": [
+     "Yayın aracına, hangi derslerin ne büyüklükte olduğunu söyleyen bir özet liste verilir."
+    ],
+    "degismezler": [
+     "Her kayıt aynı dört özelliği aynı adlarla taşır.",
+     "Her kaydın bir kısa adı vardır ve bu ad dersin kendi klasör adıyla eşleşir."
+    ],
+    "kenar": [
+     "Yeni eklenen bir ders listede yoksa yayın aracı onu görmez."
+    ]
+   },
+   "sinir": {
+    "sabit": [
+     "Dört özelliğin adları ve anlamı sabit kalmalıdır; yayın aracı bunlara dayanarak okur.",
+     "Kısa ad değişirse dersin klasör adı ve içindekiler yeri ile eşleşmesi bozulur."
+    ],
+    "degisebilir": [
+     "Yeni ders kaydı eklemek mevcut kayıtlara dokunmaz.",
+     "İngilizce açıklama metni, ad değişmedikçe düzeltilebilir.",
+     "Büyüklük ve sayı değerleri ders büyüdükçe yeniden yazılabilir."
+    ]
+   },
+   "kurulus": [
+    {
+     "baslik": "Kayıt biçimini belirle",
+     "metin": "Önce her ders kaydının hangi alanları taşıyacağını karara bağla: kısa ad, tür, açıklama ve dört sabit özellik.",
+     "parcalar": []
+    },
+    {
+     "baslik": "Derslerin özetini çıkar",
+     "metin": "Her ders için büyüklüğü, görsel sayısını, kavram sayısını ve içindekiler dosyasının yerini ders klasöründen çıkar.",
+     "parcalar": []
+    },
+    {
+     "baslik": "Listeye kayıtları yaz",
+     "metin": "Her dersi kısa adı ve açıklamasıyla listeye ekle. Yayın aracı bu listeyi okuyacağı için özellik adlarını yeni derslerde de aynen kullan.",
+     "parcalar": []
+    }
+   ],
+   "sorular": [
+    {
+     "soru": "Yeni bir ders eklenince yayın aracının kodunu değiştirmek gerekir mi?",
+     "yanit": "Hayır. Yeni ders aynı dört özellikle listeye bir kayıt olarak eklenir; araç her kaydı aynı biçimde okuduğu için kodu aynı kalır."
+    },
+    {
+     "soru": "Özellik adlarından birini yeniden adlandırırsam ne olur?",
+     "yanit": "Yayın aracı o özelliği bulamaz ve ilgili dersin büyüklüğünü ya da yerini okuyamaz. Özellik adları listenin dışarıya verdiği sözdür ve sabit kalmalıdır."
+    }
+   ],
+   "kritik_neden": "Liste bozulursa yayın aracı hangi derslerin yayınlanacağını ve boyutlarını bilemez; ders yayını yanlış ya da eksik yapılır.",
+   "terimler": [],
+   "belirsiz": [
+    "Yayın aracından başka listeyi okuyan taraf olup olmadığı anlatımlarda yazmıyor.",
+    "Büyüklük, görsel ve kavram değerlerinin elle mi araçla mı yazıldığı bilinmiyor."
+   ],
+   "okunan": [],
+   "yazan": {
+    "model": "sonnet",
+    "ajan": "claude-code",
+    "tarih": "2026-11-14"
+   }
+  }
+ ]
+}

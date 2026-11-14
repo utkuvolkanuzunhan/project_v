@@ -1,0 +1,86 @@
+{
+ "surum": 1,
+ "bolum": "x",
+ "dil": "tr",
+ "kayitlar": [
+  {
+   "kimlik": "x",
+   "tur": "birim",
+   "ozet": "f21bfa9fb2f7",
+   "iskelet": "e3b0c44298fc",
+   "baslik": "Dış parçalar",
+   "ne": {
+    "cok_basit": "Bu depoda yazılmamış, dışarıdan alınıp kullanılan hazır parçaları bir arada gösteren kutu.",
+    "basit": "Depodaki dosyalar bazı işleri kendileri yapmaz, dışarıdan hazır parçalar alır. Bu kutu, kodu bu depoda bulunmayan o parçaları bir yerde toplar.",
+    "normal": "Bu bölüm, kodu bu depoda yer almayan dış bağımlılıkları temsil eder: başka yerden alınıp kullanılan modüller ve paketler. Depodaki dosyalar bu parçalara dayanır ama onların içini yazmaz. Haritada ayrı durmaları, depoyu kendi yazdığımız kısım ile dışarıdan aldığımız kısım olarak ikiye ayırmaya yarar.",
+    "gelismis": "Bu bölüm, kodu bu depoda bulunmayan dış bağımlılıkların toplandığı yerdir: dışarıdan alınan modüller ve paketler. Depodaki dosyalar bunlara dayanır, ama bunlar depoda geliştirilmez ve içleri bu depoda okunmaz. Haritada ayrı bir bölüm olarak durmaları, hangi işin depo içinde yapıldığını, hangisinin dışarıdan alındığını ayırt etmeyi sağlar. Ölçülen komşu, çalışma klasörüdür; ona hiçbir şey dayanmaz, ama başka parçaların ona dayandığı görülür.",
+    "detayli": "Bu bölüm, kodu bu depoda yer almayan dış bağımlılıkları bir araya getirir: başka yerden alınıp kullanılan modüller ve paketler. Depodaki dosyalar bu parçaları çağırır ya da içe alır, fakat parçaların kendisi bu depoda yazılmaz, sürdürülmez ve okunmaz. Haritada ayrı bir bölüm olarak gösterilmeleri iki şeyi sağlar: depoda ne kadarının kendi elimizden çıktığını, ne kadarının dışarıdan geldiğini ayırt edebilmek ve dışarıdan gelen bir parça değiştiğinde ya da kalktığında hangi dosyaların etkileneceğini önceden görebilmek. Ölçüme göre bu bölümün komşusu çalışma klasörüdür; bu bölüm ona dayanmaz, ona ise başka parçalar dayanır."
+   },
+   "mantik": {
+    "cok_basit": "Dışarıdan gelen parçaları ayrı bir kutuya koymak, hangi işi kendimizin yaptığını, hangisini dışarıdan aldığımızı net gösterir.",
+    "basit": "Dışarıdan gelen parçaların içini biz yazmayız ve değiştiremeyiz. Ayrı bir kutuda durmaları, depo içindeki işle karışmamasını sağlar.",
+    "normal": "Dış bağımlılıkların depodan ayrı bir bölümde gösterilmesi, kendi yazdığımız koda ait ölçümlerin dışarıdan gelen parçalarla karışmasını önler. Bir dosya yalnız bu bölüme dayanıyorsa, işinin büyük kısmı dışarıdan alınmış demektir. Ayrıca bir dış parça değişirse hangi dosyaların etkileneceği tek bakışta bulunur.",
+    "gelismis": "Dış bağımlılıkları ayrı bir bölüme koymak, depoyu iki yere böler: kendi yazdığımız kısım ve dışarıdan aldığımız kısım. Bu ayrım ölçümlerin anlamını korur; kritiklik ve bağ sayıları yalnızca depo içindeki kodu anlatsın, dış parçalar bunları şişirmesin diye ayrı tutulur. Dış parçanın içine hiç inilmez, çünkü o kod burada geliştirilmez ve okunacak bir yeri yoktur.",
+    "detayli": "Bölümün var olma nedeni sınırı net çizmektir. Dış parçalar depoda yazılmadığı için içlerini okumak, değiştirmek ya da ölçmek bu deponun işi değildir. Onları kendi yazdığımız koda katsaydık haritadaki bağ, kritiklik ve değişim ölçümleri dışarıdan gelen kodla karışırdı ve hangi işin gerçekten bu depoya ait olduğu bulanıklaşırdı. Ayrı bir kutuda durdukları için bir dış parça değiştiğinde ya da kalktığında etkilenen dosyalar bağlardan hemen bulunur, ama parçanın kendisi haritada incelenecek bir iç yapı gibi sunulmaz. Bilerek kaçınılan şey, dış kodu depodaymış gibi göstermek ve ölçmektir."
+   },
+   "nasil": {
+    "basit": "Depodaki bir dosya dışarıdan bir parçayı kullanmak istediğinde ona seslenir. Parça işini kendi yerinde yapar ve sonucu geri verir. Haritada bu kullanım bir yolla gösterilir.",
+    "normal": "Depodaki bir dosya, dışarıdan bir parçayı içe aldığında ya da çağırdığında harita bunu bir bağ olarak çizer. Bağ, dosyadan bu bölüme doğru gider; çünkü dosya parçaya dayanır, parça dosyaya dayanmaz. Parçanın içi depoda bulunmadığı için içine inilmez; yalnız hangi dosyaların kullandığı görünür.",
+    "gelismis": "Akış tek yönlüdür. Depodaki bir dosya bir dış parçayı içe aldığında ya da çağırdığında harita dosyadan bu bölüme doğru bir bağ çizer. Dış parçanın içi depoda olmadığı için içine inilmez, onun iç işleyişi burada incelenmez; yalnız hangi dosyaların ona dayandığı ve ne ölçüde dayandığı görünür. Bölümün çalışma klasörüne bağı ölçümde sıfırdır: bu bölüm kimseye dayanmaz.",
+    "detayli": "Akış tek yönlüdür ve depo içinden dışarıya doğru ilerler. Depodaki bir dosya bir dış parçayı içe aldığında ya da çağırdığında, harita dosyadan bu bölüme doğru bir bağ çizer. Dış parçanın kodu bu depoda bulunmadığı için bağın öte yanı boş bir kutu gibi görünür: onun iç işleyişi okunmaz, yalnız hangi dosyaların ona dayandığı kaydedilir. Bu sayede bir dış parçanın yerine başkası konduğunda ya da kaldırıldığında etkilenecek dosyalar bağlardan bulunur. Ölçüm, bu bölümün çalışma klasörüne dayanmadığını gösterir; bölüm depodaki hiçbir şeyi çağırmaz, yalnız çağrılır. Dış parçanın sürümü ya da davranışı bu bölümde izlenmez."
+   },
+   "detay": {
+    "girdiler": [
+     "Depodaki dosyaların içe aldığı ve çağırdığı modül ve paket adları bu bölümü besler.",
+     "Bu bölümün ölçülen komşusu çalışma klasörüdür."
+    ],
+    "ciktilar": [
+     "Haritada, dosyalardan dış parçalara doğru giden bağlar ve onların toplu görünümü çıkar."
+    ],
+    "degismezler": [
+     "Bu bölümün içindeki hiçbir parçanın kodu depoda bulunmaz.",
+     "Bağ yönü hep depodaki dosyadan dış parçayadır; dış parça depoya dayanmaz."
+    ],
+    "kenar": [
+     "Bir dış parça kaldırılırsa ona dayanan dosyalar çalışmaz hâle gelir ve bağlardan bulunabilir.",
+     "Bu bölümün çalışma klasörüne bağı sıfırdır; çalışma klasörüne dayanan parçalar ise vardır."
+    ]
+   },
+   "sinir": {
+    "sabit": [
+     "Dış parçaların depoda yazılmadığı kuralı sabit kalmalıdır; kodu depoya girerse bölümün tanımı bozulur.",
+     "Bağ yönü depodaki dosyadan dış parçayadır ve tersine çevrilmemelidir."
+    ],
+    "degisebilir": [
+     "Hangi dış parçaların kullanıldığı depodaki dosyalara göre serbestçe artıp azalabilir.",
+     "Bir dış parçanın yerine başka bir parça konabilir; yeter ki ona dayanan dosyalar uyarlansın."
+    ]
+   },
+   "sorular": [
+    {
+     "soru": "Bir dış parçanın içini bu depoda değiştirebilir miyim?",
+     "yanit": "Hayır. Dış parçanın kodu bu depoda bulunmaz; değiştirmek istiyorsan parçanın kendi yerinde ya da kendi sürümünde değiştirilir. Bu depoda yalnız ona dayanan dosyalar değişir."
+    },
+    {
+     "soru": "Bir dış parça kalkarsa haritada hangi dosyaların etkileneceği nereden anlaşılır?",
+     "yanit": "Dosyalardan o parçaya giden bağlardan. Bağ yönü depodaki dosyadan dış parçaya doğru olduğu için bu bağları izlemek, ona dayanan dosyaları verir."
+    }
+   ],
+   "kritik_neden": "Bu bölüm yanlış ya da eksik gösterilirse hangi dosyaların dışarıdan gelen parçalara dayandığı anlaşılmaz ve bir dış parça değiştiğinde etkilenecek yerler önceden görülemez.",
+   "terimler": [
+    "dis-bagimlilik"
+   ],
+   "belirsiz": [
+    "Bu bölümde hangi paketlerin ve modüllerin bulunduğu anlatımlarda ve ölçümde görünmüyor.",
+    "Dış parçaların sürümlerinin ya da kaynaklarının nerede kaydedildiği bilinmiyor.",
+    "Bağın depodaki hangi dosyalardan geldiği ölçümde yalnız çalışma klasörü komşusu olarak görünüyor."
+   ],
+   "okunan": [],
+   "yazan": {
+    "model": "sonnet",
+    "ajan": "claude-code",
+    "tarih": "2026-11-14"
+   }
+  }
+ ]
+}
