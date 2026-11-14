@@ -1,0 +1,237 @@
+{
+ "surum": 1,
+ "bolum": "plan",
+ "dil": "tr",
+ "kayitlar": [
+  {
+   "kimlik": "k:plan",
+   "tur": "birim",
+   "ozet": "be283e6c5367",
+   "iskelet": "49c9379649aa",
+   "baslik": "Çalışma planları",
+   "ne": {
+    "cok_basit": "Çalışmanın nasıl yürüyeceğini anlatan planlar burada durur: görsellerin kontrolü, kitapların hazırlanması ve işin devri.",
+    "basit": "Burada çalışmanın yol haritaları bulunur. Görsellerin hatasız çıkması için kontrol planı, ders kitaplarının konu listesine çevrilmesi, kodla çizilen şekillerin yöntemi ve işi başkasına devreden not yer alır.",
+    "normal": "Bu klasör, depodaki işin nasıl yürüyeceğini anlatan plan belgelerini toplar. Bir belge yüklenen görsellerin kalitesini nasıl denetleyeceğimizi, biri ders kitaplarını bir kez konu listesine çevirmeyi, biri kodla çizilen şekillerde hangi araçların kullanılacağını anlatır. Dördüncü belge ise işi kaldığı yerden sürdürecek kişiye durumu aktarır.",
+    "gelismis": "Bu klasör plan belgelerinin yeridir; kararları ve yöntemleri yazar. Kalite denetim planı görsellerin hatasız olması için otomatik eleme, gözle inceleme ve kodla çizilen şekillerin kontrolünü sıralar. Kitap planı ders kitaplarının bir kez düzenli bir konu listesine çevrilmesini söyler; liste hem görsel hem kart üretiminde kullanılır. Şekil hattı planı yeni paket yazmak yerine mevcut simülasyon ve şema kütüphanelerini kullanmayı önerir. Devir notu depoları, klasör düzenini ve bekleyen kararları toplar.",
+    "detayli": "Bu klasör, işin nasıl yürüyeceğini ve nerede kaldığını yazan belgeleri tutar. `KALITE_DENETLEYICI_PLANI.md` yüklenen her görselin hatasız olmasını hedefler: otomatik eleme, gözle inceleme ve kodla çizilen şekillerin kontrolü. `NOTEBOOKLM_PLANI.md` ders kitaplarını bir kez düzenli bir konu listesine çevirir; liste görsel ve kart üretiminde ortak kaynaktır. `A_HATTI_PLANI.md` kodla çizilen şekillerde mevcut simülasyon ve şema kütüphanelerini kullanmayı anlatır. `DEVIR.md` işi sürdürecek kişi için depoları, klasör düzenini ve bekleyen kararları toplar."
+   },
+   "mantik": {
+    "cok_basit": "Plan yazılı olunca iş kimin elinde olursa olsun aynı sırayla yürür; kimse her şeyi baştan düşünmek zorunda kalmaz.",
+    "basit": "Kitabı her seferinde baştan okumak ve görseli rastgele kontrol etmek hem yavaş hem hatalıdır. Planlar kararı bir kez yazar; sonraki iş buna bakar.",
+    "normal": "Planların yazılı durması üç sorunu çözer. Yapay zekâ kitabı her seferinde baştan okumaz, çünkü konu listesi bir kez çıkarılmıştır. Görseller rastgele değil katmanlı bir kontrolden geçtiği için hata kalmaz. İş el değiştirdiğinde yeni kişi devir notundan sürdürür; hiçbir bilgi kafada kalmaz.",
+    "gelismis": "Planların koddan ayrı belgeler olarak yazılmasının nedeni kararın uygulamadan önce tartışılıp sabitlenmesidir. Kitap planı pahalı bir adımı, kitabı okumayı, bir kez yapıp sonuç listesini yeniden kullanır. Kalite planı hatayı üretimin sonunda aramak yerine katmanlara bölerek yakalar. Şekil hattı planı yeni paket yazmak yerine hazır kütüphaneleri seçerek bakım yükünden kaçınır. Devir notu ise işin bir kişiye bağımlı kalmamasını sağlar.",
+    "detayli": "Planlar kodun yanında değil ayrı belgelerde durur; çünkü burada çözülen sorun kod yazmak değil, neyin hangi sırayla ve hangi ölçüyle yapılacağına önceden karar vermektir. Kitap planı pahalı bir işi, yani kitabı okumayı, bir kez yapar ve çıkan konu listesini hem görsel hem kart üretiminde yeniden kullanır. Kalite planı hatayı en sonda aramak yerine katmanlara bölünmüş bir elemeyle yakalar. Şekil hattı planı bilerek yeni bir paket yazmayı seçmez; mevcut kütüphanelere dayanarak bakım yükünden kaçınır. Devir notu işin tek kişiye bağlı kalmasını önler: depoların durumu, klasör düzeni ve bekleyen kararlar yazılı olduğundan iş her zaman kaldığı yerden sürer."
+   },
+   "nasil": {
+    "basit": "Planlar işin sırasını izler. Önce kitaplar bir kez konu listesine çevrilir, sonra bu listeyle görseller üretilir ve kontrolden geçer. Şekiller için hazır araçlar kullanılır; devir notu kalınan yeri gösterir.",
+    "normal": "Belgeler işin sırasına göre okunur. Önce kitap planı uygulanır: ders kitapları bir kez konu listesine dönüşür. Bu listeyle görseller ve kartlar üretilir. Yüklenen her görsel kalite planındaki katmanlardan geçer: önce otomatik eleme, sonra gözle bakış, kodla çizilenler için ek kontrol. Şekil planı hazır kütüphaneleri seçtirir; devir notu güncel durumu verir.",
+    "gelismis": "Planlar işin sırasını izler ve birbirine bağlanır. Kitap planı en başta çalışır: ders kitapları bir kez düzenli bir konu listesine çevrilir ve bu liste sonraki bütün üretimin kaynağı olur. Görsel ve kart üretimi bu listeden beslenir. Üretilen her görsel yüklenmeden önce kalite denetim planındaki sıradan geçer: otomatik eleme, gözle inceleme, kodla çizilen şekiller için ayrı kontrol. Kodla çizilen şekillerde şekil hattı planı geçerlidir; yeni paket yazılmaz, mevcut simülasyon ve şema kütüphaneleri kullanılır, kapsam ölçülür. Devir notu bu sürecin çalıştığı depoları, klasör düzenini ve bekleyen kararları kaydeder; işi alan kişi buradan başlar.",
+    "detayli": "Belgeler işin sırasına göre okunur ve birbirine bağlanır. Başlangıç kitap planıdır: ders kitapları bir kez düzenli bir konu listesine çevrilir ve yapay zekâ kitabı bir daha baştan okumak zorunda kalmaz. Bu liste görsel üretimi ile kart üretimi için ortak kaynak olur. Üretim sırasında kodla çizilen şekiller ayrı bir yoldan gider: şekil hattı planı bunlar için yeni bir paket yazmayı bırakıp mevcut simülasyon ve şema kütüphanelerini kullanmayı söyler, ardından kapsamın ölçülmesini ve sonraki adımların sırasını verir. Üretilen her görsel yüklenmeden önce kalite denetim planından geçer. Planın ilk katmanı otomatik elemedir, ikinci katmanı görselin gözle incelenmesidir, üçüncü katmanı kodla çizilen şekillerin ayrıca kontrolüdür; amaç yüklenen hiçbir görselde hata kalmamasıdır. Devir notu bütün bunların güncel durumunu taşır: depoları, klasör düzenini, günlük çalışma akışını ve henüz verilmemiş kararları anlatır. Yeni biri işe girdiğinde önce devir notuyla başlar, sonra ilgili planı açar."
+   },
+   "detay": {
+    "girdiler": [
+     "Ders kitapları ve hedeflenen görsel kalitesi planların başlangıç noktasıdır.",
+     "Devir notu için işin o günkü durumu ve bekleyen kararlar yazılır."
+    ],
+    "ciktilar": [
+     "Düzenli bir konu listesi, görsel ve kart üretimi için ortak kaynak olarak ortaya çıkar.",
+     "Kalite katmanlarından geçmiş, hatasız kabul edilen görseller çıkar."
+    ],
+    "degismezler": [
+     "Kalite planındaki katman sırası bozulmaz: önce otomatik eleme, sonra gözle bakış.",
+     "Kitap bir kez düzenlenir; sonraki üretimler listeden okur, kitaba dönmez."
+    ],
+    "kenar": [
+     "Kodla çizilen şekiller diğer görsellerden ayrı bir kontrol ister.",
+     "Devir notundaki bekleyen kararlar çözülünce güncellenmezse işi alan kişi eski duruma bakar."
+    ]
+   },
+   "sinir": {
+    "sabit": [
+     "Konu listesi görsel ve kart üretiminin ortak kaynağıdır; biçimi değişirse iki üretim de etkilenir.",
+     "Kalite katmanlarının sırası ve hedefi, yani hatasız görsel, değişmez.",
+     "Kodla çizilen şekillerde mevcut kütüphaneleri kullanma kararı yeni paket yazmayı dışarıda bırakır."
+    ],
+    "degisebilir": [
+     "Planların anlatım cümleleri ve sıralama ayrıntıları, karar değişmedikçe düzenlenebilir.",
+     "Devir notundaki depo listesi ve bekleyen kararlar işe göre sürekli yenilenir.",
+     "Her planın içindeki ölçüm ve sonraki adım listesi çalışma ilerledikçe genişletilebilir."
+    ]
+   },
+   "sorular": [
+    {
+     "soru": "Kitap konu listesine çevrildikten sonra her yeni görselde kitabı yeniden okumak gerekir mi?",
+     "yanit": "Hayır. Liste bir kez çıkarılır ve hem görsel hem kart üretiminde ortak kaynak olarak kullanılır. Bu planın asıl kazancı kitabın baştan okunmamasıdır."
+    },
+    {
+     "soru": "Kalite planındaki katmanların sırasını değiştirsem ne olur?",
+     "yanit": "Sıra bozulursa pahalı gözle inceleme otomatik elemeden geçmemiş görsellere de yapılır; hem zaman kaybedilir hem hata kaçma ihtimali artar. Sıra ve hedef sabit kalmalıdır."
+    },
+    {
+     "soru": "Kodla çizilen şekiller için neden yeni bir paket yazılmıyor?",
+     "yanit": "Mevcut simülasyon ve şema kütüphaneleri yeterli kapsamı sağlıyorsa yeni paket bakım yükü ve yeni hata getirir. Plan önce kapsamın ölçülmesini, sonra eksiğe göre karar vermeyi söyler."
+    }
+   ],
+   "kritik_neden": "Planlar kaybolur ya da eskirse görsel kontrolü gelişigüzel yapılır, kitaplar yeniden baştan okunur ve işi devralan kişi hangi karar bekliyor bilemez.",
+   "terimler": [],
+   "belirsiz": [
+    "Planların hangi araç ya da kişi tarafından her adımda zorunlu uygulandığı anlatımlardan anlaşılmıyor.",
+    "Devir notunun ne sıklıkla güncellendiği bilinmiyor."
+   ],
+   "okunan": [],
+   "yazan": {
+    "model": "sonnet",
+    "ajan": "claude-code",
+    "tarih": "2026-11-14"
+   }
+  },
+  {
+   "kimlik": "plan/A_HATTI_PLANI.md",
+   "tur": "dosya",
+   "ozet": "4a2f8ff12a21",
+   "iskelet": "bc685dbc5d84",
+   "baslik": "Kodla çizilen şekil planı",
+   "ne": {
+    "cok_basit": "Kodla çizilen şekiller için planın uygulamadaki simülasyonlarla birleştirilmiş hali.",
+    "normal": "Bu belge, kodla çizilen şekiller için ayrı paket yapmak yerine mevcut simülasyon ve şema kütüphanelerinin kullanılmasını anlatır. Belge, kapsamın ölçülmesi ve sonraki adımların sırası için de bir yol gösterir."
+   },
+   "nasil": {
+    "normal": "Eski planda her kodla çizilen kavram için ayrı bir paket öngörülmüştü. Ancak uygulama deposunda simülasyon ve şema kütüphaneleri zaten kurulu ve planlı olduğu için yapay zekâ yalnızca parametreleri ve tarifi doldurur. Yeni kavram türü icat edilmez; önce mevcut kütüphanelere bakılır."
+   },
+   "sinir": {
+    "sabit": [
+     "Kodla çizilen kavramlar için yeni çizim türü açılmaz; bu kural uygulama deposundaki katalogla uyumun temelidir.",
+     "Simülasyon ve şema kayıtları uygulama deposunda tutulur; bu belge onların yerini değiştirmez."
+    ],
+    "degisebilir": [
+     "Kaba eşleme tablosundaki sayılar ve durumlar, yeni ölçüm yapıldıkça güncellenebilir.",
+     "Simülasyon turlarının hangisinden başlanacağı kullanıcı kararıyla belirlenir ve değişebilir."
+    ]
+   },
+   "terimler": [],
+   "belirsiz": [
+    "Eşleme tablosunun kaba bir tahmin olduğu belgede yazılı; kesin kapsam oranı henüz ölçülmedi.",
+    "Uygulama deposundaki kütüphanelerin güncel durumu bu belgeden doğrulanmadı."
+   ],
+   "okunan": [
+    "plan/A_HATTI_PLANI.md"
+   ],
+   "yazan": {
+    "model": "haiku",
+    "ajan": "claude-code",
+    "tarih": "2026-11-14"
+   }
+  },
+  {
+   "kimlik": "plan/DEVIR.md",
+   "tur": "dosya",
+   "ozet": "bc9c4be47f2a",
+   "iskelet": "b50a08fc2fbe",
+   "baslik": "Proje devir notu",
+   "ne": {
+    "cok_basit": "Projeye geri dönen biri için devir notu; nerede kalındığını anlatır.",
+    "normal": "Bu belge, işi kaldığı yerden sürdürmek isteyen biri için yazılmış devir notudur. Depolar, klasör düzeni, günlük çalışma akışı ve bekleyen kararlar burada toplanır."
+   },
+   "nasil": {
+    "normal": "Uygulama deposu özeldir; herkese açık depo ise uygulamanın indireceği ders görsel paketlerini ve bu işi yürüten araçları tutar. Görseller bilgisayardaki çalışma klasöründe üretilir; büyük dosyalar sürümde tutulmaz. Yayın, kuru deneme ve uygulama adımlarından sonra, yalnız kullanıcı onayıyla gönderilir."
+   },
+   "sinir": {
+    "sabit": [
+     "Uygulama görsel yollarını tahmin etmez; her dersin yönetim dosyasında yazılı olanı okur, bu yüzden o dosyadaki yol bilgisi sabit kalmalıdır.",
+     "Gönderme adımının yalnız kullanıcı onayıyla yapılması sabit kalmalıdır; herkese açık depo bu güvene dayanır."
+    ],
+    "degisebilir": [
+     "Çalışma klasöründeki yardımcı programların sürümleri ve kurulum adımları, kurulum değiştikçe güncellenebilir.",
+     "Günlük akıştaki sıra ve bekleyen kararların listesi, işler ilerledikçe değişebilir."
+    ]
+   },
+   "terimler": [],
+   "belirsiz": [
+    "Devir notundaki bekleyen kararların şu an hâlâ geçerli olup olmadığı bilinmiyor.",
+    "Yardımcı programların güncel sürümleri bu belgeden doğrulanmadı."
+   ],
+   "okunan": [
+    "plan/DEVIR.md"
+   ],
+   "yazan": {
+    "model": "haiku",
+    "ajan": "claude-code",
+    "tarih": "2026-11-14"
+   }
+  },
+  {
+   "kimlik": "plan/KALITE_DENETLEYICI_PLANI.md",
+   "tur": "dosya",
+   "ozet": "e7a66791db8b",
+   "iskelet": "94c22047a50c",
+   "baslik": "Görsel kalite kontrol planı",
+   "ne": {
+    "cok_basit": "Yapay zekâ ile üretilen görsellerin kalite kontrolünü anlatan plan belgesi.",
+    "normal": "Bu belge, yüklenen her görselin hatasız olmasını hedefleyen kalite kontrol planıdır. Planın ilk katmanı otomatik elemeyi, ikinci katmanı görselin gözle incelenmesini, üçüncüsü kodla çizilen şekillerin kontrolünü içerir."
+   },
+   "nasil": {
+    "normal": "Plan, her görseli kontrol kapılarından sırayla geçirir. Önce otomatik kontrol bulanık, karanlık, tekrar eden ya da yazılı görselleri eler ve yenisini ürettirir. Sonra görsel gözle incelenir; konu, bozuk yapı ve yazı gibi sabit bir listeyle karar verilir."
+   },
+   "sinir": {
+    "sabit": [
+     "Otomatik eleme gözle incelemeden önce gelmelidir; sıra değişirse insan emeği hatalı görsellere harcanır."
+    ],
+    "degisebilir": [
+     "Eşik değerleri deneme sonuçlarına göre ayarlanabilir.",
+     "Yazı kontrolü için kullanılacak araç, kurulum durumuna göre değişebilir."
+    ]
+   },
+   "terimler": [],
+   "belirsiz": [
+    "Plandaki yazı tanıma aracının kurulup kurulmadığı bilinmiyor.",
+    "Ölçümlerin bugünkü üretim düzenine ne kadar uyduğu tam anlaşılamadı."
+   ],
+   "okunan": [
+    "plan/KALITE_DENETLEYICI_PLANI.md"
+   ],
+   "yazan": {
+    "model": "haiku",
+    "ajan": "claude-code",
+    "tarih": "2026-11-14"
+   }
+  },
+  {
+   "kimlik": "plan/NOTEBOOKLM_PLANI.md",
+   "tur": "dosya",
+   "ozet": "e645e0bd433b",
+   "iskelet": "21a93bf6684b",
+   "baslik": "Konu listesi çıkarma planı",
+   "ne": {
+    "cok_basit": "Ders kitaplarındaki konuları bir kez düzenli bir listeye çevirme planı.",
+    "normal": "Bu belge, ders kitaplarını bir kez düzenli bir konu listesine dönüştürmek için yazılmış bir plandır. Liste hem görsel üretiminde hem de kart üretiminde kullanılır; yapay zekâ kitabı her seferinde baştan okumaz."
+   },
+   "nasil": {
+    "normal": "Kullanıcı kaynakları ders başına ayrı bir çalışma defterine yükler ve sabit bir istemle konu listesi çıkarır. Bir karşılaştırma aracı bu listeyi mevcut konu ağacıyla eşleştirir ve eksikleri öneri dosyasına yazar. Claude önce yalnızca sayıları görür, ayrıntıyı eklemeye karar verirken okur; eksikler ağaca eklenir ve yeni konular üretim döngüsüne girer."
+   },
+   "sinir": {
+    "sabit": [
+     "Konu listesinin biçimi, yani her satırdaki görsel türü harfi ve konu adı, karşılaştırma aracının okuduğu sabit düzendir.",
+     "Kitap depoya yüklenmez; yalnızca çıkan konu listesi kaydedilir, kitabın kendisi kullanıcının hesabında kalır."
+    ],
+    "degisebilir": [
+     "Kitapların ve ders planlarının hangi defterde toplanacağı, kullanıcının çalışma düzenine göre değişebilir.",
+     "Her konunun kısa özet alanının eklenip eklenmeyeceği kullanıcı kararına bağlıdır ve değişebilir."
+    ]
+   },
+   "terimler": [],
+   "belirsiz": [
+    "Karşılaştırma aracının ayrıntılı çalışma biçimi bu belgeden tam anlaşılmadı.",
+    "Bu belgenin bağlı olduğu konu ağacını okuyan diğer parçalar ölçülmedi."
+   ],
+   "okunan": [
+    "plan/NOTEBOOKLM_PLANI.md"
+   ],
+   "yazan": {
+    "model": "haiku",
+    "ajan": "claude-code",
+    "tarih": "2026-11-14"
+   }
+  }
+ ]
+}

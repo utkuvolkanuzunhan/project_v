@@ -1,0 +1,70 @@
+{
+ "surum": 1,
+ "bolum": "akislar",
+ "dil": "tr",
+ "kayitlar": [
+  {
+   "kimlik": "akis:ayar:aday-gorsel-uretimi-b-hatti",
+   "tur": "akis",
+   "ozet": "8f2aa7031ec7",
+   "iskelet": "b21668147159",
+   "ne": {
+    "cok_basit": "Eksik kalan çizimleri bulur, yenilerini çizdirir ve kötü çıkanları kendiliğinden ayıklar; kararsız olanı insana bırakır.",
+    "normal": "Bu akışta önce her kavram için hedefe göre eksik görsel sayısı bulunur ve o kadar aday ürettirilir; kişinin istediği ekstra görseller öne alınır. Üretimde her konunun ana sahne tarifi ile ışık ve açısı değişen alternatifleri denenir, görseller sırayla kaydedilir. Her üretimden sonra eleme çalışır: kesin sorunlular elenir, şüphelilere bayrak konur ve karar insana kalır. Ortak yardımcı iş lisans bilgisini hazırlar."
+   },
+   "kritik_neden": "Bu akış bozulursa dersler için aday görsel üretilemez ya da kötü görseller elenmeden insan onayına ulaşır.",
+   "terimler": [
+    "akis"
+   ],
+   "belirsiz": [],
+   "okunan": [],
+   "yazan": {
+    "model": "sonnet",
+    "ajan": "claude-code",
+    "tarih": "2026-11-14"
+   }
+  },
+  {
+   "kimlik": "akis:ayar:inceleme-ve-karar",
+   "tur": "akis",
+   "ozet": "256ee32e75b0",
+   "iskelet": "50153054f95e",
+   "ne": {
+    "cok_basit": "Çizimleri bir sayfada kavram kavram gösterir, her biri için onay ya da ret alır ve sonunda kaç tanesinin hazır olduğunu yazar.",
+    "normal": "Bu akışta bilgisayarda açılan yerel bir sayfa görselleri kavram kavram gruplayıp gösterir; her görsel için onay ya da ret verilir ve karar bir kayda eklenir, kayıt silinmez. Resim açıklamaları notlar dosyasından gelir, ortak yardımcı iş dosyaları bozmadan okur ve yazar. Sonunda rapor, konu başına kusursuz, hatalı ve bekleyen sayıları ile yayına hazır toplamı ve ilk denemede kabul oranını çıkarır."
+   },
+   "kritik_neden": "Bu akış bozulursa görseller insan kararından geçemez ya da kararlar kaybolur, hazır sayısı yanlış raporlanır.",
+   "terimler": [
+    "akis"
+   ],
+   "belirsiz": [],
+   "okunan": [],
+   "yazan": {
+    "model": "sonnet",
+    "ajan": "claude-code",
+    "tarih": "2026-11-14"
+   }
+  },
+  {
+   "kimlik": "akis:ayar:yayin",
+   "tur": "akis",
+   "ozet": "f8844ca07183",
+   "iskelet": "37a921f14295",
+   "ne": {
+    "cok_basit": "Yeterince çizimi toplanmış konulardan birbirinden en farklı olanları seçip derse ekler ve ders listesini yeniler.",
+    "normal": "Bu akışta yayın aracı, hedefe ulaşmış kavramlardan henüz yayına eklenmemiş en farklı görselleri seçer ve ders paketine kaydeder. Görseller web biçimine çevrilir, aynı görsel iki kez yayınlanmaz ve paket bilgisi güncellenir. Son durak katalogdur: ders listesi yeniden yazılır, böylece her dersin kimliği, adı, kavram ve görsel sayısı ile büyüklüğü güncel kalır."
+   },
+   "kritik_neden": "Bu akış bozulursa onaylı görseller derse eklenemez ya da aynı görsel tekrar yayınlanır, katalog gerçek durumdan sapar.",
+   "terimler": [
+    "akis"
+   ],
+   "belirsiz": [],
+   "okunan": [],
+   "yazan": {
+    "model": "sonnet",
+    "ajan": "claude-code",
+    "tarih": "2026-11-14"
+   }
+  }
+ ]
+}

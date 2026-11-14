@@ -1,0 +1,812 @@
+{
+ "surum": 1,
+ "bolum": "paketler",
+ "dil": "tr",
+ "kayitlar": [
+  {
+   "kimlik": "k:paketler",
+   "tur": "birim",
+   "ozet": "a62d19131d81",
+   "iskelet": "52f38d46bc66",
+   "baslik": "Ders paketleri",
+   "ne": {
+    "cok_basit": "Her dersin içindekiler listesini ve görsellerin hangi izinle kullanılabildiğini anlatan ortak notu bir arada tutan yer.",
+    "basit": "Her ders için bir içindekiler listesi burada durur: dersin adı, sürümü, bölümleri ve konuları, her konunun beklediği görseller. Bir de görsellerin nasıl üretildiğini ve hangi izinle kullanılacağını söyleyen ortak bir not vardır.",
+    "normal": "Bu klasör, ders içeriğinin paketlerini barındırır. Her dersin kendi alt klasöründe o dersin kimlik kartı bulunur: dersin adı, sürümü, ünitelerin sırası, her ünitedeki kavramlar ve her kavramın beklediği görseller. Klasörün başında ise bütün görseller için geçerli ortak bir lisans notu durur.",
+    "gelismis": "Bu klasör ders paketlerinin deposudur. Her ders kendi alt klasöründe bir içindekiler dosyası taşır; bu dosya dersin adını, sürümünü, ünitelerin ve kavramların sırasını ve her kavramın beklediği görselleri ve künyelerini kaydeder. Bazı derslerde kavram ve görsel toplamları da yazılıdır. Klasörün kökündeki `LISANS.md` ise görsellerin yapay zekâ ile üretildiğini ve her kayıtta kaynak, model ve izin alanlarının bulunduğunu söyler.",
+    "detayli": "Bu klasör, ders içeriğinin paket halinde saklandığı yerdir ve her dersin kendi alt klasörü vardır. Her alt klasördeki içindekiler dosyası o dersin içindekiler listesidir: ders adı, sürüm, ünitelerin sırası, ünitelerin altındaki kavramlar ve kavramların altındaki görsel kayıtları. Kavramlar için gösterim biçimi, anlatım çizgisi, beklenen görsel sayısı gibi bilgiler de burada durur. Bazı derslerde görsellerin kaynağı, modeli ve lisansı kavram düzeyinde yazılıdır; bazılarında kavram ve görsel toplamları ayrıca belirtilir. Klasörün kökündeki `LISANS.md`, ders görsellerinin fotoğraf toplanarak değil yapay zekâ ile üretildiğini ve her kayıtta kaynak, model ve izin alanları bulunduğunu açıklar."
+   },
+   "mantik": {
+    "cok_basit": "Her dersin görsel listesi kendi yerinde durur, izin kuralı ise hepsi için ortak yazılır; böylece biri bozulunca ötekiler etkilenmez.",
+    "basit": "Her ders kendi klasöründe durduğu için bir dersi eklemek ya da değiştirmek ötekilere dokunmaz. İzin kuralı ise hepsi için bir kez yazıldığından her derste yinelenmez.",
+    "normal": "Ders paketlerinin ayrı klasörlerde tutulması, bir dersin eklenmesini ya da değişmesini öteki derslerden bağımsız yapar. İzin ve üretim yöntemi gibi bütün görselleri ilgilendiren konu ise her derste yinelenmesin diye kökte tek bir notta toplanmıştır. Böylece ortak kural ders ders tutarsızlaşmaz.",
+    "gelismis": "Ders içeriği ders başına ayrı klasörde ve ayrı bir içindekiler dosyasıyla tutulduğundan bir dersin sürümü, ünite sırası ya da görsel listesi değişince başka ders etkilenmez. Görsellerin lisansı ve üretim biçimi ise bütün derslerde aynı olduğundan her dersin içine kopyalanmak yerine kökteki `LISANS.md` içinde bir kez yazılır; böylece kural değiştiğinde tek yer güncellenir. Bazı dersler kayıtlarını daha ayrıntılı tutar; yapı bunu engellemez.",
+    "detayli": "Düzen iki sorunu aynı anda çözer. Birincisi bağımsızlıktır: her ders kendi klasöründe ve kendi içindekiler dosyasında yaşadığı için bir dersin sürümü, ünite sırası ya da görsel listesi değiştiğinde öteki dersler etkilenmez, yeni ders eklemek de mevcut düzene dokunmadan yapılır. İkincisi ortak kuraldır: görsellerin yapay zekâ ile üretildiği ve her kayıtta kaynak, model ve izin alanının bulunacağı bilgisi bütün dersler için aynıdır. Bunu her dersin dosyasına kopyalamak yerine kökteki `LISANS.md` içine bir kez yazmak, kural değişirse yalnız bir yerin güncellenmesini sağlar. Derslerin dosyaları aynı ayrıntıyı taşımak zorunda değildir; bazıları kaynak, model ve lisansı kavram düzeyinde ayrıca kaydeder."
+   },
+   "nasil": {
+    "basit": "Bir ders eklenirken önce kendi klasörü açılır ve içindekiler listesi yazılır. Liste ünitelerden, ünitelerin altındaki konulardan ve her konunun görsellerinden oluşur. Görseller hazırlandıkça kayıtları listeye eklenir.",
+    "normal": "Bir ders için önce kendi klasörü ve içindekiler listesi açılır; listede dersin adı ve sürümü, ardından üniteler ve her ünitenin kavramları yazılır. Her kavramın yanında kaç görsel beklendiği yer alır. Görseller hazırlandıkça kayıtları, yani kaynak, model ve lisans bilgileri, kavramın altına eklenir. Ortak lisans notu ise bütün derslere aynı kuralı koyar.",
+    "gelismis": "Akış ders düzeyinde işler. Bir ders için alt klasörde içindekiler dosyası açılır; içine ders adı, sürüm, ardından sıralı üniteler yazılır. Her ünitenin altına kavramlar, her kavramın altına beklenen görsel sayısı ve hazırlandıkça görsel künyeleri girilir. Bazı derslerde künyelerde kaynak, model ve lisans da bulunur. Bu listeyi okuyan taraf hangi kavramın hangi görsele sahip olduğunu ya da hâlâ beklediğini oradan görür. Kökteki `LISANS.md` ise tek bir kural koyar: görseller üretilmiştir, her kaydın kaynağı ve izni yazılmalıdır.",
+    "detayli": "Klasör iki katmanlıdır. Alt katman derslerdir: her dersin kendi alt klasöründe bir içindekiler dosyası vardır ve ders düzeyinde bütün kararları o dosya taşır. Dosya dersin adını ve sürümünü, ardından sıralı üniteleri yazar; ünitelerin altında kavramlar, kavramların altında görsel kayıtları durur. Kavram satırında adı, gösterim biçimi ve hangi anlatım çizgisine ait olduğu yazılabilir. Beklenen görsel sayısı bir kavramın ne kadar görsele ihtiyaç duyduğunu söyler; hazırlanan görseller kayıt olarak yanına eklenir. Bazı dersler kaynak, model ve lisans bilgisini her kayıtta ayrıca tutar, bazıları ders başına kavram ve görsel toplamını da yazar. Üst katman kökteki `LISANS.md` dosyasıdır; derslerin hepsi için geçerli olan kuralı koyar: görseller yapay zekâ ile üretilmiştir, fotoğraf toplanmamıştır, her kayıtta kaynak, model ve izin alanı bulunur. Bir ders eklemek demek bu düzeni yeni bir alt klasörde yinelemektir; mevcut derslere dokunmak gerekmez."
+   },
+   "detay": {
+    "girdiler": [
+     "Her dersin ünite, kavram ve görsel bilgisi içindekiler listesine elle ya da araçla yazılır.",
+     "Görsel kayıtlarının kaynak, model ve izin bilgisi kavramın altına girilir."
+    ],
+    "ciktilar": [
+     "Her ders için sıralı üniteler, kavramlar ve görsel kayıtlarından oluşan bir içindekiler listesi.",
+     "Bütün görseller için geçerli ortak bir lisans açıklaması."
+    ],
+    "degismezler": [
+     "Her dersin kendi alt klasöründe aynı adı taşıyan bir içindekiler dosyası bulunur.",
+     "Her görsel kaydında kaynak, model ve izin alanları yer alır."
+    ],
+    "kenar": [
+     "Derslerin içindekiler dosyaları aynı bilgileri aynı ayrıntıyla tutmaz; bazılarında kavram ve görsel toplamları da yazılıdır.",
+     "Bazı derslerde görsel kaydı henüz hazırlanmamış olabilir; yalnız beklenen sayı yazılıdır."
+    ]
+   },
+   "sinir": {
+    "sabit": [
+     "Her dersin içindekiler dosyasının adı ve alt klasördeki yeri aynı kalmalıdır; onu okuyan her taraf bu yere dayanır.",
+     "Ders adı, sürüm, ünite, kavram ve görsel kaydı sırası dosyanın ana yapısıdır ve bozulmamalıdır.",
+     "Görsel kayıtlarındaki kaynak, model ve izin alanları lisans notunun verdiği sözün karşılığıdır."
+    ],
+    "degisebilir": [
+     "Yeni bir ders için yeni bir alt klasör açılabilir; mevcut derslere dokunmaz.",
+     "Bir dersin konu listesi büyüyebilir, yeni ünite ya da kavram eklenebilir.",
+     "Lisans notunun anlatım cümleleri, kuralın anlamı değişmedikçe yeniden yazılabilir."
+    ]
+   },
+   "kurulus": [
+    {
+     "baslik": "Ortak lisans notunu yaz",
+     "metin": "Önce hiçbir derse bağlı olmayan ortak notu yaz: görsellerin nasıl üretildiğini ve her kayıtta hangi izin alanlarının bulunacağını söyle.",
+     "parcalar": [
+      "paketler/LISANS.md"
+     ]
+    },
+    {
+     "baslik": "Bir dersin klasörünü aç",
+     "metin": "Dersin kendi alt klasörünü aç ve içine içindekiler listesini koy: ders adı, sürüm ve boş üniteler. Böylece ders düzenin geri kalanından bağımsız durur.",
+     "parcalar": [
+      "paketler/physics1/manifest.json"
+     ]
+    },
+    {
+     "baslik": "Üniteleri ve kavramları sırala",
+     "metin": "Her ünitenin altına kavramları sırayla yaz; her kavramın adını, gösterim biçimini ve hangi anlatım çizgisine ait olduğunu ekle.",
+     "parcalar": [
+      "paketler/materials/manifest.json",
+      "paketler/oop/manifest.json"
+     ]
+    },
+    {
+     "baslik": "Beklenen görselleri kaydet",
+     "metin": "Her kavram için kaç görsel beklendiğini yaz. Görseller hazırlanınca künyelerini, yani kaynak, model ve izin bilgisini, kavramın altına ekle.",
+     "parcalar": [
+      "paketler/gida_kimyasi/manifest.json",
+      "paketler/circuits1/manifest.json",
+      "paketler/digital/manifest.json"
+     ]
+    },
+    {
+     "baslik": "Diğer dersleri aynı kalıpla çoğalt",
+     "metin": "Her yeni ders için aynı kalıbı yinelemek yeter: ayrı klasör, ayrı içindekiler listesi, ortak nota bağlı görsel kayıtları.",
+     "parcalar": [
+      "paketler/ekonomi/manifest.json",
+      "paketler/istatistik/manifest.json",
+      "paketler/linalg/manifest.json"
+     ]
+    }
+   ],
+   "sorular": [
+    {
+     "soru": "Yeni bir ders eklemek mevcut derslerin içindekiler listesini etkiler mi?",
+     "yanit": "Hayır. Her ders kendi alt klasöründe ve kendi listesinde durur; yeni ders yeni bir klasör olarak eklenir ve öteki dersler değişmeden kalır."
+    },
+    {
+     "soru": "Görsellerin izin kuralı değişirse nereyi güncellemek gerekir?",
+     "yanit": "Ortak lisans notunu. Kural bütün dersler için tek yerde yazıldığından, her dersin listesini ayrı ayrı değiştirmeye gerek kalmaz."
+    },
+    {
+     "soru": "Bir dersin listesinde ünite sırasını bozarsam ne olur?",
+     "yanit": "O ders için ünite, kavram ve görsel sırasına dayanan her şey yanlış çalışır. Sıra dersin ana yapısıdır ve sabit kalmalıdır; yalnız yeni ünite ya da kavram eklemek serbesttir."
+    }
+   ],
+   "kritik_neden": "Bu klasör bozulursa derslerin içindekiler listesi ve görsel izin bilgisi kaybolur; hangi kavramın hangi görsele sahip olduğu ve görsellerin hangi izinle kullanıldığı belirsizleşir.",
+   "terimler": [],
+   "belirsiz": [
+    "Bu içindekiler listelerini hangi aracın okuduğu ve görsellerin kimin tarafından üretildiği anlatımlarda yazmıyor.",
+    "Hangi derslerin kavram ve görsel toplamını yazdığı, hangilerinin yazmadığı ayrıntılı olarak bilinmiyor."
+   ],
+   "okunan": [],
+   "yazan": {
+    "model": "sonnet",
+    "ajan": "claude-code",
+    "tarih": "2026-11-14"
+   }
+  },
+  {
+   "kimlik": "paketler/LISANS.md",
+   "tur": "dosya",
+   "ozet": "fdf3c1af457b",
+   "iskelet": "f9713786aeda",
+   "baslik": "Görsel kaynak notu",
+   "ne": {
+    "cok_basit": "Görsellerin nasıl üretildiğini ve kullanım izninin nasıl yazıldığını anlatan not.",
+    "normal": "Bu not, ders görsellerinin nasıl üretildiğini ve hangi izinle kullanılabileceğini anlatır. Görseller yapay zekâ ile üretilmiş, fotoğraf toplanmamıştır. Her kayıtta kaynak, model ve izin alanları bulunur."
+   },
+   "nasil": {
+    "normal": "Yayın aracı kayıtlardaki alanları kendisi yazar. Denetim, izin alanı boş bir kayıt varsa hata verir. Üretim izi olmayan görselin kaynağı bilinmez; izin uydurulmaz, kayıt boş bırakılır."
+   },
+   "sinir": {
+    "sabit": [
+     "Kayıtlardaki kaynak, model ve izin alanlarının adları sabit kalmalıdır; yayın ve denetim adımları bu adlara göre yazar ve okur."
+    ],
+    "degisebilir": [
+     "Notun açıklama cümleleri ve dayanak maddeleri, yeni bilgi doğrulandıkça düzeltilebilir.",
+     "Kullanılan modelin adı ve sürüm bilgisi, ileride başka bir model kullanılırsa değişebilir."
+    ]
+   },
+   "terimler": [],
+   "belirsiz": [
+    "Modele eşlik eden bileşenlerin kendi izin metinleri doğrulanmadı; bu konuda kesin bir şey söylenemez.",
+    "Bu dosyayı okuyan başka parçalar ölçülmedi; hangi kodun ona dayandığı görülmedi."
+   ],
+   "okunan": [
+    "paketler/LISANS.md"
+   ],
+   "yazan": {
+    "model": "haiku",
+    "ajan": "claude-code",
+    "tarih": "2026-11-14"
+   }
+  },
+  {
+   "kimlik": "paketler/circuits1/manifest.json",
+   "tur": "dosya",
+   "ozet": "9a2b3ae98073",
+   "iskelet": "e89da9e09634",
+   "baslik": "Devre dersinin yapı kaydı",
+   "ne": {
+    "cok_basit": "Bu dosya devre dersinin konularını ve her konunun resmini kayıt altında tutar.",
+    "basit": "Bu dosya devre dersinin bilgi kartıdır. Konuların sırasını ve her konu için hazırlanan görselleri tek yerde toplar.",
+    "normal": "Bu dosya devre dersinin yapısını tutar: dersin adı, sürümü, ünitelerin sırası ve her ünitedeki konular. Her konu için beklenen görsel sayısı ile hazırlanmış görseller de bu dosyada kayıtlıdır.",
+    "gelismis": "Dosya dersin yapısını ve her konunun görsel durumunu tek yerde tutar. Yapı kısmında ders adı, sürüm, ünite sırası ve konuların kimlikleri yer alır. Görsel kısmında beklenen sayı, hazır dosyalar ve lisans bilgisi durur.",
+    "detayli": "Bu dosya, devre dersinin yapısını tek yerde tutan ana kayıttır. En üstte dersin kimliği, adı, sürümü ve toplam sayıları durur. Altında ünitelerin sırası gelir; her ünitenin adı ve klasörü vardır. Her konunun kimliği, Türkçe adı, gösterim açıklaması ve klasör yolu ünitenin içinde sıralanır. Her görselin özeti, boyutu, üretim kaynağı ve lisansı da konunun altında kayıtlıdır."
+   },
+   "mantik": {
+    "cok_basit": "Konu ve resim listesini tek yerde tutmak, herkesin aynı bilgiye bakmasını sağlar.",
+    "basit": "Konu ve resim bilgisini tek dosyada toplamak, farklı işlerin aynı bilgiye bakmasını sağlar.",
+    "normal": "Yapı ve görsel bilgisi aynı dosyada durduğunda, kimlik ile görsel kayıtları birbirinden kopmadan okunur. Ayrı iki listede bu bağ zamanla zayıflayabilir.",
+    "gelismis": "Dosya, dersin yapısını ve görsel durumunu tek kaynakta tutarak ikisinin uyumunu kolaylaştırır. Konu kimliği hem klasör yolunda kullanılır hem de görsel kayıtları o kimliğin altında durur; kimlik tek yerde kalınca iki bilgi birbirine bağlı kalır.",
+    "detayli": "Dosya, dersin yapısını ve görsel durumunu tek kaynakta tutarak ikisinin uyumunu kolaylaştırır. Konu kimliği hem klasör yolunda kullanılır hem de görsel kayıtları o kimliğin altında durur; kimlik tek yerde kalınca iki bilgi birbirine bağlı kalır. Ünite sırası aynı yerden okunduğu için sıra ile görsel durumu birlikte gözden geçirilebilir."
+   },
+   "nasil": {
+    "basit": "Dersi bir ağaç gibi düşünün: en üstte ders, altında üniteler, en altta konular. Hazır görseller her konunun kendi kaydının içindedir.",
+    "normal": "Dosya dersin ağaç biçimli kaydıdır: ders en üstte, üniteler ortada, konular altta durur. Her konunun yolu, ünitenin klasörü ile konunun kimliğinden oluşur. Konunun beklenen görsel sayısı ve hazır görselleri aynı kayıtta tutulur. Anlatım doğrulama adımı bu dosyayı kimlik üzerinden okur.",
+    "gelismis": "Dosyanın en üstünde dersin kimliği, adı ve sürümü durur; hemen altında toplam sayılar gelir. Üniteler sırayla yazılır ve her ünitenin kendi klasörü vardır. Her konunun yolu, ünitenin klasörü ile konunun kimliğinden birleşir. Gösterim alanı, görselin neyi göstermesi gerektiğini tek satırda anlatır. Görsel alanı hazır dosyaları, her biri için özet, boyut, üretim kaynağı ve lisansla tutar.",
+    "detayli": "Dosyanın en üstünde dersin kimliği, adı ve sürümü durur; hemen altında toplam konu ve görsel sayıları gelir. Bunlar dersin genel ölçüsünü tek bakışta verir. Ardından üniteler sırayla yazılır. Her ünitenin bir adı, bir klasörü ve içinde konu listesi vardır. Her konunun kimliği, Türkçe adı ve hat harfi bu kayıtta durur. Konunun yolu, ünitenin klasörü ile konunun kimliğinden birleşir. Gösterim alanı görselin neyi göstermesi gerektiğini tek satırda anlatır. Beklenen görsel sayısı konunun kaç görsel bekleyeceğini söyler. Görsel listesi ise o konu için hazır dosyaları tutar; her dosyanın özeti, boyutu, ölçüsü, üretim kaynağı, üretim modeli ve lisansı kayıtlıdır."
+   },
+   "detay": {
+    "girdiler": [
+     "Dersin kimlik, ad ve sürüm bilgileri bu dosyadan okunur.",
+     "Ünite listesi ve her ünitenin altındaki konu listesi okunur."
+    ],
+    "ciktilar": [
+     "Dosya bir veri kaydıdır; içindeki sayılar ve listeler başka adımların okuyabileceği biçimde durur."
+    ],
+    "degismezler": [
+     "Ders kimliği ile konu kimlikleri aynı kalmalı; konu yolları bu kimliklerden oluştuğu için değişirse yollar da bozulur.",
+     "Alan adları ve veri biçimi, yani liste ve sözlük yapısı, değişirse dosyayı okuyan adımlar bozulur."
+    ],
+    "kenar": [
+     "Görsel listesi boş olan konular dosyada yer alır; liste boş kalması veri biçimini bozmaz.",
+     "Ünitelerin sırası ile konuların sırası dosyada korunur; sıra değişirse ünite numaraları da yeniden düzenlenmeli."
+    ]
+   },
+   "sinir": {
+    "sabit": [
+     "Ders kimliği ile konu kimlikleri aynı kalmalı; konu yolları bu kimliklerden oluştuğu için değişirse dosyadaki yollar da bozulur.",
+     "Ünite klasörleri ile konu klasör yolları birbirine uymalı; yol biçimi her konuda aynı kalmalı.",
+     "Anlatım doğrulama adımı bu dosyayı kimlik üzerinden okuduğu için kimlik ve veri biçimi değiştirilmemeli."
+    ],
+    "degisebilir": [
+     "Ünitelerin ve konuların Türkçe adları yeniden yazılabilir; kimlikleri değişmediği sürece yapı bozulmaz.",
+     "Gösterim açıklamaları, yani görselin neyi göstermesi gerektiğini anlatan tek satırlar, daha açık biçimde yeniden yazılabilir."
+    ]
+   },
+   "kritik_neden": "Bozulursa konu yolları ve görsel kayıtları birbirine uymaz hâle gelir.",
+   "terimler": [],
+   "belirsiz": [
+    "A ve B hat harflerinin anlamını bu dosyadan çıkaramadım; iki hat için beklenen görsel sayıları da farklı.",
+    "Uzun dosya: her bölümün girişi okundu, gövdelerin tamamı okunmadı.",
+    "Bazı görsel kayıtlarındaki alanlar gizlenmiş görünüyordu; onlara dair bir şey yazmadım.",
+    "Dosyayı hangi adımların okuduğunu göremedim; bu dosya için okuyan bir kayıt bulunmuyor.",
+    "Kritik neden satırında yalnızca yolların uyuşmaması etkisini yazdım; başka bir etkisi olup olmadığını bilmiyorum."
+   ],
+   "okunan": [
+    "paketler/circuits1/manifest.json"
+   ],
+   "yazan": {
+    "model": "haiku",
+    "ajan": "claude-code",
+    "tarih": "2026-11-14"
+   }
+  },
+  {
+   "kimlik": "paketler/digital/manifest.json",
+   "tur": "dosya",
+   "ozet": "5de3057e10ad",
+   "iskelet": "e89da9e09634",
+   "baslik": "Dersin içindekiler listesi",
+   "ne": {
+    "cok_basit": "Bu dosya dersin içindekiler listesidir: üniteleri ve konuları tutar.",
+    "basit": "Bu dosya dersin içindekiler listesidir. Üniteleri, konuları ve her konunun görsellerini tutar.",
+    "normal": "Bu dosya dersin içindekiler listesidir: dersin adını, sürümünü ve ünitelerini tutar. Her kavramın adını, hangi hatta ait olduğunu, beklenen görsel sayısını ve varsa görsel dosyalarının künyesini de içerir.",
+    "gelismis": "Dosya dersin adını, sürümünü ve ünitelerini tutar. Her ünitenin kavram listesi, kavramın adını, hattını, gösterim notunu, klasör yolunu ve beklenen görsel sayısını içerir. Her kavramın görsel listesi ise görsel dosyasının adını, boyutunu, kaynağını ve lisansını yazar.",
+    "detayli": "Dosyanın başında dersin adı, sürümü ve sayılar durur; ardından üniteler gelir. Her ünite bir adla, bir klasör adıyla ve kendi kavram listesiyle tanımlanır. Her kavramın kimliği bir harf ve sayıdan oluşur, yolu ise ünitenin klasörüyle başlayıp kavramın kendi klasörüne uzanır. Hat B kavramlarında beklenen görsel sayısı daha yüksektir ve görsel künyeleri tek tek yazılır."
+   },
+   "mantik": {
+    "cok_basit": "Konular tek bir listede toplanır, böylece her şeyin nerede olduğu bilinir.",
+    "basit": "Görsel ve konu bilgisini tek bir yerde tutmak, her parçanın hangi konuya ait olduğunu karıştırmadan görmeyi sağlar.",
+    "normal": "Ders içeriği ünite, konu ve görsel olarak iç içe duruyor. Tek listede toplamak, eksik görseli ve kopuk klasörü bir bakışta göstermeyi sağlar.",
+    "gelismis": "Bu dosya, bir kavramın hem klasörünü hem görsel künyesini aynı yerde tutar. Böylece görsel eksiği ve kopuk yol tek bakışta görülür. Ayrı tablo ya da ayrı dosyalar kullanılsaydı, her değişiklik birden fazla yerde elle eşitlenmek zorunda kalırdı; bu da sessiz tutarsızlığa yol açardı.",
+    "detayli": "Ders içeriğinin hangi kavramlardan oluştuğunu ve her birinin nerede durduğunu tek bir listede tutmak, klasör yapısı ile belge arasındaki uyumsuzluğu azaltır. Bir kavram eklendiğinde ya da taşındığında bu liste de birlikte güncellenmelidir. Hat ve görsel bilgisi de burada durduğu için eksik görseller kolayca görülür."
+   },
+   "nasil": {
+    "basit": "Dosya ünitelerden başlar. Her ünitenin içinde kavramlar sırayla durur; her kavramın yanında kendi klasörünün yolu ve görsel bilgileri yazar.",
+    "normal": "Dosya ünitelerden başlar ve her ünite kendi kavramlarını sırayla taşır. Her kavram adını, hangi hatta ait olduğunu, nasıl gösterileceğini kısaca anlatan notu ve kendi klasörünün yolunu yazar. Görsel listesi boşsa kavramın henüz görseli yoktur; doluysa her görselin dosya adı, boyutu, kaynağı ve lisansı yazılıdır.",
+    "gelismis": "Dosya ünitelerden başlar ve her ünite kendi kavramlarını sırayla taşır. Her kavram adını, hattını, gösterim notunu, klasör yolunu ve beklenen görsel sayısını yazar; yol, kavramın klasörünü gösterir. Görsel listesi boşsa kavramın henüz görseli yoktur; doluysa her görselin dosya adı, boyutu, çözünürlüğü, kaynağı, kullanılan model ve lisansı ayrı ayrı yazılır.",
+    "detayli": "Dosya en üstte dersin adını, sürümünü ve sayıları taşır; bu bilgi dersin genel durumunu tek bakışta verir. Ardından üniteler gelir; her ünite bir numara, bir ad, bir klasör adı ve kendi kavram listesiyle tanımlanır. Her kavramın bir kimliği vardır: harf ve sayıdan oluşan bu kimlik kavramı listede tek başına ayırt eder. Kavramın yolu, ünitenin klasör adıyla başlar ve kavramın kendi alt klasörüne uzanır; bu yüzden klasör adı değişirse yol da değişmek zorundadır. Hat B kavramlarında beklenen görsel sayısı daha yüksektir ve görsel künyeleri tek tek yazılır. Görsel listesi her görselin dosya adını, boyutunu, çözünürlüğünü, üretim kaynağını, kullanılan modeli ve lisansını içerir. Liste boşsa kavram için henüz görsel üretilmemiş demektir."
+   },
+   "detay": {
+    "girdiler": [
+     "Dersin genel bilgileri: adı, sürümü ve sayıları.",
+     "Her ünitenin adı, klasör adı ve kavram listesi.",
+     "Her kavramın adı, hattı, gösterim notu, yolu ve görsel listesi."
+    ],
+    "ciktilar": [
+     "Kavram ve görsel durumunu gösteren ders içeriği listesi.",
+     "Bir kavramdan klasörüne ve görsellerinin künyesine uzanan bağlantılar."
+    ],
+    "degismezler": [
+     "Kavram kimlikleri sıralıdır ve birbirinden farklıdır.",
+     "Her kavramın yolu, ünitenin klasör adıyla başlar."
+    ],
+    "kenar": [
+     "Görsel listesi boş olan kavramlar, henüz görseli olmayan kavramlar olarak okunur.",
+     "Hat harfi yalnız A ya da B olarak görülür."
+    ]
+   },
+   "sinir": {
+    "sabit": [
+     "Her kavramın kimliği ile yolu aynı kavramın klasörünü göstermeli; ikisi ayrılırsa kavram ile klasörü arasındaki bağ kopar.",
+     "Ünite ve kavram listelerinin iç içe düzeni, bir ünitenin hangi kavramlara ait olduğunu belirler; düzen değişirse aidiyet de değişir.",
+     "Görsel künyesindeki dosya adı, kaynak ve lisans alanları birlikte durur; biri silinirse görselin kökeni bilinmez hâle gelir."
+    ],
+    "degisebilir": [
+     "Kavramların gösterim notları kısa açıklama olarak serbestçe yeniden yazılabilir.",
+     "Ünitenin görünen adı, klasör adına dokunmadan serbestçe değiştirilebilir.",
+     "Görsel listesi yeni görseller eklenerek güncellenebilir ve beklenen sayı da ayrıca değiştirilebilir."
+    ]
+   },
+   "kritik_neden": "Bozulursa bu dersin kavram ve görsel listesi yanlış görünür; başka parçalar ise bu listeye doğrudan bağlı görünmüyor.",
+   "terimler": [],
+   "belirsiz": [
+    "Uzun dosya: her bölümün girişi okundu, gövdelerin tamamı okunmadı.",
+    "Hat A ve hat B harflerinin tam anlamını göremedim; metinde yalnız görünen farkı yazdım.",
+    "Üst düzey sayaçların (kavram sayısı, görsel sayıları) nasıl hesaplandığını göremedim.",
+    "Bu dosyayı hangi araçların okuduğunu göremedim; sabit maddeleri yalnız dosyanın içindeki bağlardan çıkardım."
+   ],
+   "okunan": [
+    "paketler/digital/manifest.json"
+   ],
+   "yazan": {
+    "model": "haiku",
+    "ajan": "claude-code",
+    "tarih": "2026-11-14"
+   }
+  },
+  {
+   "kimlik": "paketler/ekonomi/manifest.json",
+   "tur": "dosya",
+   "ozet": "f032f70f23fe",
+   "iskelet": "e89da9e09634",
+   "baslik": "Ekonomi ders bilgi kartı",
+   "ne": {
+    "cok_basit": "Ekonomi dersinin bilgi kartı; adı ve piyasa ünitesinin konuları burada durur.",
+    "normal": "Bu dosya ekonomi dersinin genel bilgi kartıdır. İçinde dersin adı ve sürümü, bir de piyasa ünitesi bulunur. Bu ünitenin altında arz ve talep, rekabet, maliyet, enflasyon gibi konular sıralanır."
+   },
+   "nasil": {
+    "normal": "Dosya bir veri dosyasıdır; içinde komut yoktur, yalnızca bilgi vardır. En üstte dersin adı ve sürümü durur. Ardından piyasa ünitesi gelir; her konunun altında o konuya ait resimlerin bilgileri sıralanır. Dersin beklenen ve şu an hazır olan resim sayıları da bu dosyada tutulur."
+   },
+   "sinir": {
+    "sabit": [
+     "Anahtar adları (ders, ad, uniteler, kavramlar gibi) dosyanın biçimini oluşturur; yeniden adlandırmak bu biçime bağlı okumayı bozar."
+    ],
+    "degisebilir": [
+     "Konuların görünen adları ve gösterim cümleleri, kimlikleri korunarak serbestçe düzeltilebilir.",
+     "Resim bilgileri, yani boyut ve üretim notları, dersin içeriği güncellenirken değişebilir."
+    ]
+   },
+   "terimler": [],
+   "belirsiz": [
+    "Bu dosyayı okuyan başka parçalar ölçülmedi; hangi kodun ona dayandığı görülmedi."
+   ],
+   "okunan": [
+    "paketler/ekonomi/manifest.json"
+   ],
+   "yazan": {
+    "model": "haiku",
+    "ajan": "claude-code",
+    "tarih": "2026-11-14"
+   }
+  },
+  {
+   "kimlik": "paketler/enstrumantal/manifest.json",
+   "tur": "dosya",
+   "ozet": "6424f1f5d05f",
+   "iskelet": "e89da9e09634",
+   "baslik": "Gıda analizi dersinin konu listesi",
+   "ne": {
+    "cok_basit": "Bu dosya, gıda analizi dersinin konu listesidir.",
+    "normal": "Bu dosya enstrümantal gıda analizi dersinin içindekiler listesidir: dersin adını, sürümünü ve ünitelerini tutar. Her kavramın adını, hangi ünitede olduğunu, beklenen görsel sayısını ve görsel künyelerini içerir."
+   },
+   "nasil": {
+    "normal": "Dosya en üstte dersin genel bilgisini taşır, ardından üniteler gelir. Her ünite kendi kavramlarını sırayla listeler; her kavramın yanında hattı, kısa gösterim notu, klasör yolu, beklenen görsel sayısı ve varsa görsellerin künyesi durur. Listelenen görseller beklenen sayıya ulaşmadığında kavram henüz eksik demektir."
+   },
+   "sinir": {
+    "sabit": [
+     "Her kavramın kimliği ile klasör yolu birbirine bağlı kalmalıdır; yol değişirse kavramın klasörü ile listedeki kaydı ayrılır.",
+     "Ünite ile kavram arasındaki iç içe düzen, bir kavramın hangi üniteye ait olduğunu belirler; düzen bozulursa aidiyet de bozulur.",
+     "Görsel künyesindeki dosya adı, kaynak ve lisans alanları birlikte durur; biri silinirse görselin kökeni bilinmez hâle gelir."
+    ],
+    "degisebilir": [
+     "Kavramların gösterim notları kısa açıklama olarak serbestçe yeniden yazılabilir.",
+     "Ünitenin görünen adı, klasör adına dokunmadan serbestçe değiştirilebilir.",
+     "Yeni görseller eklenerek görsel listesi güncellenebilir; beklenen görsel sayısı da ayrıca değiştirilebilir."
+    ]
+   },
+   "kritik_neden": "Bozulursa dersin konu ve görsel listesi yanlış görünür; başka parçalar ise bu listeye doğrudan bağlı görünmüyor.",
+   "terimler": [],
+   "belirsiz": [
+    "Bazı görsel satırlarındaki bilgi gizlenmiş; o satırların içeriğini bilmiyorum.",
+    "Üst düzey sayaçların (kavram sayısı, görsel sayıları) nasıl hesaplandığını göremedim.",
+    "Beklenen ile mevcut görsel sayıları arasındaki farkın hangi kavrama ait olduğunu tam doğrulayamadım; yalnız görünen görsel listelerinden yorumladım.",
+    "Hat harfinin tam anlamını göremedim; görünen kavramların hepsi aynı harfli hatta duruyor.",
+    "Bu dosyayı hangi araçların okuduğunu göremedim."
+   ],
+   "okunan": [
+    "paketler/enstrumantal/manifest.json"
+   ],
+   "yazan": {
+    "model": "haiku",
+    "ajan": "claude-code",
+    "tarih": "2026-11-14"
+   }
+  },
+  {
+   "kimlik": "paketler/fizikokimya/manifest.json",
+   "tur": "dosya",
+   "ozet": "5abd9f2f7091",
+   "iskelet": "e89da9e09634",
+   "baslik": "Fizik kimyası ders bilgi kartı",
+   "ne": {
+    "cok_basit": "Fizik kimyası dersinin bilgi kartı; adı, ünitelerin listesi burada durur.",
+    "normal": "Bu dosya fizik kimyası dersinin genel bilgi kartıdır. Dersin adını, sürümünü ve ünitelerini tutar; her ünitenin altında kavramlar, her kavramın altında resimler sıralanır. Ders içeriğinin düzenini bu kart özetler."
+   },
+   "nasil": {
+    "normal": "Dosya bir veri dosyasıdır; içinde komut yoktur, yalnızca bilgi vardır. En üstte dersin adı ve sürümü durur. Ardından üniteler gelir; her ünitenin adı ve kavramları vardır. Her kavramın altında o kavrama ait resimlerin bilgileri sıralanır. Dersin beklenen ve şu an hazır olan resim sayıları da bu dosyada tutulur."
+   },
+   "sinir": {
+    "sabit": [
+     "Anahtar adları (ders, ad, uniteler, kavramlar gibi) dosyanın biçimini oluşturur; yeniden adlandırmak bu biçime bağlı okumayı bozar."
+    ],
+    "degisebilir": [
+     "Kavramların görünen adları ve gösterim cümleleri, kimlikleri korunarak serbestçe düzeltilebilir.",
+     "Resim bilgileri, yani boyut ve üretim notları, dersin içeriği güncellenirken değişebilir."
+    ]
+   },
+   "terimler": [],
+   "belirsiz": [
+    "Bu dosyayı okuyan başka parçalar ölçülmedi; hangi kodun ona dayandığı görülmedi.",
+    "Resim satırlarından bazıları gizlenmiş görünüyor; onların içeriği bilinmiyor, tahmin edilmedi."
+   ],
+   "okunan": [
+    "paketler/fizikokimya/manifest.json"
+   ],
+   "yazan": {
+    "model": "haiku",
+    "ajan": "claude-code",
+    "tarih": "2026-11-14"
+   }
+  },
+  {
+   "kimlik": "paketler/gida_kimyasi/manifest.json",
+   "tur": "dosya",
+   "ozet": "9187c27b258b",
+   "iskelet": "e89da9e09634",
+   "baslik": "Gıda kimyası ders tanımı",
+   "ne": {
+    "cok_basit": "Gıda kimyası dersinin adını, konularını ve görsel sayılarını tutar.",
+    "normal": "Gıda kimyası dersinin kayıt bilgisini tutar: dersin adı, kısa kodu, sürümü ve kavram ile görsel sayıları. Konular üniteler halinde sıralanır, her kavramda görsellerin kaynağı, modeli ve lisansı yazılıdır."
+   },
+   "nasil": {
+    "normal": "Dosya iç içe bir yapıdır: en üstte dersin bilgileri, altında üniteler, her ünitede kavramlar, her kavramda görseller durur. Her görselin yanında bir parmak izi ve kaynak bilgisi bulunur, parmak izi görsel dosyasının değişmediğini doğrulamaya yarar. Beklenen ve mevcut görsel sayıları ayrı alanlardır, mevcut sayı listedeki görsellerin toplamına eşittir."
+   },
+   "sinir": {
+    "sabit": [
+     "Alan adları ve iç içe yapı aynı kalmalı, çünkü bir ad değişirse bu adı bekleyen her araç ve sayfa bozulur.",
+     "Görsel satırındaki parmak izi ve dosya bilgileri değişirse görselin değişmediği doğrulanamaz."
+    ],
+    "degisebilir": [
+     "Ünite ve kavramların görünen adları ile gösterim cümleleri içerikte serbestçe değiştirilebilir.",
+     "Bir kavramın beklenen görsel sayısı, ders içeriği değiştikçe elle ayarlanabilir."
+    ]
+   },
+   "kritik_neden": "Bozulursa yalnızca bu dersin içeriği etkilenir, çünkü bu dosyaya dayanan başka hiçbir parça yok.",
+   "terimler": [],
+   "belirsiz": [
+    "Bu dosyayı hangi kodun okuduğu bilinmiyor; haritada kullanan bir parça görünmüyor, ama bu doğrulanmadı.",
+    "Ders kodu tire olarak yazılı; bunun ne anlama geldiği bilinmiyor."
+   ],
+   "okunan": [
+    "paketler/gida_kimyasi/manifest.json"
+   ],
+   "yazan": {
+    "model": "haiku",
+    "ajan": "claude-code",
+    "tarih": "2026-11-14"
+   }
+  },
+  {
+   "kimlik": "paketler/istatistik/manifest.json",
+   "tur": "dosya",
+   "ozet": "b9bb21092251",
+   "iskelet": "e89da9e09634",
+   "baslik": "İstatistik ders bilgi kartı",
+   "ne": {
+    "cok_basit": "İstatistik dersinin bilgi kartı; adı ve kalite ünitesi burada durur.",
+    "normal": "Bu dosya istatistik dersinin genel bilgi kartıdır. İçinde dersin adı ve sürümü, bir de örnekleme ve kalite ünitesi bulunur. Bu ünitede örnek alma, boyuta göre sıralama ve bantta kontrol gibi konular yer alır."
+   },
+   "nasil": {
+    "normal": "Dosya bir veri dosyasıdır; içinde komut yoktur, yalnızca bilgi vardır. En üstte dersin adı ve sürümü durur. Ardından ünite gelir; altında her konunun adı, kısa bir gösterim cümlesi ve o konuya ait resimlerin bilgileri sıralanır. Dersin beklenen ve şu an hazır olan resim sayıları da bu dosyada tutulur."
+   },
+   "sinir": {
+    "sabit": [
+     "Anahtar adları (ders, ad, uniteler, kavramlar gibi) dosyanın biçimini oluşturur; yeniden adlandırmak bu biçime bağlı okumayı bozar."
+    ],
+    "degisebilir": [
+     "Konuların görünen adları ve gösterim cümleleri, kimlikleri korunarak serbestçe düzeltilebilir.",
+     "Resim bilgileri, yani boyut ve üretim notları, dersin içeriği güncellenirken değişebilir."
+    ]
+   },
+   "terimler": [],
+   "belirsiz": [
+    "Bu dosyayı okuyan başka parçalar ölçülmedi; hangi kodun ona dayandığı görülmedi."
+   ],
+   "okunan": [
+    "paketler/istatistik/manifest.json"
+   ],
+   "yazan": {
+    "model": "haiku",
+    "ajan": "claude-code",
+    "tarih": "2026-11-14"
+   }
+  },
+  {
+   "kimlik": "paketler/kinetik/manifest.json",
+   "tur": "dosya",
+   "ozet": "c9e78acdb445",
+   "iskelet": "e89da9e09634",
+   "baslik": "Kinetik ders bilgi kartı",
+   "ne": {
+    "cok_basit": "Kimyasal değişimin hızı dersinin bilgi kartı; üniteleri burada durur.",
+    "normal": "Bu dosya kimyasal değişimin hızı dersinin genel bilgi kartıdır. Dersin adını, sürümünü ve ünitelerini tutar; ünitelerde sıcaklığın hıza etkisi, gıdalardaki değişimler gibi konular bulunur. Ders içeriğinin düzenini bu kart özetler."
+   },
+   "nasil": {
+    "normal": "Dosya bir veri dosyasıdır; içinde komut yoktur, yalnızca bilgi vardır. En üstte dersin adı ve sürümü durur. Ardından üniteler gelir; her ünitenin altında konular ve onların resimleri sıralanır. Dersin beklenen ve şu an hazır olan resim sayıları da bu dosyada tutulur."
+   },
+   "sinir": {
+    "sabit": [
+     "Anahtar adları (ders, ad, uniteler, kavramlar gibi) dosyanın biçimini oluşturur; yeniden adlandırmak bu biçime bağlı okumayı bozar."
+    ],
+    "degisebilir": [
+     "Konuların görünen adları ve gösterim cümleleri, kimlikleri korunarak serbestçe düzeltilebilir.",
+     "Resim bilgileri, yani boyut ve üretim notları, dersin içeriği güncellenirken değişebilir."
+    ]
+   },
+   "terimler": [],
+   "belirsiz": [
+    "Bu dosyayı okuyan başka parçalar ölçülmedi; hangi kodun ona dayandığı görülmedi."
+   ],
+   "okunan": [
+    "paketler/kinetik/manifest.json"
+   ],
+   "yazan": {
+    "model": "haiku",
+    "ajan": "claude-code",
+    "tarih": "2026-11-14"
+   }
+  },
+  {
+   "kimlik": "paketler/kutle_enerji/manifest.json",
+   "tur": "dosya",
+   "ozet": "2f406c669a2a",
+   "iskelet": "e89da9e09634",
+   "baslik": "Kütle ve enerji dersi tanımı",
+   "ne": {
+    "cok_basit": "Kütle ve enerji dengelerini öğreten dersin konularını ve görsellerini tutar.",
+    "normal": "Kütle ve enerji dengeleri dersinin kayıt bilgisini tutar: dersin adı, kısa kodu, sürümü ve kavram ile görsel sayıları. Konular üniteler halinde sıralanır, her kavramda görsellerin kaynağı, modeli ve lisansı yazılıdır."
+   },
+   "nasil": {
+    "normal": "Dosya iç içe bir yapıdır: en üstte dersin bilgileri, altında üniteler, her ünitede kavramlar, her kavramda görseller durur. Her görselin yanında bir parmak izi ve kaynak bilgisi bulunur, parmak izi görsel dosyasının değişmediğini doğrulamaya yarar. Beklenen ve mevcut görsel sayıları ayrı alanlardır, mevcut sayı listedeki görsellerin toplamına eşittir."
+   },
+   "sinir": {
+    "sabit": [
+     "Alan adları ve iç içe yapı aynı kalmalı, çünkü bir ad değişirse bu adı bekleyen her araç ve sayfa bozulur.",
+     "Görsel satırındaki parmak izi ve dosya bilgileri değişirse görselin değişmediği doğrulanamaz."
+    ],
+    "degisebilir": [
+     "Ünite ve kavramların görünen adları ile gösterim cümleleri içerikte serbestçe değiştirilebilir.",
+     "Bir kavramın beklenen görsel sayısı, ders içeriği değiştikçe elle ayarlanabilir."
+    ]
+   },
+   "kritik_neden": "Bozulursa yalnızca bu dersin içeriği etkilenir, çünkü bu dosyaya dayanan başka hiçbir parça yok.",
+   "terimler": [],
+   "belirsiz": [
+    "Bu dosyayı hangi kodun okuduğu bilinmiyor; haritada kullanan bir parça görünmüyor, ama bu doğrulanmadı.",
+    "Ders kodu tire olarak yazılı; bunun ne anlama geldiği bilinmiyor.",
+    "İçerikte bir satır gizlenmiş durumda; o satırın ne olduğu bilinmiyor, tahmin edilmedi."
+   ],
+   "okunan": [
+    "paketler/kutle_enerji/manifest.json"
+   ],
+   "yazan": {
+    "model": "haiku",
+    "ajan": "claude-code",
+    "tarih": "2026-11-14"
+   }
+  },
+  {
+   "kimlik": "paketler/linalg/manifest.json",
+   "tur": "dosya",
+   "ozet": "4848c9404540",
+   "iskelet": "e89da9e09634",
+   "baslik": "Lineer cebir konu listesi",
+   "ne": {
+    "cok_basit": "Bu dosya lineer cebir dersinin konu listesini ve resim durumunu tutar.",
+    "normal": "Bu dosya dersin yapısını tek yerde tutar: adı, sürümü, ünitelerin ve konuların sırası ile her konunun beklediği görseller. Çok sık değiştiği için değişiklikleri ayrıca korunur."
+   },
+   "nasil": {
+    "normal": "Dosya iç içe bir listedir: en üstte dersin adı, sürümü ve hazır görsel durumu durur; altında üniteler gelir, her ünite konularını sırayla tutar. Bir konu kısa adını, gösterim cümlesini, kendi yolunu ve beklenen görsel sayısını taşır. Görseli olan konuda her görsel için dosya bilgisi, özet değeri, boyut, model ve lisans kaydedilir."
+   },
+   "sinir": {
+    "sabit": [
+     "Konu kimlikleri ve ünitelerin sırası sabit kalmalı; konunun yolu bu kimliğe bağlıdır.",
+     "Anahtar adları ve ünite, konu, görsel diye inen iç içe düzen bir biçimdir; bu biçime göre okuyan her parça yapıyı tanır.",
+     "Görselin özet değeri dosyanın kendisine bağlıdır; dosya değişince özet değeri de güncellenmelidir."
+    ],
+    "degisebilir": [
+     "Konuların görünen adları ve kısa gösterim cümleleri, kimlik ve yol korunduğu sürece düzeltilebilir.",
+     "Bir ünitenin görünen adı serbesttir; klasör adı değişirse konuların yolları da birlikte güncellenmelidir.",
+     "Bir konunun görsel listesi uzayabilir ya da kısalabilir; her görsel kendi dosya bilgilerini taşır."
+    ]
+   },
+   "kritik_neden": "Bozulursa konuların kimlikleri ve görsel durumu yanlış görünür, çünkü dosya dersin konu düzenini tek yerde tutar.",
+   "terimler": [],
+   "belirsiz": [
+    "Uzun dosya: her bölümün girişi okundu, gövdelerin tamamı okunmadı.",
+    "Bu dosyayı okuyan parçaların kimler olduğunu göremedim."
+   ],
+   "okunan": [
+    "paketler/linalg/manifest.json"
+   ],
+   "yazan": {
+    "model": "haiku",
+    "ajan": "claude-code",
+    "tarih": "2026-11-14"
+   }
+  },
+  {
+   "kimlik": "paketler/malzeme_bilimi/manifest.json",
+   "tur": "dosya",
+   "ozet": "85c93ddd4a0d",
+   "iskelet": "e89da9e09634",
+   "baslik": "Malzeme bilimi konu listesi",
+   "ne": {
+    "cok_basit": "Bu dosya malzeme bilimi dersinin ünitelerini, konularını ve resimlerini tutar.",
+    "normal": "Bu dosya malzeme bilimi dersinin yapısını tek yerde tutar: adı, sürümü, ünitelerin ve konuların sırası ile her konunun beklediği görseller. Hangi konuların olduğunu ve her birinin hangi görselleri beklediğini bu liste söyler."
+   },
+   "nasil": {
+    "normal": "Dosya iç içe bir listedir: en üstte dersin adı, sürümü ve hazır görsel durumu durur; altında üniteler gelir, her ünite konularını sırayla tutar. Bir konu kısa adını, gösterim ifadesini, kendi yolunu ve beklenen görsel sayısını taşır. Görseli olan konuda her görsel için dosya bilgisi, özet değeri, boyut, model ve lisans kaydedilir."
+   },
+   "sinir": {
+    "sabit": [
+     "Konu kimlikleri ve ünitelerin sırası değişmemeli; her konunun yolu bu kimlikle kurulur.",
+     "Anahtar adları ve ünite, konu, görsel diye inen iç içe düzen bir biçimdir; bu biçime göre okuyan her parça yapıyı tanır.",
+     "Görselin özet değeri dosyanın kendisine bağlıdır; dosya değişince özet değeri de güncellenmelidir."
+    ],
+    "degisebilir": [
+     "Konuların görünen adları ve kısa gösterim ifadeleri, kimlik ve yol korunduğu sürece düzeltilebilir.",
+     "Ünitelerin görünen adları serbesttir; klasör adı değişirse konuların yolları da birlikte güncellenmelidir.",
+     "Bir konunun görsel listesi uzayabilir ya da kısalabilir; her görsel kendi dosya bilgilerini taşır."
+    ]
+   },
+   "kritik_neden": "Bozulursa konuların kimlikleri ve görsel durumu yanlış görünür, çünkü dosya dersin konu düzenini tek yerde tutar.",
+   "terimler": [],
+   "belirsiz": [
+    "Uzun dosya: her bölümün girişi okundu, gövdelerin tamamı okunmadı.",
+    "Bu dosyayı okuyan parçaların kimler olduğunu göremedim."
+   ],
+   "okunan": [
+    "paketler/malzeme_bilimi/manifest.json"
+   ],
+   "yazan": {
+    "model": "haiku",
+    "ajan": "claude-code",
+    "tarih": "2026-11-14"
+   }
+  },
+  {
+   "kimlik": "paketler/materials/manifest.json",
+   "tur": "dosya",
+   "ozet": "11e9e74a7a66",
+   "iskelet": "e89da9e09634",
+   "baslik": "Ders kimlik kartı",
+   "ne": {
+    "cok_basit": "Bu bir dersin kimlik kartı: adını, sürümünü ve ünite ile konu listesini tutar.",
+    "normal": "Bu parça dersin kimlik bilgisini tutar: adı, ders kodu, sürüm numarası ve ünitelerin listesi. Her ünitenin altında kavramlar sıralanır; her kavramın adı, gösterim biçimi ve hangi anlatım çizgisinde yer aldığı bu listede yazılıdır."
+   },
+   "nasil": {
+    "normal": "Dosya en üstte dersin adını, sürümünü ve sayımlarını tutar; altında ünite listesi gelir. Her ünitenin içinde kavramlar sıralanır ve her kavramın kimliği, adı, gösterim biçimi, yolu ile A ya da B çizgisi yazılıdır. B çizgisindeki kavramlara görseller bağlanır; her görselin adı, boyutu, ölçüleri ve üretim bilgisi o kavramın altında durur."
+   },
+   "sinir": {
+    "sabit": [
+     "Her kavramın kimliği ve yolu, gerçek klasörle birebir uyuşmalı; biri değişirse kayıt artık o yeri göstermez.",
+     "Görsel kaydındaki adı ve özet değeri, gerçek görsel dosyasının kendisine ait olmalı; görsel değişince bu değerler de değişmeli.",
+     "Kavram kimlikleri dersin içinde benzersiz kalmalı; aynı kimlik iki kavrama verilirse hangi kavramın kastedildiği belirsizleşir."
+    ],
+    "degisebilir": [
+     "Dersin adı ve sürüm numarası, içerik değiştikçe serbestçe güncellenebilir.",
+     "Kavramların gösterim metinleri ve hangi çizgiye ait olduğu, ders planına göre yeniden düzenlenebilir.",
+     "Bir kavrama görsel eklemek ya da çıkarmak, o kavramın dışındaki kayıtlara dokunmaz."
+    ]
+   },
+   "kritik_neden": "Bu dosya bozulursa yalnız bu dersin ad, sürüm ve ünite bilgisi yanlış görünür, çünkü başka hiçbir parça bu kayda dayanmıyor.",
+   "terimler": [],
+   "belirsiz": [
+    "Uzun dosya: her bölümün girişi okundu, gövdelerin tamamı okunmadı.",
+    "A ve B çizgilerinin tam anlamı dosyada açıkça yazmıyor; gösterim metinlerinden çıkarıldı.",
+    "Beklenen alanının neyi saydığı dosyada yazmıyor; kavram başına beklenen görsel sayısı olarak okundu."
+   ],
+   "okunan": [
+    "paketler/materials/manifest.json"
+   ],
+   "yazan": {
+    "model": "haiku",
+    "ajan": "claude-code",
+    "tarih": "2026-11-14"
+   }
+  },
+  {
+   "kimlik": "paketler/oop/manifest.json",
+   "tur": "dosya",
+   "ozet": "9fb7f08b69a8",
+   "iskelet": "e89da9e09634",
+   "baslik": "Ders konu kartı",
+   "ne": {
+    "cok_basit": "Bu bir dersin konu haritası: adını ve konuların hangi sırayla geldiğini tutar.",
+    "normal": "Bu parça dersin kimlik bilgisini ve konu listesini tutar. Dersin adı, sürümü ve ünitelerin sırası bu listede yazılıdır. Her ünitenin altında kavramlar yer alır; her kavramın adı, kısa gösterim biçimi ve anlatım çizgisi burada tutulur."
+   },
+   "nasil": {
+    "normal": "Dosya en üstte dersin adını, kodunu ve sürüm bilgisini tutar; ardından ünite listesi gelir. Her ünitenin içinde kavramlar sıralanır; her kavram kimliğini, adını, gösterim biçimini ve yolunu taşır. A çizgisindeki kavramların görsel listesi boştur; B çizgisindeki kavramlara benzetme ya da sahne görselleri bağlanır."
+   },
+   "sinir": {
+    "sabit": [
+     "Her kavramın kimliği ve yolu gerçek klasörle birebir uyuşmalı; biri değişirse kayıt o yeri artık göstermez.",
+     "Kavram kimlikleri dersin içinde benzersiz kalmalı; aynı kimlik iki kavrama verilirse hangi kavramın kastedildiği belirsizleşir.",
+     "Görsel kaydındaki adı ve özet değeri gerçek görsel dosyasına ait olmalı; görsel değişince bu değerler de güncellenmeli."
+    ],
+    "degisebilir": [
+     "Dersin adı, kodu ve sürüm numarası içerik değiştikçe serbestçe güncellenebilir.",
+     "Kavramların gösterim metinleri ve A ya da B çizgisi, ders planına göre yeniden düzenlenebilir.",
+     "Bir kavrama görsel eklemek ya da çıkarmak, o kavramın dışındaki kayıtlara dokunmaz."
+    ]
+   },
+   "kritik_neden": "Bu dosya bozulursa yalnız bu dersin ad ve konu bilgisi yanlış görünür, çünkü başka hiçbir parça bu kayda dayanmıyor.",
+   "terimler": [],
+   "belirsiz": [
+    "Uzun dosya: her bölümün girişi okundu, gövdelerin tamamı okunmadı.",
+    "A ve B çizgilerinin tam anlamı dosyada açıkça yazmıyor; gösterim metinlerinden çıkarıldı.",
+    "Beklenen alanının neyi saydığı yazmıyor; kavram başına beklenen görsel sayısı olarak okundu.",
+    "Bazı kavramların yol değerleri kısa kesilmiş görünüyor; gerçek klasörle karşılaştırılmadı."
+   ],
+   "okunan": [
+    "paketler/oop/manifest.json"
+   ],
+   "yazan": {
+    "model": "haiku",
+    "ajan": "claude-code",
+    "tarih": "2026-11-14"
+   }
+  },
+  {
+   "kimlik": "paketler/physics1/manifest.json",
+   "tur": "dosya",
+   "ozet": "e183a693b4e5",
+   "iskelet": "e89da9e09634",
+   "baslik": "Dersin künyesi ve konu ağacı",
+   "ne": {
+    "cok_basit": "Bu dosya bir dersin kimlik kartıdır: adını, sürümünü ve konu listesini tutar.",
+    "normal": "Dersin genel bilgilerini tek yerde toplar: adı, ders kodu, sürüm numarası ve kavram sayısı. Ayrıca dersi üniteler halinde sıralar, her ünitenin altında kavramların listesi ve bu kavramlara ait görsel kayıtları durur."
+   },
+   "nasil": {
+    "normal": "Dosya iç içe bir ağaç biçimindedir: en üstte dersin adı, kodu ve sürümü, onun altında üniteler, her ünitenin içinde de kavramlar durur. Her kavram kendi kimliğini, adını, bir harf olan hattını, kısa bir gösterim notunu ve depodaki yerini taşır. Hattı B olan kavramlarda ayrıca görsel kayıtları bulunur."
+   },
+   "sinir": {
+    "sabit": [
+     "Anahtar adları ders, ad, sürüm, üniteler ve kavramlar gibi kalmalı, iç içe liste yapısı değişirse bu dosyayı okuyan her yer etkilenir.",
+     "Kavram kimlikleri ve yol alanları, depodaki klasör adlarıyla birebir eşleşmek zorundadır."
+    ],
+    "degisebilir": [
+     "Ders, ünite ve kavram adları ile gösterim notları, içerik güncellenirken serbestçe yeniden yazılabilir.",
+     "Kavram ve görsel sayıları, içerik eklendikçe ya da çıkarıldıkça değişebilir.",
+     "Görsel kayıtlarındaki boyut ve üretim bilgileri, yeni görsel eklenince güncellenebilir."
+    ]
+   },
+   "terimler": [],
+   "belirsiz": [
+    "Uzun dosya: her bölümün girişi okundu, gövdelerin tamamı okunmadı.",
+    "Dosyayı hangi araçların okuduğu ve ders adının nerede kullanıldığı bilinmiyor."
+   ],
+   "okunan": [
+    "paketler/physics1/manifest.json"
+   ],
+   "yazan": {
+    "model": "haiku",
+    "ajan": "claude-code",
+    "tarih": "2026-11-14"
+   }
+  },
+  {
+   "kimlik": "paketler/teknik_ingilizce/manifest.json",
+   "tur": "dosya",
+   "ozet": "6cb8b5e2a6a1",
+   "iskelet": "e89da9e09634",
+   "baslik": "Teknik İngilizce ders kartı",
+   "ne": {
+    "cok_basit": "Teknik İngilizce dersinin bilgi kartı; sözcük grubunun konuları burada durur.",
+    "normal": "Bu dosya teknik İngilizce dersinin genel bilgi kartıdır. Dersin adını, sürümünü ve ünitesini tutar. Ünitede laboratuvar cam malzemeleri, koruyucu ekipman ve gıda üretim hattı ekipmanı gibi konular yer alır."
+   },
+   "nasil": {
+    "normal": "Dosya bir veri dosyasıdır; içinde komut yoktur, yalnızca bilgi vardır. En üstte dersin adı ve sürümü durur. Ardından ünite gelir; altında her konunun adı, kısa bir gösterim cümlesi ve o konuya ait resimlerin bilgileri sıralanır. Dersin beklenen ve şu an hazır olan resim sayıları da bu dosyada tutulur."
+   },
+   "sinir": {
+    "sabit": [
+     "Anahtar adları (ders, ad, uniteler, kavramlar gibi) dosyanın biçimini oluşturur; yeniden adlandırmak bu biçime bağlı okumayı bozar."
+    ],
+    "degisebilir": [
+     "Konuların görünen adları ve gösterim cümleleri, kimlikleri korunarak serbestçe düzeltilebilir.",
+     "Resim bilgileri, yani boyut ve üretim notları, dersin içeriği güncellenirken değişebilir."
+    ]
+   },
+   "terimler": [],
+   "belirsiz": [
+    "Bu dosyayı okuyan başka parçalar ölçülmedi; hangi kodun ona dayandığı görülmedi.",
+    "Resim satırlarından birinin bir kısmı gizlenmiş görünüyor; onun içeriği bilinmiyor, tahmin edilmedi."
+   ],
+   "okunan": [
+    "paketler/teknik_ingilizce/manifest.json"
+   ],
+   "yazan": {
+    "model": "haiku",
+    "ajan": "claude-code",
+    "tarih": "2026-11-14"
+   }
+  }
+ ]
+}
