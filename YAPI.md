@@ -22,4 +22,5 @@ Bu depo, `volkan-merkez` deposundaki görsel arayüzle (klasör mahalle, dosya b
 - Ayar: kökteki `mimari-ayar.json` (onay isteyen yollar, hattın akışları, katalogdaki paketler).
 - Yeni klasör, yeni araç, yeni onay isteyen dosya ya da bir akışın adımına dokunan değişiklik, ayarı **aynı değişiklikte** günceller.
 - Ölçüm (`volkan-merkez` içinden; bu depoya yazmaz): `python araclar/mimari_cikar.py <project_v yolu> --ozet`. Hata 0, kesilen dosya yok ve ayardaki her akışta `dogrulanmamis` 0 olmalı.
+- Anlatım: `mimari/anlatim/` altında her dosya, klasör, deponun bütünü ve akışlar için sade dille yazılmış kayıtlar durur; arayüz bunları kartlarda gösterir. Kayıtları `volkan-merkez` içindeki `anlatim yaz` komutu yazar, elle düzenlenmez. Bir dosya değişince yalnız onun kaydı yenilenir (`anlatim eksik` hangilerinin eskidiğini söyler).
 - Kuralın tamamı: `volkan-merkez`, `mimari/06-arayuz-uyumu.md`.
