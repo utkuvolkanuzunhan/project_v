@@ -1,0 +1,363 @@
+{
+ "surum": 1,
+ "bolum": "depo",
+ "dil": "tr",
+ "kayitlar": [
+  {
+   "kimlik": "@depo",
+   "tur": "depo",
+   "ozet": "be0359267ee6",
+   "iskelet": "d0427ada2980",
+   "baslik": "Ders görsel üretim hattı",
+   "ne": {
+    "cok_basit": "Bu yer, derslerin çizimlerini hazırlayıp yayına gönderen bir atölye gibidir; hazır paketler ve çalışma notları burada durur.",
+    "basit": "Bu depo, ders görsellerinin hazırlandığı, denetlendiği ve yayınlanan paketler hâline getirildiği yerdir. Paketler, onların listesi, çalışma alanı, planlar ve haritanın ayarı birlikte bir üretim hattı kurar.",
+    "normal": "Bu depo, ders içeriğinin görsel paketlerini baştan sona yürüten merkezdir. Çalışma klasörü üretimi yapar, paketler klasörü yayınlanan dersleri tutar, katalog hangi dersin ne büyüklükte olduğunu söyler, plan belgeleri işin yönünü belirler. Ayar dosyası ise depoyu görsel haritada nasıl çizeceğimizi ve hangi dosyaların onay isteyeceğini belirler.",
+    "gelismis": "Bu depo, ders görsel paketlerinin üretim, denetim ve yayın hattıdır. Yayınlanan paketler, çalışma klasörü, planlar ve dış bağımlılıklar ayrı bölümlerde durur. `katalog.json` yayınlanabilir dersleri listeler, `mimari-ayar.json` ise haritanın çizimini, bekçi dosyalarını ve üretim akışlarını belirler. Yapı belgesi ile giriş sayfası okuyana yol gösterir.",
+    "detayli": "Bu depo, bir uygulamanın ders içeriği için görsel paket üreten, eleyen, insana onaylatan ve yayınlayan hattın merkezidir. İş bölümü açıktır: çalışma klasörü neyin nasıl çizileceğini ve üretimi taşır, paketler klasörü yayına hazır dersleri her dersin kimlik kartıyla tutar, `katalog.json` yayın aracına dersleri ve büyüklüklerini bildirir, plan belgeleri kalite denetimini ve devir bilgisini anlatır. `mimari-ayar.json` depoyu görsel haritada çizdirir ve onay isteyen dosyaları sayar; kendisi de onay isteyen dosyalardandır. Kodu bu depoda olmayan dış bağımlılıklar ayrı bir bölümdür."
+   },
+   "mantik": {
+    "cok_basit": "Hazırlama, saklama ve listeleme ayrı yerlerde olunca her biri kendi işine bakar, yayına çıkan şey karışmaz.",
+    "basit": "Üretim, yayına hazır paketler ve onların listesi ayrı yerlerde durur. Böylece çalışma sürerken yayınlanan dersler bozulmaz, yayın aracı da yalnızca listeye bakarak ne yapacağını bilir.",
+    "normal": "Depo, işi parçalara ayırır: çalışma klasörü deneme ve üretim için, paketler klasörü bitmiş dersler için, katalog yayın aracına tek bir liste vermek için, planlar da işin yönünü ve devrini yazıya geçirmek için vardır. Bu ayrım, üretimdeki değişikliğin yayınlanmış paketi bozmasını önler. Ayar dosyası da bütün bunları haritada görünür kılar.",
+    "gelismis": "Üretimin değişken, yayının sabit olması gerekir; bu yüzden hazırlık çalışma klasöründe, bitmiş dersler paketler klasöründe tutulur. `katalog.json` yayın aracına dersleri ve boyutlarını tek yerden verir, böylece araç her paketi tek tek açıp saymak zorunda kalmaz. Plan belgeleri kalite denetimini ve devir bilgisini yazılı tutar, işi başka biri sürdürebilir. `mimari-ayar.json` ile bekçi listesi, hassas dosyaların onaysız değişmesini önler.",
+    "detayli": "Depo, üretimle yayını bilerek ayırır. Çalışma klasörü deneme kısayolları, betikler ve tarifler yüzünden sık değişir; paketler klasörü ise yayına çıkan derslerin kimlik kartlarını ve ortak lisans notunu durağan tutar. Bu ayrım, bir üretim denemesinin yayında olan bir dersi bozmasını önler. `katalog.json` aracı kalabalık işten kurtarır: yayın aracı her dersin ünite ve görsellerini taramak yerine kayıttaki boyut, görsel sayısı ve kavram sayısına bakar. Plan belgeleri bilgiyi kişilere değil yazıya bağlar; işi sürdürmek isteyen durumu oradan öğrenir. Bekçi listesi hassas dosyalara onay şartı koyar. Uygulamanın ayrı bir özel depoda tutulması, ders içeriği ile uygulama kodunun karışmasından bilerek kaçınır."
+   },
+   "nasil": {
+    "basit": "İş önce planlarda ve konu listelerinde kararlaştırılır, çalışma alanındaki betikler görselleri üretir ve eler, bir insan onaylar. Onaylanan dersler paket olarak yayın klasörüne girer ve katalogda bir kayıtla görünür.",
+    "normal": "Bir ders önce plan ve konu listesinde tarif edilir. Çalışma klasöründeki betikler görselleri üretir, eler ve insan onayına sunar; onaylananlar ders paketine yazılır. Paketin kimlik kartı dersin ünitelerini, kavramlarını ve beklediği görselleri sıralar. Yayın aracı katalogdaki kayıttan dersin boyutunu ve görsel sayısını okuyarak paketi yayına çıkarır. Ayar dosyası bu zinciri ve onay isteyen dosyaları haritada gösterir; dış bağımlılıklar ayrı durur.",
+    "gelismis": "Bir dersin yolu planla başlar: konu listesi neyin çizileceğini, tarif ve ayar dosyaları nasıl çizileceğini söyler. Çalışma klasöründeki betikler görselleri üretir, eler, insan onayına sunar ve onaylananı yayına hazırlar. Çıkan ders, paketler klasöründe kendi kimlik kartıyla yer alır; kartta ünite sırası, kavramlar ve her kavramın beklediği görseller yazılıdır. `katalog.json` içindeki ders kaydı boyutu, görsel sayısını, kavram sayısını ve kimlik kartının yerini taşır; yayın aracı yayınlanacakları oradan okur. `mimari-ayar.json` bu üretim akışlarını ve bekçi dosyalarını harita için tarif eder. Deneme kısayolları ve başlatma dosyaları hattı elle ya da tek tıkla çalıştırmaya yarar.",
+    "detayli": "Sıra şöyledir. Önce plan belgeleri ve konu listeleri işin kapsamını koyar: neyin çizileceği konu planında, nasıl çizileceği tarif ve ayar dosyalarında yazılıdır. İkinci olarak çalışma klasöründeki betikler üretimi yürütür; üretilen görseller kalite için elenir ve insan onayına sunulur. Üçüncü olarak onaylanan görseller ders paketine girer; paketin kimlik kartı dersin adını, sürümünü, ünitelerin sırasını, her ünitedeki kavramları ve her kavramın beklediği görselleri tutar, paketler klasörünün başındaki ortak lisans notu hepsini kapsar. Dördüncü olarak `katalog.json` içindeki ders listesine, derse ait kayıt düşer: kısa ad, İngilizce açıklama, megabayt cinsinden boyut, görsel sayısı, kavram sayısı ve içindekiler dosyasının yeri. Yayın aracı derslerin büyüklüğünü buradan okuyarak yayını yapar. Beşinci olarak `mimari-ayar.json` bu zinciri akış olarak, onay isteyen dosyaları da bekçi listesi olarak harita için tutar; ayarı değiştiren her yapı değişikliği anlatımı ve ayarı aynı anda günceller. Sanal laboratuvar için ham cihaz malzemesi ayrı bir klasörde bekler; üretilen görseller ve simülasyon kodu uygulamada tutulur, burada değil. Dış bağımlılıklar, depoyu kendi yazdığımız ve dışarıdan aldığımız kısım diye ayırır."
+   },
+   "detay": {
+    "girdiler": [
+     "Plan belgeleri ve konu listeleri neyin çizileceğini söyler.",
+     "Tarif ve ayar dosyaları görsellerin nasıl çizileceğini söyler.",
+     "Sanal laboratuvar için ham cihaz malzemesi ayrı bir klasörde bekler.",
+     "Ders kitaplarından çıkarılan konu listesi plan belgelerinden birinde anlatılır."
+    ],
+    "ciktilar": [
+     "Her ders için kimlik kartı ve görselleri olan bir paket.",
+     "Dersleri ve büyüklüklerini sıralayan katalog.",
+     "Depoyu görsel haritada çizdiren ayar dosyası."
+    ],
+    "degismezler": [
+     "Her ders kaydı aynı özellikleri taşır: boyut, görsel sayısı, kavram sayısı ve içindekiler dosyasının yeri.",
+     "Ayar dosyası onay isteyen dosyalardan biridir.",
+     "Uygulamanın kendisi bu depoda değil, ayrı bir özel depoda durur."
+    ],
+    "kenar": [
+     "Üretilen cihaz görselleri ve simülasyon kodu ham malzeme klasöründe değil uygulamada tutulur.",
+     "Dış bağımlılıkların içi bu depoda yazılmaz; yalnızca onlara dayanılır.",
+     "Yapıyı değiştiren her iş, ayarı ve anlatımı aynı değişiklikte günceller."
+    ]
+   },
+   "sinir": {
+    "sabit": [
+     "Katalogdaki ders kaydının dört özelliği, yayın aracının dayandığı biçimdir.",
+     "Paketin kimlik kartında ünite sırası ve kavramların beklediği görseller yer alır.",
+     "Ayardaki bekçi listesi ve akış adları haritanın dayandığı sözleşmedir."
+    ],
+    "degisebilir": [
+     "Çalışma klasöründeki deneme kısayolları ve başlatma dosyaları ihtiyaca göre değiştirilebilir.",
+     "Plan belgelerinin ayrıntısı, dışarıya verilen biçimleri bozmadan yeniden yazılabilir."
+    ]
+   },
+   "kurulus": [
+    {
+     "baslik": "Önce planı yaz",
+     "metin": "Hiçbir parçaya dayanmayan plan belgeleri ilk kurulur: kalite denetimi, konu listesi ve çizim araçlarının seçimi burada kararlaştırılır.",
+     "parcalar": [
+      "k:plan"
+     ]
+    },
+    {
+     "baslik": "Çalışma klasörünü kur",
+     "metin": "Konu planlarını, tarifleri, ayarları ve üretim ile yayın betiklerini barındıran çalışma alanını hazırla; deneme kısayolları ve başlatma dosyaları da buraya girer.",
+     "parcalar": [
+      "k:calisma_klasoru"
+     ]
+    },
+    {
+     "baslik": "Paketler klasörünü aç",
+     "metin": "Onaylanan her ders için kimlik kartı ve görselleri olan bir alt klasör aç; başına bütün görselleri kapsayan ortak lisans notunu koy.",
+     "parcalar": [
+      "k:paketler"
+     ]
+    },
+    {
+     "baslik": "Kataloğu çıkar",
+     "metin": "Her ders için kısa ad, açıklama, boyut, görsel sayısı, kavram sayısı ve içindekiler dosyasının yerini yazan bir kayıt ekle.",
+     "parcalar": [
+      "katalog.json",
+      "r:katalog.json#paketler"
+     ]
+    },
+    {
+     "baslik": "Ayarı ve belgeleri yaz",
+     "metin": "Haritanın ayarını, giriş sayfasını ve yapı belgesini yaz; dış bağımlılıkları ayrı say. Yapı değişince ayar ve anlatım birlikte güncellenir.",
+     "parcalar": [
+      "mimari-ayar.json",
+      "YAPI.md",
+      "README.md",
+      "x"
+     ]
+    }
+   ],
+   "sorular": [
+    {
+     "soru": "Çalışma klasöründe bir betiği değiştirsem yayınlanmış dersler bozulur mu?",
+     "yanit": "Hayır, çünkü yayına hazır dersler ayrı klasörde ve kimlik kartlarıyla durur. Ama katalogdaki kayıt biçimini değiştirirsen yayın aracı dersleri okuyamaz."
+    },
+    {
+     "soru": "Depoda neler sabit kalmalı, neler serbestçe değişebilir?",
+     "yanit": "Ders kaydının özellikleri, kimlik kartının ünite ve kavram düzeni ile ayardaki bekçi listesi sabit kalır. Deneme kısayolları ve plan belgelerinin ayrıntısı serbestçe değişir."
+    },
+    {
+     "soru": "Depoya yeni bir klasör eklersem başka neyi güncellemem gerekir?",
+     "yanit": "Yapıyı değiştiren iş, harita ayarını ve anlatımı aynı değişiklikte günceller; yoksa harita gerçeği göstermez."
+    }
+   ],
+   "kritik_neden": "Bu depo bozulursa ders görsel paketleri üretilemez, yayın aracı hangi dersleri yayınlayacağını bilemez ve harita gerçeği göstermez.",
+   "terimler": [
+    "bekci",
+    "dis-bagimlilik",
+    "akis"
+   ],
+   "belirsiz": [
+    "Plan belgeleri ile çalışma klasörünün neden ayrı tutulduğuna dair açık bir gerekçe anlatımlarda yoktu."
+   ],
+   "okunan": [],
+   "yazan": {
+    "model": "sonnet",
+    "ajan": "claude-code",
+    "tarih": "2026-11-14"
+   }
+  },
+  {
+   "kimlik": "README.md",
+   "tur": "dosya",
+   "ozet": "b7ce763cd76c",
+   "iskelet": "5a517bb8aab2",
+   "baslik": "Klasörün giriş sayfası",
+   "ne": {
+    "cok_basit": "Bu klasörün giriş sayfası, uygulama için dosya toplanan yeri kısaca anlatır.",
+    "normal": "Bu dosya klasörün giriş sayfasıdır; uygulama için dosyaların çekildiği yeri kısaca anlatır. Ayrıntılı yapı belgesine ve devir notuna bağlantılar verir. Uygulamanın kendisi bu klasörde değildir, ayrı bir özel depoda tutulur."
+   },
+   "nasil": {
+    "normal": "Sayfada klasörün adı, kısa bir tanım ve bağlantılar bulunur. Tanım Türkçe ve İngilizce olarak aynı amacı söyler. Bağlantılar yapı belgesine ve devir notuna gider; uygulamanın yeri de bir satırda belirtilir. Okuyan kişi asıl bilgiyi bu bağlantılardan alır, bu sayfa yalnızca yön gösterir."
+   },
+   "sinir": {
+    "sabit": [
+     "Giriş sayfasındaki yapı belgesi ve devir notu bağlantıları korunmalıdır; okuyan kişi bu bağlantılardan devam eder.",
+     "Uygulamanın ayrı depoda tutulduğu bilgisi bu sayfada doğru kalmalıdır."
+    ],
+    "degisebilir": [
+     "Tanımın dili ve kısa açıklama cümleleri serbestçe yeniden yazılabilir.",
+     "Uygulama adı değişirse bu sayfadaki ad serbestçe güncellenebilir."
+    ]
+   },
+   "kritik_neden": "Başka parça buna dayanmadığı için bozulursa yalnız okuyan kişi yönünü kaybeder.",
+   "terimler": [],
+   "belirsiz": [
+    "Tanımdaki İngilizce cümlenin neden konduğu bilinmiyor; yalnızca içeriği okundu."
+   ],
+   "okunan": [
+    "README.md"
+   ],
+   "yazan": {
+    "model": "haiku",
+    "ajan": "claude-code",
+    "tarih": "2026-11-14"
+   }
+  },
+  {
+   "kimlik": "YAPI.md",
+   "tur": "dosya",
+   "ozet": "e7e3e4574ed5",
+   "iskelet": "2985d80f529a",
+   "baslik": "Depo yapısı belgesi",
+   "ne": {
+    "cok_basit": "Bu belge, bu klasörde ne olduğunu ve görsel haritanın nasıl çizileceğini anlatır.",
+    "normal": "Bu belge klasörün yapısını anlatır: yayınlanan paketler, hat araçları, planlar ve yedek çalışma klasörü nerede durur. Dersler ve bağlantılı uygulama deposu da burada anlatılır. Kurala göre her değişiklik ayarı da aynı anda günceller."
+   },
+   "nasil": {
+    "normal": "Belge önce klasörlerin ve dosyaların ne tuttuğunu tablo halinde sıralar. Ardından yeni klasör, yeni araç ya da onay isteyen bir dosya eklendiğinde ayarın aynı değişiklikte güncellenmesi gerektiğini söyler. Ölçüm ana merkez deposundan yapılır ve bu klasöre hiçbir şey yazmaz; sonuç için hata, kesilen dosya ve doğrulanmamış akış sayıları kontrol edilir."
+   },
+   "sinir": {
+    "sabit": [
+     "Paketler klasörünün düzeni ve katalog dosyasının adı sabit kalmalıdır; uygulama bu adlara göre okur.",
+     "Ayar dosyasının adı ve Mimari görünümü bölümündeki kurallar, çizim aracının okuduğu biçimde kalmalıdır."
+    ],
+    "degisebilir": [
+     "Derslerin listesi ve ders adları, yeni ders eklenerek serbestçe güncellenebilir.",
+     "Klasör tablosunun açıklama satırları ve metinleri serbestçe yeniden yazılabilir.",
+     "Bağlantılı uygulamayla ilgili ayrıntılar, uygulama değiştikçe güncellenebilir."
+    ]
+   },
+   "kritik_neden": "Başka parça buna dayanmadığı için bozulursa yalnız klasörün yapısını okuyan kişi yanılır.",
+   "terimler": [],
+   "belirsiz": [
+    "Ölçüm çıktısının tam biçimi bu belgeden okunamıyor; yalnızca hangi sonuçların beklendiği yazılı."
+   ],
+   "okunan": [
+    "YAPI.md"
+   ],
+   "yazan": {
+    "model": "haiku",
+    "ajan": "claude-code",
+    "tarih": "2026-11-14"
+   }
+  },
+  {
+   "kimlik": "katalog.json",
+   "tur": "dosya",
+   "ozet": "e163784ad03d",
+   "iskelet": "498fc8ca84e1",
+   "baslik": "Ders kataloğu",
+   "ne": {
+    "cok_basit": "Derslerin ne kadar içerik taşıdığını gösteren bir liste, yayın aracı bunu okur.",
+    "basit": "Bu listede her dersin kavram ve görsel sayısı ile kapladığı yer yazılıdır. Yayın aracı bunu okur.",
+    "normal": "Bu dosya, her dersin kimliğini, adını, kavram ve görsel sayısını, boyutunu ve kendi bilgi dosyasının yerini tutan bir katalog. Yayın aracı, yayınlanacak dersleri ve her birinin büyüklüğünü bu katalogdan okur.",
+    "gelismis": "Bu dosya, ders paketlerinin tek bir katalog listesidir ve sürüm numarasıyla birlikte paket listesini tutar. Her pakette kimlik, ad, ders kodu, sayılar, boyut ve bilgi dosyasının konumu bulunur. Bazı derslerde ders kodu yoktur. Yayın aracı bu listeyi okuyarak paketleri toplar.",
+    "detayli": "Bu dosya, ders paketlerinin tek bir katalog listesidir ve sürüm numarasıyla birlikte paket listesini tutar. Her pakette kimlik, ad, ders kodu, kavram ve görsel sayısı, boyut ve bilgi dosyasının konumu bulunur. Bazı derslerde ders kodu yoktur, bu alan tire işaretiyle doldurulur. Yayın aracı bu listeyi okuyarak paketleri toplar ve her paketin özetini ayrıntıya inmeden görür."
+   },
+   "mantik": {
+    "cok_basit": "Bütün derslerin özetini tek yerde tutmak, yayın aracının işini kolaylaştırır.",
+    "basit": "Özet tek listede olduğu için bütün dersler hızlıca görülür. Ayrıntılar her derste ayrı durur.",
+    "normal": "Yayın için bütün derslerin ayrıntısını tek seferde açmak gereksiz yük getirir, katalog bu yükü azaltır. Dersler kendi manifest dosyalarında kaldığı için her biri bağımsız güncellenebilir.",
+    "gelismis": "Katalog ile ayrıntı arasındaki ayrım, yayın aracının önce kısa bir listeyle çalışıp ayrıntıya yalnız gerektiğinde inmesini sağlar. Dersler kendi manifest dosyalarında durduğu için içerik büyüdükçe tek bir dosya şişmez.",
+    "detayli": "Katalog, dersleri tek listede toplayarak yayın aracının bütün durumu tek okumada görmesini sağlar, ayrıntılar ise her dersin kendi dosyasında tutulur. Böylece bir dersin içeriği büyüdüğünde ya da değiştiğinde ana listenin yapısı aynı kalır. Bu düzen, listenin kısa ve düzenli kalmasını sağlarken her ders için tam ayrıntıya ulaşmayı da mümkün kılar."
+   },
+   "nasil": {
+    "basit": "Yayın aracı katalogu baştan sona okur ve her dersin kaydını alır. Dosya değişince yayın sonucu da değişir.",
+    "normal": "Dosyanın başında sürüm numarası durur, ardından paketler listesi gelir ve her ders için bir kayıt bulunur. Kayıtlardaki manifest alanı dersin ayrıntılı bilgi dosyasını gösterir, böylece katalog kısa kalır ve ayrıntılar her ders için ayrı tutulur. Yayın aracı önce bu listeyi okur, ayrıntılar için her kayıttaki manifest alanına bakar.",
+    "gelismis": "Katalog, her dersin özetini tek yerde toplar, böylece yayın aracı bütün dersleri tek okumada görebilir. Her ders kaydı kimlik, ad, ders kodu, kavram ve görsel sayısı, boyut ve manifest konumu ile gelir. Ders kodu olmayan dersler alana tire işaretiyle yazılır, böylece her kayıt aynı alanları taşır. Ayrıntılı kavram bilgisi burada tutulmaz ve her dersin kendi manifest dosyasında durur. Bu ayrım sayesinde katalog kısa kalır, ayrıntılar ise yalnız gerektiğinde okunur.",
+    "detayli": "Katalog, her dersin özetini tek yerde toplar, böylece yayın aracı bütün dersleri tek okumada görebilir. Her ders kaydı kimlik, ad, ders kodu, kavram ve görsel sayısı, boyut ve manifest konumu ile gelir. Ders kodu olmayan dersler alana tire işaretiyle yazılır, böylece her kayıt aynı alanları taşır. Ayrıntılı kavram bilgisi burada tutulmaz ve her dersin kendi manifest dosyasında durur. Bu ayrım sayesinde katalog kısa kalır, ayrıntılar ise yalnız gerektiğinde okunur. Yayın aracı önce listeyi okur, ardından her kayıttaki manifest alanına bakarak ayrıntıya ulaşır."
+   },
+   "detay": {
+    "girdiler": [
+     "Dosyanın kendisi, her ders paketinin kimlik, ad, ders kodu, sayı, boyut ve manifest bilgisini taşır.",
+     "Ders kodu bilinmeyen dersler için alan tire işaretiyle doldurulur."
+    ],
+    "ciktilar": [
+     "Yayın aracının okuduğu özet ders listesi.",
+     "Her ders için manifest konumu, ayrıntılı bilgiye giden yolu verir."
+    ],
+    "degismezler": [
+     "Üst düzey sürüm alanı ile paketler listesinin adı, yayın aracı bu adlarla okur.",
+     "Her ders kaydındaki kimlik, ad, ders kodu, kavram sayısı, görsel sayısı, boyut ve manifest alanlarının adları.",
+     "Manifest alanındaki konumların biçimi, ders bilgi dosyasının bulunduğu klasör düzenine uyar."
+    ],
+    "kenar": [
+     "Ders kodu bilinmeyen dersler tire işaretiyle yazılır, bu alan hiç boş bırakılmaz.",
+     "Boyut bilgisi ondalıklı yazılır, bu nedenle küçük derslerde de değer görünür.",
+     "Kavram ve görsel sayıları tam sayı olarak yazılır, ondalık değer almaz."
+    ]
+   },
+   "sinir": {
+    "sabit": [
+     "Üst düzey anahtarların adları, yani sürüm ve paketler, yayın aracı bu adlarla okur.",
+     "Her ders kaydında alan adları ve ders kimliğinin ders klasörü adıyla eşleşmesi.",
+     "Manifest konum biçimi, her ders için ayrı klasör ve içinde manifest dosyası şeklindedir.",
+     "Ders kodu alanında bilinmeyen dersler için tire işareti kullanılır, boş bırakılmaz."
+    ],
+    "degisebilir": [
+     "Ders ve paket adlarının yazım düzeltmesi, alanların biçimini bozmadığı sürece serbesttir.",
+     "Boyut ve sayı değerleri, içerik güncellendiğinde doğal olarak değişir.",
+     "Yeni bir ders eklemek için paketler listesine ilgili alanlarla bir kayıt yazmak yeterlidir."
+    ]
+   },
+   "kritik_neden": "Bu liste bozulursa yayın aracı hangi derslerin ve ne kadar büyüklükte olduğunu doğru okuyamaz, yayın hatalı yapılır.",
+   "terimler": [],
+   "belirsiz": [
+    "Bu dosyanın yayın aracı dışında hangi araçlar tarafından okunduğu ayrıntılı incelenmedi.",
+    "Sayı ve boyut değerlerinin hangi işlemle üretildiği dosyadan anlaşılmıyor.",
+    "Ders kodu tire işaretinin ne anlama geldiği yalnız kayıtlardan çıkarıldı."
+   ],
+   "okunan": [
+    "katalog.json"
+   ],
+   "yazan": {
+    "model": "haiku",
+    "ajan": "claude-code",
+    "tarih": "2026-11-14"
+   }
+  },
+  {
+   "kimlik": "laboratuvarlar/gercek_makineler/README.md",
+   "tur": "dosya",
+   "ozet": "c8d93937dc48",
+   "iskelet": "9669e1bfe834",
+   "baslik": "Gerçek makine malzemesi",
+   "ne": {
+    "cok_basit": "Kendi cihazlarının fotoğrafları ve bilgileri bu klasöre konur.",
+    "normal": "Bu klasör, sanal laboratuvarda taklit edilecek cihazların ham malzemesini tutar. Malzemeden cihazın görünümü, düğmeleri ve ölçüm davranışı çıkarılır. Üretilen görseller ve simülasyon kodu bu klasörde değil, uygulamada tutulur."
+   },
+   "nasil": {
+    "normal": "Her cihaz için ayrı bir klasör açılır; içinde not dosyası, fotoğraflar, kılavuz ve ölçüm örnekleri bulunur. Dosyalar sohbetten ya da doğrudan depoya yüklenerek gelir. Not dosyası marka, amaç, ölçüm aralıkları ve bilinen tuhaflıklar gibi başlıklarla doldurulur. Eksik bilgi sorun değildir; önce fotoğraf ve model adı yeterlidir."
+   },
+   "sinir": {
+    "sabit": [
+     "Makine klasörlerinin düzeni ve not dosyasının başlıkları sabit kalmalıdır; dijital eş çıkarma bu düzene dayanır.",
+     "Klasör adları küçük harf ve alt çizgi kuralına uymalıdır."
+    ],
+    "degisebilir": [
+     "Fotoğrafların sayısı ve çekim açıları serbestçe değiştirilebilir.",
+     "Not dosyasına yeni başlıklar eklenebilir."
+    ]
+   },
+   "kritik_neden": "Başka parça buna dayanmadığı için bozulursa yalnız yeni makine malzemelerinin yüklenme düzeni karışır.",
+   "terimler": [],
+   "belirsiz": [
+    "Dijital eş çıkarma adımının bu dosyaları tam olarak nasıl okuduğu bu metinden bilinmiyor."
+   ],
+   "okunan": [
+    "laboratuvarlar/gercek_makineler/README.md"
+   ],
+   "yazan": {
+    "model": "haiku",
+    "ajan": "claude-code",
+    "tarih": "2026-11-14"
+   }
+  },
+  {
+   "kimlik": "mimari-ayar.json",
+   "tur": "dosya",
+   "ozet": "95aecab9fd2c",
+   "iskelet": "383741b442dd",
+   "baslik": "Görsel hattın ayarı",
+   "ne": {
+    "cok_basit": "Bu dosya hattın nasıl çizileceğini ve hangi dosyalara dikkat edileceğini söyler.",
+    "normal": "Bu ayar, depodaki görsel haritanın nasıl çizileceğini belirler. Onay isteyen dosyaların listesini, üretim hattının akışlarını ve paket listesinin nasıl okunacağını tutar. Bu dosyanın kendisi de onay isteyen dosyalardan biridir."
+   },
+   "nasil": {
+    "normal": "Çizim aracı ayarı okur. Yükseklik dosyanın satır sayısına göre alınır, taban olarak girenler kullanılır ve renkle durum gösterilir. Onay isteyen dosyalar tek tek yazılıdır; komutlar dosya türüne göre bir çalıştırma kalıbı verir. Akışlar aşamaları sırayla bağlar: üretim, inceleme ve yayın. Kayıtlar paket klasörünü katalog dosyasıyla eşler."
+   },
+   "sinir": {
+    "sabit": [
+     "Ayarın anahtar adları ve iç yapısı sabit kalmalıdır, çünkü çizim aracı bu adlara göre okur.",
+     "Onay listesindeki yollar çizim aracının okuduğu biçimde kalmalıdır; yoksa koruma o dosyayı tanımaz.",
+     "Kayıtlardaki alan adları katalog dosyasındaki alanlarla birebir aynı kalmalıdır."
+    ],
+    "degisebilir": [
+     "Akış adımlarının not metinleri ve akış açıklamaları serbestçe yeniden yazılabilir.",
+     "Görünüm bölümünde yükseklik ve renk için başka bir ölçüt seçilebilir."
+    ]
+   },
+   "kritik_neden": "Bu ayar bozulursa çizim aracı mimariyi yanlış gösterir ve onay isteyen dosyalar korunmaz.",
+   "terimler": [],
+   "belirsiz": [
+    "Akışlardaki komut kalıbının gerçekte hangi dosyaları eşleştirdiği çizim aracına bakılmadan bilinemez."
+   ],
+   "okunan": [
+    "mimari-ayar.json"
+   ],
+   "yazan": {
+    "model": "haiku",
+    "ajan": "claude-code",
+    "tarih": "2026-11-14"
+   }
+  }
+ ]
+}
