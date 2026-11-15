@@ -8,7 +8,7 @@
     { "desen": "calisma_klasoru/araclar/*.py", "komut": "python {yol}" }
   ],
 
-  "gorunum": { "yukseklik": "satir", "taban": "giren", "renk": "durum" },
+  "gorunum": { "yukseklik": "satir", "taban": "giren", "renk": "durum", "kod": true },
 
   "akislar": [
     {
