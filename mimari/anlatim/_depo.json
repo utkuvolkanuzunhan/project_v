@@ -174,31 +174,33 @@
   {
    "kimlik": "YAPI.md",
    "tur": "dosya",
-   "ozet": "e7e3e4574ed5",
+   "ozet": "e454bbe3f620",
    "iskelet": "2985d80f529a",
    "baslik": "Depo yapısı belgesi",
    "ne": {
-    "cok_basit": "Bu belge, bu klasörde ne olduğunu ve görsel haritanın nasıl çizileceğini anlatır.",
-    "normal": "Bu belge klasörün yapısını anlatır: yayınlanan paketler, hat araçları, planlar ve yedek çalışma klasörü nerede durur. Dersler ve bağlantılı uygulama deposu da burada anlatılır. Kurala göre her değişiklik ayarı da aynı anda günceller."
+    "cok_basit": "Bu belge deponun neyi tuttuğunu ve görsel haritanın nasıl çizileceğini anlatır.",
+    "normal": "Bu belge deponun klasörlerini anlatır: yayınlanan paketler, hat araçları, planlar ve yedek çalışma klasörü. Dersler ve bağlı uygulama deposu da burada tanıtılır. Kurala göre her değişiklik görsel haritanın ayarını da aynı anda günceller."
    },
    "nasil": {
-    "normal": "Belge önce klasörlerin ve dosyaların ne tuttuğunu tablo halinde sıralar. Ardından yeni klasör, yeni araç ya da onay isteyen bir dosya eklendiğinde ayarın aynı değişiklikte güncellenmesi gerektiğini söyler. Ölçüm ana merkez deposundan yapılır ve bu klasöre hiçbir şey yazmaz; sonuç için hata, kesilen dosya ve doğrulanmamış akış sayıları kontrol edilir."
+    "normal": "Belge önce klasörlerin ve dosyaların neyi tuttuğunu tabloyla gösterir. Yeni klasör, araç ya da onay isteyen dosya eklenince ayarın aynı değişiklikte güncellenmesini ister. Ölçüm ana merkez deposundan yapılır, bu depoya yazmaz; kontrol edilen şeyler hata, kesilen dosya ve doğrulanmamış akıştır."
    },
    "sinir": {
     "sabit": [
-     "Paketler klasörünün düzeni ve katalog dosyasının adı sabit kalmalıdır; uygulama bu adlara göre okur.",
-     "Ayar dosyasının adı ve Mimari görünümü bölümündeki kurallar, çizim aracının okuduğu biçimde kalmalıdır."
+     "Katalog dosyasının adı ve yeri, uygulamanın paket listesini okuduğu yerdir; değişirse uygulama listeyi bulamaz.",
+     "Ders kodları paket klasörlerinin adıdır; değişirse eski paketler yeni adla eşleşmez."
     ],
     "degisebilir": [
-     "Derslerin listesi ve ders adları, yeni ders eklenerek serbestçe güncellenebilir.",
-     "Klasör tablosunun açıklama satırları ve metinleri serbestçe yeniden yazılabilir.",
-     "Bağlantılı uygulamayla ilgili ayrıntılar, uygulama değiştikçe güncellenebilir."
+     "Derslerin açıklama metinleri, notlar ve ilgili depo bölümünün ayrıntıları serbestçe değişebilir."
     ]
    },
-   "kritik_neden": "Başka parça buna dayanmadığı için bozulursa yalnız klasörün yapısını okuyan kişi yanılır.",
-   "terimler": [],
+   "kritik_neden": "Bu belge bozulursa klasörlerin ne işe yaradığı yanlış anlatılır ve ayarın her değişiklikte güncellenmesi kuralı görünmez olur.",
+   "terimler": [
+    "mahalle"
+   ],
    "belirsiz": [
-    "Ölçüm çıktısının tam biçimi bu belgeden okunamıyor; yalnızca hangi sonuçların beklendiği yazılı."
+    "Ölçüm adımının ayrıntısını bu belgeden çıkaramadım; yalnız komutun adı ve beklenen sonucu yazılı.",
+    "Plan dosyalarının içeriğini okumadım; yalnız adları belgede geçiyor.",
+    "Kayıt dalı ve paket klasörlerinin içeriğini okumadım."
    ],
    "okunan": [
     "YAPI.md"
@@ -206,7 +208,7 @@
    "yazan": {
     "model": "haiku",
     "ajan": "claude-code",
-    "tarih": "2026-11-14"
+    "tarih": "2026-11-15"
    }
   },
   {
@@ -324,31 +326,34 @@
   {
    "kimlik": "mimari-ayar.json",
    "tur": "dosya",
-   "ozet": "95aecab9fd2c",
+   "ozet": "434dcb47d5a3",
    "iskelet": "383741b442dd",
-   "baslik": "Görsel hattın ayarı",
+   "baslik": "Görsel harita ayarı",
    "ne": {
-    "cok_basit": "Bu dosya hattın nasıl çizileceğini ve hangi dosyalara dikkat edileceğini söyler.",
-    "normal": "Bu ayar, depodaki görsel haritanın nasıl çizileceğini belirler. Onay isteyen dosyaların listesini, üretim hattının akışlarını ve paket listesinin nasıl okunacağını tutar. Bu dosyanın kendisi de onay isteyen dosyalardan biridir."
+    "cok_basit": "Bu ayar, deponun görsel haritasının nasıl çizileceğini söyler.",
+    "normal": "Bu ayar, depodaki görsel haritanın nasıl çizileceğini belirler. Onay isteyen dosyaları, üretim hattının akışlarını ve paket listesinin nasıl okunacağını tutar. Bu ayarın kendisi de onay isteyen dosyalardan biridir."
    },
    "nasil": {
-    "normal": "Çizim aracı ayarı okur. Yükseklik dosyanın satır sayısına göre alınır, taban olarak girenler kullanılır ve renkle durum gösterilir. Onay isteyen dosyalar tek tek yazılıdır; komutlar dosya türüne göre bir çalıştırma kalıbı verir. Akışlar aşamaları sırayla bağlar: üretim, inceleme ve yayın. Kayıtlar paket klasörünü katalog dosyasıyla eşler."
+    "normal": "Çizim aracı bu ayarı okur. Yükseklik, dosyanın satır sayısına göre alınır, taban olarak girenler kullanılır, durum renkle gösterilir. Onay isteyen dosyalar tek tek yazılıdır, komutlar ise dosya türüne göre bir çalıştırma kalıbı verir. Akışlar üretim, inceleme ve yayın aşamalarını sırayla bağlar. Kayıtlar paket klasörünü katalog dosyasıyla eşler."
    },
    "sinir": {
     "sabit": [
-     "Ayarın anahtar adları ve iç yapısı sabit kalmalıdır, çünkü çizim aracı bu adlara göre okur.",
-     "Onay listesindeki yollar çizim aracının okuduğu biçimde kalmalıdır; yoksa koruma o dosyayı tanımaz.",
-     "Kayıtlardaki alan adları katalog dosyasındaki alanlarla birebir aynı kalmalıdır."
+     "Ayarın anahtar adları (bekci, komutlar, gorunum, akislar, kayitlar) çizim aracının okuduğu adlardır; değişirse okuma bozulur.",
+     "Akışlarda adım sırası, çizilen yolun sırasıdır; adımlar yer değiştirirse akış yanlış görünür."
     ],
     "degisebilir": [
-     "Akış adımlarının not metinleri ve akış açıklamaları serbestçe yeniden yazılabilir.",
-     "Görünüm bölümünde yükseklik ve renk için başka bir ölçüt seçilebilir."
+     "Akışların açıklama ve not metinleri serbestçe değiştirilebilir."
     ]
    },
-   "kritik_neden": "Bu ayar bozulursa çizim aracı mimariyi yanlış gösterir ve onay isteyen dosyalar korunmaz.",
-   "terimler": [],
+   "kritik_neden": "Bu ayar bozulursa görsel harita yanlış çizilir ve onay isteyen dosyalar yanlış listelenir.",
+   "terimler": [
+    "bekci",
+    "akis"
+   ],
    "belirsiz": [
-    "Akışlardaki komut kalıbının gerçekte hangi dosyaları eşleştirdiği çizim aracına bakılmadan bilinemez."
+    "Akış adımlarının düğümleri olan dosyaların içeriğini okumadım; her adımın ayrıntısı bu kartta yazılmadı.",
+    "Görünüm bölümündeki kod anahtarının tam olarak ne açtığını bu dosyadan çıkaramadım; yalnız açık olduğunu gördüm.",
+    "Kayıt tanımındaki katalog dosyasının içeriğini okumadım."
    ],
    "okunan": [
     "mimari-ayar.json"
@@ -356,7 +361,7 @@
    "yazan": {
     "model": "haiku",
     "ajan": "claude-code",
-    "tarih": "2026-11-14"
+    "tarih": "2026-11-15"
    }
   }
  ]
