@@ -19,7 +19,7 @@ Bu depo iki şey tutar: (1) **volkiapp** uygulamasının indireceği ders görse
 
 Bu depo, `volkan-merkez` deposundaki görsel arayüzle (klasör mahalle, dosya bina, ölçülen bağ yol) çizilir. **Her değişiklik bu görünüme uyar.**
 
-- Ayar: kökteki `mimari-ayar.json` (onay isteyen yollar, hattın akışları, katalogdaki paketler).
+- Ayar: kökteki `mimari-ayar.json` (onay isteyen yollar, hattın akışları, katalogdaki paketler). Kod paneli açıktır (`gorunum.kod`): betik ve test dosyalarının kodu yalnız üretilen sayfaya gömülür, kartın yanında istenince açılır.
 - Yeni klasör, yeni araç, yeni onay isteyen dosya ya da bir akışın adımına dokunan değişiklik, ayarı **aynı değişiklikte** günceller.
 - Ölçüm (`volkan-merkez` içinden; bu depoya yazmaz): `python araclar/mimari_cikar.py <project_v yolu> --ozet`. Hata 0, kesilen dosya yok ve ayardaki her akışta `dogrulanmamis` 0 olmalı.
 - Anlatım: `mimari/anlatim/` altında her dosya, klasör, deponun bütünü ve akışlar için sade dille yazılmış kayıtlar durur; arayüz bunları kartlarda gösterir. Kayıtları `volkan-merkez` içindeki `anlatim yaz` komutu yazar, elle düzenlenmez. Bir dosya değişince yalnız onun kaydı yenilenir (`anlatim eksik` hangilerinin eskidiğini söyler).
