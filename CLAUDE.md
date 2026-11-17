@@ -1,0 +1,1 @@
+@.merkez/KURALLAR.md
